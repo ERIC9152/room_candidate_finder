@@ -1,0 +1,31 @@
+{
+  "panos": {
+    "08ddb592-cccf-45d7-8a31-f4bb41d5e21f": {
+      "asteroom_name": "Hallway 1"
+    },
+    "08ddb592-d46b-4f67-81d7-ba1a1e3592ef": {
+      "asteroom_name": "Hallway "
+    },
+    "08ddb592-ed69-43f5-8224-0d13c4730543": {
+      "asteroom_name": "Den"
+    },
+    "08ddb592-f525-4867-86b0-a6a8a01f2874": {
+      "asteroom_name": "Den -1"
+    },
+    "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8": {
+      "asteroom_name": "Hallway"
+    },
+    "08ddb743-a7d6-4061-887f-96b1b427d11b": {
+      "asteroom_name": "Kitchen"
+    },
+    "08ddb743-af17-491b-89a1-cb5fa6b25857": {
+      "asteroom_name": "Dining Room"
+    },
+    "08ddb743-b561-49ab-8089-c211c94996bb": {
+      "asteroom_name": "Living Room"
+    },
+    "08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+      "asteroom_name": "Entryway"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "82556f4d9a2b4138f37c7680",
+  "group_id": "task_68478_floor1_room_006",
+  "a": "08de08fe-d199-4699-8fe2-210531769935",
+  "b": "08de08fe-e4e2-42f6-84f8-6e61943b470d",
+  "directly_reviewed": true,
+  "duplicate_content": false,
+  "blind_review": null,
+  "status": "ok",
+  "yaw": -3.0888614654541016,
+  "t": [
+    0.0668458342552185,
+    2.9763355255126953
+  ],
+  "geo_yaw": -3.0713984966278076,
+  "geo_t": [
+    0.07320201396942139,
+    3.081429958343506
+  ],
+  "geo_weight": 147.93148803710938,
+  "heads_sha256": "d111b4d467127d8bd3cd9b04a04b9954240a75d5ec5b93325919046aeb7df895",
+  "seconds": 0.5
+}

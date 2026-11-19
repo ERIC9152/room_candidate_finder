@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "generator": "room_candidate_finder",
+  "classifier": {
+    "rule": "GeoVerify wedge (has pose, E inliers >= min_inliers, both wedges >= wedge_deg)",
+    "geoverify_commit": "b5897093ce2f7d98f3540b93c5c0f93b87e83a5e",
+    "wedge_deg": 20.0,
+    "min_inliers": 30
+  },
+  "exported_at": "2026-10-26T18:02:25",
+  "groups": [
+    {
+      "room_id": "DollhouseTask_58472_NoOutdoor_room_001",
+      "task": "DollhouseTask_58472_NoOutdoor",
+      "floor": "",
+      "room_label": "",
+      "space_kind": "room",
+      "panorama_uuids": [
+        "08ddb586-be87-4f65-8199-4f9e21ff613b",
+        "08ddb587-058e-49f4-8e21-2644539d741d"
+      ],
+      "status": "human_verified",
+      "notes": "",
+      "source_pairs": [
+        "08ddb586-be87-4f65-8199-4f9e21ff613b__08ddb587-058e-49f4-8e21-2644539d741d"
+      ],
+      "created_at": "2026-10-26T18:02:25"
+    },
+    {
+      "room_id": "DollhouseTask_58489_NoOutdoor_room_001",
+      "task": "DollhouseTask_58489_NoOutdoor",
+      "floor": "",
+      "room_label": "",
+      "space_kind": "room",
+      "panorama_uuids": [
+        "08ddb592-6f20-461b-83f3-33c4d403742e",
+        "08ddb592-7351-4515-8249-38e21ee6bff7"
+      ],
+      "status": "human_verified",
+      "notes": "",
+      "source_pairs": [
+        "08ddb592-6f20-461b-83f3-33c4d403742e__08ddb592-7351-4515-8249-38e21ee6bff7"
+      ],
+      "created_at": "2026-10-26T18:02:25"
+    },
+    {
+      "room_id": "DollhouseTask_58489_NoOutdoor_room_002",
+      "task": "DollhouseTask_58489_NoOutdoor",
+      "floor": "",
+      "room_label": "",
+      "space_kind": "room",
+      "panorama_uuids": [
+        "08ddb592-780e-40cc-8a83-bf6d9eab1eea",
+        "08ddb592-7c1c-4809-817b-1edf68cad22d"
+      ],
+      "status": "human_verified",
+      "notes": "",
+      "source_pairs": [
+        "08ddb592-780e-40cc-8a83-bf6d9eab1eea__08ddb592-7c1c-4809-817b-1edf68cad22d"
+      ],
+      "created_at": "2026-10-26T18:02:25"
+    },
+    {
+      "room_id": "DollhouseTask_58498_NoOutdoor_room_001",
+      "task": "DollhouseTask_58498_NoOutdoor",
+      "floor": "",
+      "room_label": "",
+      "space_kind": "room",
+      "panorama_uuids": [
+        "08ddb598-8854-411b-8423-e640d0899a7d",
+        "08ddb598-a2ed-4ea4-831e-ee17216a11f8"
+      ],
+      "status": "human_verified",
+      "notes": "",
+      "source_pairs": [
+        "08ddb598-8854-411b-8423-e640d0899a7d__08ddb598-a2ed-4ea4-831e-ee17216a11f8"
+      ],
+      "created_at": "2026-10-26T18:02:25"
+    },
+    {
+      "room_id": "DollhouseTask_58498_NoOutdoor_room_002",
+      "task": "DollhouseTask_58498_NoOutdoor",
+      "floor": "",
+      "room_label": "",
+      "space_kind": "room",
+      "panorama_uuids": [
+        "08ddb599-20e9-4dc5-8b2f-b7d1462e0eae",
+        "08ddb599-28eb-4d10-8f01-23c5ab3bd9c8"
+      ],
+      "status": "human_verified",
+      "notes": "",
+      "source_pairs": [
+        "08ddb599-20e9-4dc5-8b2f-b7d1462e0eae__08ddb599-28eb-4d10-8f01-23c5ab3bd9c8"
+      ],
+      "created_at": "2026-10-26T18:02:25"
+    },
+    {
+      "room_id": "DollhouseTask_58499_NoOutdoor_room_001",
+      "task": "DollhouseTask_58499_NoOutdoor",
+      "floor": "",
+      "room_label": "",
+      "space_kind": "room",
+      "panorama_uuids": [
+        "08ddb5a3-2be3-43bb-8aa3-7f292e5ec1e7",
+        "08ddb5a3-31ae-497d-8a35-4e48d546c0db",
+        "08ddb5a3-386f-4c49-8dd3-3927582c4618"
+      ],
+      "status": "human_verified",
+      "notes": "",
+      "source_pairs": [
+        "08ddb5a3-2be3-43bb-8aa3-7f292e5ec1e7__08ddb5a3-31ae-497d-8a35-4e48d546c0db",
+        "08ddb5a3-2be3-43bb-8aa3-7f292e5ec1e7__08ddb5a3-386f-4c49-8dd3-3927582c4618",
+        "08ddb5a3-31ae-497d-8a35-4e48d546c0db__08ddb5a3-386f-4c49-8dd3-3927582c4618"
+      ],
+      "created_at": "2026-10-26T18:02:25"
+    }
+  ],
+  "conflicts": [],
+  "pair_reviews": [
+    {
+      "pair_id": "08ddb586-be87-4f65-8199-4f9e21ff613b__08ddb587-058e-49f4-8e21-2644539d741d",
+      "uuid_a": "08ddb586-be87-4f65-8199-4f9e21ff613b",
+      "uuid_b": "08ddb587-058e-49f4-8e21-2644539d741d",
+      "relation": "same_room",
+      "human_verified": true,
+      "notes": "",
+      "reviewer": "詹炘達",
+      "reviewed_at": "2026-10-26T17:47:29",
+      "meta": {
+        "task": "DollhouseTask_58472_NoOutdoor"
+      }
+    },
+    {
+      "pair_id": "08ddb592-6f20-461b-83f3-33c4d403742e__08ddb592-7351-4515-8249-38e21ee6bff7",
+      "uuid_a": "08ddb592-6f20-461b-83f3-33c4d403742e",
+      "uuid_b": "08ddb592-7351-4515-8249-38e21ee6bff7",
+      "relation": "same_room",
+      "human_verified": true,
+      "notes": "",
+      "reviewer": "詹炘達",
+      "reviewed_at": "2026-10-26T18:00:53",
+      "meta": {
+        "task": "DollhouseTask_58489_NoOutdoor"
+      }
+    },
+    {
+      "pair_id": "08ddb592-780e-40cc-8a83-bf6d9eab1eea__08ddb592-7c1c-4809-817b-1edf68cad22d",
+      "uuid_a": "08ddb592-780e-40cc-8a83-bf6d9eab1eea",
+      "uuid_b": "08ddb592-7c1c-4809-817b-1edf68cad22d",
+      "relation": "same_room",
+      "human_verified": true,
+      "notes": "",
+      "reviewer": "詹炘達",
+      "reviewed_at": "2026-10-26T17:59:33",
+      "meta": {
+        "task": "DollhouseTask_58489_NoOutdoor"
+      }
+    },
+    {
+      "pair_id": "08ddb598-8854-411b-8423-e640d0899a7d__08ddb598-a2ed-4ea4-831e-ee17216a11f8",
+      "uuid_a": "08ddb598-8854-411b-8423-e640d0899a7d",
+      "uuid_b": "08ddb598-a2ed-4ea4-831e-ee17216a11f8",
+      "relation": "same_room",
+      "human_verified": true,
+      "notes": "",
+      "reviewer": "詹炘達",
+      "reviewed_at": "2026-10-26T18:01:19",
+      "meta": {
+        "task": "DollhouseTask_58498_NoOutdoor"
+      }
+    },
+    {
+      "pair_id": "08ddb599-20e9-4dc5-8b2f-b7d1462e0eae__08ddb599-28eb-4d10-8f01-23c5ab3bd9c8",
+      "uuid_a": "08ddb599-20e9-4dc5-8b2f-b7d1462e0eae",
+      "uuid_b": "08ddb599-28eb-4d10-8f01-23c5ab3bd9c8",
+      "relation": "same_room",
+      "human_verified": true,
+      "notes": "",
+      "reviewer": "詹炘達",
+      "reviewed_at": "2026-10-26T18:01:11",
+      "meta": {
+        "task": "DollhouseTask_58498_NoOutdoor"
+      }
+    },
+    {
+      "pair_id": "08ddb5a3-2be3-43bb-8aa3-7f292e5ec1e7__08ddb5a3-31ae-497d-8a35-4e48d546c0db",
+      "uuid_a": "08ddb5a3-2be3-43bb-8aa3-7f292e5ec1e7",
+      "uuid_b": "08ddb5a3-31ae-497d-8a35-4e48d546c0db",
+      "relation": "same_room",
+      "human_verified": true,
+      "notes": "",
+      "reviewer": "詹炘達",
+      "reviewed_at": "2026-10-26T18:02:18",
+      "meta": {
+        "task": "DollhouseTask_58499_NoOutdoor"
+      }
+    },
+    {
+      "pair_id": "08ddb5a3-2be3-43bb-8aa3-7f292e5ec1e7__08ddb5a3-386f-4c49-8dd3-3927582c4618",
+      "uuid_a": "08ddb5a3-2be3-43bb-8aa3-7f292e5ec1e7",
+      "uuid_b": "08ddb5a3-386f-4c49-8dd3-3927582c4618",
+      "relation": "same_room",
+      "human_verified": true,
+      "notes": "",
+      "reviewer": "詹炘達",
+      "reviewed_at": "2026-10-26T18:01:57",
+      "meta": {
+        "task": "DollhouseTask_58499_NoOutdoor"
+      }
+    },
+    {
+      "pair_id": "08ddb5a3-31ae-497d-8a35-4e48d546c0db__08ddb5a3-386f-4c49-8dd3-3927582c4618",
+      "uuid_a": "08ddb5a3-31ae-497d-8a35-4e48d546c0db",
+      "uuid_b": "08ddb5a3-386f-4c49-8dd3-3927582c4618",
+      "relation": "same_room",
+      "human_verified": true,
+      "notes": "",
+      "reviewer": "詹炘達",
+      "reviewed_at": "2026-10-26T18:02:08",
+      "meta": {
+        "task": "DollhouseTask_58499_NoOutdoor"
+      }
+    }
+  ]
+}

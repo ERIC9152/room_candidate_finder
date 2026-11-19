@@ -1,0 +1,19 @@
+{
+  "groups": 104,
+  "images": 278,
+  "pairs": 301,
+  "accepted_full": 179,
+  "accepted_direction": 18,
+  "fully_connected": 80,
+  "fully_connected_2": "52/64",
+  "fully_connected_3plus": "28/40",
+  "cameras_flagged_weak_or_loop": 55,
+  "pair_status": {
+    "accepted": 179,
+    "no_correspondences": 18,
+    "too_few_inliers": 27,
+    "low_inlier_fraction": 38,
+    "decoder_geometric_disagree": 21,
+    "accepted_direction_only": 18
+  }
+}

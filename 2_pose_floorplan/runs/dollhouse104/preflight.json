@@ -1,0 +1,21 @@
+{
+  "groups": 104,
+  "houses": 43,
+  "images": 278,
+  "pairs": 301,
+  "input_errors": {},
+  "group_sizes": {
+    "2": 64,
+    "3": 22,
+    "4": 11,
+    "5": 6,
+    "10": 1
+  },
+  "duplicate_images": [
+    [
+      "08ddb7b2-e68b-407e-8d8c-f4a0ec62ccd9",
+      "08ddb7b3-24f7-4192-84ac-def2d89ffa66"
+    ]
+  ],
+  "status": "ready_for_gpu"
+}

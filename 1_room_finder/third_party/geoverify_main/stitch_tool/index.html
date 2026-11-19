@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>拼接標註工具 Stitch Labeler</title>
+<style>
+  :root{
+    --amber:#f4b400; --green:#12b886; --blue:#4c8dff; --orange:#ff7a45;
+    --bg:#1b2430; --panel:#232f3e; --panel2:#2c3a4c; --line:#3a4a5e;
+    --txt:#e6edf3; --muted:#93a4b8; --accent:#3498db;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;height:100%;overflow:hidden;font-family:'Segoe UI',Tahoma,Verdana,sans-serif;background:var(--bg);color:var(--txt);}
+  #app{display:flex;height:100vh;width:100vw;}
+
+  /* ---------- Sidebar ---------- */
+  #sidebar{width:300px;min-width:300px;background:var(--panel);height:100vh;overflow-y:auto;
+    border-right:1px solid var(--line);display:flex;flex-direction:column;}
+  #sidebar h2{padding:14px 16px;margin:0;background:#151d27;font-size:16px;letter-spacing:.5px;}
+  .sec{padding:12px 14px;border-bottom:1px solid var(--line);}
+  .sec h3{margin:0 0 8px;font-size:12px;text-transform:uppercase;color:var(--muted);letter-spacing:1px;}
+  select,input[type=range]{width:100%;}
+  select{background:var(--panel2);color:var(--txt);border:1px solid var(--line);border-radius:6px;padding:7px;font-size:13px;}
+  .stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:12px;}
+  .stat{background:var(--panel2);border-radius:6px;padding:6px 8px;display:flex;justify-content:space-between;cursor:pointer;border:1px solid transparent;transition:all 0.15s;user-select:none;}
+  .stat:hover{background:#3a4a5e;border-color:var(--line);}
+  .stat.active{background:rgba(52,152,219,0.22);border-color:var(--accent);}
+  .stat b{font-size:14px;}
+  .s-conf b{color:var(--green);} .s-rej b{color:var(--orange);}
+  .s-elim b{color:var(--muted);} .s-rem b{color:var(--amber);}
+
+  #queue-wrap{flex:1;overflow-y:auto;position:relative;}
+  #queue{list-style:none;margin:0;padding:0;}
+  #queue li{padding:8px 14px;border-bottom:1px solid #2c3644;cursor:pointer;font-size:13px;
+    display:flex;align-items:center;gap:8px;transition:background .12s;}
+  #queue li:hover{background:var(--panel2);}
+  #queue li.current{background:#123;border-left:3px solid var(--amber);padding-left:11px;}
+  #queue li .pair{flex:1;font-variant-numeric:tabular-nums;}
+  #queue li .prob{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums;}
+  .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto;}
+  .dot.pending{background:var(--amber);} .dot.confirmed{background:var(--green);}
+  .dot.rejected{background:var(--orange);} .dot.eliminated{background:#61708a;} .dot.negated{background:#61708a;}
+  #queue li.done{opacity:.5;}
+
+  .legend{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:11px;}
+  .legend span{display:flex;align-items:center;gap:5px;color:var(--muted);}
+  .legend i{width:11px;height:11px;border-radius:50%;display:inline-block;}
+  .switch{display:flex;align-items:center;gap:8px;font-size:13px;cursor:pointer;user-select:none;}
+  .switch input{width:auto;}
+  .thresh-val{color:var(--amber);font-weight:bold;}
+
+  /* ---------- Viewer ---------- */
+  #viewer{flex:1;position:relative;background:#000;min-width:0;}
+  #info{position:absolute;top:14px;left:14px;background:rgba(0,0,0,.62);padding:10px 14px;border-radius:8px;
+    pointer-events:none;user-select:none;max-width:60%;}
+  #info .title{font-size:15px;font-weight:600;margin:0 0 3px;}
+  #info .sub{font-size:12px;color:var(--muted);}
+  #info .pairline{font-size:13px;margin-top:4px;}
+  #hint{position:absolute;top:14px;right:14px;background:rgba(0,0,0,.5);padding:7px 11px;border-radius:8px;
+    font-size:11px;color:var(--muted);pointer-events:none;user-select:none;line-height:1.5;text-align:right;}
+  /* 模式橫幅：模式名稱 + 操作提示 + 退出(Esc) 鈕，固定於檢視器頂部置中。
+     取代原 #mode-flag 純提示條；none 模式時隱藏。 */
+  #mode-banner{position:absolute;top:14px;left:50%;transform:translateX(-50%);z-index:11;
+    display:none;align-items:center;gap:10px;max-width:74%;
+    background:var(--orange);color:#111;border-radius:8px;padding:6px 10px;
+    box-shadow:0 4px 16px rgba(0,0,0,.45);font-size:12px;}
+  #mode-banner .mb-name{font-weight:800;white-space:nowrap;}
+  #mode-banner .mb-hint{font-weight:500;line-height:1.35;}
+  #mode-banner .mb-exit{flex:0 0 auto;background:rgba(0,0,0,.28);color:#fff;border:1px solid rgba(0,0,0,.35);
+    border-radius:14px;padding:3px 10px;cursor:pointer;font-weight:700;font-size:11px;white-space:nowrap;transition:.12s;}
+  #mode-banner .mb-exit:hover{background:rgba(0,0,0,.5);}
+  #loading{position:absolute;inset:0;display:none;justify-content:center;align-items:center;
+    background:rgba(0,0,0,.75);color:#fff;font-size:18px;z-index:5;}
+  #toast{position:absolute;bottom:90px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.85);
+    padding:9px 16px;border-radius:20px;font-size:13px;opacity:0;transition:opacity .3s;pointer-events:none;z-index:6;}
+
+  /* action bar — 分組（導覽/判定/工具/危險）+ 組間細分隔線 */
+  #actions{position:absolute;bottom:16px;left:50%;transform:translateX(-50%);display:flex;gap:6px;align-items:center;
+    background:rgba(20,28,38,.9);padding:9px 12px;border-radius:30px;box-shadow:0 4px 18px rgba(0,0,0,.4);
+    flex-wrap:wrap;justify-content:center;max-width:94%;z-index:5;}
+  .act-group{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:center;}
+  .act-sep{width:1px;align-self:stretch;min-height:22px;background:var(--line);margin:0 4px;flex:0 0 auto;}
+  #actions button{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    padding:8px 14px;border-radius:20px;cursor:pointer;font-weight:600;font-size:13px;transition:.15s;white-space:nowrap;}
+  #actions button:hover{background:#3a4a5e;transform:translateY(-1px);}
+  #actions button.on{background:var(--orange);color:#111;border-color:var(--orange);}
+  #actions button.yes{background:var(--green);color:#062;border-color:var(--green);}
+  #actions button.no{background:#e05a3a;color:#fff;border-color:#e05a3a;}
+  #actions button.danger{color:#ff9a86;border-color:#6b3b33;}
+  #actions button.danger:hover{background:#e05a3a;color:#fff;border-color:#e05a3a;}
+  /* 停用狀態：btn.disabled + .disabled 半透明/游標禁止 + title 說明原因 */
+  #actions button:disabled, #actions button.disabled{opacity:.38;cursor:not-allowed;transform:none;pointer-events:auto;}
+  #actions button:disabled:hover, #actions button.disabled:hover{background:var(--panel2);transform:none;}
+  #actions button.yes:disabled, #actions button.yes.disabled{background:var(--panel2);color:var(--muted);border-color:var(--line);}
+  #actions button.no:disabled, #actions button.no.disabled{background:var(--panel2);color:var(--muted);border-color:var(--line);}
+  kbd{background:#111;border:1px solid #444;border-radius:4px;padding:0 4px;font-size:10px;margin-left:5px;}
+
+  /* door-layer toggle chips */
+  .toggles{display:flex;flex-wrap:wrap;gap:6px;}
+  .chip{display:flex;align-items:center;gap:5px;background:var(--panel2);border:1px solid var(--line);
+    border-radius:14px;padding:4px 9px;font-size:11px;cursor:pointer;user-select:none;}
+  .chip input{width:auto;margin:0;}
+
+  /* compass strip */
+  #compass-wrap{position:absolute;left:14px;right:250px;bottom:64px;height:46px;background:rgba(15,22,30,.86);
+    border:1px solid var(--line);border-radius:8px;display:none;overflow:hidden;}
+  #compass{display:block;width:100%;height:100%;cursor:pointer;}
+  #door-count{position:absolute;left:16px;bottom:114px;font-size:11px;color:var(--muted);
+    background:rgba(15,22,30,.82);padding:2px 8px;border-radius:5px;display:none;}
+
+  /* ERP 對比模式（v3：canvas 上下兩 pane 各半高，可縮放平移，不捲動）
+     每個 pane 改為「控制列(erp-ctrl) + 圖框(erp-pane-body)」上下堆疊。
+     控制列在圖片外、不遮圖；換圖箭頭移到控制列（移除疊圖的 .erp-arrow-btn）。 */
+  #erp-mode{position:absolute;inset:0;background:#0d1218;display:none;flex-direction:column;gap:8px;
+    overflow:hidden;z-index:4;padding:8px 8px 74px;}
+  /* 檢視模式插件共用 overlay(crop / morph…)。蓋過 ERP(z4)、低於動作列(z5)。 */
+  .viewmode-overlay{position:absolute;inset:0;background:#0d1218;display:none;flex-direction:column;
+    gap:8px;overflow:hidden;z-index:4;padding:10px 12px 74px;}
+  .viewmode-overlay .vm-head{font-size:13px;font-weight:bold;color:var(--txt);opacity:.85;flex:0 0 auto;}
+  .viewmode-overlay .vm-body{flex:1 1 0;min-height:0;display:flex;gap:10px;align-items:center;justify-content:center;}
+  .viewmode-overlay .vm-body.vcol{flex-direction:column;gap:6px;}
+  .viewmode-overlay .regions-pane{display:flex;flex-direction:column;gap:2px;align-items:center;min-height:0;}
+  .viewmode-overlay .regions-pane canvas{width:min(80vw, calc((100vh - 250px)));height:auto;aspect-ratio:2/1;
+    background:#000;border:1px solid var(--line);border-radius:8px;}
+  .viewmode-overlay .crop-pane{display:flex;flex-direction:column;gap:6px;align-items:center;min-width:0;}
+  .viewmode-overlay .crop-pane canvas{width:min(40vw, calc(100vh - 220px));height:min(40vw, calc(100vh - 220px));
+    background:#000;border:1px solid var(--line);border-radius:8px;}
+  .viewmode-overlay .crop-pane canvas.crop-interactive{cursor:grab;user-select:none;}
+  .viewmode-overlay .crop-pane canvas.crop-interactive:active{cursor:grabbing;}
+  .viewmode-overlay .crop-label{font-size:12px;color:var(--txt);}
+  .viewmode-overlay .crop-az{color:var(--amber);}
+  .viewmode-overlay .crop-band{display:flex;flex-direction:column;align-items:center;gap:4px;flex:0 0 auto;}
+  .viewmode-overlay .crop-band-arrow{font-size:30px;color:var(--amber);}
+  .viewmode-overlay .crop-band-text{font-size:11px;color:var(--muted);white-space:nowrap;}
+  .viewmode-overlay .vm-hint{flex:0 0 auto;font-size:12px;color:var(--muted);display:flex;gap:10px;
+    align-items:center;justify-content:center;min-height:22px;}
+  .viewmode-overlay .vm-hint button{background:var(--panel2);color:var(--txt);border:1px solid var(--line);
+    border-radius:6px;padding:3px 10px;font-size:12px;cursor:pointer;}
+  .viewmode-overlay .morph-badge{background:rgba(18,184,134,.18);color:var(--green);border:1px solid var(--green);
+    border-radius:6px;padding:2px 8px;font-size:11px;}
+  .viewmode-overlay .morph-badge.bad{background:rgba(224,90,58,.18);color:#e05a3a;border-color:#e05a3a;}
+  /* 模式 D「走一遍」控制列 + 低信心角標 + 階段字幕 */
+  .viewmode-overlay .walk-stage{position:relative;display:inline-block;}
+  .viewmode-overlay .walk-badge{position:absolute;top:8px;right:8px;z-index:2;}
+  .viewmode-overlay .walk-phase{position:absolute;left:8px;bottom:8px;z-index:2;
+    background:rgba(15,22,30,.88);color:var(--amber);border:1px solid var(--line);
+    border-radius:6px;padding:3px 8px;font-size:12px;max-width:90%;}
+  .viewmode-overlay .walk-controls{flex-wrap:wrap;gap:8px;}
+  .viewmode-overlay .walk-controls input[type=range]{width:min(240px,40vw);accent-color:var(--amber);}
+  .viewmode-overlay .vm-hint button:disabled{opacity:.45;cursor:not-allowed;}
+  .viewmode-overlay .vm-hint button.on{border-color:var(--amber);color:var(--amber);}
+  /* RoMa 即時比對匹配線 overlay：橫跨整個 #erp-mode（涵蓋上下/左右兩面板），
+     用螢幕座標畫線連接兩面板對應點，故不能放在單一面板的 .erp-ov 裡（那只涵蓋自己那格）。
+     line/circle 的顏色由 roma.js 依空間格點逐一 setAttribute('stroke'/'fill', ...)，這裡不能
+     再用 CSS type selector 設 stroke/fill——SVG 的 presentation attribute 在 cascade 中輸給
+     CSS，設了會整批蓋成同一色，讓分色完全失效。circle 只留固定的黑色描邊，不設 fill。 */
+  #erp-match-svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:6;}
+  #erp-match-svg circle{stroke:rgba(0,0,0,.55);stroke-width:.5;}
+  /* 同圖頂帶↔底帶垂直虛線（每面板 .erp-ov 內，平時 hidden） */
+  .erp-passage-vlink{
+    position:absolute;top:0;bottom:0;width:0;
+    border-left:1.5px dashed #ffffff;
+    transform:translateX(-50%);
+    pointer-events:none;z-index:9;
+    opacity:0;transition:opacity .12s;
+    filter:drop-shadow(0 0 2px rgba(0,0,0,.85));
+  }
+  .erp-passage-vlink.show{opacity:.9;}
+  /* 共視區域遮罩 canvas：疊在 ERP 圖上、低於標記 */
+  .erp-reg-cv{
+    position:absolute;inset:0;width:100%;height:100%;
+    pointer-events:none;z-index:3;
+  }
+  #roma-match-badge{position:absolute;left:14px;bottom:100px;z-index:9;background:rgba(15,22,30,.92);
+    color:var(--txt);border:1px solid var(--line);border-radius:14px;padding:4px 10px;font-size:11px;
+    display:none;user-select:none;}
+  #erp-mode.horiz-layout {
+    flex-direction: row;
+  }
+  /* 每個面板：控制列在上、圖框在下（直排/橫排都保持 pane 內縱向堆疊） */
+  .erp-pane{position:relative;flex:1 1 0;min-height:0;min-width:0;width:100%;
+    display:flex;flex-direction:column;gap:6px;}
+  #erp-mode.horiz-layout .erp-pane {
+    width: auto;
+    height: 100%;
+  }
+  /* 圖框（原 .erp-pane 的黑底容器職責移到這裡） */
+  .erp-pane-body{position:relative;flex:1 1 0;min-height:0;width:100%;background:#000;
+    border:1px solid var(--line);border-radius:6px;overflow:hidden;
+    display:flex;align-items:center;justify-content:center;}
+  /* 面板控制列：‹ › 換圖 + img/檔名 + 狀態徽章。天然在 inner 外，不冒泡放圈。 */
+  .erp-ctrl{display:flex;align-items:center;gap:8px;background:rgba(15,22,30,.92);
+    border:1px solid var(--line);border-radius:8px;padding:4px 8px;font-size:12px;
+    flex:0 0 auto;user-select:none;min-height:32px;}
+  .erp-ctrl.focused{border-left:3px solid var(--amber);padding-left:5px;}
+  .erp-ctrl .erp-navbtn{background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    width:28px;height:26px;border-radius:6px;cursor:pointer;font-size:16px;line-height:1;
+    display:flex;align-items:center;justify-content:center;transition:.12s;flex:0 0 auto;}
+  .erp-ctrl .erp-navbtn:hover{background:var(--amber);color:#111;border-color:var(--amber);}
+  .erp-ctrl .erp-label{position:static;background:none;padding:0;border-radius:0;
+    color:var(--txt);flex:1 1 auto;display:flex;align-items:center;gap:8px;min-width:0;pointer-events:none;}
+  .erp-ctrl .erp-imgname{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-variant-numeric:tabular-nums;}
+  .erp-ctrl .erp-badge{flex:0 0 auto;border:1px solid;border-radius:10px;padding:1px 8px;font-size:11px;
+    font-weight:600;background:rgba(0,0,0,.25);}
+  #erp-guide {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+    width: 290px;
+    background: rgba(15, 23, 42, 0.88);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 10px 12px;
+    color: var(--txt);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  }
+  /* ERP 常駐小圖例：右下角、半透明、pointer-events:none（絕不擋任何點擊/拖曳）。
+     靜態 HTML 只出現一次，renderERP 重繪不會重複疊加。位置避開動作列(底部)、
+     路線圖鈕(#minimap-toggle bottom:70)、RoMa 徽章(左下)與 ERP 指引框(右上)。 */
+  #erp-legend {
+    position: absolute;
+    right: 14px; bottom: 104px;
+    z-index: 5;
+    max-width: 240px;
+    background: rgba(15, 23, 42, .82);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 6px 9px;
+    font-size: 10px;
+    line-height: 1.55;
+    color: var(--txt);
+    pointer-events: none;
+    user-select: none;
+  }
+  #erp-legend .el-roi { display:flex; align-items:center; gap:6px; margin-bottom:4px; }
+  #erp-legend .el-roi svg { flex:0 0 auto; }
+  #erp-legend .el-grid { display:grid; grid-template-columns:1fr 1fr; gap:1px 10px; color:var(--muted); }
+  #erp-legend .el-row { display:flex; align-items:center; gap:5px; white-space:nowrap; }
+  #erp-legend .el-sw { flex:0 0 auto; width:9px; height:9px; border-radius:50%; display:inline-block; }
+  .erp-pane-body canvas{display:block;width:100%;height:100%;cursor:grab;touch-action:none;}
+  .erp-inner {
+    position: relative;
+    aspect-ratio: 2 / 1;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  /* ERP img and overlay styles */
+  .erp-inner img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* perfect fit for the 2:1 container */
+  }
+  .erp-ov {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* allow clicks to pass to overlay children and pane */
+  }
+  .erp-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    transform: translateX(-50%);
+    pointer-events: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  }
+  .erp-line.erp-main {
+    width: 3px;
+    box-shadow: 0 0 8px var(--amber);
+    z-index: 5;
+  }
+  .erp-dot {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 50%;
+    background: rgba(20, 28, 38, 0.85);
+    transform: translate(-50%, -50%);
+    pointer-events: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+  .erp-dot:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.85);
+  }
+  /* 本對主標記改為通道頂帶（與 marker.js 視覺語言一致）。
+     舊門框 SVG 樣式註解保留（零刪除慣例）。
+  .erp-main-dot 舊門框版 / .erp-door-svg / erp-door-glow — 2026-07-29 停用
+  */
+  .erp-main-dot {
+    position: absolute;
+    height: auto;
+    border: none !important;
+    border-radius: 0;
+    background: transparent !important;
+    z-index: 10;
+    animation: none;
+    box-shadow: none !important;
+    display: block;
+    pointer-events: auto;
+    cursor: ew-resize;
+    transform: translateX(-50%);
+  }
+  .erp-main-dot.erp-band-top { top: 0; bottom: auto; }
+  .erp-main-dot.erp-band-bot { bottom: 0; top: auto; }
+  .erp-main-dot:hover {
+    box-shadow: none !important;
+    transform: translateX(-50%);
+  }
+  .erp-main-dot::before, .erp-main-dot::after { display: none; }
+  .erp-passage-band {
+    position: relative;
+    width: 100%;
+    background: rgba(8, 12, 18, 0.72);
+    box-sizing: border-box;
+    border: 1.5px solid transparent;
+    border-radius: 0 0 3px 3px;
+    padding: 0 4px 2px;
+    pointer-events: auto;
+  }
+  .erp-passage-band.bot {
+    border-radius: 3px 3px 0 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .erp-passage-band.pending {
+    animation: erp-band-glow 1.8s infinite ease-in-out;
+  }
+  .erp-passage-band.settled {
+    animation: none;
+  }
+  .erp-passage-bar {
+    height: 4px;
+    margin-top: 3px;
+    background: #ffffff;
+    border-radius: 1px;
+  }
+  .erp-passage-ticks {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 12px;
+    margin-top: 1px;
+    pointer-events: none;
+  }
+  .erp-passage-ticks span {
+    display: block;
+    width: 2px;
+    background: #ffffff;
+  }
+  .erp-passage-ticks span.t-end { height: 6px; }
+  .erp-passage-ticks span.t-mid { height: 10px; }
+  .erp-passage-label {
+    color: #ffffff;
+    font: bold 11px sans-serif;
+    text-align: center;
+    line-height: 1.2;
+    white-space: nowrap;
+    pointer-events: none;
+    text-shadow: 0 1px 2px rgba(0,0,0,.85);
+  }
+  .erp-passage-status {
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 1px;
+    pointer-events: none;
+  }
+  .erp-roi-label { display: none; }
+  @keyframes erp-band-glow {
+    0%, 100% { box-shadow: 0 0 3px currentColor; border-color: currentColor; }
+    50% { box-shadow: 0 0 10px currentColor; border-color: currentColor; }
+  }
+  /* 舊門框 CSS（已停用，保留備查）
+  .erp-main-dot .erp-door-svg { ... }
+  @keyframes erp-door-glow { ... }
+  */
+
+  /* minimap — z-index 高於 #erp-mode(z-index:4)，讓路線圖在 ERP 對比模式下仍可見。
+     3D 單張(#minimap-wrap) 與 ERP 雙張(#minimap-erp-wrap) 由 minimap.js 依模式切換顯示；
+     toggle 鈕(#minimap-toggle)永遠可見；位置在右下但避開底部動作列（bottom 較高）與 ERP 側邊箭頭。 */
+  #minimap-toggle{position:absolute;right:14px;bottom:70px;z-index:9;background:rgba(15,22,30,.92);
+    color:var(--muted);border:1px solid var(--line);border-radius:14px;padding:4px 10px;font-size:11px;
+    cursor:pointer;user-select:none;transition:.15s;}
+  #minimap-toggle:hover{background:var(--panel2);color:var(--txt);}
+  /* 3D 單張路線圖容器：右下，底部抬高避開動作列 */
+  #minimap-wrap{position:absolute;right:14px;bottom:100px;z-index:8;}
+  #minimap{display:block;width:220px;height:220px;background:rgba(15,22,30,.92);
+    border:1px solid var(--line);border-radius:10px;cursor:pointer;}
+  #minimap-title{font-size:11px;color:var(--muted);background:rgba(15,22,30,.8);
+    padding:2px 8px;border-radius:5px;margin-bottom:4px;display:inline-block;}
+  /* ERP 雙張路線圖容器：頂端一排（左=上/左圖，右=下/右圖）。
+     放在 ERP 指引框(top:12px right:12px 寬290px)左側，避開它、避開底部動作列與 pane 左右箭頭。 */
+  #minimap-erp-wrap{position:absolute;right:314px;top:14px;z-index:9;display:none;flex-direction:row;gap:8px;}
+  .minimap-erp-cell{background:rgba(15,22,30,.92);border:1px solid var(--line);border-radius:10px;padding:4px;}
+  .minimap-erp-cell canvas{display:block;width:130px;height:130px;cursor:pointer;}
+  .minimap-erp-label{font-size:11px;color:var(--muted);text-align:center;margin-bottom:2px;}
+  #save-ind{position:absolute;right:14px;top:14px;font-size:11px;color:var(--muted);}
+
+  /* 路線圖「⤢ 放大」小鈕（標題列內） */
+  #minimap-expand{float:right;cursor:pointer;color:var(--accent);font-size:11px;padding:0 2px;user-select:none;}
+  #minimap-expand:hover{color:#fff;text-decoration:underline;}
+  .minimap-expand-sm{cursor:pointer;color:var(--accent);user-select:none;padding:0 3px;}
+  .minimap-expand-sm:hover{color:#fff;}
+
+  /* 路線圖放大彈窗（modal）。z-index 999 高於一切既有層。 */
+  #map-modal{position:fixed;inset:0;z-index:999;display:none;align-items:center;justify-content:center;
+    background:rgba(4,8,12,.72);backdrop-filter:blur(3px);}
+  #map-modal-box{width:70vw;height:78vh;max-width:1200px;background:var(--panel);border:1px solid var(--line);
+    border-radius:14px;box-shadow:0 18px 60px rgba(0,0,0,.6);display:flex;flex-direction:column;overflow:hidden;}
+  #map-modal-head{display:flex;align-items:center;gap:12px;padding:10px 16px;background:#151d27;border-bottom:1px solid var(--line);}
+  #map-modal-title{font-size:15px;font-weight:700;}
+  .mm-mode-hint{font-size:12px;color:var(--amber);flex:1 1 auto;}
+  #map-modal-close{cursor:pointer;font-size:18px;color:var(--muted);padding:0 6px;user-select:none;}
+  #map-modal-close:hover{color:#fff;}
+  #map-modal-canvas-wrap{position:relative;flex:1 1 auto;min-height:0;display:flex;align-items:center;justify-content:center;padding:8px;}
+  #map-modal-canvas{display:block;max-width:100%;max-height:100%;background:#0f161e;border-radius:10px;cursor:pointer;}
+  #map-modal-tip{position:absolute;left:16px;bottom:12px;background:rgba(0,0,0,.82);color:var(--txt);
+    font-size:12px;padding:5px 10px;border-radius:8px;pointer-events:none;opacity:0;transition:opacity .12s;max-width:70%;}
+  #map-modal-iso{border-top:1px solid var(--line);padding:8px 14px 10px;max-height:26%;overflow-y:auto;background:var(--panel2);}
+  #map-modal-iso-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;}
+  #map-modal-iso-list{display:flex;flex-wrap:wrap;gap:6px;}
+  .iso-chip{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:4px 10px;font-size:12px;
+    cursor:pointer;user-select:none;display:flex;align-items:center;gap:6px;transition:.12s;}
+  .iso-chip:hover{background:#3a4a5e;border-color:var(--accent);}
+  .iso-chip i{width:8px;height:8px;border-radius:50%;background:#667;display:inline-block;}
+
+  /* 側邊浮動面板（批量否決 / unconn 推薦）共用外框。固定螢幕右側，z-index 高於 ERP/minimap。 */
+  .side-panel{position:absolute;top:70px;right:14px;width:270px;max-height:calc(100vh - 180px);z-index:60;
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 34px rgba(0,0,0,.5);
+    display:none;flex-direction:column;overflow:hidden;}
+  .side-panel .sp-head{display:flex;align-items:center;gap:8px;padding:9px 12px;background:#151d27;border-bottom:1px solid var(--line);}
+  .side-panel .sp-title{font-size:13px;font-weight:700;flex:1 1 auto;}
+  .side-panel .sp-close{cursor:pointer;color:var(--muted);font-size:16px;padding:0 4px;user-select:none;}
+  .side-panel .sp-close:hover{color:#fff;}
+  .side-panel .sp-body{padding:8px 10px;overflow-y:auto;flex:1 1 auto;}
+  .side-panel .sp-foot{display:flex;gap:6px;padding:8px 10px;border-top:1px solid var(--line);flex-wrap:wrap;}
+  .side-panel .sp-btn{flex:1 1 auto;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+    border-radius:8px;padding:7px 8px;font-size:12px;cursor:pointer;font-weight:600;transition:.12s;white-space:nowrap;}
+  .side-panel .sp-btn:hover{background:#3a4a5e;}
+  .side-panel .sp-btn.primary{background:var(--green);color:#062;border-color:var(--green);}
+  .side-panel .sp-btn.primary:hover{filter:brightness(1.1);}
+  .side-panel .sp-btn.reject{background:#e05a3a;color:#fff;border-color:#e05a3a;}
+  .side-panel .sp-btn.reject:hover{filter:brightness(1.1);}
+  .side-panel .sp-btn.ghost{background:transparent;}
+  .side-panel .sp-btn:disabled,.side-panel .sp-btn.disabled{opacity:.4;cursor:not-allowed;}
+  /* 批量否決清單列 */
+  #batch-panel .bp-selall{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);
+    padding:4px 2px 8px;border-bottom:1px solid var(--line);margin-bottom:6px;user-select:none;}
+  #batch-panel .bp-selall a{color:var(--accent);cursor:pointer;text-decoration:underline;}
+  .bp-row{display:flex;align-items:center;gap:8px;padding:6px 4px;border-bottom:1px solid #2c3644;font-size:12px;cursor:pointer;}
+  .bp-row:hover{background:var(--panel2);}
+  .bp-row.active{border-left:3px solid var(--amber);background:var(--panel2);padding-left:1px;}
+  .bp-row input{width:auto;margin:0;flex:0 0 auto;}
+  .bp-row .bp-pair{flex:1 1 auto;font-variant-numeric:tabular-nums;font-weight:600;}
+  .bp-row .bp-meta{color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums;text-align:right;}
+  /* 推薦面板單一候選卡 */
+  #reco-panel .rp-counter{font-size:11px;color:var(--muted);margin-bottom:6px;}
+  #reco-panel .rp-card{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px;text-align:center;}
+  #reco-panel .rp-target{font-size:16px;font-weight:800;}
+  #reco-panel .rp-prob{color:var(--amber);font-weight:700;font-variant-numeric:tabular-nums;}
+  #reco-panel .rp-sub{font-size:11px;color:var(--muted);margin-top:4px;font-variant-numeric:tabular-nums;}
+  #reco-panel .rp-nav{display:flex;gap:6px;margin-top:8px;}
+  #reco-panel .rp-empty{font-size:12px;color:var(--muted);line-height:1.5;padding:6px 2px;}
+
+  ::-webkit-scrollbar{width:9px;} ::-webkit-scrollbar-thumb{background:#3a4a5e;border-radius:5px;}
+  ::-webkit-scrollbar-track{background:transparent;}
+</style>
+</head>
+<body>
+<div id="app">
+  <!-- SIDEBAR -->
+  <div id="sidebar">
+    <h2>拼接標註工具</h2>
+    <div class="sec">
+      <h3>房子</h3>
+      <div style="display:flex;gap:6px;align-items:center;">
+        <select id="house-select" style="flex:1"><option>載入中…</option></select>
+        <button id="btn-add-house" title="加入一個房子產出包（選資料夾，上傳到工具）" style="flex:0 0 auto;padding:2px 8px;">＋</button>
+      </div>
+      <input type="file" id="add-house-input" webkitdirectory multiple style="display:none">
+      <div id="house-meta" style="font-size:11px;color:var(--muted);margin-top:6px;"></div>
+    </div>
+    <div class="sec">
+      <h3>統計</h3>
+      <div class="stat-grid">
+        <div class="stat s-conf" id="btn-stat-conf">已確認<b id="st-conf">0</b></div>
+        <div class="stat s-rej" id="btn-stat-rej">已否決<b id="st-rej">0</b></div>
+        <div class="stat s-elim" id="btn-stat-elim">已淘汰<b id="st-elim">0</b></div>
+        <div class="stat s-rem" id="btn-stat-rem">剩餘<b id="st-rem">0</b></div>
+      </div>
+    </div>
+    <div class="sec">
+      <h3>佇列排序</h3>
+      <select id="sort-mode">
+        <option value="prob">機率（模型信心，預設）</option>
+        <option value="roma">幾何驗證（內點數，取代 RoMa 分數）</option>
+      </select>
+      <div id="sort-roma-hint" style="font-size:11px;color:var(--muted);margin-top:6px;display:none;">
+        只有通過幾何驗證（位姿＋RoMa）的候選對才有內點數；沒跑過的沉到最後（仍依機率排）。
+      </div>
+    </div>
+    <div class="sec">
+      <h3><span id="th-label">機率門檻</span> <span class="thresh-val" id="th-val">0.50</span></h3>
+      <input type="range" id="threshold" min="0" max="1" step="0.01" value="0.5">
+      <div id="th-roma-hint" style="font-size:11px;color:var(--muted);margin-top:6px;display:none;">
+        依候選對的「幾何驗證內點率」過濾；沒有幾何驗證證據的候選對視為 0，門檻拉到 0
+        才會顯示。與機率門檻分開記憶，互相切換不會蓋掉彼此的值。
+      </div>
+      <label class="switch" style="margin-top:8px;"><input type="checkbox" id="gt-toggle"> 顯示 GT 對照</label>
+      <label class="switch" style="margin-top:6px;"><input type="checkbox" id="hidedone-toggle" checked> 隱藏已處理列</label>
+    </div>
+    <div class="sec">
+      <h3>門顯示層</h3>
+      <div class="toggles">
+        <label class="chip"><input type="checkbox" id="tg-pairwise" checked> 配對預測門</label>
+        <label class="chip"><input type="checkbox" id="tg-compass" checked> 羅盤條</label>
+        <label class="chip"><input type="checkbox" id="tg-rings" checked> 場景參考圈</label>
+      </div>
+    </div>
+    <div class="sec">
+      <h3>語意輔助</h3>
+      <label class="switch"><input type="checkbox" id="semantic-toggle"> 用語意門校正通道方位</label>
+      <div id="semantic-hint" style="font-size:11px;color:var(--muted);margin-top:6px;"></div>
+    </div>
+    <div class="sec" style="padding-bottom:6px;">
+      <h3>候選佇列 <span id="q-count" style="color:var(--muted);font-weight:400;"></span></h3>
+    </div>
+    <div id="queue-wrap"><ul id="queue"></ul></div>
+    <div class="sec">
+      <h3>圖例</h3>
+      <div class="legend">
+        <span><i style="background:var(--amber)"></i>候選</span>
+        <span><i style="background:var(--green)"></i>已確認</span>
+        <span><i style="background:var(--blue)"></i>反向目標</span>
+        <span><i style="background:var(--orange)"></i>未連接</span>
+        <span><i style="background:var(--amber);opacity:.5"></i>預測門(未確認)</span>
+        <span><i style="background:#c9b6ff"></i>門先驗</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="src-hint-bar" style="position:fixed;left:50%;transform:translateX(-50%);top:12px;z-index:9999;padding:8px 16px;border-radius:8px;font-size:14px;font-weight:600;pointer-events:none;display:none;box-shadow:0 2px 12px rgba(0,0,0,.45);"></div>
+
+  <div id="viewer">
+    <div id="info">
+      <div class="title" id="i-name">請選擇房子</div>
+      <div class="sub">左鍵拖曳旋轉 · 滾輪縮放 · 拖曳圈圈校正</div>
+      <div class="pairline" id="i-pair"></div>
+    </div>
+    <div id="hint">
+      <kbd>Y</kbd>連通 <kbd>N</kbd>否決 <kbd>U</kbd>未連接<br>
+      <kbd>A</kbd>此圖全連 <kbd>R</kbd>無ROI <kbd>E</kbd>ERP<br>
+      3D：<kbd>←</kbd><kbd>→</kbd>換圖 · ERP：<kbd>←</kbd><kbd>→</kbd>換上圖 <kbd>⇧←</kbd><kbd>⇧→</kbd>換下圖<br>
+      <kbd>Esc</kbd>回目前對 · 點候選/預測圈=跳對面 · 綠圈=穿門<br>右鍵：橘圈=刪除 · 綠圈=改否決
+    </div>
+    <!-- 模式橫幅：模式名 + 提示 + 退出(Esc)。內容由 modes.updateModeFlags 填。 -->
+    <div id="mode-banner">
+      <span class="mb-name" id="mode-banner-name"></span>
+      <span class="mb-hint" id="mode-banner-hint"></span>
+      <button class="mb-exit" id="mode-banner-exit" title="退出目前模式（Esc）">退出 <kbd>Esc</kbd></button>
+    </div>
+    <div id="save-ind"></div>
+    <div id="toast"></div>
+    <div id="loading">載入全景中…</div>
+    <!-- 路線圖 toggle 鈕（永遠可見）-->
+    <button id="minimap-toggle" title="顯示/隱藏路線圖（點節點可跳到該圖）">▣ 路線圖</button>
+    <!-- 3D 單張路線圖（力導向；標題列加「⤢ 放大」開彈窗，雙擊小圖亦可放大）-->
+    <div id="minimap-wrap">
+      <div id="minimap-title">路線圖（點節點跳圖）<span id="minimap-expand" title="放大路線圖（雙擊小圖亦可）">⤢ 放大</span></div>
+      <canvas id="minimap" width="220" height="220"></canvas>
+    </div>
+    <!-- ERP 雙路線圖（上/下 或 左/右）；各自可放大 -->
+    <div id="minimap-erp-wrap">
+      <div class="minimap-erp-cell">
+        <div class="minimap-erp-label" id="minimap-erp-label-top">上圖 <span class="minimap-expand-sm" id="minimap-expand-top" title="放大">⤢</span></div>
+        <canvas id="minimap-erp-top" width="150" height="150"></canvas>
+      </div>
+      <div class="minimap-erp-cell">
+        <div class="minimap-erp-label" id="minimap-erp-label-bot">下圖 <span class="minimap-expand-sm" id="minimap-expand-bot" title="放大">⤢</span></div>
+        <canvas id="minimap-erp-bot" width="150" height="150"></canvas>
+      </div>
+    </div>
+    <!-- 路線圖放大彈窗（全螢幕 70% modal）。z-index 高於一切既有層（ERP z4 / minimap z8-9 / banner z11）。
+         內含：放大力導向圖 canvas + 未連接圖片快速入口列 + 關閉鈕。Esc/點背景關閉。 -->
+    <div id="map-modal">
+      <div id="map-modal-box">
+        <div id="map-modal-head">
+          <span id="map-modal-title">路線圖（放大）</span>
+          <span id="map-modal-mode" class="mm-mode-hint"></span>
+          <span id="map-modal-close" title="關閉（Esc）">✕</span>
+        </div>
+        <div id="map-modal-canvas-wrap">
+          <canvas id="map-modal-canvas" width="900" height="600"></canvas>
+          <div id="map-modal-tip"></div>
+        </div>
+        <div id="map-modal-iso">
+          <div id="map-modal-iso-title">未連接圖片（點擊快速前往）</div>
+          <div id="map-modal-iso-list"></div>
+        </div>
+      </div>
+    </div>
+    <!-- 批量否決浮動面板（reject 模式點圈後彈出，列同方向候選）。內容由 batch-panel.js 填。 -->
+    <div id="batch-panel" class="side-panel">
+      <div class="sp-head">
+        <span class="sp-title" id="batch-panel-title">批量否決</span>
+        <span class="sp-close" id="batch-panel-close" title="取消">✕</span>
+      </div>
+      <div class="sp-body" id="batch-panel-body"></div>
+      <div class="sp-foot">
+        <button class="sp-btn reject" id="batch-panel-do">否決所選</button>
+        <button class="sp-btn ghost" id="batch-panel-cancel">取消</button>
+      </div>
+    </div>
+    <!-- unconn 放圈推薦面板（列出同方向 pending 候選，可瀏覽/連通/否決）。內容由 erp.js 填。 -->
+    <div id="reco-panel" class="side-panel">
+      <div class="sp-head">
+        <span class="sp-title" id="reco-panel-title">推薦連通候選</span>
+        <span class="sp-close" id="reco-panel-close" title="關閉">✕</span>
+      </div>
+      <div class="sp-body" id="reco-panel-body"></div>
+      <div class="sp-foot" id="reco-panel-foot">
+        <button class="sp-btn primary" id="reco-connect">就是這個(連通)</button>
+        <button class="sp-btn reject" id="reco-reject">否決此候選</button>
+      </div>
+    </div>
+    <div id="door-count"></div>
+    <div id="compass-wrap"><canvas id="compass"></canvas></div>
+    <div id="erp-mode">
+      <div id="erp-guide">
+        <div style="font-weight:bold;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:12px;">💡 ERP 拼接操作指引</span>
+          <span id="close-erp-guide" style="cursor:pointer;opacity:0.6;font-size:14px;padding:0 4px;" title="隱藏指引">✕</span>
+        </div>
+        <ol style="margin:0;padding-left:14px;font-size:11px;line-height:1.45;color:var(--muted);">
+          <li><b>對齊通道</b>：左右拖曳各圖 <b>頂/底通道帶</b>（同圖垂直虛線連兩端）對齊連通道方位。</li>
+          <li><b>建立連通</b>：對齊後點擊下方 <b>連通 <kbd>Y</kbd></b> 鍵，即可完美連接兩圖！</li>
+          <li><b>快速跳轉</b>：左鍵點 <b>淡黃圈</b> 🟡 快速跳轉預測；點 <b>綠圈</b> 🟢 穿門走動。</li>
+          <li><b>刪除標記</b>：右鍵點 <b>橘圈</b> 🟠 可刪除；右鍵點 <b>綠圈</b> 🟢 可重新否決。</li>
+        </ol>
+      </div>
+      <!-- 常駐小圖例：靜態 HTML（renderERP 不會動到它 -> 不會重複疊加）；pointer-events:none 不擋操作 -->
+      <div id="erp-legend" aria-hidden="true">
+        <div class="el-roi">
+          <svg width="15" height="15" viewBox="0 0 12 12" aria-hidden="true">
+            <rect x="1" y="1" width="10" height="10" fill="none" stroke="var(--amber)"
+                  stroke-width="1.4" stroke-dasharray="2.2 1.6"/>
+            <line x1="1.5" y1="1.5" x2="10.5" y2="10.5" stroke="var(--amber)" stroke-width="1.2"/>
+            <line x1="10.5" y1="1.5" x2="1.5" y2="10.5" stroke="var(--amber)" stroke-width="1.2"/>
+          </svg>
+          <span>通道帶（頂+底）＝連通道方位（水平拖曳；hover 顯同圖垂直虛線）<br>
+            狀態：琥珀待確認 · 綠已確認 · 紅已否決</span>
+        </div>
+        <div class="el-grid">
+          <span class="el-row"><i class="el-sw" style="background:var(--green)"></i>已確認邊</span>
+          <span class="el-row"><i class="el-sw" style="background:var(--orange)"></i>其他配對/未連接</span>
+          <span class="el-row"><i class="el-sw" style="background:var(--amber)"></i>預測門(未確認)</span>
+          <span class="el-row"><i class="el-sw" style="background:#ff00ff"></i>GT 對照</span>
+        </div>
+      </div>
+      <!-- 上/左面板：控制列(換圖 ‹ › + img/檔名 + 徽章) 在圖框外，圖框內只有圖與 overlay -->
+      <div class="erp-pane">
+        <div class="erp-ctrl" id="erp-ctrl-top">
+          <button class="erp-navbtn" id="erp-prev-top" title="上一張圖片（←）">‹</button>
+          <button class="erp-navbtn" id="erp-next-top" title="下一張圖片（→）">›</button>
+          <div class="erp-label" id="erp-label-top"></div>
+        </div>
+        <div class="erp-pane-body">
+          <div class="erp-inner" id="erp-inner-top">
+            <img id="erp-img-top" alt="">
+            <div class="erp-ov" id="erp-ov-top"></div>
+          </div>
+        </div>
+      </div>
+      <!-- 下/右面板 -->
+      <div class="erp-pane">
+        <div class="erp-ctrl" id="erp-ctrl-bot">
+          <button class="erp-navbtn" id="erp-prev-bot" title="上一張圖片（Shift+←）">‹</button>
+          <button class="erp-navbtn" id="erp-next-bot" title="下一張圖片（Shift+→）">›</button>
+          <div class="erp-label" id="erp-label-bot"></div>
+        </div>
+        <div class="erp-pane-body">
+          <div class="erp-inner" id="erp-inner-bot">
+            <img id="erp-img-bot" alt="">
+            <div class="erp-ov" id="erp-ov-bot"></div>
+          </div>
+        </div>
+      </div>
+      <!-- RoMa 即時比對：匹配線橫跨兩面板，故獨立於兩個 .erp-inner 之外，蓋在 #erp-mode 整層之上。 -->
+      <svg id="erp-match-svg"></svg>
+      <div id="roma-match-badge"></div>
+    </div>
+    <!-- 動作列：導覽 | 判定 | 工具 | 危險，四組以細分隔線分開 -->
+    <div id="actions">
+      <!-- 導覽類：換圖 / 回目前對 / 重置視角 / ERP 回3D雙鈕 / unconn 連接 -->
+      <div class="act-group" id="grp-nav">
+        <button id="btn-prev-img" title="上一張圖片（←）">‹ 上一張</button>
+        <button id="btn-next-img" title="下一張圖片（→）">下一張 ›</button>
+        <button id="btn-back">回目前對 <kbd>Esc</kbd></button>
+        <button id="btn-reset">重置視角</button>
+        <div id="pane-focus-seg" style="display:none; gap:2px; align-items:center;">
+          <button id="focus-top" title="設定焦點面板：方向鍵 ←/→ 換此面板的圖，Enter 無作用；換另一側用 Shift+←/→ 或點它的箭頭">上圖</button>
+          <button id="focus-bot" title="設定焦點面板：方向鍵 ←/→ 換此面板的圖，Enter 無作用；換另一側用 Shift+←/→ 或點它的箭頭">下圖</button>
+        </div>
+        <button id="btn-back-3d" style="display:none;" title="離開對比模式，回到焦點面板那張圖的 3D 球面視角（E）">回 3D</button>
+        <button id="btn-connect" class="yes" style="display:none;">連接</button>
+      </div>
+      <div class="act-sep" id="sep-1"></div>
+      <!-- 判定類 -->
+      <div class="act-group" id="grp-judge">
+        <button id="btn-yes" class="yes">連通 <kbd>Y</kbd></button>
+        <button id="btn-no" class="no">否決 <kbd>N</kbd></button>
+        <button id="btn-allconn">此圖全連接 <kbd>A</kbd></button>
+        <button id="btn-noroi">無 ROI <kbd>R</kbd></button>
+      </div>
+      <div class="act-sep" id="sep-2"></div>
+      <!-- 工具類 -->
+      <div class="act-group" id="grp-tools">
+        <button id="btn-unconn">未連接通道 <kbd>U</kbd></button>
+        <button id="btn-erp">ERP對比 <kbd>E</kbd></button>
+        <button id="btn-erp-regions" title="在目前 ERP 對比圖上疊加 共視區域（非獨立模式）">區域遮罩</button>
+        <!-- 檢視模式插件按鈕(由 viewmodes/registry 依 js/viewmodes/index.js 清單自動生成) -->
+        <span id="viewmode-btns" style="display:contents;"></span>
+        <button id="btn-erp-layout" style="display:none;">ERP 左右排列</button>
+      </div>
+      <div class="act-sep" id="sep-3"></div>
+      <!-- 危險類：重置房屋（最右、紅字） -->
+      <div class="act-group" id="grp-danger">
+        <button id="btn-reset-house" class="danger" title="清除此房屋所有標註（不可復原）">⚠ 重置房屋</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

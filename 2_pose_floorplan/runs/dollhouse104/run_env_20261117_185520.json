@@ -1,0 +1,12 @@
+{
+  "python": "3.11.18 (main, Oct 26 2026, 14:08:50) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.10.0+cu130",
+  "cuda": "13.0",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "cpu_threads": 6,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "allow_tf32_matmul": false,
+  "allow_tf32_cudnn": false,
+  "started": "20261117_185520"
+}

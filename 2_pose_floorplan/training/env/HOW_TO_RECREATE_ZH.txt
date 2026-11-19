@@ -1,0 +1,37 @@
+如何重建這次訓練用的環境
+========================
+（英文版：HOW_TO_RECREATE.txt）
+
+原始環境：Ubuntu 20.04 / NVIDIA driver 570.181 / CUDA 12.8
+          Python 3.11.16, torch 2.11.0+cu128, torchvision 0.26.0+cu128
+
+這個資料夾裡的檔案
+------------------
+conda_explicit.txt   conda 套件的精確版本與來源 URL（最嚴格的重現方式）
+environment.yml      conda 環境輸出（跨平台可讀，但含 Linux 專屬套件）
+pip_freeze.txt       所有 pip 套件的精確版本
+python_version.txt   Python 版本
+
+最快的重建方式（新機器，Linux + NVIDIA）
+----------------------------------------
+    conda create -y -p ~/envs/covispose python=3.11
+    conda activate ~/envs/covispose
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+    pip install -r training/env/requirements-train.txt     (在 2_pose_floorplan 資料夾內執行)
+
+如果要「完全一樣」的版本，最後一步改成：
+
+    pip install -r pip_freeze.txt
+
+注意事項
+--------
+* PyTorch 的 cu128 版本**不支援 Pascal 架構**（GTX 10 系列）。
+  若目標機器是 GTX 1070 之類，改用 cu126 並確認
+  `torch.cuda.get_arch_list()` 裡有 sm_61。
+* 原本 server 上的 conda 環境（7.2 GB）沒有複製回來，因為那是 Linux 二進位檔，
+  裡面寫死了 /home/eric/storage/envs/covispose 這個路徑，在 Windows 無法使用，
+  換一台 Linux 機器也需要重新安裝。上面的規格檔才是可重現的產物。
+  若真的需要搬移整包環境，正確做法是在原機器上用 conda-pack 打包成可重定位的
+  tarball（約 4 GB）：
+
+      pip install conda-pack && conda pack -p <prefix> -o covispose_env.tar.gz

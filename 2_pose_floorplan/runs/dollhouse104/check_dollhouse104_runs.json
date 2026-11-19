@@ -1,0 +1,542 @@
+{
+ "mode": "runs",
+ "passed": false,
+ "failures": 1,
+ "checks": [
+  {
+   "check": "== CoVisPose pair poses",
+   "ok": true,
+   "detail": "301/301 within 0.5 deg / 0.02; max decoder 0.000 deg / 0.0000, geometric 0.000 deg / 0.0000"
+  },
+  {
+   "check": "== HorizonNet outlines",
+   "ok": false,
+   "detail": "277/278 same corner count and within 0.05; max corner diff 0.0219; differ: ['08dded67-60ee-419a-864f-2134f96c1c0d']"
+  },
+  {
+   "check": "task_58472_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58489_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58489_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58489_floor2_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58499_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58533_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58533_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58533_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58546_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.06%"
+  },
+  {
+   "check": "task_58546_floor2_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58546_floor2_room_003",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58553_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58553_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58558_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58558_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58582_basement_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58582_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58582_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58582_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.06%"
+  },
+  {
+   "check": "task_58582_floor2_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58582_floor3_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58582_floor3_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58582_floor3_room_003",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58582_floor_unknown_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58589_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_58589_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58599_basement_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58599_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.04%"
+  },
+  {
+   "check": "task_58599_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58603_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58664_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58664_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_58691_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_58712_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_58715_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.03%"
+  },
+  {
+   "check": "task_58715_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.25%"
+  },
+  {
+   "check": "task_59203_basement_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_59203_basement_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_59203_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.03%"
+  },
+  {
+   "check": "task_59203_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_59863_basement_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.04%"
+  },
+  {
+   "check": "task_59863_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_59868_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.16%"
+  },
+  {
+   "check": "task_60621_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_60621_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_60621_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_61267_basement_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_61267_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_61267_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_61267_floor1_room_003",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_61295_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_61939_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_61939_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_61968_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_61968_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_61968_floor2_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.03%"
+  },
+  {
+   "check": "task_62615_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_63108_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_63162_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_63247_basement_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_63247_basement_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_63247_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_63247_floor_unknown_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_63261_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.04%"
+  },
+  {
+   "check": "task_63925_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.05%"
+  },
+  {
+   "check": "task_63925_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_63927_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.10%"
+  },
+  {
+   "check": "task_63927_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_63927_floor1_room_003",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_63934_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_64538_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.03%"
+  },
+  {
+   "check": "task_64538_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_65000_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_65000_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_65147_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_65147_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.50%"
+  },
+  {
+   "check": "task_65148_basement_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.16%"
+  },
+  {
+   "check": "task_65148_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_65148_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_65826_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_65826_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_66500_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.06%"
+  },
+  {
+   "check": "task_66502_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_66502_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_66502_floor1_room_003",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_66502_floor1_room_004",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_68478_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_68478_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_68478_floor1_room_003",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_68478_floor1_room_004",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.05%"
+  },
+  {
+   "check": "task_68478_floor1_room_005",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.03%"
+  },
+  {
+   "check": "task_68478_floor1_room_006",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_68478_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_68478_floor2_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_68983_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_68983_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_69126_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_69126_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.02%"
+  },
+  {
+   "check": "task_69127_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_69127_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_69127_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "task_69734_floor1_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.03%"
+  },
+  {
+   "check": "task_69734_floor1_room_002",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.00%"
+  },
+  {
+   "check": "task_69734_floor2_room_001",
+   "ok": true,
+   "detail": "components same, tree same, flags same, cameras 0.0000 / 0.000 deg, area 0.01%"
+  },
+  {
+   "check": "== poses and plans",
+   "ok": true,
+   "detail": "104/104 groups within tolerance"
+  }
+ ]
+}

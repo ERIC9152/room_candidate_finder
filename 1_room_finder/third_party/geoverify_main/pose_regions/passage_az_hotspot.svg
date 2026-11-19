@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Microsoft JhengHei, PingFang TC, Noto Sans TC, Arial, sans-serif">
+  <rect width="1000" height="620" fill="#ffffff"/>
+  <text x="500" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#222222">通道方位與標註通道位置</text>
+
+  <!-- KPI row -->
+  <text x="166" y="92" text-anchor="middle" font-size="24" font-weight="bold" fill="#222222">10.8°</text>
+  <text x="166" y="118" text-anchor="middle" font-size="15" fill="#666666">偏差中位數</text>
+  <text x="500" y="92" text-anchor="middle" font-size="24" font-weight="bold" fill="#222222">74%</text>
+  <text x="500" y="118" text-anchor="middle" font-size="15" fill="#666666">偏差在 22.5° 以內</text>
+  <text x="834" y="92" text-anchor="middle" font-size="24" font-weight="bold" fill="#222222">89%</text>
+  <text x="834" y="118" text-anchor="middle" font-size="15" fill="#666666">偏差在 45° 以內</text>
+
+  <!-- grid -->
+  <line x1="110" y1="550.00" x2="960" y2="550.00" stroke="#ececec" stroke-width="1"/>
+  <text x="100" y="554.00" text-anchor="end" font-size="13" fill="#888888">0%</text>
+  <line x1="110" y1="474.00" x2="960" y2="474.00" stroke="#ececec" stroke-width="1"/>
+  <text x="100" y="478.00" text-anchor="end" font-size="13" fill="#888888">20%</text>
+  <line x1="110" y1="398.00" x2="960" y2="398.00" stroke="#ececec" stroke-width="1"/>
+  <text x="100" y="402.00" text-anchor="end" font-size="13" fill="#888888">40%</text>
+  <line x1="110" y1="322.00" x2="960" y2="322.00" stroke="#ececec" stroke-width="1"/>
+  <text x="100" y="326.00" text-anchor="end" font-size="13" fill="#888888">60%</text>
+  <line x1="110" y1="246.00" x2="960" y2="246.00" stroke="#ececec" stroke-width="1"/>
+  <text x="100" y="250.00" text-anchor="end" font-size="13" fill="#888888">80%</text>
+  <line x1="110" y1="170.00" x2="960" y2="170.00" stroke="#ececec" stroke-width="1"/>
+  <text x="100" y="174.00" text-anchor="end" font-size="13" fill="#888888">100%</text>
+  <line x1="110.00" y1="170" x2="110.00" y2="550.00" stroke="#ececec" stroke-width="1"/>
+  <line x1="110.00" y1="550.00" x2="110.00" y2="556.00" stroke="#bbbbbb" stroke-width="1"/>
+  <text x="110.00" y="574.00" text-anchor="middle" font-size="13" fill="#888888">0°</text>
+  <line x1="251.67" y1="170" x2="251.67" y2="550.00" stroke="#ececec" stroke-width="1"/>
+  <line x1="251.67" y1="550.00" x2="251.67" y2="556.00" stroke="#bbbbbb" stroke-width="1"/>
+  <text x="251.67" y="574.00" text-anchor="middle" font-size="13" fill="#888888">±15°</text>
+  <line x1="393.33" y1="170" x2="393.33" y2="550.00" stroke="#ececec" stroke-width="1"/>
+  <line x1="393.33" y1="550.00" x2="393.33" y2="556.00" stroke="#bbbbbb" stroke-width="1"/>
+  <text x="393.33" y="574.00" text-anchor="middle" font-size="13" fill="#888888">±30°</text>
+  <line x1="535.00" y1="170" x2="535.00" y2="550.00" stroke="#ececec" stroke-width="1"/>
+  <line x1="535.00" y1="550.00" x2="535.00" y2="556.00" stroke="#bbbbbb" stroke-width="1"/>
+  <text x="535.00" y="574.00" text-anchor="middle" font-size="13" fill="#888888">±45°</text>
+  <line x1="676.67" y1="170" x2="676.67" y2="550.00" stroke="#ececec" stroke-width="1"/>
+  <line x1="676.67" y1="550.00" x2="676.67" y2="556.00" stroke="#bbbbbb" stroke-width="1"/>
+  <text x="676.67" y="574.00" text-anchor="middle" font-size="13" fill="#888888">±60°</text>
+  <line x1="818.33" y1="170" x2="818.33" y2="550.00" stroke="#ececec" stroke-width="1"/>
+  <line x1="818.33" y1="550.00" x2="818.33" y2="556.00" stroke="#bbbbbb" stroke-width="1"/>
+  <text x="818.33" y="574.00" text-anchor="middle" font-size="13" fill="#888888">±75°</text>
+  <line x1="960.00" y1="170" x2="960.00" y2="550.00" stroke="#ececec" stroke-width="1"/>
+  <line x1="960.00" y1="550.00" x2="960.00" y2="556.00" stroke="#bbbbbb" stroke-width="1"/>
+  <text x="960.00" y="574.00" text-anchor="middle" font-size="13" fill="#888888">±90°</text>
+  <line x1="110" y1="550.00" x2="960" y2="550.00" stroke="#bbbbbb" stroke-width="1.25"/>
+  <line x1="110" y1="170" x2="110" y2="550.00" stroke="#bbbbbb" stroke-width="1.25"/>
+
+  <!-- series -->
+  <path d="M 157.22 441.70 L 180.83 399.52 L 251.67 321.62 L 322.50 268.42 L 393.33 241.06 L 535.00 210.28 L 676.67 197.36 L 960.00 188.62" fill="none" stroke="#3377dd" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="157.22" cy="441.70" r="4" fill="#ffffff" stroke="#3377dd" stroke-width="2"/>
+  <circle cx="180.83" cy="399.52" r="4" fill="#ffffff" stroke="#3377dd" stroke-width="2"/>
+  <circle cx="251.67" cy="321.62" r="4" fill="#ffffff" stroke="#3377dd" stroke-width="2"/>
+  <circle cx="322.50" cy="268.42" r="4" fill="#ffffff" stroke="#3377dd" stroke-width="2"/>
+  <circle cx="393.33" cy="241.06" r="4" fill="#ffffff" stroke="#3377dd" stroke-width="2"/>
+  <circle cx="535.00" cy="210.28" r="4" fill="#ffffff" stroke="#3377dd" stroke-width="2"/>
+  <circle cx="676.67" cy="197.36" r="4" fill="#ffffff" stroke="#3377dd" stroke-width="2"/>
+  <circle cx="960.00" cy="188.62" r="4" fill="#ffffff" stroke="#3377dd" stroke-width="2"/>
+
+  <text x="22" y="360.00" text-anchor="middle" font-size="14" fill="#666666" transform="rotate(-90 22 360.00)">Y：HOTSPOT 落在該延伸範圍內的比例（%）</text>
+  <text x="535.00" y="598" text-anchor="middle" font-size="14" fill="#666666">X：以預測方位為中心，左右各延伸的角度</text>
+</svg>

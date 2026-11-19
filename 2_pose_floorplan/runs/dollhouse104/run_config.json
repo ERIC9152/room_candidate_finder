@@ -1,0 +1,41 @@
+{
+  "stage": "room_pose_pipeline (manual_room_groups_v2 compatible)",
+  "single_source": true,
+  "weights": "ema",
+  "rolls": 2,
+  "flip": true,
+  "precision": "fp32; TF32 disabled; no autocast",
+  "convention": "p_B=R(yaw)*p_A+t; native CoVisPose XY; camera height=1",
+  "checkpoint": "models/covispose/epoch_015.pt",
+  "checkpoint_sha256": "d2daeb2af602a61c0c0d610c12d1f721fcc2b578fd59a45252cb295095775bed",
+  "source_code": {
+    "scripts/manual_room_groups_v2.py": "cada6ba72ff766e3cc4487c29b62eb79d79b8f9e295e687f85ac10607a3e9185",
+    "scripts/run_scene_graph.py": "78a014d576347c4f3577eda76010b35d22a5d9ee4b6b032b5906d4f35f3082a6",
+    "covispose/__init__.py": "5935a8d78f7825225811cdc2a78c7bec8b4f122d155682ae0d97e8ce12729d01",
+    "covispose/checkpoint.py": "5f3c7bff44ccdd3712dbef8b1b33423716d0238191d553d0e16138b794576113",
+    "covispose/evaluate.py": "0d46bbd071a7e10f003eb4b7b897ef3b87683c041c03b8ecbefd195bc3455b53",
+    "covispose/model.py": "9fc63cfaca5a83ce89868cc04bd7ed562f2add508e416017d2caebe952a6d1dd",
+    "covispose/geo_pose.py": "b9cd4abc8552a88607d83ede476cd96ca6b36ba06f9fa9a35e9ecca3f31b26f7",
+    "covispose/ransac.py": "5f40a0fa18a8ae9abbd70e4e2b782459afcdcc066df4df378ebd9b5ca3a68de8",
+    "covispose/geometry.py": "81b7e1583d656b689b0afe47800bf1c1ec301e9cc29fa42c797988258b796cb5",
+    "covispose/scene_graph.py": "64238879460e684b25b6c74e29d152ca098f1f263740bf8277b11ed49cf87908"
+  },
+  "classification_source": "C:\\HorizonNet\\room_candidate_finder\\1_room_finder\\scans\\dollhouse\\room_groups_dollhouse104.json",
+  "classification_sha256": "ce8256738c8828053c89789bd35d1f438247d73bb3e20189f64a80eff2d11157",
+  "scan_manifest": "C:\\HorizonNet\\room_candidate_finder\\1_room_finder\\scans\\dollhouse\\manifest.json",
+  "index": "C:\\HorizonNet\\room_candidate_finder\\1_room_finder\\scans\\dollhouse\\data_index.json",
+  "manifest_sha256": "9279a00b9cf87338a7a8b2418444481ce8aa8f7e34fe5f01348b930f6defdeb6",
+  "rules": {
+    "covis_threshold": 0.5,
+    "max_distance": 10.0,
+    "residual": 0.3,
+    "min_inliers": 20,
+    "min_fraction": 0.4
+  },
+  "diagnostics": {
+    "pose_agreement_yaw_deg": 10.0,
+    "pose_agreement_t": 0.5,
+    "ransac_threshold": 0.1,
+    "ransac_iters": 500
+  }
+}

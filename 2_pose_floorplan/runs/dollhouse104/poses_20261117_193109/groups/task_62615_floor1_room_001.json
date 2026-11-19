@@ -1,0 +1,185 @@
+{
+  "group": {
+    "room_id": "task_62615_floor1_room_001",
+    "task": "DollhouseTask_62615_NoOutdoor",
+    "floor": "floor1",
+    "space_kind": "room",
+    "panorama_uuids": [
+      "08ddd76b-9943-41d9-81ef-40a3443d0c2b",
+      "08ddd76b-a2a4-4f31-8897-dd8566d2898a",
+      "08ddd76b-b410-4671-8217-471dbaf2d511"
+    ],
+    "status": "human_verified"
+  },
+  "summary": {
+    "group": "task_62615_floor1_room_001",
+    "house": "DollhouseTask_62615_NoOutdoor",
+    "n_images": 3,
+    "pairs": 3,
+    "accepted_full": 2,
+    "accepted_direction": 0,
+    "component_sizes": [
+      3
+    ],
+    "fully_connected": true,
+    "loop_max_yaw_deg": null,
+    "loop_max_translation": null,
+    "flagged_weak_or_loop": 1
+  },
+  "rule": "G rule + direction links f=0.30; maximum-weight spanning forest; no global optimisation",
+  "convention": "p_root = R(yaw) p_u + t; camera height = 1; root = most-connected camera",
+  "flag_stats": {
+    "source": "pose_flags_v1, ZInD test (40 houses); camera wrong = majority of its pairs > 10 deg or > 0.5",
+    "valid": {
+      "D": false,
+      "W": true,
+      "L": true,
+      "U": false
+    },
+    "W": {
+      "flagged": 0.2647,
+      "unflagged": 0.037,
+      "n": 34
+    },
+    "L": {
+      "flagged": 0.1489,
+      "unflagged": 0.0155,
+      "n": 94
+    }
+  },
+  "components": [
+    [
+      "08ddd76b-9943-41d9-81ef-40a3443d0c2b",
+      "08ddd76b-a2a4-4f31-8897-dd8566d2898a",
+      "08ddd76b-b410-4671-8217-471dbaf2d511"
+    ]
+  ],
+  "cameras": {
+    "08ddd76b-9943-41d9-81ef-40a3443d0c2b": {
+      "label": "Hallway",
+      "component_root": "08ddd76b-a2a4-4f31-8897-dd8566d2898a",
+      "is_root": false,
+      "yaw": -3.0911874771118164,
+      "t": [
+        0.2775845229625702,
+        3.0464696884155265
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": false,
+        "unverified": true
+      },
+      "weak_edges": [
+        {
+          "pair_id": "d572bf39c03cdd395e342f9d",
+          "kind": "full",
+          "frac": 0.403,
+          "inliers": 694,
+          "dyaw": 2.134,
+          "dt": 0.046,
+          "weak": true
+        }
+      ],
+      "bad_loop": null
+    },
+    "08ddd76b-a2a4-4f31-8897-dd8566d2898a": {
+      "label": "Hallway",
+      "component_root": "08ddd76b-a2a4-4f31-8897-dd8566d2898a",
+      "is_root": true,
+      "yaw": 0.0,
+      "t": [
+        0.0,
+        0.0
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": false,
+        "loop_not_closing": false,
+        "unverified": false
+      },
+      "weak_edges": [],
+      "bad_loop": null
+    },
+    "08ddd76b-b410-4671-8217-471dbaf2d511": {
+      "label": "Living Room",
+      "component_root": "08ddd76b-a2a4-4f31-8897-dd8566d2898a",
+      "is_root": false,
+      "yaw": 0.5101449489593506,
+      "t": [
+        -0.899447038738832,
+        -1.2410651031033872
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": false,
+        "loop_not_closing": false,
+        "unverified": true
+      },
+      "weak_edges": [],
+      "bad_loop": null
+    }
+  },
+  "tree_edges": [
+    "4fc8113c755a2bee5e7a2312",
+    "d572bf39c03cdd395e342f9d"
+  ],
+  "pairs": [
+    {
+      "pair_id": "d572bf39c03cdd395e342f9d",
+      "a": "08ddd76b-9943-41d9-81ef-40a3443d0c2b",
+      "b": "08ddd76b-a2a4-4f31-8897-dd8566d2898a",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 694,
+      "inlier_fraction": 0.4028,
+      "correspondences": 1723,
+      "decoder_geometric_yaw_deg": 2.13,
+      "decoder_geometric_t": 0.046,
+      "yaw": -3.0911874771118164,
+      "t": [
+        0.2775845229625702,
+        3.0464696884155273
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "730ebde5f00c9a35a7db7d80",
+      "a": "08ddd76b-9943-41d9-81ef-40a3443d0c2b",
+      "b": "08ddd76b-b410-4671-8217-471dbaf2d511",
+      "status": "low_inlier_fraction",
+      "in_tree": false,
+      "inliers": 34,
+      "inlier_fraction": 0.1518,
+      "correspondences": 224,
+      "decoder_geometric_yaw_deg": 1.79,
+      "decoder_geometric_t": 0.125,
+      "yaw": 2.71543550491333,
+      "t": [
+        3.240481376647949,
+        3.400020122528076
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "4fc8113c755a2bee5e7a2312",
+      "a": "08ddd76b-a2a4-4f31-8897-dd8566d2898a",
+      "b": "08ddd76b-b410-4671-8217-471dbaf2d511",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 1759,
+      "inlier_fraction": 0.9488,
+      "correspondences": 1854,
+      "decoder_geometric_yaw_deg": 0.71,
+      "decoder_geometric_t": 0.03,
+      "yaw": -0.5101449489593506,
+      "t": [
+        1.390940546989441,
+        0.643841564655304
+      ],
+      "duplicate_content": false
+    }
+  ],
+  "loops": [],
+  "pose_verified": false
+}

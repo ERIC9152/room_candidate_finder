@@ -1,0 +1,279 @@
+﻿group,house,camera,label,component_root,yaw_deg,x,y,direction_link,weak_edge,loop_not_closing
+task_58472_floor1_room_001,DollhouseTask_58472_NoOutdoor,08ddb586-be87-4f65-8199-4f9e21ff613b,Kitchen,08ddb586-be87-4f65-8199-4f9e21ff613b,0.0,0.0,0.0,0,0,0
+task_58472_floor1_room_001,DollhouseTask_58472_NoOutdoor,08ddb587-058e-49f4-8e21-2644539d741d,Hallway,08ddb586-be87-4f65-8199-4f9e21ff613b,-49.63,1.9055,-0.2594,0,0,0
+task_58489_floor1_room_001,DollhouseTask_58489_NoOutdoor,08ddb592-6f20-461b-83f3-33c4d403742e,Foyer,08ddb592-780e-40cc-8a83-bf6d9eab1eea,-1.6,-5.1965,4.4218,0,1,0
+task_58489_floor1_room_001,DollhouseTask_58489_NoOutdoor,08ddb592-7351-4515-8249-38e21ee6bff7,Living Room,08ddb592-780e-40cc-8a83-bf6d9eab1eea,169.59,-3.1323,0.8809,0,1,0
+task_58489_floor1_room_001,DollhouseTask_58489_NoOutdoor,08ddb592-780e-40cc-8a83-bf6d9eab1eea,Dining Room,08ddb592-780e-40cc-8a83-bf6d9eab1eea,0.0,0.0,0.0,0,0,0
+task_58489_floor1_room_001,DollhouseTask_58489_NoOutdoor,08ddb592-7c1c-4809-817b-1edf68cad22d,Kitchen,08ddb592-780e-40cc-8a83-bf6d9eab1eea,26.01,0.3916,1.9505,0,1,0
+task_58489_floor2_room_001,DollhouseTask_58489_NoOutdoor,08ddb592-cccf-45d7-8a31-f4bb41d5e21f,Hallway 1,08ddb592-cccf-45d7-8a31-f4bb41d5e21f,0.0,0.0,0.0,0,0,0
+task_58489_floor2_room_001,DollhouseTask_58489_NoOutdoor,08ddb592-d46b-4f67-81d7-ba1a1e3592ef,Hallway ,08ddb592-cccf-45d7-8a31-f4bb41d5e21f,4.25,1.2062,-0.4879,0,0,0
+task_58489_floor2_room_002,DollhouseTask_58489_NoOutdoor,08ddb592-ed69-43f5-8224-0d13c4730543,Den,08ddb592-ed69-43f5-8224-0d13c4730543,0.0,0.0,0.0,0,0,0
+task_58489_floor2_room_002,DollhouseTask_58489_NoOutdoor,08ddb592-f525-4867-86b0-a6a8a01f2874,Den -1,08ddb592-f525-4867-86b0-a6a8a01f2874,0.0,0.0,0.0,0,0,0
+task_58499_floor1_room_001,DollhouseTask_58499_NoOutdoor,08ddb5a3-2be3-43bb-8aa3-7f292e5ec1e7,Foyer,08ddb5a3-31ae-497d-8a35-4e48d546c0db,90.93,0.6775,2.394,0,0,0
+task_58499_floor1_room_001,DollhouseTask_58499_NoOutdoor,08ddb5a3-31ae-497d-8a35-4e48d546c0db,Great Room,08ddb5a3-31ae-497d-8a35-4e48d546c0db,0.0,0.0,0.0,0,0,0
+task_58499_floor1_room_001,DollhouseTask_58499_NoOutdoor,08ddb5a3-386f-4c49-8dd3-3927582c4618,Dining Room,08ddb5a3-31ae-497d-8a35-4e48d546c0db,-95.61,-3.0629,-0.4284,0,0,0
+task_58533_floor1_room_001,DollhouseTask_58533_NoOutdoor,08ddb5bb-981e-439f-8842-02ba87c0aa95,Living Room,08ddb5bb-af0e-4a84-8d7a-345a697fca4f,133.2,-3.0143,-0.5254,0,1,1
+task_58533_floor1_room_001,DollhouseTask_58533_NoOutdoor,08ddb5bb-9cbe-4baa-8e01-e99878e03d3b,Stairs,08ddb5bb-af0e-4a84-8d7a-345a697fca4f,-4.1,-0.7513,-1.1936,0,1,1
+task_58533_floor1_room_001,DollhouseTask_58533_NoOutdoor,08ddb5bb-a128-4248-89d7-0dfe809a37d0,Breakfast Nook,08ddb5bb-af0e-4a84-8d7a-345a697fca4f,-89.2,1.0237,-1.2998,0,0,0
+task_58533_floor1_room_001,DollhouseTask_58533_NoOutdoor,08ddb5bb-aa6a-4ba9-80de-1a134cba0302,Kitchen 1,08ddb5bb-af0e-4a84-8d7a-345a697fca4f,15.18,1.6885,1.0688,0,0,1
+task_58533_floor1_room_001,DollhouseTask_58533_NoOutdoor,08ddb5bb-af0e-4a84-8d7a-345a697fca4f,Kitchen,08ddb5bb-af0e-4a84-8d7a-345a697fca4f,0.0,0.0,0.0,0,0,0
+task_58533_floor1_room_002,DollhouseTask_58533_NoOutdoor,08ddb5bb-bd98-4e4e-8e4f-1b7dbfdd1edc,Dining Room,08ddb5bb-bd98-4e4e-8e4f-1b7dbfdd1edc,0.0,0.0,0.0,0,0,0
+task_58533_floor1_room_002,DollhouseTask_58533_NoOutdoor,08ddb5bb-c277-46cf-86fa-b55178725177,Entryway,08ddb5bb-bd98-4e4e-8e4f-1b7dbfdd1edc,83.55,0.8557,1.7846,0,0,0
+task_58533_floor2_room_001,DollhouseTask_58533_NoOutdoor,08ddb5bb-4d6f-4779-8895-03865cd5f3a6,Bathroom upstairs,08ddb5bb-4d6f-4779-8895-03865cd5f3a6,0.0,0.0,0.0,0,0,0
+task_58533_floor2_room_001,DollhouseTask_58533_NoOutdoor,08ddb5bb-52d2-4dfb-8e7c-f08b3c508dff,Bathroom upstairs,08ddb5bb-4d6f-4779-8895-03865cd5f3a6,106.3,0.7086,0.3929,0,0,0
+task_58546_floor2_room_001,DollhouseTask_58546_NoOutdoor,08ddb5d9-4489-4e79-8657-49671ff9b7b7,Landing,08ddb5d9-4489-4e79-8657-49671ff9b7b7,0.0,0.0,0.0,0,0,0
+task_58546_floor2_room_001,DollhouseTask_58546_NoOutdoor,08ddb5d9-4b88-4ba1-8690-4aac3e8abba8,Hallway,08ddb5d9-4489-4e79-8657-49671ff9b7b7,8.94,0.8335,-0.7341,0,0,0
+task_58546_floor2_room_002,DollhouseTask_58546_NoOutdoor,08ddb5d9-55c7-4410-896a-c3d765ef24a4,Kitchen,08ddb5d9-55c7-4410-896a-c3d765ef24a4,0.0,0.0,0.0,0,0,0
+task_58546_floor2_room_002,DollhouseTask_58546_NoOutdoor,08ddb5d9-6b43-4bcf-8a48-ca57f6fd2847,Living Room,08ddb5d9-55c7-4410-896a-c3d765ef24a4,91.14,1.9415,0.2546,0,0,0
+task_58546_floor2_room_003,DollhouseTask_58546_NoOutdoor,08ddb5d9-9b65-4e9c-81f6-fe5e92fa3a7c,Hallway,08ddb5d9-9b65-4e9c-81f6-fe5e92fa3a7c,0.0,0.0,0.0,0,0,0
+task_58546_floor2_room_003,DollhouseTask_58546_NoOutdoor,08ddb5d9-aeb0-4c09-8c65-74843b8281b9,Hallway,08ddb5d9-9b65-4e9c-81f6-fe5e92fa3a7c,72.0,1.046,-0.2282,0,0,0
+task_58553_floor1_room_001,DollhouseTask_58553,08ddb590-7770-44d4-81bd-55fe5bfe5559,Living Room,08ddb590-7770-44d4-81bd-55fe5bfe5559,0.0,0.0,0.0,0,0,0
+task_58553_floor1_room_001,DollhouseTask_58553,08ddb590-7f75-4219-84cb-d16b1783f895,Kitchen,08ddb590-7f75-4219-84cb-d16b1783f895,0.0,0.0,0.0,0,0,0
+task_58553_floor1_room_001,DollhouseTask_58553,08ddb590-875a-42f8-8564-58236248089b,Hallway,08ddb590-7770-44d4-81bd-55fe5bfe5559,94.32,-0.284,-1.0188,0,0,0
+task_58553_floor1_room_002,DollhouseTask_58553,08ddb590-b537-4c48-8f6b-43ecab080690,Hallway,08ddb590-b537-4c48-8f6b-43ecab080690,0.0,0.0,0.0,0,0,0
+task_58553_floor1_room_002,DollhouseTask_58553,08ddb590-bc58-4d22-81a0-bf4f0894de77,Laundry,08ddb590-b537-4c48-8f6b-43ecab080690,-104.5,-0.0465,0.8026,0,0,0
+task_58558_floor1_room_001,DollhouseTask_58558,08ddb5a5-3ed0-45a2-872e-60eff312b77a,Office,08ddb5a5-3ed0-45a2-872e-60eff312b77a,0.0,0.0,0.0,0,0,0
+task_58558_floor1_room_001,DollhouseTask_58558,08ddb5a5-43d9-4b42-8855-6580575426f2,Office-1,08ddb5a5-3ed0-45a2-872e-60eff312b77a,45.07,-0.6207,0.0706,0,1,0
+task_58558_floor1_room_002,DollhouseTask_58558,08ddb5a5-51ad-4d4c-8441-38ae29cff6eb,Kitchen,08ddb5a5-51ad-4d4c-8441-38ae29cff6eb,0.0,0.0,0.0,0,0,0
+task_58558_floor1_room_002,DollhouseTask_58558,08ddb5a5-577f-45d1-8c68-9da41874ba5e,Living Room,08ddb5a5-577f-45d1-8c68-9da41874ba5e,0.0,0.0,0.0,0,0,0
+task_58558_floor1_room_002,DollhouseTask_58558,08ddb5a5-5c8e-4378-87f7-d4e00d2dfb7b,Breakfast Nook,08ddb5a5-51ad-4d4c-8441-38ae29cff6eb,-142.3,-2.5479,-1.7533,0,1,0
+task_58582_basement_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-aae4-437c-88c0-50497cb4e138,Laundry Room 1,08ddb655-aae4-437c-88c0-50497cb4e138,0.0,0.0,0.0,0,0,0
+task_58582_basement_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-b188-47fe-8334-bcbc2c90be97,Laundry Room,08ddb655-aae4-437c-88c0-50497cb4e138,78.68,-1.1726,0.1404,0,1,0
+task_58582_basement_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-b956-4c34-8415-368bf1640990,Basement 1,08ddb655-b956-4c34-8415-368bf1640990,0.0,0.0,0.0,0,0,0
+task_58582_floor1_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-27cc-4537-8ec1-3e42c3f6b728,Sunroom 3,08ddb655-27cc-4537-8ec1-3e42c3f6b728,0.0,0.0,0.0,0,0,0
+task_58582_floor1_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-2f02-4576-80aa-8c5334e9184c,Sunroom 2,08ddb655-27cc-4537-8ec1-3e42c3f6b728,-160.38,-0.1059,-2.3938,0,0,0
+task_58582_floor1_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-d34d-49bd-814d-de643e1c71fd,Living Room 2,08ddb655-d34d-49bd-814d-de643e1c71fd,0.0,0.0,0.0,0,0,0
+task_58582_floor1_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-d9fa-4081-87a7-bbc80ba3ba85,Living Room 1,08ddb655-d34d-49bd-814d-de643e1c71fd,56.81,-0.9111,-1.3982,0,0,1
+task_58582_floor1_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-e0dd-4fd3-85ce-54fdab071c05,Living Room,08ddb655-d34d-49bd-814d-de643e1c71fd,21.28,-0.9248,-3.4211,0,1,1
+task_58582_floor2_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-7a89-4d1a-8206-381af2197d73,Sunroom 1,08ddb655-7a89-4d1a-8206-381af2197d73,0.0,0.0,0.0,0,0,0
+task_58582_floor2_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-80ca-4d34-85c6-3ae989811f88,Sunroom,08ddb655-7a89-4d1a-8206-381af2197d73,158.57,-1.8369,-0.9573,0,0,0
+task_58582_floor2_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-8743-4dac-86d0-78732c12ad39,Kitchen 2,08ddb655-93d0-43e4-8933-864152719a20,-23.4,0.9144,2.064,0,1,0
+task_58582_floor2_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-8dab-4b45-8fee-056462a0a06e,Kitchen 1,08ddb655-93d0-43e4-8933-864152719a20,-14.37,-0.7251,2.0264,0,1,0
+task_58582_floor2_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-93d0-43e4-8933-864152719a20,Kitchen,08ddb655-93d0-43e4-8933-864152719a20,0.0,0.0,0.0,0,0,0
+task_58582_floor2_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-9b94-4b29-8f73-58a9a89f0220,Dining Room 1,08ddb655-93d0-43e4-8933-864152719a20,-84.78,0.3546,-1.5589,0,1,0
+task_58582_floor2_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-a1ef-485d-8c72-82d22a543472,Dining Room,08ddb655-93d0-43e4-8933-864152719a20,-152.64,2.5216,-0.3643,0,1,0
+task_58582_floor3_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-4ba5-40a4-858a-9858d736b3c0,Bedroom 1,08ddb655-4ba5-40a4-858a-9858d736b3c0,0.0,0.0,0.0,0,0,0
+task_58582_floor3_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-524e-4908-815a-bc5134d56fc5,Bedroom,08ddb655-4ba5-40a4-858a-9858d736b3c0,55.07,-1.3459,-0.9766,0,0,0
+task_58582_floor3_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-589a-4dfa-8b01-dc21fd185932,Primary Bedroom 1,08ddb655-589a-4dfa-8b01-dc21fd185932,0.0,0.0,0.0,0,0,0
+task_58582_floor3_room_002,DollhouseTask_58582_NoOutdoor,08ddb655-6005-4568-8b24-eecc686b6aa9,Primary Bedroom,08ddb655-589a-4dfa-8b01-dc21fd185932,89.31,-0.7135,-1.4943,0,0,0
+task_58582_floor3_room_003,DollhouseTask_58582_NoOutdoor,08ddb655-65fa-4f47-8f0c-67fe4e4df114,Bathroom 2,08ddb655-65fa-4f47-8f0c-67fe4e4df114,0.0,0.0,0.0,0,0,0
+task_58582_floor3_room_003,DollhouseTask_58582_NoOutdoor,08ddb655-6cd5-4b4b-8d03-898e48f9cc09,Bathroom 1,08ddb655-65fa-4f47-8f0c-67fe4e4df114,-2.14,0.3738,0.3277,0,0,0
+task_58582_floor_unknown_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-3d39-4adb-8450-65a277053404,Bedroom 3,08ddb655-3d39-4adb-8450-65a277053404,0.0,0.0,0.0,0,0,0
+task_58582_floor_unknown_room_001,DollhouseTask_58582_NoOutdoor,08ddb655-4402-492a-8bb3-9aa653a72f18,Bedroom 2,08ddb655-3d39-4adb-8450-65a277053404,-116.19,0.7966,-0.628,0,0,0
+task_58589_floor1_room_001,DollhouseTask_58589_NoOutdoor,08ddb661-b27b-48df-8767-da963ce5e9eb,Foyer,08ddb661-b27b-48df-8767-da963ce5e9eb,0.0,0.0,0.0,0,0,0
+task_58589_floor1_room_001,DollhouseTask_58589_NoOutdoor,08ddb661-b7f0-49a1-839e-69a20615f3b6,Living Room,08ddb661-b7f0-49a1-839e-69a20615f3b6,0.0,0.0,0.0,0,0,0
+task_58589_floor1_room_002,DollhouseTask_58589_NoOutdoor,08ddb662-11df-4470-87ea-b9e00f133c4e,Patio 3,08ddb662-11df-4470-87ea-b9e00f133c4e,0.0,0.0,0.0,0,0,0
+task_58589_floor1_room_002,DollhouseTask_58589_NoOutdoor,08ddb662-16de-45f3-8697-ca2403bdd237,Patio 3 - 1,08ddb662-16de-45f3-8697-ca2403bdd237,0.0,0.0,0.0,0,0,0
+task_58599_basement_room_001,DollhouseTask_58599_NoOutdoor,08ddb667-ca70-4150-8998-54a58dc96484,Bathroom 1,08ddb667-ca70-4150-8998-54a58dc96484,0.0,0.0,0.0,0,0,0
+task_58599_basement_room_001,DollhouseTask_58599_NoOutdoor,08ddb667-d703-4544-88f1-aa89bfd02941,Bathroom 2,08ddb667-ca70-4150-8998-54a58dc96484,-42.67,-0.2686,1.1775,0,0,0
+task_58599_floor1_room_001,DollhouseTask_58599_NoOutdoor,08ddb667-4800-480f-884d-d99eba2847b3,Garage,08ddb667-4800-480f-884d-d99eba2847b3,0.0,0.0,0.0,0,0,0
+task_58599_floor1_room_001,DollhouseTask_58599_NoOutdoor,08ddb667-56c8-42b6-8e23-33999c37d2d6,Garage 1,08ddb667-4800-480f-884d-d99eba2847b3,-58.01,1.5626,0.8694,0,0,0
+task_58599_floor1_room_002,DollhouseTask_58599_NoOutdoor,08ddb667-38a5-4a3b-8d1d-fc6f57fd0c37,Entrance,08ddb667-38a5-4a3b-8d1d-fc6f57fd0c37,0.0,0.0,0.0,0,0,0
+task_58599_floor1_room_002,DollhouseTask_58599_NoOutdoor,08ddb667-652d-4e75-85d8-baf1caa59a19,Foyer,08ddb667-38a5-4a3b-8d1d-fc6f57fd0c37,-179.79,1.8195,2.0099,0,0,0
+task_58603_floor1_room_001,DollhouseTask_58603_NoOutdoor,08ddb66a-c0ae-4ece-8c5e-ffb89a834b93,Primary Bedroom,08ddb66a-d268-4234-8099-5a284e458c54,-101.18,-1.1342,1.7933,0,0,0
+task_58603_floor1_room_001,DollhouseTask_58603_NoOutdoor,08ddb66a-c8ea-4f4a-8cd7-8a557a070a29,Primary Bedroom-1,08ddb66a-d268-4234-8099-5a284e458c54,-93.12,-2.2043,0.3767,0,0,0
+task_58603_floor1_room_001,DollhouseTask_58603_NoOutdoor,08ddb66a-d268-4234-8099-5a284e458c54,Primary Bathroom,08ddb66a-d268-4234-8099-5a284e458c54,0.0,0.0,0.0,0,0,0
+task_58664_floor1_room_001,DollhouseTask_58664,08ddb684-2eb1-49be-8ea8-6064a9fdea74,Living Room,08ddb684-2eb1-49be-8ea8-6064a9fdea74,0.0,0.0,0.0,0,0,0
+task_58664_floor1_room_001,DollhouseTask_58664,08ddb684-3cda-423c-82c8-8891a9899451,Living Room - 1,08ddb684-4521-4667-8fd9-778384235a5f,0.46,1.7442,0.1823,0,1,0
+task_58664_floor1_room_001,DollhouseTask_58664,08ddb684-4521-4667-8fd9-778384235a5f,Dining Room,08ddb684-4521-4667-8fd9-778384235a5f,0.0,0.0,0.0,0,0,0
+task_58664_floor1_room_001,DollhouseTask_58664,08ddb684-4c8e-4310-8439-3893005a4b13,Kitchen,08ddb684-4521-4667-8fd9-778384235a5f,4.35,-1.7282,-0.0152,0,1,0
+task_58664_floor1_room_002,DollhouseTask_58664,08ddb684-d0ab-41a5-8e5e-7c0f334b994e,Hallway,08ddb684-d0ab-41a5-8e5e-7c0f334b994e,0.0,0.0,0.0,0,0,0
+task_58664_floor1_room_002,DollhouseTask_58664,08ddb684-dcdf-49b4-8a1e-ad70565af7a2,Foyer,08ddb684-d0ab-41a5-8e5e-7c0f334b994e,5.86,-0.005,-1.7933,0,0,0
+task_58691_floor1_room_001,DollhouseTask_58691_NoOutdoor,08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8,Hallway,08ddb743-af17-491b-89a1-cb5fa6b25857,78.85,-1.6886,-0.9189,0,0,0
+task_58691_floor1_room_001,DollhouseTask_58691_NoOutdoor,08ddb743-a7d6-4061-887f-96b1b427d11b,Kitchen,08ddb743-af17-491b-89a1-cb5fa6b25857,-27.43,-0.1002,1.9501,0,0,0
+task_58691_floor1_room_001,DollhouseTask_58691_NoOutdoor,08ddb743-af17-491b-89a1-cb5fa6b25857,Dining Room,08ddb743-af17-491b-89a1-cb5fa6b25857,0.0,0.0,0.0,0,0,0
+task_58691_floor1_room_001,DollhouseTask_58691_NoOutdoor,08ddb743-b561-49ab-8089-c211c94996bb,Living Room,08ddb743-af17-491b-89a1-cb5fa6b25857,-60.06,1.792,-1.8786,1,0,1
+task_58691_floor1_room_001,DollhouseTask_58691_NoOutdoor,08ddb743-e04c-4f65-8779-2a13f0f8a67b,Entryway,08ddb743-af17-491b-89a1-cb5fa6b25857,-108.07,-1.0723,-4.5308,1,0,1
+task_58712_floor1_room_001,DollhouseTask_58712,08ddb799-5763-4656-89c4-946abee3aef5,空間1,08ddb799-5763-4656-89c4-946abee3aef5,0.0,0.0,0.0,0,0,0
+task_58712_floor1_room_001,DollhouseTask_58712,08ddb799-ab91-4d4d-884e-b3c3ad2593b9,玄關,08ddb799-ab91-4d4d-884e-b3c3ad2593b9,0.0,0.0,0.0,0,0,0
+task_58712_floor1_room_001,DollhouseTask_58712,08ddb799-ae74-4277-8bc2-b1ea08441584,空間2,08ddb799-ab91-4d4d-884e-b3c3ad2593b9,-179.4,0.1867,-2.5382,0,1,0
+task_58715_floor1_room_001,DollhouseTask_58715,08ddb7b2-e68b-407e-8d8c-f4a0ec62ccd9,後陽台,08ddb7b2-e68b-407e-8d8c-f4a0ec62ccd9,0.0,0.0,0.0,0,0,0
+task_58715_floor1_room_001,DollhouseTask_58715,08ddb7b3-24f7-4192-84ac-def2d89ffa66,後陽台,08ddb7b3-24f7-4192-84ac-def2d89ffa66,0.0,0.0,0.0,0,0,0
+task_58715_floor1_room_002,DollhouseTask_58715,08ddb7b3-35c1-4939-81fe-176530c2c5e7,餐廳,08ddb7b3-35c1-4939-81fe-176530c2c5e7,0.0,0.0,0.0,0,0,0
+task_58715_floor1_room_002,DollhouseTask_58715,08ddb7b3-465c-4126-8bab-1299a8ab0e40,客廳,08ddb7b3-465c-4126-8bab-1299a8ab0e40,0.0,0.0,0.0,0,0,0
+task_59203_basement_room_001,DollhouseTask_59203_NoOutdoor,08ddbc0d-ab82-4c25-81e8-475ccad213ea,Basement 2,08ddbc0d-ab82-4c25-81e8-475ccad213ea,0.0,0.0,0.0,0,0,0
+task_59203_basement_room_001,DollhouseTask_59203_NoOutdoor,08ddbc0d-b70e-4ed0-88f2-978c84cec34e,Basement 3,08ddbc0d-b70e-4ed0-88f2-978c84cec34e,0.0,0.0,0.0,0,0,0
+task_59203_basement_room_002,DollhouseTask_59203_NoOutdoor,08ddbc0d-c1f7-4661-836d-656cd81fecd0,Living Room 1,08ddbc0d-c1f7-4661-836d-656cd81fecd0,0.0,0.0,0.0,0,0,0
+task_59203_basement_room_002,DollhouseTask_59203_NoOutdoor,08ddbc0d-d0d1-4682-8cf7-f61a2674760b,Living Room 2,08ddbc0d-c1f7-4661-836d-656cd81fecd0,16.02,2.2635,-1.4673,0,1,0
+task_59203_floor1_room_001,DollhouseTask_59203_NoOutdoor,08ddbc0c-53d4-4fb9-8088-168cdd4f4559,Hallway,08ddbc0c-53d4-4fb9-8088-168cdd4f4559,0.0,0.0,0.0,0,0,0
+task_59203_floor1_room_001,DollhouseTask_59203_NoOutdoor,08ddbc0c-fe90-43c1-836d-ad808c8cac21,Living Room,08ddbc0c-fe90-43c1-836d-ad808c8cac21,0.0,0.0,0.0,0,0,0
+task_59203_floor1_room_002,DollhouseTask_59203_NoOutdoor,08ddbc0d-03db-47f4-8cba-82e393c13550,Kitchen,08ddbc0d-03db-47f4-8cba-82e393c13550,0.0,0.0,0.0,0,0,0
+task_59203_floor1_room_002,DollhouseTask_59203_NoOutdoor,08ddbc0d-0825-4ebb-846a-64dc1b77a686,Dining Room,08ddbc0d-0825-4ebb-846a-64dc1b77a686,0.0,0.0,0.0,0,0,0
+task_59203_floor1_room_002,DollhouseTask_59203_NoOutdoor,08ddbc0d-0c5b-49e4-851f-c5ed44843431,Media Room,08ddbc0d-03db-47f4-8cba-82e393c13550,-162.4,3.0745,3.3859,1,0,0
+task_59863_basement_room_001,DollhouseTask_59863_NoOutdoor,08ddc170-f481-4f12-8d10-c6f7ddb24e35,Basement,08ddc170-f481-4f12-8d10-c6f7ddb24e35,0.0,0.0,0.0,0,0,0
+task_59863_basement_room_001,DollhouseTask_59863_NoOutdoor,08ddc171-1388-440a-8d6a-2cdd9c19fceb,Basement 5,08ddc171-1388-440a-8d6a-2cdd9c19fceb,0.0,0.0,0.0,0,0,0
+task_59863_floor1_room_001,DollhouseTask_59863_NoOutdoor,08ddc170-90d1-420b-874d-6d0e080976c8,Kitchen,08ddc170-90d1-420b-874d-6d0e080976c8,0.0,0.0,0.0,0,0,0
+task_59863_floor1_room_001,DollhouseTask_59863_NoOutdoor,08ddc170-d9b9-48db-890d-b813dcf26047,Landing 1,08ddc170-90d1-420b-874d-6d0e080976c8,78.18,-0.9324,0.2483,0,1,0
+task_59868_floor1_room_001,DollhouseTask_59868_NoOutdoor,08ddc172-3ab2-4fed-87cc-bd3cf4bb11f0,Family Room,08ddc172-4d50-4e82-8adf-da820b3e7c0d,92.77,-2.8569,-0.1158,0,0,1
+task_59868_floor1_room_001,DollhouseTask_59868_NoOutdoor,08ddc172-4801-4ff4-81ef-48ffe68c4dfb,Kitchen - 1,08ddc172-4d50-4e82-8adf-da820b3e7c0d,-8.8,-1.0125,0.3232,0,0,0
+task_59868_floor1_room_001,DollhouseTask_59868_NoOutdoor,08ddc172-4d50-4e82-8adf-da820b3e7c0d,Breakfast Nook,08ddc172-4d50-4e82-8adf-da820b3e7c0d,0.0,0.0,0.0,0,0,0
+task_59868_floor1_room_001,DollhouseTask_59868_NoOutdoor,08ddc172-52bf-448c-8f65-54100edde8e2,Kitchen,08ddc172-4d50-4e82-8adf-da820b3e7c0d,0.69,0.9997,0.4095,0,0,1
+task_60621_floor1_room_001,DollhouseTask_60621_NoOutdoor,08ddc71e-c6f1-475a-891a-85ad5307ecc0,Primary Bedroom - 1,08ddc71e-c6f1-475a-891a-85ad5307ecc0,0.0,0.0,0.0,0,0,0
+task_60621_floor1_room_001,DollhouseTask_60621_NoOutdoor,08ddc71e-cdf9-4fa5-83c2-dce532d17d87,Primary Bedroom,08ddc71e-cdf9-4fa5-83c2-dce532d17d87,0.0,0.0,0.0,0,0,0
+task_60621_floor1_room_002,DollhouseTask_60621_NoOutdoor,08ddc71e-d652-4821-8aae-6443307ca670,Laundry ,08ddc71e-dde8-4e35-8df2-d8464eb5e605,95.23,-0.3927,0.8387,0,1,1
+task_60621_floor1_room_002,DollhouseTask_60621_NoOutdoor,08ddc71e-dde8-4e35-8df2-d8464eb5e605,Hallway ,08ddc71e-dde8-4e35-8df2-d8464eb5e605,0.0,0.0,0.0,0,0,0
+task_60621_floor1_room_002,DollhouseTask_60621_NoOutdoor,08ddc71e-e441-459e-807c-9a5be15fc418,Hallway,08ddc71e-dde8-4e35-8df2-d8464eb5e605,-51.65,-0.875,-0.4864,0,1,1
+task_60621_floor1_room_002,DollhouseTask_60621_NoOutdoor,08ddc721-c1cc-4bfc-862e-a33d5e548146,Breakfast Nook,08ddc71e-dde8-4e35-8df2-d8464eb5e605,48.22,-2.8536,0.1129,0,0,1
+task_60621_floor2_room_001,DollhouseTask_60621_NoOutdoor,08ddc71e-ad67-4342-83e3-ecfe82a5b916,Hallway ,08ddc71e-ad67-4342-83e3-ecfe82a5b916,0.0,0.0,0.0,0,0,0
+task_60621_floor2_room_001,DollhouseTask_60621_NoOutdoor,08ddc71e-b3d5-483c-8253-0da9797844ab,Hallway ,08ddc71e-ad67-4342-83e3-ecfe82a5b916,107.42,-0.0313,-1.0835,0,0,0
+task_61267_basement_room_001,DollhouseTask_61267_NoOutdoor,08ddcc5d-75e2-4426-8263-8486b4cd7d0c,Great Room 4,08ddcc5d-79cb-4646-8d26-b5728172f449,19.36,3.7614,0.722,0,1,0
+task_61267_basement_room_001,DollhouseTask_61267_NoOutdoor,08ddcc5d-79cb-4646-8d26-b5728172f449,Great Room 3,08ddcc5d-79cb-4646-8d26-b5728172f449,0.0,0.0,0.0,0,0,0
+task_61267_basement_room_001,DollhouseTask_61267_NoOutdoor,08ddcc5d-7e90-4983-8b01-0961c7d8e64f,Great Room 2,08ddcc5d-79cb-4646-8d26-b5728172f449,-92.95,-3.5836,-0.734,0,1,0
+task_61267_basement_room_001,DollhouseTask_61267_NoOutdoor,08ddcc5d-8bbb-4c98-8f32-8ef8691f56a1,Landing,08ddcc5d-79cb-4646-8d26-b5728172f449,-10.82,-5.1296,0.7599,0,1,0
+task_61267_floor1_room_001,DollhouseTask_61267_NoOutdoor,08ddcc5d-93ef-4032-802f-3a695287ca1a,Garage 1,08ddcc5d-93ef-4032-802f-3a695287ca1a,0.0,0.0,0.0,0,0,0
+task_61267_floor1_room_001,DollhouseTask_61267_NoOutdoor,08ddcc5d-9976-4611-825b-f647a3763d96,Garage,08ddcc5d-93ef-4032-802f-3a695287ca1a,34.42,-3.2416,-1.8697,0,0,0
+task_61267_floor1_room_002,DollhouseTask_61267_NoOutdoor,08ddcc5d-aaac-4adf-8a96-dacabb20454f,Kitchen,08ddcc5d-b305-4782-82f1-0d2606160684,-84.26,1.2358,3.7069,0,0,0
+task_61267_floor1_room_002,DollhouseTask_61267_NoOutdoor,08ddcc5d-af03-4c40-8328-593f9d300afb,Dining Room,08ddcc5d-b305-4782-82f1-0d2606160684,70.86,0.5456,1.8058,0,0,0
+task_61267_floor1_room_002,DollhouseTask_61267_NoOutdoor,08ddcc5d-b305-4782-82f1-0d2606160684,Great Room 1,08ddcc5d-b305-4782-82f1-0d2606160684,0.0,0.0,0.0,0,0,0
+task_61267_floor1_room_002,DollhouseTask_61267_NoOutdoor,08ddcc5d-b6f8-401e-8bb7-42a2e3f37f92,Great Room,08ddcc5d-b305-4782-82f1-0d2606160684,71.17,-0.4845,-3.2146,0,0,0
+task_61267_floor1_room_003,DollhouseTask_61267_NoOutdoor,08ddcc5d-ce33-4470-84e7-221cbb7dbd97,Primary Bedroom 1,08ddcc5d-ce33-4470-84e7-221cbb7dbd97,0.0,0.0,0.0,0,0,0
+task_61267_floor1_room_003,DollhouseTask_61267_NoOutdoor,08ddcc5d-d234-4032-8a21-9d126ecca2a5,Primary Bedroom,08ddcc5d-ce33-4470-84e7-221cbb7dbd97,-116.36,1.1289,-1.8122,0,0,0
+task_61295_floor1_room_001,DollhouseTask_61295_NoOutdoor,08ddcc8f-7994-47e1-8f06-2e78e608e35f,Foyer,08ddcc8f-7994-47e1-8f06-2e78e608e35f,0.0,0.0,0.0,0,0,0
+task_61295_floor1_room_001,DollhouseTask_61295_NoOutdoor,08ddcc8f-8487-48ca-831f-9c80e7737513,Hallway ,08ddcc8f-7994-47e1-8f06-2e78e608e35f,172.96,-1.1719,0.3967,0,1,0
+task_61295_floor1_room_001,DollhouseTask_61295_NoOutdoor,08ddcc8f-8c15-4ca1-84ac-ef2c84125016,Office,08ddcc8f-8c15-4ca1-84ac-ef2c84125016,0.0,0.0,0.0,0,0,0
+task_61939_floor1_room_001,DollhouseTask_61939_NoOutdoor,08ddd209-76c1-4b96-867e-f77f73685e5e,Entryway,08ddd209-76c1-4b96-867e-f77f73685e5e,0.0,0.0,0.0,0,0,0
+task_61939_floor1_room_001,DollhouseTask_61939_NoOutdoor,08ddd209-80e6-4667-8a4f-33b44da5de5f,Living Room,08ddd209-80e6-4667-8a4f-33b44da5de5f,0.0,0.0,0.0,0,0,0
+task_61939_floor1_room_002,DollhouseTask_61939_NoOutdoor,08ddd209-8c8c-4353-8312-f811b7cb8056,Dining Room,08ddd209-8c8c-4353-8312-f811b7cb8056,0.0,0.0,0.0,0,0,0
+task_61939_floor1_room_002,DollhouseTask_61939_NoOutdoor,08ddd209-aa5b-4118-8696-060a69ee7b06,Breakfast Nook,08ddd209-b6de-4bb6-8c1b-eadd9cc8f334,-80.03,2.044,-0.1573,0,1,0
+task_61939_floor1_room_002,DollhouseTask_61939_NoOutdoor,08ddd209-b6de-4bb6-8c1b-eadd9cc8f334,Kitchen,08ddd209-b6de-4bb6-8c1b-eadd9cc8f334,0.0,0.0,0.0,0,0,0
+task_61939_floor1_room_002,DollhouseTask_61939_NoOutdoor,08ddd209-c2a2-4100-8b77-a638cfed2a95,Kitchen 1,08ddd209-b6de-4bb6-8c1b-eadd9cc8f334,87.86,-1.1786,0.2167,0,0,0
+task_61968_floor1_room_001,DollhouseTask_61968_NoOutdoor,08ddd225-7dd0-4794-834b-670266250676,Living Room 1,08ddd225-9f92-4c18-8d12-c6e58169e924,142.34,0.546,-1.4391,0,0,0
+task_61968_floor1_room_001,DollhouseTask_61968_NoOutdoor,08ddd225-8c20-4710-8e06-addd9f22424b,Living Room,08ddd225-9f92-4c18-8d12-c6e58169e924,-173.32,-1.711,-1.5307,0,0,0
+task_61968_floor1_room_001,DollhouseTask_61968_NoOutdoor,08ddd225-9263-49d6-88b0-85f9d40a307d,Dining Room,08ddd225-9f92-4c18-8d12-c6e58169e924,80.82,-2.3963,0.8298,0,0,0
+task_61968_floor1_room_001,DollhouseTask_61968_NoOutdoor,08ddd225-991a-47bd-8ba3-df46cf1e07c2,Kitchen 1,08ddd225-9f92-4c18-8d12-c6e58169e924,164.91,-0.1448,1.4925,0,0,0
+task_61968_floor1_room_001,DollhouseTask_61968_NoOutdoor,08ddd225-9f92-4c18-8d12-c6e58169e924,Kitchen,08ddd225-9f92-4c18-8d12-c6e58169e924,0.0,0.0,0.0,0,0,0
+task_61968_floor2_room_001,DollhouseTask_61968_NoOutdoor,08ddd225-16d1-4788-890b-a110afe6c56b,Primary Bathroom 2,08ddd225-16d1-4788-890b-a110afe6c56b,0.0,0.0,0.0,0,0,0
+task_61968_floor2_room_001,DollhouseTask_61968_NoOutdoor,08ddd225-1d1d-4495-8072-c90a7b976f15,Primary Bathroom 1,08ddd225-16d1-4788-890b-a110afe6c56b,-134.46,-0.2444,-1.2204,0,0,0
+task_61968_floor2_room_002,DollhouseTask_61968_NoOutdoor,08ddd225-63de-46aa-8f2d-feb1c4e5b6d9,Hallway 2,08ddd225-63de-46aa-8f2d-feb1c4e5b6d9,0.0,0.0,0.0,0,0,0
+task_61968_floor2_room_002,DollhouseTask_61968_NoOutdoor,08ddd225-69f9-4b4e-8448-254ec0287dd8,Hallway 1,08ddd225-63de-46aa-8f2d-feb1c4e5b6d9,-125.78,-1.0827,0.2062,0,0,0
+task_62615_floor1_room_001,DollhouseTask_62615_NoOutdoor,08ddd76b-9943-41d9-81ef-40a3443d0c2b,Hallway,08ddd76b-a2a4-4f31-8897-dd8566d2898a,-177.11,0.2776,3.0465,0,1,0
+task_62615_floor1_room_001,DollhouseTask_62615_NoOutdoor,08ddd76b-a2a4-4f31-8897-dd8566d2898a,Hallway,08ddd76b-a2a4-4f31-8897-dd8566d2898a,0.0,0.0,0.0,0,0,0
+task_62615_floor1_room_001,DollhouseTask_62615_NoOutdoor,08ddd76b-b410-4671-8217-471dbaf2d511,Living Room,08ddd76b-a2a4-4f31-8897-dd8566d2898a,29.23,-0.8994,-1.2411,0,0,0
+task_63108_floor1_room_001,DollhouseTask_63108,08dddc21-cc8e-45f9-8767-95896d7de061,Kitchen,08dddc21-cc8e-45f9-8767-95896d7de061,0.0,0.0,0.0,0,0,0
+task_63108_floor1_room_001,DollhouseTask_63108,08dddc21-e1ea-471a-8164-c86adc727936,Hallway,08dddc21-cc8e-45f9-8767-95896d7de061,-27.03,1.6164,1.4218,0,0,0
+task_63162_floor1_room_001,DollhouseTask_63162_NoOutdoor,08dddc2d-a774-4cc0-8471-714e51ef1114,Living Room,08dddc2d-a774-4cc0-8471-714e51ef1114,0.0,0.0,0.0,0,0,0
+task_63162_floor1_room_001,DollhouseTask_63162_NoOutdoor,08dddc2d-b52d-46d9-81a2-690e0c8ca150,Foyer,08dddc2d-a774-4cc0-8471-714e51ef1114,-27.8,-1.5673,0.3976,0,0,0
+task_63247_basement_room_001,DollhouseTask_63247_NoOutdoor,08dddd16-0013-4f3f-8162-1bc71376728d,Living Room 1,08dddd16-0013-4f3f-8162-1bc71376728d,0.0,0.0,0.0,0,0,0
+task_63247_basement_room_001,DollhouseTask_63247_NoOutdoor,08dddd16-17b2-417b-881f-c35629047ba5,Living Room,08dddd16-0013-4f3f-8162-1bc71376728d,-137.91,-0.0462,1.7426,0,0,0
+task_63247_basement_room_002,DollhouseTask_63247_NoOutdoor,08dddd15-e7d0-4d36-83da-291e17b18931,Living Room 3,08dddd15-e7d0-4d36-83da-291e17b18931,0.0,0.0,0.0,0,0,0
+task_63247_basement_room_002,DollhouseTask_63247_NoOutdoor,08dddd15-f3cd-4046-8d92-b03d1b385b11,Living Room 2,08dddd15-e7d0-4d36-83da-291e17b18931,22.31,-1.8817,2.4621,0,1,0
+task_63247_floor1_room_001,DollhouseTask_63247_NoOutdoor,08dddd16-6e26-4c8b-8099-414954d130ef,Family Room,08dddd16-6e26-4c8b-8099-414954d130ef,0.0,0.0,0.0,0,0,0
+task_63247_floor1_room_001,DollhouseTask_63247_NoOutdoor,08dddd16-943e-45df-8546-0789115162cb,Entryway 1,08dddd16-6e26-4c8b-8099-414954d130ef,-91.18,-1.4459,-0.5226,0,0,0
+task_63247_floor_unknown_room_001,DollhouseTask_63247_NoOutdoor,08dddd14-e37f-49a0-86d1-a5cac8c5cbe7,Bathroom 2,08dddd14-e37f-49a0-86d1-a5cac8c5cbe7,0.0,0.0,0.0,0,0,0
+task_63247_floor_unknown_room_001,DollhouseTask_63247_NoOutdoor,08dddd15-036a-43bc-8f94-56865f567601,Bathroom 1,08dddd14-e37f-49a0-86d1-a5cac8c5cbe7,124.55,-0.5932,-0.4555,0,0,0
+task_63261_floor1_room_001,DollhouseTask_63261_NoOutdoor,08dddd06-aec5-42bb-8a0b-7632935abf17,Breakfast Nook,08dddd06-be84-41e9-890b-fab2bf1af69c,120.24,2.4515,-4.6309,0,0,0
+task_63261_floor1_room_001,DollhouseTask_63261_NoOutdoor,08dddd06-b5f3-4185-8124-3112699bd118,Kitchen,08dddd06-be84-41e9-890b-fab2bf1af69c,-34.33,2.8851,-3.3245,0,0,1
+task_63261_floor1_room_001,DollhouseTask_63261_NoOutdoor,08dddd06-be84-41e9-890b-fab2bf1af69c,Foyer,08dddd06-be84-41e9-890b-fab2bf1af69c,0.0,0.0,0.0,0,0,0
+task_63261_floor1_room_001,DollhouseTask_63261_NoOutdoor,08dddd06-c5c6-4e98-8dc2-686c0a22acf5,Living Room,08dddd06-be84-41e9-890b-fab2bf1af69c,-4.4,-0.8808,-3.2608,0,0,1
+task_63925_floor1_room_001,DollhouseTask_63925_NoOutdoor,08dde2a0-6b6f-4d92-89b4-a475b312a2ec,Garage 1,08dde2a0-6b6f-4d92-89b4-a475b312a2ec,0.0,0.0,0.0,0,0,0
+task_63925_floor1_room_001,DollhouseTask_63925_NoOutdoor,08dde2a0-7280-425f-8084-5611cf81f07e,Garage,08dde2a0-7280-425f-8084-5611cf81f07e,0.0,0.0,0.0,0,0,0
+task_63925_floor1_room_002,DollhouseTask_63925_NoOutdoor,08dde2a0-1853-46e9-8da6-862e55500226,Kitchen 1,08dde2a0-1853-46e9-8da6-862e55500226,0.0,0.0,0.0,0,0,0
+task_63925_floor1_room_002,DollhouseTask_63925_NoOutdoor,08dde2a0-2008-4333-8943-568caa34ea27,Kitchen,08dde2a0-26e6-403c-8fb1-7e30bb347e0b,97.83,-1.5512,0.9908,0,1,0
+task_63925_floor1_room_002,DollhouseTask_63925_NoOutdoor,08dde2a0-26e6-403c-8fb1-7e30bb347e0b,Family Room 1,08dde2a0-26e6-403c-8fb1-7e30bb347e0b,0.0,0.0,0.0,0,0,0
+task_63925_floor1_room_002,DollhouseTask_63925_NoOutdoor,08dde2a0-5de5-4af5-8ce9-9d80c42930fa,Family Room,08dde2a0-5de5-4af5-8ce9-9d80c42930fa,0.0,0.0,0.0,0,0,0
+task_63925_floor1_room_002,DollhouseTask_63925_NoOutdoor,08dde2a0-8c6f-4134-8c84-d8ab8f7d2049,Entryway,08dde2a0-26e6-403c-8fb1-7e30bb347e0b,156.25,-0.3186,3.579,1,0,0
+task_63927_floor1_room_001,DollhouseTask_63927_NoOutdoor,08dde272-c201-4082-82b9-6cc57ceee9a8,Hallway 2,08dde272-c201-4082-82b9-6cc57ceee9a8,0.0,0.0,0.0,0,0,0
+task_63927_floor1_room_001,DollhouseTask_63927_NoOutdoor,08dde272-ebbd-49d9-8430-d201505c5f61,Hallway 1,08dde272-c201-4082-82b9-6cc57ceee9a8,-50.3,-0.286,-0.5839,0,0,0
+task_63927_floor1_room_002,DollhouseTask_63927_NoOutdoor,08dde270-1de3-40ab-8979-42224a68f456,Primary Bathroom 1,08dde270-1de3-40ab-8979-42224a68f456,0.0,0.0,0.0,0,0,0
+task_63927_floor1_room_002,DollhouseTask_63927_NoOutdoor,08dde270-246e-4409-8c84-49eea3077607,Primary Bathroom,08dde270-1de3-40ab-8979-42224a68f456,47.96,-1.5282,0.1234,0,0,0
+task_63927_floor1_room_003,DollhouseTask_63927_NoOutdoor,08dde273-0c73-4e8e-8d46-6e26e31acfa9,Kitchen 1,08dde273-0c73-4e8e-8d46-6e26e31acfa9,0.0,0.0,0.0,0,0,0
+task_63927_floor1_room_003,DollhouseTask_63927_NoOutdoor,08dde273-143e-4038-810d-8656575eab1c,Kitchen,08dde273-143e-4038-810d-8656575eab1c,0.0,0.0,0.0,0,0,0
+task_63927_floor1_room_003,DollhouseTask_63927_NoOutdoor,08dde273-2490-4e06-882f-572840127ec1,Hallway,08dde273-143e-4038-810d-8656575eab1c,37.16,1.2179,-1.4606,1,0,0
+task_63934_floor1_room_001,DollhouseTask_63934_NoOutdoor,08dde295-406c-4b7e-886e-4aca4c2181b5,Living Room/Dining Room,08dde295-406c-4b7e-886e-4aca4c2181b5,0.0,0.0,0.0,0,0,0
+task_63934_floor1_room_001,DollhouseTask_63934_NoOutdoor,08dde295-5e34-4016-8566-4875fd4704e0,Kitchen,08dde295-406c-4b7e-886e-4aca4c2181b5,83.26,-0.5282,3.0029,0,0,0
+task_64538_floor1_room_001,DollhouseTask_64538_NoOutdoor,08dde7ce-6c27-41f9-846b-2753f368a747,Foyer,08dde7ce-6c27-41f9-846b-2753f368a747,0.0,0.0,0.0,0,0,0
+task_64538_floor1_room_001,DollhouseTask_64538_NoOutdoor,08dde7ce-7fa7-40a0-8d6a-776885d69816,Hallway,08dde7ce-6c27-41f9-846b-2753f368a747,-5.52,-0.2121,1.9677,0,0,0
+task_64538_floor1_room_002,DollhouseTask_64538_NoOutdoor,08dde7ce-9a66-4935-8281-151ef743e3b4,Dining Room,08dde7d4-50b9-4479-8069-65537ac989b0,179.25,1.4619,-2.8641,0,0,0
+task_64538_floor1_room_002,DollhouseTask_64538_NoOutdoor,08dde7ce-b8c7-40fd-84e4-bae09a90b9e8,Kitchen,08dde7d4-50b9-4479-8069-65537ac989b0,69.4,-0.9359,-2.6294,0,0,0
+task_64538_floor1_room_002,DollhouseTask_64538_NoOutdoor,08dde7d4-445d-46c1-8cdd-7f2c28eb98d5,Living Room,08dde7d4-50b9-4479-8069-65537ac989b0,36.24,2.0389,-0.7892,0,0,0
+task_64538_floor1_room_002,DollhouseTask_64538_NoOutdoor,08dde7d4-50b9-4479-8069-65537ac989b0,Living Room 1,08dde7d4-50b9-4479-8069-65537ac989b0,0.0,0.0,0.0,0,0,0
+task_65000_floor1_room_001,DollhouseTask_65000,08ddec9a-de10-4da5-817a-1d129455168a,dt drive thru 03,08ddec9a-de10-4da5-817a-1d129455168a,0.0,0.0,0.0,0,0,0
+task_65000_floor1_room_001,DollhouseTask_65000,08ddec9a-e43a-426a-81f2-5ec512cb06ea,dt drive thru 02,08ddec9a-e43a-426a-81f2-5ec512cb06ea,0.0,0.0,0.0,0,0,0
+task_65000_floor1_room_001,DollhouseTask_65000,08ddec9a-eb2f-46c7-8b89-713d38ba2866,dt drive thru 01,08ddec9a-e43a-426a-81f2-5ec512cb06ea,-96.95,0.2556,-1.4837,1,0,0
+task_65000_floor1_room_002,DollhouseTask_65000,08ddec9b-1616-4ae7-88cf-3b844ffb12f1,dt 02,08ddec9b-1616-4ae7-88cf-3b844ffb12f1,0.0,0.0,0.0,0,0,0
+task_65000_floor1_room_002,DollhouseTask_65000,08ddec9b-1c9f-4cfc-8f8f-51ddcf897e06,dt 01,08ddec9b-1616-4ae7-88cf-3b844ffb12f1,-17.96,-1.5142,0.7606,0,0,0
+task_65147_floor1_room_001,DollhouseTask_65147_NoOutdoor,08dded67-0eeb-4e5b-81b3-8079ae54bd85,Primary Bathroom ,08dded67-0eeb-4e5b-81b3-8079ae54bd85,0.0,0.0,0.0,0,0,0
+task_65147_floor1_room_001,DollhouseTask_65147_NoOutdoor,08dded67-142f-417e-8632-e86629e980bf,Primary Bathroom-1,08dded67-0eeb-4e5b-81b3-8079ae54bd85,41.38,-0.8841,-0.3827,0,0,0
+task_65147_floor1_room_002,DollhouseTask_65147_NoOutdoor,08dded67-56bd-4d50-885a-3ccde2afe615,Dining Room,08dded67-5bc4-4a72-8c12-a0342e1760c3,81.63,0.4013,-2.2818,0,0,0
+task_65147_floor1_room_002,DollhouseTask_65147_NoOutdoor,08dded67-5bc4-4a72-8c12-a0342e1760c3,Living Room,08dded67-5bc4-4a72-8c12-a0342e1760c3,0.0,0.0,0.0,0,0,0
+task_65147_floor1_room_002,DollhouseTask_65147_NoOutdoor,08dded67-60ee-419a-864f-2134f96c1c0d,Foyer,08dded67-5bc4-4a72-8c12-a0342e1760c3,-11.81,1.7175,-1.0405,0,0,0
+task_65148_basement_room_001,DollhouseTask_65148_NoOutdoor,08dded73-a1ac-4ae9-86bf-d616a2366645,Lower Hallway,08dded73-a828-4958-8d7e-07231f0616e2,87.4,-0.5086,-1.1006,0,0,1
+task_65148_basement_room_001,DollhouseTask_65148_NoOutdoor,08dded73-a828-4958-8d7e-07231f0616e2,Lower Hallway 1,08dded73-a828-4958-8d7e-07231f0616e2,0.0,0.0,0.0,0,0,0
+task_65148_basement_room_001,DollhouseTask_65148_NoOutdoor,08dded73-ae41-4588-8830-5b6b609f3380,Lower Hallway 2,08dded73-a828-4958-8d7e-07231f0616e2,144.1,-1.1367,-2.6143,0,1,1
+task_65148_floor1_room_001,DollhouseTask_65148_NoOutdoor,08dded73-451f-43c3-8a49-600151b050d1,Living Room,08dded73-528c-445a-873d-16b47b415204,-179.46,-0.5437,-3.7703,0,0,0
+task_65148_floor1_room_001,DollhouseTask_65148_NoOutdoor,08dded73-528c-445a-873d-16b47b415204,Dining Room,08dded73-528c-445a-873d-16b47b415204,0.0,0.0,0.0,0,0,0
+task_65148_floor1_room_001,DollhouseTask_65148_NoOutdoor,08dded73-60b7-45b9-8fa3-7cbb1a8ff08f,Kitchen,08dded73-528c-445a-873d-16b47b415204,177.88,-1.5095,0.815,0,0,0
+task_65148_floor1_room_002,DollhouseTask_65148_NoOutdoor,08dded73-67c7-4c7a-88fa-40aabe32b722,Upper Hallway 1,08dded73-67c7-4c7a-88fa-40aabe32b722,0.0,0.0,0.0,0,0,0
+task_65148_floor1_room_002,DollhouseTask_65148_NoOutdoor,08dded73-6e2a-438d-8424-4a17cb394b35,Upper Hallway 2,08dded73-67c7-4c7a-88fa-40aabe32b722,-46.45,2.4886,1.0175,0,1,0
+task_65826_floor1_room_001,DollhouseTask_65826_NoOutdoor,08ddf2f2-6e0f-4dc6-87c4-c1db88ae3852,Bathroom 1,08ddf2f2-6e0f-4dc6-87c4-c1db88ae3852,0.0,0.0,0.0,0,0,0
+task_65826_floor1_room_001,DollhouseTask_65826_NoOutdoor,08ddf2f2-8415-4ac5-8552-c03cf16314ab,Bathroom 2,08ddf2f2-6e0f-4dc6-87c4-c1db88ae3852,0.34,-0.9688,-0.1373,0,0,0
+task_65826_floor1_room_002,DollhouseTask_65826_NoOutdoor,08ddf2f3-fd52-4ea9-8240-e209c12f1314,Kitchen,08ddf2f3-fd52-4ea9-8240-e209c12f1314,0.0,0.0,0.0,0,0,0
+task_65826_floor1_room_002,DollhouseTask_65826_NoOutdoor,08ddf2f4-088e-419e-86e5-4ab8a0bb0b19,Kitchen 1,08ddf2f3-fd52-4ea9-8240-e209c12f1314,79.74,2.1382,0.209,0,0,0
+task_66500_floor1_room_001,DollhouseTask_66500_NoOutdoor,08ddf87f-0d42-4e28-84f8-04dcdd9aacdf,Kitchen,08ddf87f-0d42-4e28-84f8-04dcdd9aacdf,0.0,0.0,0.0,0,0,0
+task_66500_floor1_room_001,DollhouseTask_66500_NoOutdoor,08ddf87f-5221-44cc-8de0-78f5eb5e17dd,Living Room,08ddf87f-5221-44cc-8de0-78f5eb5e17dd,0.0,0.0,0.0,0,0,0
+task_66500_floor1_room_001,DollhouseTask_66500_NoOutdoor,08ddf87f-7899-4ecb-892b-067d727efff6,Hallway 1,08ddf87f-7899-4ecb-892b-067d727efff6,0.0,0.0,0.0,0,0,0
+task_66500_floor1_room_001,DollhouseTask_66500_NoOutdoor,08ddf87f-9ec1-4d37-82ff-43af8526f325,Stairs,08ddf87f-7899-4ecb-892b-067d727efff6,-61.73,0.6507,2.5235,1,0,0
+task_66502_floor1_room_001,DollhouseTask_66502_NoOutdoor,08ddf88b-b15d-40ec-88bb-8c1756c1c2f3,Primary Bathroom - 1,08ddf88b-b15d-40ec-88bb-8c1756c1c2f3,0.0,0.0,0.0,0,0,0
+task_66502_floor1_room_001,DollhouseTask_66502_NoOutdoor,08ddf88b-b9ee-43dd-8e11-44bf79f7a913,Primary Bathroom,08ddf88b-b15d-40ec-88bb-8c1756c1c2f3,-169.34,-1.337,0.2272,0,0,0
+task_66502_floor1_room_002,DollhouseTask_66502_NoOutdoor,08ddf88b-d791-4585-8e2c-d39263be4d7c,Hallway,08ddf88c-0ffe-4980-827f-0d1b2d1d0566,91.69,-1.5771,0.5757,0,0,0
+task_66502_floor1_room_002,DollhouseTask_66502_NoOutdoor,08ddf88c-042b-49b1-83f3-68a5587be817,Stairs,08ddf88c-0ffe-4980-827f-0d1b2d1d0566,92.1,-0.2393,-0.4115,0,0,0
+task_66502_floor1_room_002,DollhouseTask_66502_NoOutdoor,08ddf88c-0ffe-4980-827f-0d1b2d1d0566,Landing,08ddf88c-0ffe-4980-827f-0d1b2d1d0566,0.0,0.0,0.0,0,0,0
+task_66502_floor1_room_003,DollhouseTask_66502_NoOutdoor,08ddf88c-bcaf-4fb6-8d98-076c9ab9ae19,Kitchen,08ddf88c-dde8-41c7-8373-66a6d96431b7,-43.05,1.6516,-3.4167,0,1,0
+task_66502_floor1_room_003,DollhouseTask_66502_NoOutdoor,08ddf88c-cb5a-45a6-8555-51bc2e85fca4,Foyer,08ddf88c-dde8-41c7-8373-66a6d96431b7,56.91,-1.284,-2.4872,0,0,0
+task_66502_floor1_room_003,DollhouseTask_66502_NoOutdoor,08ddf88c-dde8-41c7-8373-66a6d96431b7,Breakfast Nook,08ddf88c-dde8-41c7-8373-66a6d96431b7,0.0,0.0,0.0,0,0,0
+task_66502_floor1_room_004,DollhouseTask_66502_NoOutdoor,08ddf88c-7e23-4c13-8762-d0b938ecc947,Bathroom 3,08ddf88c-7e23-4c13-8762-d0b938ecc947,0.0,0.0,0.0,0,0,0
+task_66502_floor1_room_004,DollhouseTask_66502_NoOutdoor,08ddf88c-8cf3-403c-8cd7-f8f54675d17a,Bathroom 2,08ddf88c-8cf3-403c-8cd7-f8f54675d17a,0.0,0.0,0.0,0,0,0
+task_68478_floor1_room_001,DollhouseTask_68478_NoOutdoor,08de08fd-411a-48c9-8dd9-93cf40be323b,Entryway 1,08de08fd-411a-48c9-8dd9-93cf40be323b,0.0,0.0,0.0,0,0,0
+task_68478_floor1_room_001,DollhouseTask_68478_NoOutdoor,08de08fd-48b0-4f84-8493-e7456aad0a97,Hallway,08de08fd-411a-48c9-8dd9-93cf40be323b,-2.0,-1.5371,-0.5005,0,0,0
+task_68478_floor1_room_002,DollhouseTask_68478_NoOutdoor,08de08fd-5b54-4d29-8e46-21921c99be9f,Bedroom,08de08fd-5b54-4d29-8e46-21921c99be9f,0.0,0.0,0.0,0,0,0
+task_68478_floor1_room_002,DollhouseTask_68478_NoOutdoor,08de08fd-660f-47af-822d-60a456190b00,Bedroom ,08de08fd-5b54-4d29-8e46-21921c99be9f,-173.71,-0.4697,1.569,0,0,0
+task_68478_floor1_room_003,DollhouseTask_68478_NoOutdoor,08de08fe-854e-4cb2-8df8-5971181cfe2d,Hallway 3,08de08fe-96ab-43c5-8bfd-2ebb0447d56c,58.01,0.4189,-1.3679,0,0,0
+task_68478_floor1_room_003,DollhouseTask_68478_NoOutdoor,08de08fe-96ab-43c5-8bfd-2ebb0447d56c,Driveway 6,08de08fe-96ab-43c5-8bfd-2ebb0447d56c,0.0,0.0,0.0,0,0,0
+task_68478_floor1_room_003,DollhouseTask_68478_NoOutdoor,08de08fe-bebe-47b9-8aab-3afa96de0979,Kitchen,08de08fe-96ab-43c5-8bfd-2ebb0447d56c,-30.87,2.2412,0.4098,0,0,0
+task_68478_floor1_room_003,DollhouseTask_68478_NoOutdoor,08de08fe-c660-452a-8e68-bfab51304958,Dining Room,08de08fe-96ab-43c5-8bfd-2ebb0447d56c,-122.33,0.4826,0.5885,0,0,0
+task_68478_floor1_room_003,DollhouseTask_68478_NoOutdoor,08de08ff-27fb-4ecd-8c1c-c3eaad4b97fa,Kitchen 1,08de08fe-96ab-43c5-8bfd-2ebb0447d56c,-82.77,1.3036,-0.0262,0,0,0
+task_68478_floor1_room_004,DollhouseTask_68478_NoOutdoor,08de08ff-0e74-422f-879f-1c76d4899c4c,Family Room,08de08ff-0e74-422f-879f-1c76d4899c4c,0.0,0.0,0.0,0,0,0
+task_68478_floor1_room_004,DollhouseTask_68478_NoOutdoor,08de08ff-16dc-4854-897b-6fa3591348f5,Family Room 1,08de08ff-0e74-422f-879f-1c76d4899c4c,44.96,-0.7684,1.432,0,0,0
+task_68478_floor1_room_005,DollhouseTask_68478_NoOutdoor,08de08fe-fccf-449b-8975-b95fa9de4d2b,Living Room,08de08ff-05b6-42cf-899c-4e685aa5ae26,-38.31,-1.4255,0.4705,0,0,1
+task_68478_floor1_room_005,DollhouseTask_68478_NoOutdoor,08de08ff-05b6-42cf-899c-4e685aa5ae26,Living Room 1,08de08ff-05b6-42cf-899c-4e685aa5ae26,0.0,0.0,0.0,0,0,0
+task_68478_floor1_room_005,DollhouseTask_68478_NoOutdoor,08de08ff-1f25-4734-8ba1-8ac8bb06e7b3,Living Room 2,08de08ff-05b6-42cf-899c-4e685aa5ae26,124.13,0.3098,0.166,0,1,1
+task_68478_floor1_room_006,DollhouseTask_68478_NoOutdoor,08de08fe-d199-4699-8fe2-210531769935,Game Room,08de08fe-d199-4699-8fe2-210531769935,0.0,0.0,0.0,0,0,0
+task_68478_floor1_room_006,DollhouseTask_68478_NoOutdoor,08de08fe-daac-411e-8d69-3e8d36b9cf52,Game Room,08de08fe-d199-4699-8fe2-210531769935,21.99,1.0817,-0.1002,0,1,0
+task_68478_floor1_room_006,DollhouseTask_68478_NoOutdoor,08de08fe-e4e2-42f6-84f8-6e61943b470d,Game Room,08de08fe-d199-4699-8fe2-210531769935,176.98,0.2236,2.9687,1,0,0
+task_68478_floor2_room_001,DollhouseTask_68478_NoOutdoor,08de08fd-81a5-4c5c-83de-728a37e2fb40,Hallway 1,08de08fd-81a5-4c5c-83de-728a37e2fb40,0.0,0.0,0.0,0,0,0
+task_68478_floor2_room_001,DollhouseTask_68478_NoOutdoor,08de08fd-8ed4-4857-85ee-0d250169bf62,Hallway 2,08de08fd-81a5-4c5c-83de-728a37e2fb40,-60.5,0.25,0.8394,0,0,0
+task_68478_floor2_room_002,DollhouseTask_68478_NoOutdoor,08de08fd-eb1d-4f32-822c-93244db5cba0,Primary Bedroom,08de08fd-eb1d-4f32-822c-93244db5cba0,0.0,0.0,0.0,0,0,0
+task_68478_floor2_room_002,DollhouseTask_68478_NoOutdoor,08de08fd-f2c9-4361-8c12-e06bb620a05d,Primary Bedroom 1,08de08fd-eb1d-4f32-822c-93244db5cba0,88.3,2.0703,0.4339,0,0,0
+task_68983_floor1_room_001,DollhouseTask_68983_NoOutdoor,08de0d9e-558e-4f82-85cd-f0f791deb0ee,Utility ,08de0d9e-5d76-408a-81f2-c33de484f78b,-174.62,0.1985,2.8849,0,0,0
+task_68983_floor1_room_001,DollhouseTask_68983_NoOutdoor,08de0d9e-5d76-408a-81f2-c33de484f78b,Hallway,08de0d9e-5d76-408a-81f2-c33de484f78b,0.0,0.0,0.0,0,0,0
+task_68983_floor1_room_001,DollhouseTask_68983_NoOutdoor,08de0d9e-778c-4ec3-8424-792ba5928fcd,Living Room,08de0d9e-5d76-408a-81f2-c33de484f78b,-49.22,-1.2977,-1.494,0,0,0
+task_68983_floor1_room_002,DollhouseTask_68983_NoOutdoor,08de0d9e-6624-462b-859c-4deda174902e,Kitchen,08de0d9e-6624-462b-859c-4deda174902e,0.0,0.0,0.0,0,0,0
+task_68983_floor1_room_002,DollhouseTask_68983_NoOutdoor,08de0d9e-6f06-4c8a-8fea-05bb96b07c48,Breakfast Nook,08de0d9e-6624-462b-859c-4deda174902e,2.47,0.5891,-1.9315,0,0,0
+task_69126_floor1_room_001,DollhouseTask_69126_NoOutdoor,08de0e70-c851-4a96-89ae-9fa5dc9bb9bf,Foyer,08de0e70-e9e3-4398-82ac-fd4eb698335a,141.98,1.1377,0.2294,0,0,0
+task_69126_floor1_room_001,DollhouseTask_69126_NoOutdoor,08de0e70-e9e3-4398-82ac-fd4eb698335a,Stairs,08de0e70-e9e3-4398-82ac-fd4eb698335a,0.0,0.0,0.0,0,0,0
+task_69126_floor1_room_001,DollhouseTask_69126_NoOutdoor,08de0e71-0283-4522-84e3-3f55edafa47c,Closet,08de0e70-e9e3-4398-82ac-fd4eb698335a,8.26,-0.7932,-0.1462,0,0,0
+task_69126_floor1_room_001,DollhouseTask_69126_NoOutdoor,08de0e71-3137-416e-83c0-a782f8590cfa,Hallway,08de0e70-e9e3-4398-82ac-fd4eb698335a,1.99,-2.4369,-0.3212,0,1,0
+task_69126_floor1_room_002,DollhouseTask_69126_NoOutdoor,08de0e72-a867-4196-83f5-14962234ac69,Hallway 2,08de0e72-a867-4196-83f5-14962234ac69,0.0,0.0,0.0,0,0,0
+task_69126_floor1_room_002,DollhouseTask_69126_NoOutdoor,08de0e72-f3e0-4ab5-8ae3-2cbfaea47fc2,Kitchen,08de0e72-a867-4196-83f5-14962234ac69,-9.78,2.6066,1.0346,1,0,0
+task_69126_floor1_room_002,DollhouseTask_69126_NoOutdoor,08de0e73-13ca-4cf8-8ca1-935aa4b01efb,Dining room,08de0e72-a867-4196-83f5-14962234ac69,1.08,1.0942,2.8395,1,0,0
+task_69127_floor1_room_001,DollhouseTask_69127_NoOutdoor,08de0e73-c2fc-4a9b-85df-a6405bc22f31,Kitchen,08de0e73-c2fc-4a9b-85df-a6405bc22f31,0.0,0.0,0.0,0,0,0
+task_69127_floor1_room_001,DollhouseTask_69127_NoOutdoor,08de0e73-ca00-45af-8f5c-5777b0f1bd67,Closet,08de0e73-c2fc-4a9b-85df-a6405bc22f31,-58.53,1.2081,0.0505,0,0,0
+task_69127_floor1_room_002,DollhouseTask_69127_NoOutdoor,08de0e73-d154-44b9-8615-51d73f82511c,Dining Room,08de0e73-d866-4b4b-859c-165a9e01e98d,-150.75,-2.6179,0.1304,1,0,0
+task_69127_floor1_room_002,DollhouseTask_69127_NoOutdoor,08de0e73-d866-4b4b-859c-165a9e01e98d,Living Room,08de0e73-d866-4b4b-859c-165a9e01e98d,0.0,0.0,0.0,0,0,0
+task_69127_floor1_room_002,DollhouseTask_69127_NoOutdoor,08de0e73-e682-4d00-86e6-c098bc3e7271,Closet 1,08de0e73-d866-4b4b-859c-165a9e01e98d,96.47,-1.6287,2.1437,0,1,0
+task_69127_floor2_room_001,DollhouseTask_69127_NoOutdoor,08de0e74-1f24-48a4-8283-448cc2dda4a3,Bathroom,08de0e74-1f24-48a4-8283-448cc2dda4a3,0.0,0.0,0.0,0,0,0
+task_69127_floor2_room_001,DollhouseTask_69127_NoOutdoor,08de0e74-25eb-4db1-8851-6791aafa7e13,Bathroom 1,08de0e74-1f24-48a4-8283-448cc2dda4a3,30.37,0.0011,-0.793,0,1,0
+task_69734_floor1_room_001,DollhouseTask_69734_NoOutdoor,08de13ee-c184-48e0-8f08-b96fda457b97,Bedroom 1,08de13ee-c184-48e0-8f08-b96fda457b97,0.0,0.0,0.0,0,0,0
+task_69734_floor1_room_001,DollhouseTask_69734_NoOutdoor,08de13ee-cfc3-4565-8ac7-82abfde362a1,Closet 1,08de13ee-c184-48e0-8f08-b96fda457b97,-136.08,0.8013,1.0244,0,0,0
+task_69734_floor1_room_002,DollhouseTask_69734_NoOutdoor,08de13ee-a76b-48e6-8014-4caa99da248f,Bedroom,08de13ee-a76b-48e6-8014-4caa99da248f,0.0,0.0,0.0,0,0,0
+task_69734_floor1_room_002,DollhouseTask_69734_NoOutdoor,08de13ee-adec-4647-89d6-11d17e2a2c56,Closet,08de13ee-a76b-48e6-8014-4caa99da248f,-45.55,1.4448,1.3391,0,0,0
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-0229-455e-88ad-0a13dab95213,Dining Room/ landing ,08de13ef-0938-4acf-8a20-1cb12ba75526,59.84,-1.8344,1.214,0,0,1
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-0938-4acf-8a20-1cb12ba75526,Dining Room,08de13ef-0938-4acf-8a20-1cb12ba75526,0.0,0.0,0.0,0,0,0
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-101b-4ec7-8a91-bfeab71c9f6b,Hallway 1,08de13ef-0938-4acf-8a20-1cb12ba75526,52.9,-2.2128,0.6656,0,0,1
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-1e7a-4392-8134-296f94ac87b2,Hallway 2,08de13ef-0938-4acf-8a20-1cb12ba75526,-90.8,-4.2649,2.2073,0,1,0
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-4974-49e0-8bcd-a9701be9ee5b,Laundry ,08de13ef-0938-4acf-8a20-1cb12ba75526,-14.66,-2.3924,1.3305,0,1,1
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-507a-4c0e-80eb-fe79938bf043,Kitchen,08de13ef-0938-4acf-8a20-1cb12ba75526,118.81,-3.6336,4.0698,0,0,1
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-5788-4f77-85e9-f6585a56664e,Pantry,08de13ef-0938-4acf-8a20-1cb12ba75526,136.3,-4.322,3.9109,0,0,1
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-5e97-4628-8a0b-ea20641bbdec,Kitchen 1,08de13ef-0938-4acf-8a20-1cb12ba75526,173.12,-5.3261,5.1661,0,1,0
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-652c-4dc9-84d0-cbdd66b96682,Kitchen 2,08de13ef-0938-4acf-8a20-1cb12ba75526,64.57,-1.9715,3.4262,0,0,1
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,08de13ef-6b61-4bee-812d-86cbadd080a1,Dining Room 1,08de13ef-0938-4acf-8a20-1cb12ba75526,93.17,1.6971,2.6096,1,0,0

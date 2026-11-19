@@ -1,0 +1,119 @@
+# CoVisPose, server scale, on the PAPER'S PAIR SET: co-visibility down to 0.10
+# plus zero-overlap negatives (pos:neg 2.5). Identical to server_a5000.yaml in
+# everything else, so the two runs differ only in the pairs they saw (and the
+# A17 label fix) -- see docs/PAPER_COMPARISON.md section 3.
+#
+#   python scripts/build_pair_index.py --covis-min 0.10 --neg-ratio 0.4 \
+#       --adj-per-house 40 --tag _c10neg        (writes training/pairs/*_c10neg.csv)
+#   torchrun --standalone --nproc_per_node=3 scripts/train.py --config training/configs/server_c10neg.yaml
+#
+# Run every command from the package root (paths below are relative to it).
+#
+# Every change from configs/proto_rtx1070.yaml, and why, is in
+# docs/SERVER_OPTIMIZATION.md. Markers:
+#   [MEASURE] unmeasured on the server -- run scripts/benchmark_vram.py --config
+#             this file before the long run and adjust.
+#   [GUESS]   carried over or new engineering judgement (docs/ASSUMPTIONS.md).
+
+data:
+  # Override with the ZIND_ROOT environment variable or --data-root.
+  root: /data/zind_data
+  covis_csv: /data/zind/covis_scores.csv
+  partition: /data/zind/zind_partition.json
+  train_index: training/pairs/train_c10neg.csv
+  val_index: training/pairs/val_c10neg.csv
+  test_index: training/pairs/test_c10neg.csv
+  layout: layout_visible
+  covis_min: 0.10                 # the paper's floor (A1); was 0.30
+  min_baseline: 0.10
+  # Per GPU process. [MEASURED] on the server (32 cores): one loader gives
+  # 141 / 195 / 194 / 89 pairs/s at 4 / 8 / 16 / 32 workers, and each A5000
+  # consumes ~23 pairs/s. 3 ranks x 6 workers is ample, and leaves margin for
+  # the first epoch reading from a cold HDD page cache.
+  num_workers: 6
+  prefetch_factor: 4
+  fast_jpeg: true                 # DCT-domain 2x downscale of the 2048x1024 panos
+  augment: true                   # exact roll + pair swap + gamma
+  flip_prob: 0.5                  # exact mirror of both panos
+
+model:
+  backbone: resnet50              # the 1070 config's documented compromise, undone
+  weights: IMAGENET1K_V2          # torchvision's improved ResNet-50 weights
+  pretrained: true
+  img_h: 512
+  img_w: 1024
+  # One token per pixel column (0.35 deg). The backbone's finest stage is at
+  # stride 4, so columns are resampled from 256 distinct features; see
+  # configs/server_hires.yaml for native 1024x2048 input.
+  n_cols: 1024
+  d_model: 384
+  n_heads: 8
+  n_layers: 8
+  dim_ff: 1536
+  dropout: 0.0
+  drop_path: 0.1                  # the 1070 run's train/val gap grew to 0.34
+  out_scale: 8
+  head_hidden: 256
+  pose_decoder: attn
+  pose_queries: 4
+  pose_layers: 2
+  geo_pose: true
+  geo_max_dist: 10.0
+  geo_irls_iters: 2               # robust re-weighting, see covispose/geo_pose.py
+  geo_irls_c: 0.3
+  grad_checkpoint: false          # turn on if batch_size has to drop below 6
+
+loss:
+  covis: 1.0
+  corr: 1.0
+  bon: 2.0
+  pose_t: 1.0
+  pose_yaw: 1.0
+  geo_t: 0.5
+  geo_yaw: 0.5
+  covis_pos_weight: 1.0           # A14a is still open; 0.31 is the ablation
+
+train:
+  epochs: 16
+  # per GPU. [MEASURED] on one A5000, bf16: bs 4/6/8/10/12 -> 7.6/10.4/13.3/
+  # 16.3/19.1 GiB reserved, 20.9/22.3/23.1/23.5/23.7 pairs/s. Throughput is
+  # flat past 8, so 8 keeps 10 GiB of headroom for ~2.7 % less speed.
+  batch_size: 8
+  grad_accum: 1
+  amp: true
+  amp_dtype: bfloat16             # Ampere: no loss scaling, no fp16 overflow
+  tf32: true
+  channels_last: true
+  compile: false                  # try true once a short run is known-good
+  fused_adamw: true
+  # 3 GPUs x 8 = 24 pairs per step. [MEASURED] 5e-4 (sqrt-scaled from the 1070
+  # run) was unstable once warmup ended: boundary loss regressed 0.049 -> ~0.11,
+  # grad norm spikes to 170 with ~100 % clipping, co-visibility stuck at the
+  # majority class through step 4200. Back to the 1070 run's proven 3e-4.
+  lr: 3.0e-4
+  backbone_lr_mult: 0.1
+  weight_decay: 0.05
+  no_decay_norms: true            # no decay on norms / biases / embeddings
+  grad_clip: 5.0
+  warmup_steps: 4000
+  scheduler: cosine
+  min_lr_ratio: 0.01
+  ema_decay: 0.9998               # ~5k-step horizon, ~0.5 epoch at 24 pairs/step
+  ema_warmup_steps: 2000
+  geo_start_steps: 9000           # ~1 epoch: the heads must mean something first
+  geo_ramp_steps: 9000
+  val_subsample: 0                # full val split every epoch (sharded over GPUs)
+  val_batch_size: 16
+  seed: 0
+
+eval:
+  ransac_threshold: 0.30          # A14b; re-tune for the new model with tune_ransac.py
+  ransac_iters: 500
+  vram_budget_gib: 23.0           # capped at 98 % of each card's memory
+
+ckpt:
+  dir: ckpt/server_c10neg
+  save_every_epoch: true
+  # ~1.4 GB per checkpoint (weights + EMA + AdamW moments); the data disk is 98 GB.
+  keep_last: 8
+  resume: auto

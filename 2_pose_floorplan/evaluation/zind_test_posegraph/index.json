@@ -1,0 +1,3265 @@
+{
+ "panos": {
+  "0990_floor_01_partial_room_01_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0990_floor_01_partial_room_03_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "0990_floor_01_partial_room_04_pano_23": {
+   "asteroom_name": "floor_01 complete_room_01 pano_23"
+  },
+  "0990_floor_01_partial_room_05_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0021_floor_01_partial_room_01_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0021_floor_01_partial_room_04_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0021_floor_01_partial_room_05_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "0021_floor_01_partial_room_08_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0809_floor_01_partial_room_04_pano_22": {
+   "asteroom_name": "floor_01 complete_room_04 pano_22"
+  },
+  "0809_floor_01_partial_room_06_pano_24": {
+   "asteroom_name": "floor_01 complete_room_04 pano_24"
+  },
+  "0809_floor_01_partial_room_08_pano_2": {
+   "asteroom_name": "floor_01 complete_room_04 pano_2"
+  },
+  "0809_floor_01_partial_room_11_pano_10": {
+   "asteroom_name": "floor_01 complete_room_04 pano_10"
+  },
+  "0809_floor_01_partial_room_12_pano_12": {
+   "asteroom_name": "floor_01 complete_room_04 pano_12"
+  },
+  "0809_floor_01_partial_room_16_pano_34": {
+   "asteroom_name": "floor_01 complete_room_04 pano_34"
+  },
+  "0809_floor_01_partial_room_21_pano_19": {
+   "asteroom_name": "floor_01 complete_room_04 pano_19"
+  },
+  "0966_floor_00_partial_room_02_pano_23": {
+   "asteroom_name": "floor_00 complete_room_02 pano_23"
+  },
+  "0966_floor_00_partial_room_06_pano_24": {
+   "asteroom_name": "floor_00 complete_room_02 pano_24"
+  },
+  "0966_floor_00_partial_room_07_pano_25": {
+   "asteroom_name": "floor_00 complete_room_02 pano_25"
+  },
+  "0966_floor_01_partial_room_03_pano_3": {
+   "asteroom_name": "floor_01 complete_room_03 pano_3"
+  },
+  "0966_floor_01_partial_room_05_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "0966_floor_01_partial_room_06_pano_9": {
+   "asteroom_name": "floor_01 complete_room_03 pano_9"
+  },
+  "0966_floor_01_partial_room_07_pano_4": {
+   "asteroom_name": "floor_01 complete_room_03 pano_4"
+  },
+  "0966_floor_01_partial_room_08_pano_7": {
+   "asteroom_name": "floor_01 complete_room_03 pano_7"
+  },
+  "1551_floor_02_partial_room_04_pano_18": {
+   "asteroom_name": "floor_02 complete_room_04 pano_18"
+  },
+  "1551_floor_02_partial_room_10_pano_28": {
+   "asteroom_name": "floor_02 complete_room_04 pano_28"
+  },
+  "1551_floor_02_partial_room_11_pano_19": {
+   "asteroom_name": "floor_02 complete_room_04 pano_19"
+  },
+  "0963_floor_01_partial_room_05_pano_6": {
+   "asteroom_name": "floor_01 complete_room_05 pano_6"
+  },
+  "0963_floor_01_partial_room_07_pano_18": {
+   "asteroom_name": "floor_01 complete_room_05 pano_18"
+  },
+  "0963_floor_01_partial_room_08_pano_4": {
+   "asteroom_name": "floor_01 complete_room_05 pano_4"
+  },
+  "0963_floor_01_partial_room_12_pano_5": {
+   "asteroom_name": "floor_01 complete_room_05 pano_5"
+  },
+  "0963_floor_01_partial_room_15_pano_14": {
+   "asteroom_name": "floor_01 complete_room_05 pano_14"
+  },
+  "0963_floor_01_partial_room_18_pano_13": {
+   "asteroom_name": "floor_01 complete_room_05 pano_13"
+  },
+  "1169_floor_00_partial_room_01_pano_20": {
+   "asteroom_name": "floor_00 complete_room_01 pano_20"
+  },
+  "1169_floor_00_partial_room_04_pano_26": {
+   "asteroom_name": "floor_00 complete_room_01 pano_26"
+  },
+  "1169_floor_00_partial_room_07_pano_27": {
+   "asteroom_name": "floor_00 complete_room_01 pano_27"
+  },
+  "1169_floor_01_partial_room_01_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1169_floor_01_partial_room_03_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "1169_floor_01_partial_room_05_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0203_floor_01_partial_room_03_pano_22": {
+   "asteroom_name": "floor_01 complete_room_03 pano_22"
+  },
+  "0203_floor_01_partial_room_04_pano_31": {
+   "asteroom_name": "floor_01 complete_room_03 pano_31"
+  },
+  "0203_floor_01_partial_room_08_pano_6": {
+   "asteroom_name": "floor_01 complete_room_03 pano_6"
+  },
+  "0203_floor_01_partial_room_09_pano_21": {
+   "asteroom_name": "floor_01 complete_room_03 pano_21"
+  },
+  "0203_floor_01_partial_room_12_pano_43": {
+   "asteroom_name": "floor_01 complete_room_03 pano_43"
+  },
+  "0203_floor_01_partial_room_15_pano_44": {
+   "asteroom_name": "floor_01 complete_room_03 pano_44"
+  },
+  "0203_floor_01_partial_room_19_pano_46": {
+   "asteroom_name": "floor_01 complete_room_03 pano_46"
+  },
+  "0203_floor_01_partial_room_20_pano_0": {
+   "asteroom_name": "floor_01 complete_room_03 pano_0"
+  },
+  "0203_floor_01_partial_room_22_pano_38": {
+   "asteroom_name": "floor_01 complete_room_03 pano_38"
+  },
+  "0203_floor_01_partial_room_06_pano_52": {
+   "asteroom_name": "floor_01 complete_room_05 pano_52"
+  },
+  "0203_floor_01_partial_room_16_pano_49": {
+   "asteroom_name": "floor_01 complete_room_05 pano_49"
+  },
+  "0203_floor_01_partial_room_21_pano_48": {
+   "asteroom_name": "floor_01 complete_room_05 pano_48"
+  },
+  "1041_floor_01_partial_room_03_pano_27": {
+   "asteroom_name": "floor_01 complete_room_03 pano_27"
+  },
+  "1041_floor_01_partial_room_12_pano_7": {
+   "asteroom_name": "floor_01 complete_room_03 pano_7"
+  },
+  "1041_floor_01_partial_room_14_pano_9": {
+   "asteroom_name": "floor_01 complete_room_03 pano_9"
+  },
+  "1041_floor_01_partial_room_21_pano_12": {
+   "asteroom_name": "floor_01 complete_room_03 pano_12"
+  },
+  "1041_floor_01_partial_room_22_pano_13": {
+   "asteroom_name": "floor_01 complete_room_03 pano_13"
+  },
+  "0957_floor_01_partial_room_02_pano_25": {
+   "asteroom_name": "floor_01 complete_room_02 pano_25"
+  },
+  "0957_floor_01_partial_room_03_pano_12": {
+   "asteroom_name": "floor_01 complete_room_02 pano_12"
+  },
+  "0957_floor_01_partial_room_04_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "0957_floor_01_partial_room_06_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "0496_floor_01_partial_room_01_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0496_floor_01_partial_room_03_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0496_floor_01_partial_room_05_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0496_floor_01_partial_room_06_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0496_floor_01_partial_room_07_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "1544_floor_01_partial_room_02_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "1544_floor_01_partial_room_03_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "1544_floor_01_partial_room_07_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "1544_floor_01_partial_room_09_pano_16": {
+   "asteroom_name": "floor_01 complete_room_02 pano_16"
+  },
+  "1544_floor_01_partial_room_11_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0668_floor_01_partial_room_01_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0668_floor_01_partial_room_04_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0668_floor_01_partial_room_05_pano_25": {
+   "asteroom_name": "floor_01 complete_room_01 pano_25"
+  },
+  "0668_floor_01_partial_room_08_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "0668_floor_01_partial_room_10_pano_27": {
+   "asteroom_name": "floor_01 complete_room_01 pano_27"
+  },
+  "0668_floor_01_partial_room_11_pano_21": {
+   "asteroom_name": "floor_01 complete_room_01 pano_21"
+  },
+  "0668_floor_01_partial_room_14_pano_26": {
+   "asteroom_name": "floor_01 complete_room_01 pano_26"
+  },
+  "0668_floor_01_partial_room_15_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0668_floor_01_partial_room_17_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0668_floor_02_partial_room_11_pano_71": {
+   "asteroom_name": "floor_02 complete_room_09 pano_71"
+  },
+  "0668_floor_02_partial_room_12_pano_62": {
+   "asteroom_name": "floor_02 complete_room_09 pano_62"
+  },
+  "0668_floor_02_partial_room_14_pano_74": {
+   "asteroom_name": "floor_02 complete_room_09 pano_74"
+  },
+  "0299_floor_01_partial_room_02_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "0299_floor_01_partial_room_03_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "0299_floor_01_partial_room_05_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "0299_floor_01_partial_room_08_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "0299_floor_01_partial_room_09_pano_24": {
+   "asteroom_name": "floor_01 complete_room_02 pano_24"
+  },
+  "0299_floor_01_partial_room_10_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "0684_floor_01_partial_room_03_pano_20": {
+   "asteroom_name": "floor_01 complete_room_03 pano_20"
+  },
+  "0684_floor_01_partial_room_07_pano_25": {
+   "asteroom_name": "floor_01 complete_room_03 pano_25"
+  },
+  "0684_floor_01_partial_room_12_pano_22": {
+   "asteroom_name": "floor_01 complete_room_03 pano_22"
+  },
+  "0684_floor_01_partial_room_09_pano_17": {
+   "asteroom_name": "floor_01 complete_room_08 pano_17"
+  },
+  "0684_floor_01_partial_room_11_pano_13": {
+   "asteroom_name": "floor_01 complete_room_08 pano_13"
+  },
+  "0684_floor_01_partial_room_14_pano_15": {
+   "asteroom_name": "floor_01 complete_room_08 pano_15"
+  },
+  "0684_floor_01_partial_room_15_pano_1": {
+   "asteroom_name": "floor_01 complete_room_08 pano_1"
+  },
+  "0534_floor_01_partial_room_03_pano_20": {
+   "asteroom_name": "floor_01 complete_room_03 pano_20"
+  },
+  "0534_floor_01_partial_room_05_pano_10": {
+   "asteroom_name": "floor_01 complete_room_03 pano_10"
+  },
+  "0534_floor_01_partial_room_06_pano_3": {
+   "asteroom_name": "floor_01 complete_room_03 pano_3"
+  },
+  "0534_floor_01_partial_room_11_pano_6": {
+   "asteroom_name": "floor_01 complete_room_03 pano_6"
+  },
+  "0534_floor_01_partial_room_14_pano_8": {
+   "asteroom_name": "floor_01 complete_room_03 pano_8"
+  },
+  "0534_floor_01_partial_room_18_pano_7": {
+   "asteroom_name": "floor_01 complete_room_03 pano_7"
+  },
+  "0534_floor_02_partial_room_01_pano_36": {
+   "asteroom_name": "floor_02 complete_room_01 pano_36"
+  },
+  "0534_floor_02_partial_room_05_pano_43": {
+   "asteroom_name": "floor_02 complete_room_01 pano_43"
+  },
+  "0534_floor_02_partial_room_06_pano_41": {
+   "asteroom_name": "floor_02 complete_room_01 pano_41"
+  },
+  "1348_floor_01_partial_room_01_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1348_floor_01_partial_room_04_pano_26": {
+   "asteroom_name": "floor_01 complete_room_01 pano_26"
+  },
+  "1348_floor_01_partial_room_05_pano_40": {
+   "asteroom_name": "floor_01 complete_room_01 pano_40"
+  },
+  "1348_floor_01_partial_room_10_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "1348_floor_01_partial_room_12_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1348_floor_01_partial_room_16_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "1348_floor_01_partial_room_18_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "1348_floor_01_partial_room_19_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1348_floor_01_partial_room_20_pano_22": {
+   "asteroom_name": "floor_01 complete_room_01 pano_22"
+  },
+  "0127_floor_01_partial_room_01_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0127_floor_01_partial_room_02_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0127_floor_01_partial_room_05_pano_0": {
+   "asteroom_name": "floor_01 complete_room_01 pano_0"
+  },
+  "0127_floor_01_partial_room_06_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0127_floor_01_partial_room_07_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0494_floor_01_partial_room_01_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0494_floor_01_partial_room_03_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "0494_floor_01_partial_room_10_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0494_floor_01_partial_room_11_pano_31": {
+   "asteroom_name": "floor_01 complete_room_01 pano_31"
+  },
+  "0494_floor_01_partial_room_13_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0494_floor_01_partial_room_14_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0519_floor_01_partial_room_03_pano_3": {
+   "asteroom_name": "floor_01 complete_room_03 pano_3"
+  },
+  "0519_floor_01_partial_room_05_pano_25": {
+   "asteroom_name": "floor_01 complete_room_03 pano_25"
+  },
+  "0519_floor_01_partial_room_06_pano_24": {
+   "asteroom_name": "floor_01 complete_room_03 pano_24"
+  },
+  "0519_floor_01_partial_room_08_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "0519_floor_01_partial_room_13_pano_22": {
+   "asteroom_name": "floor_01 complete_room_03 pano_22"
+  },
+  "0519_floor_01_partial_room_15_pano_10": {
+   "asteroom_name": "floor_01 complete_room_03 pano_10"
+  },
+  "0519_floor_01_partial_room_17_pano_23": {
+   "asteroom_name": "floor_01 complete_room_03 pano_23"
+  },
+  "0854_floor_01_partial_room_01_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0854_floor_01_partial_room_04_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0854_floor_01_partial_room_07_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "0854_floor_01_partial_room_08_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0854_floor_01_partial_room_09_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0854_floor_01_partial_room_12_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1184_floor_01_partial_room_01_pano_28": {
+   "asteroom_name": "floor_01 complete_room_01 pano_28"
+  },
+  "1184_floor_01_partial_room_02_pano_0": {
+   "asteroom_name": "floor_01 complete_room_01 pano_0"
+  },
+  "1184_floor_01_partial_room_06_pano_32": {
+   "asteroom_name": "floor_01 complete_room_01 pano_32"
+  },
+  "1184_floor_01_partial_room_08_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1184_floor_01_partial_room_09_pano_31": {
+   "asteroom_name": "floor_01 complete_room_01 pano_31"
+  },
+  "1184_floor_01_partial_room_10_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "1184_floor_01_partial_room_12_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "1566_floor_01_partial_room_02_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "1566_floor_01_partial_room_05_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "1566_floor_01_partial_room_07_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "1566_floor_01_partial_room_09_pano_15": {
+   "asteroom_name": "floor_01 complete_room_02 pano_15"
+  },
+  "1566_floor_01_partial_room_10_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "1566_floor_01_partial_room_12_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "1566_floor_01_partial_room_14_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "0629_floor_01_partial_room_01_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0629_floor_01_partial_room_03_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "0629_floor_01_partial_room_05_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0629_floor_01_partial_room_06_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0629_floor_02_partial_room_02_pano_46": {
+   "asteroom_name": "floor_02 complete_room_02 pano_46"
+  },
+  "0629_floor_02_partial_room_07_pano_41": {
+   "asteroom_name": "floor_02 complete_room_02 pano_41"
+  },
+  "0629_floor_02_partial_room_09_pano_26": {
+   "asteroom_name": "floor_02 complete_room_02 pano_26"
+  },
+  "1409_floor_00_partial_room_03_pano_61": {
+   "asteroom_name": "floor_00 complete_room_03 pano_61"
+  },
+  "1409_floor_00_partial_room_05_pano_54": {
+   "asteroom_name": "floor_00 complete_room_03 pano_54"
+  },
+  "1409_floor_00_partial_room_06_pano_58": {
+   "asteroom_name": "floor_00 complete_room_03 pano_58"
+  },
+  "1409_floor_00_partial_room_07_pano_60": {
+   "asteroom_name": "floor_00 complete_room_03 pano_60"
+  },
+  "1409_floor_01_partial_room_01_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "1409_floor_01_partial_room_02_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "1409_floor_01_partial_room_03_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "1409_floor_01_partial_room_05_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1409_floor_01_partial_room_06_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1409_floor_01_partial_room_11_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1409_floor_01_partial_room_13_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1409_floor_02_partial_room_09_pano_30": {
+   "asteroom_name": "floor_02 complete_room_09 pano_30"
+  },
+  "1409_floor_02_partial_room_14_pano_29": {
+   "asteroom_name": "floor_02 complete_room_09 pano_29"
+  },
+  "1409_floor_02_partial_room_15_pano_43": {
+   "asteroom_name": "floor_02 complete_room_09 pano_43"
+  },
+  "1485_floor_01_partial_room_01_pano_40": {
+   "asteroom_name": "floor_01 complete_room_01 pano_40"
+  },
+  "1485_floor_01_partial_room_02_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1485_floor_01_partial_room_03_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "1485_floor_01_partial_room_07_pano_22": {
+   "asteroom_name": "floor_01 complete_room_01 pano_22"
+  },
+  "1485_floor_01_partial_room_11_pano_29": {
+   "asteroom_name": "floor_01 complete_room_01 pano_29"
+  },
+  "1485_floor_01_partial_room_20_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1485_floor_01_partial_room_04_pano_48": {
+   "asteroom_name": "floor_01 complete_room_02 pano_48"
+  },
+  "1485_floor_01_partial_room_05_pano_52": {
+   "asteroom_name": "floor_01 complete_room_02 pano_52"
+  },
+  "1485_floor_01_partial_room_21_pano_50": {
+   "asteroom_name": "floor_01 complete_room_02 pano_50"
+  },
+  "1001_floor_01_partial_room_02_pano_0": {
+   "asteroom_name": "floor_01 complete_room_02 pano_0"
+  },
+  "1001_floor_01_partial_room_04_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "1001_floor_01_partial_room_10_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "1001_floor_01_partial_room_11_pano_28": {
+   "asteroom_name": "floor_01 complete_room_02 pano_28"
+  },
+  "1001_floor_01_partial_room_13_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "1001_floor_01_partial_room_14_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "1177_floor_01_partial_room_03_pano_4": {
+   "asteroom_name": "floor_01 complete_room_03 pano_4"
+  },
+  "1177_floor_01_partial_room_07_pano_7": {
+   "asteroom_name": "floor_01 complete_room_03 pano_7"
+  },
+  "1177_floor_01_partial_room_09_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "1177_floor_02_partial_room_02_pano_47": {
+   "asteroom_name": "floor_02 complete_room_02 pano_47"
+  },
+  "1177_floor_02_partial_room_03_pano_26": {
+   "asteroom_name": "floor_02 complete_room_02 pano_26"
+  },
+  "1177_floor_02_partial_room_05_pano_25": {
+   "asteroom_name": "floor_02 complete_room_02 pano_25"
+  },
+  "1177_floor_02_partial_room_08_pano_45": {
+   "asteroom_name": "floor_02 complete_room_02 pano_45"
+  },
+  "1177_floor_03_partial_room_01_pano_54": {
+   "asteroom_name": "floor_03 complete_room_01 pano_54"
+  },
+  "1177_floor_03_partial_room_04_pano_55": {
+   "asteroom_name": "floor_03 complete_room_01 pano_55"
+  },
+  "1177_floor_03_partial_room_06_pano_60": {
+   "asteroom_name": "floor_03 complete_room_01 pano_60"
+  },
+  "1388_floor_00_partial_room_01_pano_33": {
+   "asteroom_name": "floor_00 complete_room_01 pano_33"
+  },
+  "1388_floor_00_partial_room_02_pano_32": {
+   "asteroom_name": "floor_00 complete_room_01 pano_32"
+  },
+  "1388_floor_00_partial_room_05_pano_41": {
+   "asteroom_name": "floor_00 complete_room_01 pano_41"
+  },
+  "1388_floor_01_partial_room_01_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1388_floor_01_partial_room_02_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "1388_floor_01_partial_room_05_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1388_floor_01_partial_room_10_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "1388_floor_01_partial_room_12_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "1388_floor_01_partial_room_15_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0245_floor_01_partial_room_01_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0245_floor_01_partial_room_06_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0245_floor_01_partial_room_11_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0245_floor_01_partial_room_12_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0245_floor_01_partial_room_14_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1400_floor_01_partial_room_03_pano_11": {
+   "asteroom_name": "floor_01 complete_room_03 pano_11"
+  },
+  "1400_floor_01_partial_room_04_pano_7": {
+   "asteroom_name": "floor_01 complete_room_03 pano_7"
+  },
+  "1400_floor_01_partial_room_07_pano_4": {
+   "asteroom_name": "floor_01 complete_room_03 pano_4"
+  },
+  "0576_floor_01_partial_room_01_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0576_floor_01_partial_room_03_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0576_floor_01_partial_room_04_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0576_floor_01_partial_room_06_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "0576_floor_01_partial_room_07_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0576_floor_02_partial_room_01_pano_28": {
+   "asteroom_name": "floor_02 complete_room_01 pano_28"
+  },
+  "0576_floor_02_partial_room_07_pano_18": {
+   "asteroom_name": "floor_02 complete_room_01 pano_18"
+  },
+  "0576_floor_02_partial_room_10_pano_22": {
+   "asteroom_name": "floor_02 complete_room_01 pano_22"
+  },
+  "0100_floor_01_partial_room_01_pano_24": {
+   "asteroom_name": "floor_01 complete_room_01 pano_24"
+  },
+  "0100_floor_01_partial_room_04_pano_26": {
+   "asteroom_name": "floor_01 complete_room_01 pano_26"
+  },
+  "0100_floor_01_partial_room_05_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0100_floor_01_partial_room_06_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0100_floor_01_partial_room_08_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0100_floor_02_partial_room_06_pano_46": {
+   "asteroom_name": "floor_02 complete_room_05 pano_46"
+  },
+  "0100_floor_02_partial_room_07_pano_45": {
+   "asteroom_name": "floor_02 complete_room_05 pano_45"
+  },
+  "0100_floor_02_partial_room_11_pano_30": {
+   "asteroom_name": "floor_02 complete_room_05 pano_30"
+  },
+  "0100_floor_02_partial_room_18_pano_28": {
+   "asteroom_name": "floor_02 complete_room_05 pano_28"
+  },
+  "0190_floor_01_partial_room_02_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "0190_floor_01_partial_room_03_pano_2": {
+   "asteroom_name": "floor_01 complete_room_02 pano_2"
+  },
+  "0190_floor_01_partial_room_05_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "0190_floor_02_partial_room_01_pano_37": {
+   "asteroom_name": "floor_02 complete_room_01 pano_37"
+  },
+  "0190_floor_02_partial_room_08_pano_26": {
+   "asteroom_name": "floor_02 complete_room_01 pano_26"
+  },
+  "0190_floor_02_partial_room_12_pano_28": {
+   "asteroom_name": "floor_02 complete_room_01 pano_28"
+  },
+  "1488_floor_01_partial_room_01_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1488_floor_01_partial_room_02_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "1488_floor_01_partial_room_04_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1488_floor_01_partial_room_09_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "1488_floor_01_partial_room_11_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "1330_floor_01_partial_room_01_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "1330_floor_01_partial_room_03_pano_49": {
+   "asteroom_name": "floor_01 complete_room_01 pano_49"
+  },
+  "1330_floor_01_partial_room_05_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "1330_floor_01_partial_room_06_pano_23": {
+   "asteroom_name": "floor_01 complete_room_01 pano_23"
+  },
+  "1330_floor_01_partial_room_09_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "1330_floor_01_partial_room_10_pano_30": {
+   "asteroom_name": "floor_01 complete_room_01 pano_30"
+  },
+  "1330_floor_01_partial_room_13_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1330_floor_01_partial_room_14_pano_36": {
+   "asteroom_name": "floor_01 complete_room_01 pano_36"
+  },
+  "1330_floor_01_partial_room_16_pano_27": {
+   "asteroom_name": "floor_01 complete_room_01 pano_27"
+  },
+  "1494_floor_01_partial_room_01_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1494_floor_01_partial_room_02_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "1494_floor_01_partial_room_03_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "1494_floor_01_partial_room_04_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1494_floor_01_partial_room_06_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0189_floor_01_partial_room_02_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "0189_floor_01_partial_room_04_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "0189_floor_01_partial_room_06_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "0189_floor_01_partial_room_07_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0189_floor_01_partial_room_08_pano_13": {
+   "asteroom_name": "floor_01 complete_room_02 pano_13"
+  },
+  "0189_floor_01_partial_room_09_pano_15": {
+   "asteroom_name": "floor_01 complete_room_02 pano_15"
+  },
+  "0569_floor_01_partial_room_03_pano_14": {
+   "asteroom_name": "floor_01 complete_room_03 pano_14"
+  },
+  "0569_floor_01_partial_room_05_pano_13": {
+   "asteroom_name": "floor_01 complete_room_03 pano_13"
+  },
+  "0569_floor_01_partial_room_06_pano_21": {
+   "asteroom_name": "floor_01 complete_room_03 pano_21"
+  },
+  "0569_floor_01_partial_room_08_pano_15": {
+   "asteroom_name": "floor_01 complete_room_03 pano_15"
+  },
+  "0569_floor_01_partial_room_10_pano_18": {
+   "asteroom_name": "floor_01 complete_room_03 pano_18"
+  },
+  "0569_floor_01_partial_room_14_pano_20": {
+   "asteroom_name": "floor_01 complete_room_03 pano_20"
+  },
+  "0569_floor_01_partial_room_15_pano_4": {
+   "asteroom_name": "floor_01 complete_room_03 pano_4"
+  },
+  "0569_floor_01_partial_room_16_pano_16": {
+   "asteroom_name": "floor_01 complete_room_03 pano_16"
+  },
+  "0569_floor_01_partial_room_18_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "0569_floor_01_partial_room_19_pano_17": {
+   "asteroom_name": "floor_01 complete_room_03 pano_17"
+  },
+  "0964_floor_01_partial_room_02_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "0964_floor_01_partial_room_05_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "0964_floor_01_partial_room_06_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "0964_floor_01_partial_room_08_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "0964_floor_01_partial_room_11_pano_19": {
+   "asteroom_name": "floor_01 complete_room_02 pano_19"
+  },
+  "0964_floor_01_partial_room_12_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "0964_floor_01_partial_room_13_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "0964_floor_01_partial_room_15_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0964_floor_02_partial_room_01_pano_36": {
+   "asteroom_name": "floor_02 complete_room_01 pano_36"
+  },
+  "0964_floor_02_partial_room_05_pano_26": {
+   "asteroom_name": "floor_02 complete_room_01 pano_26"
+  },
+  "0964_floor_02_partial_room_10_pano_28": {
+   "asteroom_name": "floor_02 complete_room_01 pano_28"
+  },
+  "0964_floor_02_partial_room_11_pano_29": {
+   "asteroom_name": "floor_02 complete_room_01 pano_29"
+  },
+  "1069_floor_02_partial_room_01_pano_28": {
+   "asteroom_name": "floor_02 complete_room_01 pano_28"
+  },
+  "1069_floor_02_partial_room_02_pano_38": {
+   "asteroom_name": "floor_02 complete_room_01 pano_38"
+  },
+  "1069_floor_02_partial_room_04_pano_24": {
+   "asteroom_name": "floor_02 complete_room_01 pano_24"
+  },
+  "1069_floor_02_partial_room_06_pano_26": {
+   "asteroom_name": "floor_02 complete_room_01 pano_26"
+  },
+  "1069_floor_03_partial_room_02_pano_46": {
+   "asteroom_name": "floor_03 complete_room_02 pano_46"
+  },
+  "1069_floor_03_partial_room_05_pano_49": {
+   "asteroom_name": "floor_03 complete_room_02 pano_49"
+  },
+  "1069_floor_03_partial_room_06_pano_47": {
+   "asteroom_name": "floor_03 complete_room_02 pano_47"
+  },
+  "0109_floor_01_partial_room_01_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0109_floor_01_partial_room_05_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0109_floor_01_partial_room_08_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0109_floor_01_partial_room_10_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0109_floor_01_partial_room_11_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0109_floor_01_partial_room_13_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0431_floor_01_partial_room_03_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "0431_floor_01_partial_room_04_pano_3": {
+   "asteroom_name": "floor_01 complete_room_03 pano_3"
+  },
+  "0431_floor_01_partial_room_05_pano_8": {
+   "asteroom_name": "floor_01 complete_room_03 pano_8"
+  },
+  "0660_floor_01_partial_room_02_pano_36": {
+   "asteroom_name": "floor_01 complete_room_02 pano_36"
+  },
+  "0660_floor_01_partial_room_04_pano_13": {
+   "asteroom_name": "floor_01 complete_room_02 pano_13"
+  },
+  "0660_floor_01_partial_room_06_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0660_floor_01_partial_room_07_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "0660_floor_01_partial_room_08_pano_39": {
+   "asteroom_name": "floor_01 complete_room_02 pano_39"
+  },
+  "0660_floor_01_partial_room_18_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "0660_floor_01_partial_room_19_pano_41": {
+   "asteroom_name": "floor_01 complete_room_02 pano_41"
+  },
+  "1500_floor_01_partial_room_03_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "1500_floor_01_partial_room_04_pano_8": {
+   "asteroom_name": "floor_01 complete_room_03 pano_8"
+  },
+  "1500_floor_01_partial_room_05_pano_3": {
+   "asteroom_name": "floor_01 complete_room_03 pano_3"
+  },
+  "1500_floor_01_partial_room_10_pano_1": {
+   "asteroom_name": "floor_01 complete_room_03 pano_1"
+  },
+  "1500_floor_01_partial_room_13_pano_2": {
+   "asteroom_name": "floor_01 complete_room_03 pano_2"
+  },
+  "0880_floor_00_partial_room_03_pano_49": {
+   "asteroom_name": "floor_00 complete_room_03 pano_49"
+  },
+  "0880_floor_00_partial_room_05_pano_53": {
+   "asteroom_name": "floor_00 complete_room_03 pano_53"
+  },
+  "0880_floor_00_partial_room_07_pano_58": {
+   "asteroom_name": "floor_00 complete_room_03 pano_58"
+  },
+  "0880_floor_01_partial_room_01_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0880_floor_01_partial_room_06_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0880_floor_01_partial_room_07_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0880_floor_01_partial_room_08_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0880_floor_01_partial_room_10_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "0880_floor_01_partial_room_12_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0880_floor_01_partial_room_15_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1203_floor_01_partial_room_02_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "1203_floor_01_partial_room_03_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "1203_floor_01_partial_room_04_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "1203_floor_01_partial_room_05_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0709_floor_01_partial_room_05_pano_11": {
+   "asteroom_name": "floor_01 complete_room_05 pano_11"
+  },
+  "0709_floor_01_partial_room_11_pano_25": {
+   "asteroom_name": "floor_01 complete_room_05 pano_25"
+  },
+  "0709_floor_01_partial_room_12_pano_21": {
+   "asteroom_name": "floor_01 complete_room_05 pano_21"
+  },
+  "0709_floor_01_partial_room_13_pano_4": {
+   "asteroom_name": "floor_01 complete_room_05 pano_4"
+  },
+  "0709_floor_01_partial_room_16_pano_8": {
+   "asteroom_name": "floor_01 complete_room_05 pano_8"
+  },
+  "0308_floor_01_partial_room_02_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "0308_floor_01_partial_room_03_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0308_floor_01_partial_room_07_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "0308_floor_02_partial_room_05_pano_43": {
+   "asteroom_name": "floor_02 complete_room_05 pano_43"
+  },
+  "0308_floor_02_partial_room_11_pano_39": {
+   "asteroom_name": "floor_02 complete_room_05 pano_39"
+  },
+  "0308_floor_02_partial_room_14_pano_45": {
+   "asteroom_name": "floor_02 complete_room_05 pano_45"
+  },
+  "0141_floor_01_partial_room_03_pano_2": {
+   "asteroom_name": "floor_01 complete_room_03 pano_2"
+  },
+  "0141_floor_01_partial_room_06_pano_35": {
+   "asteroom_name": "floor_01 complete_room_03 pano_35"
+  },
+  "0141_floor_01_partial_room_11_pano_24": {
+   "asteroom_name": "floor_01 complete_room_03 pano_24"
+  },
+  "0141_floor_01_partial_room_15_pano_40": {
+   "asteroom_name": "floor_01 complete_room_03 pano_40"
+  },
+  "0141_floor_01_partial_room_17_pano_10": {
+   "asteroom_name": "floor_01 complete_room_03 pano_10"
+  },
+  "0141_floor_01_partial_room_22_pano_22": {
+   "asteroom_name": "floor_01 complete_room_03 pano_22"
+  },
+  "0663_floor_01_partial_room_01_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0663_floor_01_partial_room_02_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0663_floor_01_partial_room_04_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "0663_floor_01_partial_room_07_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "0663_floor_01_partial_room_08_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0663_floor_01_partial_room_10_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1218_floor_01_partial_room_02_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "1218_floor_01_partial_room_03_pano_15": {
+   "asteroom_name": "floor_01 complete_room_02 pano_15"
+  },
+  "1218_floor_01_partial_room_05_pano_26": {
+   "asteroom_name": "floor_01 complete_room_02 pano_26"
+  },
+  "1218_floor_01_partial_room_08_pano_17": {
+   "asteroom_name": "floor_01 complete_room_02 pano_17"
+  },
+  "1218_floor_01_partial_room_09_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "1218_floor_01_partial_room_10_pano_31": {
+   "asteroom_name": "floor_01 complete_room_02 pano_31"
+  },
+  "1218_floor_01_partial_room_19_pano_21": {
+   "asteroom_name": "floor_01 complete_room_02 pano_21"
+  },
+  "1218_floor_02_partial_room_02_pano_54": {
+   "asteroom_name": "floor_02 complete_room_02 pano_54"
+  },
+  "1218_floor_02_partial_room_03_pano_52": {
+   "asteroom_name": "floor_02 complete_room_02 pano_52"
+  },
+  "1218_floor_02_partial_room_04_pano_58": {
+   "asteroom_name": "floor_02 complete_room_02 pano_58"
+  },
+  "0336_floor_01_partial_room_01_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0336_floor_01_partial_room_02_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "0336_floor_01_partial_room_06_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0336_floor_01_partial_room_09_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0336_floor_01_partial_room_10_pano_25": {
+   "asteroom_name": "floor_01 complete_room_01 pano_25"
+  },
+  "0028_floor_01_partial_room_01_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0028_floor_01_partial_room_02_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0028_floor_01_partial_room_03_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0338_floor_01_partial_room_05_pano_28": {
+   "asteroom_name": "floor_01 complete_room_05 pano_28"
+  },
+  "0338_floor_01_partial_room_06_pano_33": {
+   "asteroom_name": "floor_01 complete_room_05 pano_33"
+  },
+  "0338_floor_01_partial_room_07_pano_8": {
+   "asteroom_name": "floor_01 complete_room_05 pano_8"
+  },
+  "0338_floor_01_partial_room_13_pano_24": {
+   "asteroom_name": "floor_01 complete_room_05 pano_24"
+  },
+  "0338_floor_01_partial_room_15_pano_4": {
+   "asteroom_name": "floor_01 complete_room_05 pano_4"
+  },
+  "1239_floor_01_partial_room_01_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1239_floor_01_partial_room_04_pano_25": {
+   "asteroom_name": "floor_01 complete_room_01 pano_25"
+  },
+  "1239_floor_01_partial_room_06_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1239_floor_01_partial_room_11_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1328_floor_01_partial_room_01_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "1328_floor_01_partial_room_02_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "1328_floor_01_partial_room_07_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "1328_floor_01_partial_room_08_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "1328_floor_01_partial_room_11_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1328_floor_01_partial_room_12_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "1328_floor_01_partial_room_17_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0385_floor_01_partial_room_01_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0385_floor_01_partial_room_03_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0385_floor_01_partial_room_05_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0385_floor_01_partial_room_07_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0385_floor_01_partial_room_08_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "1160_floor_01_partial_room_01_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1160_floor_01_partial_room_03_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1160_floor_01_partial_room_05_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1160_floor_02_partial_room_01_pano_24": {
+   "asteroom_name": "floor_02 complete_room_01 pano_24"
+  },
+  "1160_floor_02_partial_room_04_pano_17": {
+   "asteroom_name": "floor_02 complete_room_01 pano_17"
+  },
+  "1160_floor_02_partial_room_06_pano_16": {
+   "asteroom_name": "floor_02 complete_room_01 pano_16"
+  },
+  "1248_floor_01_partial_room_01_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "1248_floor_01_partial_room_02_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "1248_floor_01_partial_room_13_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "1248_floor_01_partial_room_05_pano_23": {
+   "asteroom_name": "floor_01 complete_room_04 pano_23"
+  },
+  "1248_floor_01_partial_room_06_pano_10": {
+   "asteroom_name": "floor_01 complete_room_04 pano_10"
+  },
+  "1248_floor_01_partial_room_08_pano_5": {
+   "asteroom_name": "floor_01 complete_room_04 pano_5"
+  },
+  "1248_floor_01_partial_room_09_pano_7": {
+   "asteroom_name": "floor_01 complete_room_04 pano_7"
+  },
+  "1248_floor_01_partial_room_12_pano_0": {
+   "asteroom_name": "floor_01 complete_room_04 pano_0"
+  },
+  "1248_floor_01_partial_room_14_pano_32": {
+   "asteroom_name": "floor_01 complete_room_04 pano_32"
+  },
+  "1248_floor_02_partial_room_03_pano_41": {
+   "asteroom_name": "floor_02 complete_room_03 pano_41"
+  },
+  "1248_floor_02_partial_room_05_pano_54": {
+   "asteroom_name": "floor_02 complete_room_03 pano_54"
+  },
+  "1248_floor_02_partial_room_11_pano_56": {
+   "asteroom_name": "floor_02 complete_room_03 pano_56"
+  },
+  "0075_floor_01_partial_room_03_pano_8": {
+   "asteroom_name": "floor_01 complete_room_03 pano_8"
+  },
+  "0075_floor_01_partial_room_04_pano_7": {
+   "asteroom_name": "floor_01 complete_room_03 pano_7"
+  },
+  "0075_floor_01_partial_room_05_pano_11": {
+   "asteroom_name": "floor_01 complete_room_03 pano_11"
+  },
+  "0075_floor_01_partial_room_12_pano_13": {
+   "asteroom_name": "floor_01 complete_room_03 pano_13"
+  },
+  "0075_floor_01_partial_room_14_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "1185_floor_01_partial_room_01_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1185_floor_01_partial_room_04_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "1185_floor_01_partial_room_05_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "1185_floor_01_partial_room_10_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1185_floor_01_partial_room_12_pano_25": {
+   "asteroom_name": "floor_01 complete_room_01 pano_25"
+  },
+  "1207_floor_00_partial_room_01_pano_69": {
+   "asteroom_name": "floor_00 complete_room_01 pano_69"
+  },
+  "1207_floor_00_partial_room_02_pano_84": {
+   "asteroom_name": "floor_00 complete_room_01 pano_84"
+  },
+  "1207_floor_00_partial_room_03_pano_75": {
+   "asteroom_name": "floor_00 complete_room_01 pano_75"
+  },
+  "1207_floor_00_partial_room_06_pano_79": {
+   "asteroom_name": "floor_00 complete_room_01 pano_79"
+  },
+  "1207_floor_00_partial_room_09_pano_76": {
+   "asteroom_name": "floor_00 complete_room_01 pano_76"
+  },
+  "1207_floor_00_partial_room_10_pano_78": {
+   "asteroom_name": "floor_00 complete_room_01 pano_78"
+  },
+  "1207_floor_01_partial_room_01_pano_33": {
+   "asteroom_name": "floor_01 complete_room_01 pano_33"
+  },
+  "1207_floor_01_partial_room_02_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1207_floor_01_partial_room_05_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "1207_floor_01_partial_room_06_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "1207_floor_01_partial_room_08_pano_36": {
+   "asteroom_name": "floor_01 complete_room_01 pano_36"
+  },
+  "1207_floor_01_partial_room_09_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "1207_floor_01_partial_room_10_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "1207_floor_02_partial_room_03_pano_53": {
+   "asteroom_name": "floor_02 complete_room_03 pano_53"
+  },
+  "1207_floor_02_partial_room_05_pano_52": {
+   "asteroom_name": "floor_02 complete_room_03 pano_52"
+  },
+  "1207_floor_02_partial_room_08_pano_50": {
+   "asteroom_name": "floor_02 complete_room_03 pano_50"
+  },
+  "1207_floor_02_partial_room_09_pano_38": {
+   "asteroom_name": "floor_02 complete_room_03 pano_38"
+  },
+  "1175_floor_00_partial_room_03_pano_33": {
+   "asteroom_name": "floor_00 complete_room_03 pano_33"
+  },
+  "1175_floor_00_partial_room_07_pano_42": {
+   "asteroom_name": "floor_00 complete_room_03 pano_42"
+  },
+  "1175_floor_00_partial_room_08_pano_49": {
+   "asteroom_name": "floor_00 complete_room_03 pano_49"
+  },
+  "1175_floor_01_partial_room_01_pano_53": {
+   "asteroom_name": "floor_01 complete_room_01 pano_53"
+  },
+  "1175_floor_01_partial_room_02_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "1175_floor_01_partial_room_03_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1175_floor_01_partial_room_04_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1175_floor_01_partial_room_06_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0311_floor_01_partial_room_01_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "0311_floor_01_partial_room_04_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0311_floor_01_partial_room_05_pano_58": {
+   "asteroom_name": "floor_01 complete_room_01 pano_58"
+  },
+  "0311_floor_01_partial_room_06_pano_27": {
+   "asteroom_name": "floor_01 complete_room_01 pano_27"
+  },
+  "0311_floor_01_partial_room_08_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0311_floor_01_partial_room_09_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0675_floor_01_partial_room_02_pano_29": {
+   "asteroom_name": "floor_01 complete_room_02 pano_29"
+  },
+  "0675_floor_01_partial_room_05_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "0675_floor_01_partial_room_07_pano_22": {
+   "asteroom_name": "floor_01 complete_room_02 pano_22"
+  },
+  "0675_floor_01_partial_room_08_pano_13": {
+   "asteroom_name": "floor_01 complete_room_02 pano_13"
+  },
+  "0675_floor_01_partial_room_11_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "1401_floor_00_partial_room_01_pano_33": {
+   "asteroom_name": "floor_00 complete_room_01 pano_33"
+  },
+  "1401_floor_00_partial_room_03_pano_34": {
+   "asteroom_name": "floor_00 complete_room_01 pano_34"
+  },
+  "1401_floor_00_partial_room_06_pano_31": {
+   "asteroom_name": "floor_00 complete_room_01 pano_31"
+  },
+  "1401_floor_01_partial_room_01_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1401_floor_01_partial_room_02_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1401_floor_01_partial_room_03_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0528_floor_01_partial_room_01_pano_31": {
+   "asteroom_name": "floor_01 complete_room_01 pano_31"
+  },
+  "0528_floor_01_partial_room_02_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0528_floor_01_partial_room_07_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0528_floor_01_partial_room_10_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0528_floor_01_partial_room_14_pano_23": {
+   "asteroom_name": "floor_01 complete_room_01 pano_23"
+  },
+  "0528_floor_01_partial_room_15_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0670_floor_01_partial_room_01_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0670_floor_01_partial_room_02_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0670_floor_01_partial_room_06_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0670_floor_01_partial_room_07_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0670_floor_01_partial_room_08_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0322_floor_01_partial_room_01_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0322_floor_01_partial_room_02_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0322_floor_01_partial_room_05_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0322_floor_01_partial_room_07_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1167_floor_02_partial_room_01_pano_29": {
+   "asteroom_name": "floor_02 complete_room_01 pano_29"
+  },
+  "1167_floor_02_partial_room_02_pano_15": {
+   "asteroom_name": "floor_02 complete_room_01 pano_15"
+  },
+  "1167_floor_02_partial_room_05_pano_17": {
+   "asteroom_name": "floor_02 complete_room_01 pano_17"
+  },
+  "1167_floor_02_partial_room_06_pano_16": {
+   "asteroom_name": "floor_02 complete_room_01 pano_16"
+  },
+  "1167_floor_02_partial_room_07_pano_21": {
+   "asteroom_name": "floor_02 complete_room_01 pano_21"
+  },
+  "0453_floor_01_partial_room_02_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "0453_floor_01_partial_room_05_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "0453_floor_01_partial_room_11_pano_12": {
+   "asteroom_name": "floor_01 complete_room_02 pano_12"
+  },
+  "0453_floor_01_partial_room_12_pano_36": {
+   "asteroom_name": "floor_01 complete_room_02 pano_36"
+  },
+  "0453_floor_01_partial_room_15_pano_24": {
+   "asteroom_name": "floor_01 complete_room_02 pano_24"
+  },
+  "0453_floor_01_partial_room_17_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "0453_floor_01_partial_room_22_pano_19": {
+   "asteroom_name": "floor_01 complete_room_02 pano_19"
+  },
+  "0490_floor_01_partial_room_02_pano_16": {
+   "asteroom_name": "floor_01 complete_room_02 pano_16"
+  },
+  "0490_floor_01_partial_room_04_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "0490_floor_01_partial_room_05_pano_17": {
+   "asteroom_name": "floor_01 complete_room_02 pano_17"
+  },
+  "0490_floor_01_partial_room_09_pano_12": {
+   "asteroom_name": "floor_01 complete_room_02 pano_12"
+  },
+  "0490_floor_01_partial_room_10_pano_2": {
+   "asteroom_name": "floor_01 complete_room_02 pano_2"
+  },
+  "0490_floor_01_partial_room_14_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "1436_floor_00_partial_room_01_pano_25": {
+   "asteroom_name": "floor_00 complete_room_01 pano_25"
+  },
+  "1436_floor_00_partial_room_02_pano_29": {
+   "asteroom_name": "floor_00 complete_room_01 pano_29"
+  },
+  "1436_floor_00_partial_room_03_pano_23": {
+   "asteroom_name": "floor_00 complete_room_01 pano_23"
+  },
+  "1436_floor_00_partial_room_04_pano_30": {
+   "asteroom_name": "floor_00 complete_room_01 pano_30"
+  },
+  "1436_floor_00_partial_room_06_pano_24": {
+   "asteroom_name": "floor_00 complete_room_01 pano_24"
+  },
+  "1436_floor_01_partial_room_01_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "1436_floor_01_partial_room_03_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "1436_floor_01_partial_room_04_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "1436_floor_01_partial_room_05_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "1436_floor_01_partial_room_07_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "1436_floor_01_partial_room_08_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1436_floor_01_partial_room_09_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "1436_floor_01_partial_room_10_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1436_floor_02_partial_room_03_pano_46": {
+   "asteroom_name": "floor_02 complete_room_03 pano_46"
+  },
+  "1436_floor_02_partial_room_10_pano_44": {
+   "asteroom_name": "floor_02 complete_room_03 pano_44"
+  },
+  "1436_floor_02_partial_room_11_pano_45": {
+   "asteroom_name": "floor_02 complete_room_03 pano_45"
+  },
+  "1490_floor_01_partial_room_03_pano_12": {
+   "asteroom_name": "floor_01 complete_room_03 pano_12"
+  },
+  "1490_floor_01_partial_room_04_pano_9": {
+   "asteroom_name": "floor_01 complete_room_03 pano_9"
+  },
+  "1490_floor_01_partial_room_05_pano_4": {
+   "asteroom_name": "floor_01 complete_room_03 pano_4"
+  },
+  "0115_floor_01_partial_room_01_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0115_floor_01_partial_room_05_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0115_floor_01_partial_room_06_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0115_floor_01_partial_room_09_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0115_floor_02_partial_room_01_pano_18": {
+   "asteroom_name": "floor_02 complete_room_01 pano_18"
+  },
+  "0115_floor_02_partial_room_04_pano_17": {
+   "asteroom_name": "floor_02 complete_room_01 pano_17"
+  },
+  "0115_floor_02_partial_room_11_pano_16": {
+   "asteroom_name": "floor_02 complete_room_01 pano_16"
+  },
+  "0115_floor_02_partial_room_12_pano_21": {
+   "asteroom_name": "floor_02 complete_room_01 pano_21"
+  },
+  "0420_floor_01_partial_room_01_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0420_floor_01_partial_room_02_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "0420_floor_01_partial_room_03_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0420_floor_01_partial_room_06_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0420_floor_01_partial_room_09_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0506_floor_01_partial_room_01_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0506_floor_01_partial_room_02_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "0506_floor_01_partial_room_03_pano_38": {
+   "asteroom_name": "floor_01 complete_room_01 pano_38"
+  },
+  "0506_floor_01_partial_room_10_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0506_floor_01_partial_room_12_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0506_floor_01_partial_room_14_pano_24": {
+   "asteroom_name": "floor_01 complete_room_01 pano_24"
+  },
+  "0506_floor_01_partial_room_16_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "0354_floor_01_partial_room_01_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0354_floor_01_partial_room_02_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0354_floor_01_partial_room_12_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "1214_floor_01_partial_room_02_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "1214_floor_01_partial_room_03_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "1214_floor_01_partial_room_05_pano_28": {
+   "asteroom_name": "floor_01 complete_room_02 pano_28"
+  },
+  "1214_floor_01_partial_room_09_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "1214_floor_01_partial_room_18_pano_0": {
+   "asteroom_name": "floor_01 complete_room_02 pano_0"
+  },
+  "1214_floor_01_partial_room_19_pano_37": {
+   "asteroom_name": "floor_01 complete_room_02 pano_37"
+  },
+  "0541_floor_01_partial_room_01_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0541_floor_01_partial_room_02_pano_23": {
+   "asteroom_name": "floor_01 complete_room_01 pano_23"
+  },
+  "0541_floor_01_partial_room_03_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0541_floor_01_partial_room_04_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0541_floor_01_partial_room_05_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0541_floor_01_partial_room_07_pano_28": {
+   "asteroom_name": "floor_01 complete_room_01 pano_28"
+  },
+  "0541_floor_01_partial_room_10_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "0541_floor_01_partial_room_11_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "0583_floor_01_partial_room_01_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0583_floor_01_partial_room_02_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0583_floor_01_partial_room_03_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0583_floor_01_partial_room_04_pano_28": {
+   "asteroom_name": "floor_01 complete_room_01 pano_28"
+  },
+  "0583_floor_01_partial_room_08_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0583_floor_01_partial_room_09_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "0583_floor_01_partial_room_10_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0870_floor_01_partial_room_05_pano_13": {
+   "asteroom_name": "floor_01 complete_room_05 pano_13"
+  },
+  "0870_floor_01_partial_room_08_pano_8": {
+   "asteroom_name": "floor_01 complete_room_05 pano_8"
+  },
+  "0870_floor_01_partial_room_09_pano_10": {
+   "asteroom_name": "floor_01 complete_room_05 pano_10"
+  },
+  "0870_floor_01_partial_room_12_pano_14": {
+   "asteroom_name": "floor_01 complete_room_05 pano_14"
+  },
+  "0870_floor_01_partial_room_13_pano_6": {
+   "asteroom_name": "floor_01 complete_room_05 pano_6"
+  },
+  "0870_floor_01_partial_room_15_pano_4": {
+   "asteroom_name": "floor_01 complete_room_05 pano_4"
+  },
+  "0870_floor_01_partial_room_18_pano_2": {
+   "asteroom_name": "floor_01 complete_room_05 pano_2"
+  },
+  "0297_floor_01_partial_room_02_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "0297_floor_01_partial_room_03_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0297_floor_01_partial_room_07_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "0297_floor_01_partial_room_08_pano_28": {
+   "asteroom_name": "floor_01 complete_room_02 pano_28"
+  },
+  "0297_floor_01_partial_room_09_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "0325_floor_01_partial_room_04_pano_6": {
+   "asteroom_name": "floor_01 complete_room_04 pano_6"
+  },
+  "0325_floor_01_partial_room_05_pano_5": {
+   "asteroom_name": "floor_01 complete_room_04 pano_5"
+  },
+  "0325_floor_01_partial_room_07_pano_12": {
+   "asteroom_name": "floor_01 complete_room_04 pano_12"
+  },
+  "1506_floor_00_partial_room_01_pano_29": {
+   "asteroom_name": "floor_00 complete_room_01 pano_29"
+  },
+  "1506_floor_00_partial_room_03_pano_20": {
+   "asteroom_name": "floor_00 complete_room_01 pano_20"
+  },
+  "1506_floor_00_partial_room_05_pano_30": {
+   "asteroom_name": "floor_00 complete_room_01 pano_30"
+  },
+  "1506_floor_01_partial_room_02_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "1506_floor_01_partial_room_03_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "1506_floor_01_partial_room_04_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "1506_floor_01_partial_room_05_pano_15": {
+   "asteroom_name": "floor_01 complete_room_02 pano_15"
+  },
+  "1506_floor_01_partial_room_07_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "0152_floor_01_partial_room_01_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0152_floor_01_partial_room_02_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0152_floor_01_partial_room_03_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0152_floor_01_partial_room_05_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0152_floor_01_partial_room_07_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0152_floor_01_partial_room_08_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0152_floor_01_partial_room_09_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0152_floor_01_partial_room_10_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0152_floor_02_partial_room_03_pano_24": {
+   "asteroom_name": "floor_02 complete_room_03 pano_24"
+  },
+  "0152_floor_02_partial_room_05_pano_22": {
+   "asteroom_name": "floor_02 complete_room_03 pano_22"
+  },
+  "0152_floor_02_partial_room_06_pano_25": {
+   "asteroom_name": "floor_02 complete_room_03 pano_25"
+  },
+  "0429_floor_01_partial_room_02_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0429_floor_01_partial_room_04_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "0429_floor_01_partial_room_05_pano_28": {
+   "asteroom_name": "floor_01 complete_room_02 pano_28"
+  },
+  "0429_floor_01_partial_room_10_pano_25": {
+   "asteroom_name": "floor_01 complete_room_02 pano_25"
+  },
+  "0429_floor_01_partial_room_14_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "0429_floor_01_partial_room_16_pano_27": {
+   "asteroom_name": "floor_01 complete_room_02 pano_27"
+  },
+  "1068_floor_01_partial_room_05_pano_9": {
+   "asteroom_name": "floor_01 complete_room_05 pano_9"
+  },
+  "1068_floor_01_partial_room_09_pano_4": {
+   "asteroom_name": "floor_01 complete_room_05 pano_4"
+  },
+  "1068_floor_01_partial_room_10_pano_3": {
+   "asteroom_name": "floor_01 complete_room_05 pano_3"
+  },
+  "1025_floor_01_partial_room_02_pano_34": {
+   "asteroom_name": "floor_01 complete_room_02 pano_34"
+  },
+  "1025_floor_01_partial_room_03_pano_36": {
+   "asteroom_name": "floor_01 complete_room_02 pano_36"
+  },
+  "1025_floor_01_partial_room_05_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "1025_floor_01_partial_room_06_pano_25": {
+   "asteroom_name": "floor_01 complete_room_02 pano_25"
+  },
+  "1025_floor_01_partial_room_07_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "1025_floor_01_partial_room_08_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "1025_floor_01_partial_room_10_pano_22": {
+   "asteroom_name": "floor_01 complete_room_02 pano_22"
+  },
+  "1025_floor_01_partial_room_13_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "1025_floor_02_partial_room_01_pano_75": {
+   "asteroom_name": "floor_02 complete_room_01 pano_75"
+  },
+  "1025_floor_02_partial_room_03_pano_47": {
+   "asteroom_name": "floor_02 complete_room_01 pano_47"
+  },
+  "1025_floor_02_partial_room_07_pano_71": {
+   "asteroom_name": "floor_02 complete_room_01 pano_71"
+  },
+  "0941_floor_01_partial_room_02_pano_32": {
+   "asteroom_name": "floor_01 complete_room_02 pano_32"
+  },
+  "0941_floor_01_partial_room_03_pano_19": {
+   "asteroom_name": "floor_01 complete_room_02 pano_19"
+  },
+  "0941_floor_01_partial_room_04_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "0941_floor_01_partial_room_10_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "0941_floor_01_partial_room_12_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "0941_floor_01_partial_room_14_pano_21": {
+   "asteroom_name": "floor_01 complete_room_02 pano_21"
+  },
+  "0941_floor_01_partial_room_18_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0406_floor_01_partial_room_01_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0406_floor_01_partial_room_03_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0406_floor_01_partial_room_05_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0406_floor_01_partial_room_06_pano_0": {
+   "asteroom_name": "floor_01 complete_room_01 pano_0"
+  },
+  "0406_floor_01_partial_room_08_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0406_floor_01_partial_room_11_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0406_floor_01_partial_room_12_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0406_floor_02_partial_room_02_pano_47": {
+   "asteroom_name": "floor_02 complete_room_02 pano_47"
+  },
+  "0406_floor_02_partial_room_04_pano_28": {
+   "asteroom_name": "floor_02 complete_room_02 pano_28"
+  },
+  "0406_floor_02_partial_room_13_pano_40": {
+   "asteroom_name": "floor_02 complete_room_02 pano_40"
+  },
+  "0406_floor_02_partial_room_05_pano_33": {
+   "asteroom_name": "floor_02 complete_room_04 pano_33"
+  },
+  "0406_floor_02_partial_room_07_pano_35": {
+   "asteroom_name": "floor_02 complete_room_04 pano_35"
+  },
+  "0406_floor_02_partial_room_09_pano_38": {
+   "asteroom_name": "floor_02 complete_room_04 pano_38"
+  },
+  "1028_floor_01_partial_room_01_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1028_floor_01_partial_room_03_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1028_floor_01_partial_room_04_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "1028_floor_01_partial_room_05_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1028_floor_01_partial_room_06_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "1028_floor_01_partial_room_08_pano_0": {
+   "asteroom_name": "floor_01 complete_room_01 pano_0"
+  },
+  "1404_floor_01_partial_room_01_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "1404_floor_01_partial_room_02_pano_22": {
+   "asteroom_name": "floor_01 complete_room_01 pano_22"
+  },
+  "1404_floor_01_partial_room_03_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "1404_floor_01_partial_room_05_pano_23": {
+   "asteroom_name": "floor_01 complete_room_01 pano_23"
+  },
+  "1404_floor_01_partial_room_06_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "1404_floor_01_partial_room_08_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "1404_floor_01_partial_room_10_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1404_floor_02_partial_room_02_pano_47": {
+   "asteroom_name": "floor_02 complete_room_02 pano_47"
+  },
+  "1404_floor_02_partial_room_08_pano_29": {
+   "asteroom_name": "floor_02 complete_room_02 pano_29"
+  },
+  "1404_floor_02_partial_room_12_pano_27": {
+   "asteroom_name": "floor_02 complete_room_02 pano_27"
+  },
+  "0744_floor_01_partial_room_01_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0744_floor_01_partial_room_02_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0744_floor_01_partial_room_04_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0744_floor_01_partial_room_06_pano_27": {
+   "asteroom_name": "floor_01 complete_room_01 pano_27"
+  },
+  "0744_floor_01_partial_room_08_pano_21": {
+   "asteroom_name": "floor_01 complete_room_01 pano_21"
+  },
+  "0744_floor_02_partial_room_04_pano_41": {
+   "asteroom_name": "floor_02 complete_room_04 pano_41"
+  },
+  "0744_floor_02_partial_room_08_pano_33": {
+   "asteroom_name": "floor_02 complete_room_04 pano_33"
+  },
+  "0744_floor_02_partial_room_09_pano_42": {
+   "asteroom_name": "floor_02 complete_room_04 pano_42"
+  },
+  "0691_floor_01_partial_room_03_pano_1": {
+   "asteroom_name": "floor_01 complete_room_03 pano_1"
+  },
+  "0691_floor_01_partial_room_05_pano_24": {
+   "asteroom_name": "floor_01 complete_room_03 pano_24"
+  },
+  "0691_floor_01_partial_room_07_pano_41": {
+   "asteroom_name": "floor_01 complete_room_03 pano_41"
+  },
+  "0691_floor_01_partial_room_15_pano_2": {
+   "asteroom_name": "floor_01 complete_room_03 pano_2"
+  },
+  "0691_floor_01_partial_room_17_pano_19": {
+   "asteroom_name": "floor_01 complete_room_03 pano_19"
+  },
+  "0057_floor_01_partial_room_02_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "0057_floor_01_partial_room_04_pano_31": {
+   "asteroom_name": "floor_01 complete_room_02 pano_31"
+  },
+  "0057_floor_01_partial_room_05_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "0057_floor_01_partial_room_07_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "0057_floor_01_partial_room_08_pano_21": {
+   "asteroom_name": "floor_01 complete_room_02 pano_21"
+  },
+  "0057_floor_01_partial_room_10_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "0057_floor_01_partial_room_11_pano_16": {
+   "asteroom_name": "floor_01 complete_room_02 pano_16"
+  },
+  "0057_floor_01_partial_room_13_pano_19": {
+   "asteroom_name": "floor_01 complete_room_02 pano_19"
+  },
+  "0057_floor_01_partial_room_14_pano_17": {
+   "asteroom_name": "floor_01 complete_room_02 pano_17"
+  },
+  "0057_floor_02_partial_room_03_pano_47": {
+   "asteroom_name": "floor_02 complete_room_03 pano_47"
+  },
+  "0057_floor_02_partial_room_12_pano_32": {
+   "asteroom_name": "floor_02 complete_room_03 pano_32"
+  },
+  "0057_floor_02_partial_room_16_pano_52": {
+   "asteroom_name": "floor_02 complete_room_03 pano_52"
+  },
+  "1027_floor_01_partial_room_02_pano_32": {
+   "asteroom_name": "floor_01 complete_room_02 pano_32"
+  },
+  "1027_floor_01_partial_room_04_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "1027_floor_01_partial_room_09_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "1027_floor_01_partial_room_13_pano_34": {
+   "asteroom_name": "floor_01 complete_room_02 pano_34"
+  },
+  "1027_floor_01_partial_room_16_pano_20": {
+   "asteroom_name": "floor_01 complete_room_02 pano_20"
+  },
+  "1027_floor_01_partial_room_20_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "1027_floor_01_partial_room_22_pano_31": {
+   "asteroom_name": "floor_01 complete_room_02 pano_31"
+  },
+  "1027_floor_01_partial_room_23_pano_0": {
+   "asteroom_name": "floor_01 complete_room_02 pano_0"
+  },
+  "0785_floor_00_partial_room_02_pano_62": {
+   "asteroom_name": "floor_00 complete_room_02 pano_62"
+  },
+  "0785_floor_00_partial_room_04_pano_39": {
+   "asteroom_name": "floor_00 complete_room_02 pano_39"
+  },
+  "0785_floor_00_partial_room_06_pano_61": {
+   "asteroom_name": "floor_00 complete_room_02 pano_61"
+  },
+  "0785_floor_01_partial_room_01_pano_30": {
+   "asteroom_name": "floor_01 complete_room_01 pano_30"
+  },
+  "0785_floor_01_partial_room_02_pano_22": {
+   "asteroom_name": "floor_01 complete_room_01 pano_22"
+  },
+  "0785_floor_01_partial_room_03_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0785_floor_01_partial_room_06_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "0785_floor_01_partial_room_08_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0785_floor_01_partial_room_11_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0785_floor_01_partial_room_12_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1268_floor_01_partial_room_03_pano_17": {
+   "asteroom_name": "floor_01 complete_room_03 pano_17"
+  },
+  "1268_floor_01_partial_room_05_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "1268_floor_01_partial_room_06_pano_32": {
+   "asteroom_name": "floor_01 complete_room_03 pano_32"
+  },
+  "1268_floor_01_partial_room_10_pano_23": {
+   "asteroom_name": "floor_01 complete_room_03 pano_23"
+  },
+  "1268_floor_01_partial_room_16_pano_9": {
+   "asteroom_name": "floor_01 complete_room_03 pano_9"
+  },
+  "1268_floor_01_partial_room_21_pano_20": {
+   "asteroom_name": "floor_01 complete_room_03 pano_20"
+  },
+  "1050_floor_01_partial_room_01_pano_31": {
+   "asteroom_name": "floor_01 complete_room_01 pano_31"
+  },
+  "1050_floor_01_partial_room_04_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "1050_floor_01_partial_room_05_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "1050_floor_01_partial_room_08_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0353_floor_01_partial_room_03_pano_21": {
+   "asteroom_name": "floor_01 complete_room_02 pano_21"
+  },
+  "0353_floor_01_partial_room_05_pano_2": {
+   "asteroom_name": "floor_01 complete_room_02 pano_2"
+  },
+  "0353_floor_01_partial_room_07_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "0353_floor_01_partial_room_08_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "0353_floor_01_partial_room_09_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "0353_floor_01_partial_room_11_pano_20": {
+   "asteroom_name": "floor_01 complete_room_02 pano_20"
+  },
+  "0353_floor_01_partial_room_12_pano_17": {
+   "asteroom_name": "floor_01 complete_room_02 pano_17"
+  },
+  "0353_floor_02_partial_room_02_pano_22": {
+   "asteroom_name": "floor_02 complete_room_02 pano_22"
+  },
+  "0353_floor_02_partial_room_04_pano_23": {
+   "asteroom_name": "floor_02 complete_room_02 pano_23"
+  },
+  "0353_floor_02_partial_room_08_pano_26": {
+   "asteroom_name": "floor_02 complete_room_02 pano_26"
+  },
+  "0353_floor_02_partial_room_07_pano_35": {
+   "asteroom_name": "floor_02 complete_room_06 pano_35"
+  },
+  "0353_floor_02_partial_room_10_pano_34": {
+   "asteroom_name": "floor_02 complete_room_06 pano_34"
+  },
+  "0353_floor_02_partial_room_11_pano_33": {
+   "asteroom_name": "floor_02 complete_room_06 pano_33"
+  },
+  "0353_floor_02_partial_room_12_pano_36": {
+   "asteroom_name": "floor_02 complete_room_06 pano_36"
+  },
+  "0575_floor_01_partial_room_01_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0575_floor_01_partial_room_02_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0575_floor_01_partial_room_07_pano_22": {
+   "asteroom_name": "floor_01 complete_room_01 pano_22"
+  },
+  "0575_floor_01_partial_room_08_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0575_floor_01_partial_room_09_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "0575_floor_01_partial_room_10_pano_24": {
+   "asteroom_name": "floor_01 complete_room_01 pano_24"
+  },
+  "0502_floor_01_partial_room_02_pano_15": {
+   "asteroom_name": "floor_01 complete_room_02 pano_15"
+  },
+  "0502_floor_01_partial_room_05_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "0502_floor_01_partial_room_06_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0502_floor_01_partial_room_11_pano_24": {
+   "asteroom_name": "floor_01 complete_room_02 pano_24"
+  },
+  "0502_floor_01_partial_room_14_pano_17": {
+   "asteroom_name": "floor_01 complete_room_02 pano_17"
+  },
+  "0502_floor_01_partial_room_15_pano_2": {
+   "asteroom_name": "floor_01 complete_room_02 pano_2"
+  },
+  "1398_floor_01_partial_room_01_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "1398_floor_01_partial_room_02_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "1398_floor_01_partial_room_03_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "1398_floor_01_partial_room_09_pano_29": {
+   "asteroom_name": "floor_01 complete_room_01 pano_29"
+  },
+  "1398_floor_01_partial_room_10_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "1398_floor_01_partial_room_11_pano_31": {
+   "asteroom_name": "floor_01 complete_room_01 pano_31"
+  },
+  "1398_floor_01_partial_room_15_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "1398_floor_01_partial_room_16_pano_32": {
+   "asteroom_name": "floor_01 complete_room_01 pano_32"
+  },
+  "0944_floor_01_partial_room_02_pano_37": {
+   "asteroom_name": "floor_01 complete_room_02 pano_37"
+  },
+  "0944_floor_01_partial_room_05_pano_28": {
+   "asteroom_name": "floor_01 complete_room_02 pano_28"
+  },
+  "0944_floor_01_partial_room_07_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "0944_floor_01_partial_room_09_pano_30": {
+   "asteroom_name": "floor_01 complete_room_02 pano_30"
+  },
+  "0944_floor_01_partial_room_10_pano_26": {
+   "asteroom_name": "floor_01 complete_room_02 pano_26"
+  },
+  "0944_floor_01_partial_room_11_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "0944_floor_01_partial_room_12_pano_15": {
+   "asteroom_name": "floor_01 complete_room_02 pano_15"
+  },
+  "0944_floor_01_partial_room_13_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "0944_floor_01_partial_room_14_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "0944_floor_01_partial_room_15_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0944_floor_02_partial_room_02_pano_69": {
+   "asteroom_name": "floor_02 complete_room_02 pano_69"
+  },
+  "0944_floor_02_partial_room_03_pano_73": {
+   "asteroom_name": "floor_02 complete_room_02 pano_73"
+  },
+  "0944_floor_02_partial_room_15_pano_71": {
+   "asteroom_name": "floor_02 complete_room_02 pano_71"
+  },
+  "0792_floor_01_partial_room_01_pano_27": {
+   "asteroom_name": "floor_01 complete_room_01 pano_27"
+  },
+  "0792_floor_01_partial_room_02_pano_65": {
+   "asteroom_name": "floor_01 complete_room_01 pano_65"
+  },
+  "0792_floor_01_partial_room_06_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0792_floor_01_partial_room_09_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "0792_floor_01_partial_room_16_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0792_floor_01_partial_room_23_pano_33": {
+   "asteroom_name": "floor_01 complete_room_01 pano_33"
+  },
+  "0792_floor_01_partial_room_25_pano_77": {
+   "asteroom_name": "floor_01 complete_room_01 pano_77"
+  },
+  "0792_floor_01_partial_room_26_pano_41": {
+   "asteroom_name": "floor_01 complete_room_01 pano_41"
+  },
+  "0383_floor_00_partial_room_06_pano_62": {
+   "asteroom_name": "floor_00 complete_room_06 pano_62"
+  },
+  "0383_floor_00_partial_room_08_pano_63": {
+   "asteroom_name": "floor_00 complete_room_06 pano_63"
+  },
+  "0383_floor_00_partial_room_10_pano_83": {
+   "asteroom_name": "floor_00 complete_room_06 pano_83"
+  },
+  "0383_floor_00_partial_room_11_pano_78": {
+   "asteroom_name": "floor_00 complete_room_06 pano_78"
+  },
+  "0383_floor_01_partial_room_06_pano_28": {
+   "asteroom_name": "floor_01 complete_room_06 pano_28"
+  },
+  "0383_floor_01_partial_room_13_pano_32": {
+   "asteroom_name": "floor_01 complete_room_06 pano_32"
+  },
+  "0383_floor_01_partial_room_14_pano_15": {
+   "asteroom_name": "floor_01 complete_room_06 pano_15"
+  },
+  "0383_floor_01_partial_room_15_pano_8": {
+   "asteroom_name": "floor_01 complete_room_06 pano_8"
+  },
+  "0383_floor_01_partial_room_17_pano_13": {
+   "asteroom_name": "floor_01 complete_room_06 pano_13"
+  },
+  "0090_floor_01_partial_room_01_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0090_floor_01_partial_room_07_pano_41": {
+   "asteroom_name": "floor_01 complete_room_01 pano_41"
+  },
+  "0090_floor_01_partial_room_09_pano_31": {
+   "asteroom_name": "floor_01 complete_room_01 pano_31"
+  },
+  "0090_floor_01_partial_room_12_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0090_floor_01_partial_room_15_pano_33": {
+   "asteroom_name": "floor_01 complete_room_01 pano_33"
+  },
+  "0090_floor_01_partial_room_17_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0090_floor_01_partial_room_08_pano_44": {
+   "asteroom_name": "floor_01 complete_room_06 pano_44"
+  },
+  "0090_floor_01_partial_room_10_pano_47": {
+   "asteroom_name": "floor_01 complete_room_06 pano_47"
+  },
+  "0090_floor_01_partial_room_13_pano_43": {
+   "asteroom_name": "floor_01 complete_room_06 pano_43"
+  },
+  "0375_floor_01_partial_room_08_pano_3": {
+   "asteroom_name": "floor_01 complete_room_08 pano_3"
+  },
+  "0375_floor_01_partial_room_09_pano_11": {
+   "asteroom_name": "floor_01 complete_room_08 pano_11"
+  },
+  "0375_floor_01_partial_room_11_pano_8": {
+   "asteroom_name": "floor_01 complete_room_08 pano_8"
+  },
+  "1153_floor_01_partial_room_03_pano_43": {
+   "asteroom_name": "floor_01 complete_room_03 pano_43"
+  },
+  "1153_floor_01_partial_room_04_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "1153_floor_01_partial_room_06_pano_3": {
+   "asteroom_name": "floor_01 complete_room_03 pano_3"
+  },
+  "1153_floor_01_partial_room_18_pano_8": {
+   "asteroom_name": "floor_01 complete_room_03 pano_8"
+  },
+  "1153_floor_01_partial_room_19_pano_47": {
+   "asteroom_name": "floor_01 complete_room_03 pano_47"
+  },
+  "1153_floor_01_partial_room_23_pano_21": {
+   "asteroom_name": "floor_01 complete_room_03 pano_21"
+  },
+  "1153_floor_01_partial_room_29_pano_45": {
+   "asteroom_name": "floor_01 complete_room_03 pano_45"
+  },
+  "1103_floor_01_partial_room_05_pano_34": {
+   "asteroom_name": "floor_01 complete_room_05 pano_34"
+  },
+  "1103_floor_01_partial_room_07_pano_6": {
+   "asteroom_name": "floor_01 complete_room_05 pano_6"
+  },
+  "1103_floor_01_partial_room_08_pano_25": {
+   "asteroom_name": "floor_01 complete_room_05 pano_25"
+  },
+  "1103_floor_01_partial_room_09_pano_29": {
+   "asteroom_name": "floor_01 complete_room_05 pano_29"
+  },
+  "0642_floor_01_partial_room_01_pano_29": {
+   "asteroom_name": "floor_01 complete_room_01 pano_29"
+  },
+  "0642_floor_01_partial_room_03_pano_25": {
+   "asteroom_name": "floor_01 complete_room_01 pano_25"
+  },
+  "0642_floor_01_partial_room_05_pano_44": {
+   "asteroom_name": "floor_01 complete_room_01 pano_44"
+  },
+  "0642_floor_01_partial_room_07_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0642_floor_01_partial_room_10_pano_40": {
+   "asteroom_name": "floor_01 complete_room_01 pano_40"
+  },
+  "0642_floor_01_partial_room_11_pano_37": {
+   "asteroom_name": "floor_01 complete_room_01 pano_37"
+  },
+  "0642_floor_01_partial_room_12_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0642_floor_01_partial_room_14_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0642_floor_02_partial_room_14_pano_67": {
+   "asteroom_name": "floor_02 complete_room_13 pano_67"
+  },
+  "0642_floor_02_partial_room_16_pano_58": {
+   "asteroom_name": "floor_02 complete_room_13 pano_58"
+  },
+  "0642_floor_02_partial_room_17_pano_48": {
+   "asteroom_name": "floor_02 complete_room_13 pano_48"
+  },
+  "0642_floor_02_partial_room_18_pano_64": {
+   "asteroom_name": "floor_02 complete_room_13 pano_64"
+  },
+  "0278_floor_01_partial_room_01_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "0278_floor_01_partial_room_02_pano_36": {
+   "asteroom_name": "floor_01 complete_room_01 pano_36"
+  },
+  "0278_floor_01_partial_room_05_pano_28": {
+   "asteroom_name": "floor_01 complete_room_01 pano_28"
+  },
+  "0278_floor_01_partial_room_06_pano_32": {
+   "asteroom_name": "floor_01 complete_room_01 pano_32"
+  },
+  "0278_floor_02_partial_room_01_pano_49": {
+   "asteroom_name": "floor_02 complete_room_01 pano_49"
+  },
+  "0278_floor_02_partial_room_03_pano_62": {
+   "asteroom_name": "floor_02 complete_room_01 pano_62"
+  },
+  "0278_floor_02_partial_room_04_pano_64": {
+   "asteroom_name": "floor_02 complete_room_01 pano_64"
+  },
+  "0278_floor_02_partial_room_05_pano_48": {
+   "asteroom_name": "floor_02 complete_room_01 pano_48"
+  },
+  "0278_floor_02_partial_room_07_pano_55": {
+   "asteroom_name": "floor_02 complete_room_01 pano_55"
+  },
+  "0097_floor_01_partial_room_02_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "0097_floor_01_partial_room_04_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "0097_floor_01_partial_room_06_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "0986_floor_01_partial_room_03_pano_0": {
+   "asteroom_name": "floor_01 complete_room_02 pano_0"
+  },
+  "0986_floor_01_partial_room_05_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "0986_floor_01_partial_room_07_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0986_floor_01_partial_room_08_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "0986_floor_02_partial_room_02_pano_16": {
+   "asteroom_name": "floor_02 complete_room_02 pano_16"
+  },
+  "0986_floor_02_partial_room_04_pano_27": {
+   "asteroom_name": "floor_02 complete_room_02 pano_27"
+  },
+  "0986_floor_02_partial_room_09_pano_22": {
+   "asteroom_name": "floor_02 complete_room_02 pano_22"
+  },
+  "0850_floor_00_partial_room_02_pano_28": {
+   "asteroom_name": "floor_00 complete_room_02 pano_28"
+  },
+  "0850_floor_00_partial_room_03_pano_29": {
+   "asteroom_name": "floor_00 complete_room_02 pano_29"
+  },
+  "0850_floor_00_partial_room_04_pano_31": {
+   "asteroom_name": "floor_00 complete_room_02 pano_31"
+  },
+  "0850_floor_00_partial_room_07_pano_30": {
+   "asteroom_name": "floor_00 complete_room_02 pano_30"
+  },
+  "0850_floor_01_partial_room_02_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "0850_floor_01_partial_room_04_pano_21": {
+   "asteroom_name": "floor_01 complete_room_02 pano_21"
+  },
+  "0850_floor_01_partial_room_11_pano_20": {
+   "asteroom_name": "floor_01 complete_room_02 pano_20"
+  },
+  "0850_floor_01_partial_room_13_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "0850_floor_01_partial_room_14_pano_22": {
+   "asteroom_name": "floor_01 complete_room_02 pano_22"
+  },
+  "0011_floor_01_partial_room_03_pano_6": {
+   "asteroom_name": "floor_01 complete_room_03 pano_6"
+  },
+  "0011_floor_01_partial_room_09_pano_24": {
+   "asteroom_name": "floor_01 complete_room_03 pano_24"
+  },
+  "0011_floor_01_partial_room_11_pano_3": {
+   "asteroom_name": "floor_01 complete_room_03 pano_3"
+  },
+  "0218_floor_01_partial_room_01_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0218_floor_01_partial_room_02_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0218_floor_01_partial_room_03_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0218_floor_01_partial_room_05_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0218_floor_01_partial_room_07_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0218_floor_02_partial_room_01_pano_25": {
+   "asteroom_name": "floor_02 complete_room_01 pano_25"
+  },
+  "0218_floor_02_partial_room_03_pano_18": {
+   "asteroom_name": "floor_02 complete_room_01 pano_18"
+  },
+  "0218_floor_02_partial_room_06_pano_29": {
+   "asteroom_name": "floor_02 complete_room_01 pano_29"
+  },
+  "0181_floor_01_partial_room_02_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "0181_floor_01_partial_room_04_pano_19": {
+   "asteroom_name": "floor_01 complete_room_02 pano_19"
+  },
+  "0181_floor_01_partial_room_06_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "0181_floor_01_partial_room_07_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "0039_floor_01_partial_room_03_pano_20": {
+   "asteroom_name": "floor_01 complete_room_03 pano_20"
+  },
+  "0039_floor_01_partial_room_04_pano_28": {
+   "asteroom_name": "floor_01 complete_room_03 pano_28"
+  },
+  "0039_floor_01_partial_room_08_pano_2": {
+   "asteroom_name": "floor_01 complete_room_03 pano_2"
+  },
+  "0039_floor_01_partial_room_09_pano_14": {
+   "asteroom_name": "floor_01 complete_room_03 pano_14"
+  },
+  "0039_floor_01_partial_room_14_pano_47": {
+   "asteroom_name": "floor_01 complete_room_03 pano_47"
+  },
+  "0039_floor_02_partial_room_01_pano_74": {
+   "asteroom_name": "floor_02 complete_room_01 pano_74"
+  },
+  "0039_floor_02_partial_room_05_pano_67": {
+   "asteroom_name": "floor_02 complete_room_01 pano_67"
+  },
+  "0039_floor_02_partial_room_08_pano_71": {
+   "asteroom_name": "floor_02 complete_room_01 pano_71"
+  },
+  "0270_floor_01_partial_room_02_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "0270_floor_01_partial_room_03_pano_13": {
+   "asteroom_name": "floor_01 complete_room_02 pano_13"
+  },
+  "0270_floor_01_partial_room_05_pano_0": {
+   "asteroom_name": "floor_01 complete_room_02 pano_0"
+  },
+  "0270_floor_01_partial_room_06_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "0270_floor_01_partial_room_08_pano_11": {
+   "asteroom_name": "floor_01 complete_room_02 pano_11"
+  },
+  "1075_floor_00_partial_room_01_pano_20": {
+   "asteroom_name": "floor_00 complete_room_01 pano_20"
+  },
+  "1075_floor_00_partial_room_02_pano_22": {
+   "asteroom_name": "floor_00 complete_room_01 pano_22"
+  },
+  "1075_floor_00_partial_room_03_pano_25": {
+   "asteroom_name": "floor_00 complete_room_01 pano_25"
+  },
+  "1075_floor_00_partial_room_04_pano_23": {
+   "asteroom_name": "floor_00 complete_room_01 pano_23"
+  },
+  "1075_floor_01_partial_room_01_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1075_floor_01_partial_room_02_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1075_floor_01_partial_room_03_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "1075_floor_01_partial_room_05_pano_17": {
+   "asteroom_name": "floor_01 complete_room_01 pano_17"
+  },
+  "1075_floor_01_partial_room_07_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "1075_floor_01_partial_room_08_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1075_floor_01_partial_room_10_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1383_floor_01_partial_room_01_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "1383_floor_01_partial_room_02_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1383_floor_01_partial_room_04_pano_7": {
+   "asteroom_name": "floor_01 complete_room_01 pano_7"
+  },
+  "1383_floor_01_partial_room_09_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1383_floor_01_partial_room_14_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "1383_floor_01_partial_room_17_pano_0": {
+   "asteroom_name": "floor_01 complete_room_01 pano_0"
+  },
+  "1383_floor_01_partial_room_18_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "1383_floor_01_partial_room_19_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "1383_floor_02_partial_room_05_pano_33": {
+   "asteroom_name": "floor_02 complete_room_05 pano_33"
+  },
+  "1383_floor_02_partial_room_09_pano_29": {
+   "asteroom_name": "floor_02 complete_room_05 pano_29"
+  },
+  "1383_floor_02_partial_room_10_pano_30": {
+   "asteroom_name": "floor_02 complete_room_05 pano_30"
+  },
+  "0969_floor_01_partial_room_03_pano_1": {
+   "asteroom_name": "floor_01 complete_room_03 pano_1"
+  },
+  "0969_floor_01_partial_room_04_pano_16": {
+   "asteroom_name": "floor_01 complete_room_03 pano_16"
+  },
+  "0969_floor_01_partial_room_05_pano_4": {
+   "asteroom_name": "floor_01 complete_room_03 pano_4"
+  },
+  "0969_floor_01_partial_room_09_pano_13": {
+   "asteroom_name": "floor_01 complete_room_03 pano_13"
+  },
+  "0969_floor_02_partial_room_01_pano_27": {
+   "asteroom_name": "floor_02 complete_room_01 pano_27"
+  },
+  "0969_floor_02_partial_room_02_pano_26": {
+   "asteroom_name": "floor_02 complete_room_01 pano_26"
+  },
+  "0969_floor_02_partial_room_03_pano_29": {
+   "asteroom_name": "floor_02 complete_room_01 pano_29"
+  },
+  "0819_floor_01_partial_room_01_pano_25": {
+   "asteroom_name": "floor_01 complete_room_01 pano_25"
+  },
+  "0819_floor_01_partial_room_02_pano_28": {
+   "asteroom_name": "floor_01 complete_room_01 pano_28"
+  },
+  "0819_floor_01_partial_room_04_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0819_floor_01_partial_room_06_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0819_floor_01_partial_room_10_pano_21": {
+   "asteroom_name": "floor_01 complete_room_01 pano_21"
+  },
+  "0819_floor_02_partial_room_01_pano_50": {
+   "asteroom_name": "floor_02 complete_room_01 pano_50"
+  },
+  "0819_floor_02_partial_room_07_pano_58": {
+   "asteroom_name": "floor_02 complete_room_01 pano_58"
+  },
+  "0819_floor_02_partial_room_11_pano_52": {
+   "asteroom_name": "floor_02 complete_room_01 pano_52"
+  },
+  "1538_floor_01_partial_room_01_pano_0": {
+   "asteroom_name": "floor_01 complete_room_01 pano_0"
+  },
+  "1538_floor_01_partial_room_02_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "1538_floor_01_partial_room_04_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1538_floor_01_partial_room_05_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "1538_floor_01_partial_room_06_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1538_floor_01_partial_room_07_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "1538_floor_02_partial_room_02_pano_33": {
+   "asteroom_name": "floor_02 complete_room_02 pano_33"
+  },
+  "1538_floor_02_partial_room_05_pano_17": {
+   "asteroom_name": "floor_02 complete_room_02 pano_17"
+  },
+  "1538_floor_02_partial_room_07_pano_20": {
+   "asteroom_name": "floor_02 complete_room_02 pano_20"
+  },
+  "1538_floor_02_partial_room_11_pano_29": {
+   "asteroom_name": "floor_02 complete_room_02 pano_29"
+  },
+  "0302_floor_00_partial_room_01_pano_7": {
+   "asteroom_name": "floor_00 complete_room_01 pano_7"
+  },
+  "0302_floor_00_partial_room_02_pano_14": {
+   "asteroom_name": "floor_00 complete_room_01 pano_14"
+  },
+  "0302_floor_00_partial_room_03_pano_20": {
+   "asteroom_name": "floor_00 complete_room_01 pano_20"
+  },
+  "0302_floor_00_partial_room_04_pano_15": {
+   "asteroom_name": "floor_00 complete_room_01 pano_15"
+  },
+  "0302_floor_01_partial_room_02_pano_22": {
+   "asteroom_name": "floor_01 complete_room_02 pano_22"
+  },
+  "0302_floor_01_partial_room_06_pano_23": {
+   "asteroom_name": "floor_01 complete_room_02 pano_23"
+  },
+  "0302_floor_01_partial_room_10_pano_24": {
+   "asteroom_name": "floor_01 complete_room_02 pano_24"
+  },
+  "0302_floor_01_partial_room_13_pano_28": {
+   "asteroom_name": "floor_01 complete_room_02 pano_28"
+  },
+  "1489_floor_01_partial_room_06_pano_31": {
+   "asteroom_name": "floor_01 complete_room_05 pano_31"
+  },
+  "1489_floor_01_partial_room_08_pano_26": {
+   "asteroom_name": "floor_01 complete_room_05 pano_26"
+  },
+  "1489_floor_01_partial_room_09_pano_42": {
+   "asteroom_name": "floor_01 complete_room_05 pano_42"
+  },
+  "1489_floor_01_partial_room_11_pano_35": {
+   "asteroom_name": "floor_01 complete_room_05 pano_35"
+  },
+  "1489_floor_01_partial_room_12_pano_39": {
+   "asteroom_name": "floor_01 complete_room_05 pano_39"
+  },
+  "1489_floor_01_partial_room_13_pano_9": {
+   "asteroom_name": "floor_01 complete_room_05 pano_9"
+  },
+  "1489_floor_01_partial_room_16_pano_8": {
+   "asteroom_name": "floor_01 complete_room_05 pano_8"
+  },
+  "0010_floor_01_partial_room_01_pano_25": {
+   "asteroom_name": "floor_01 complete_room_01 pano_25"
+  },
+  "0010_floor_01_partial_room_03_pano_26": {
+   "asteroom_name": "floor_01 complete_room_01 pano_26"
+  },
+  "0010_floor_01_partial_room_05_pano_24": {
+   "asteroom_name": "floor_01 complete_room_01 pano_24"
+  },
+  "0010_floor_01_partial_room_02_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "0010_floor_01_partial_room_06_pano_13": {
+   "asteroom_name": "floor_01 complete_room_02 pano_13"
+  },
+  "0010_floor_01_partial_room_07_pano_14": {
+   "asteroom_name": "floor_01 complete_room_02 pano_14"
+  },
+  "0010_floor_01_partial_room_10_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "0010_floor_01_partial_room_12_pano_2": {
+   "asteroom_name": "floor_01 complete_room_02 pano_2"
+  },
+  "0010_floor_01_partial_room_14_pano_18": {
+   "asteroom_name": "floor_01 complete_room_02 pano_18"
+  },
+  "0010_floor_01_partial_room_17_pano_10": {
+   "asteroom_name": "floor_01 complete_room_02 pano_10"
+  },
+  "0010_floor_01_partial_room_18_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "0076_floor_01_partial_room_02_pano_19": {
+   "asteroom_name": "floor_01 complete_room_02 pano_19"
+  },
+  "0076_floor_01_partial_room_05_pano_8": {
+   "asteroom_name": "floor_01 complete_room_02 pano_8"
+  },
+  "0076_floor_01_partial_room_07_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "0076_floor_01_partial_room_08_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0076_floor_01_partial_room_09_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "0076_floor_01_partial_room_10_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "0076_floor_01_partial_room_12_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "0076_floor_01_partial_room_15_pano_2": {
+   "asteroom_name": "floor_01 complete_room_02 pano_2"
+  },
+  "0076_floor_01_partial_room_16_pano_12": {
+   "asteroom_name": "floor_01 complete_room_02 pano_12"
+  },
+  "0905_floor_00_partial_room_02_pano_25": {
+   "asteroom_name": "floor_00 complete_room_02 pano_25"
+  },
+  "0905_floor_00_partial_room_03_pano_24": {
+   "asteroom_name": "floor_00 complete_room_02 pano_24"
+  },
+  "0905_floor_00_partial_room_04_pano_23": {
+   "asteroom_name": "floor_00 complete_room_02 pano_23"
+  },
+  "0905_floor_00_partial_room_08_pano_26": {
+   "asteroom_name": "floor_00 complete_room_02 pano_26"
+  },
+  "0905_floor_01_partial_room_01_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0905_floor_01_partial_room_02_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0905_floor_01_partial_room_03_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0905_floor_01_partial_room_04_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0905_floor_01_partial_room_05_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "0905_floor_01_partial_room_06_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0905_floor_01_partial_room_07_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0905_floor_01_partial_room_10_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0905_floor_01_partial_room_11_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0905_floor_01_partial_room_13_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0905_floor_01_partial_room_16_pano_16": {
+   "asteroom_name": "floor_01 complete_room_01 pano_16"
+  },
+  "0715_floor_01_partial_room_02_pano_22": {
+   "asteroom_name": "floor_01 complete_room_02 pano_22"
+  },
+  "0715_floor_01_partial_room_12_pano_26": {
+   "asteroom_name": "floor_01 complete_room_02 pano_26"
+  },
+  "0715_floor_01_partial_room_16_pano_19": {
+   "asteroom_name": "floor_01 complete_room_02 pano_19"
+  },
+  "0715_floor_01_partial_room_04_pano_3": {
+   "asteroom_name": "floor_01 complete_room_04 pano_3"
+  },
+  "0715_floor_01_partial_room_07_pano_35": {
+   "asteroom_name": "floor_01 complete_room_04 pano_35"
+  },
+  "0715_floor_01_partial_room_09_pano_2": {
+   "asteroom_name": "floor_01 complete_room_04 pano_2"
+  },
+  "0715_floor_01_partial_room_13_pano_40": {
+   "asteroom_name": "floor_01 complete_room_04 pano_40"
+  },
+  "0715_floor_01_partial_room_17_pano_38": {
+   "asteroom_name": "floor_01 complete_room_04 pano_38"
+  },
+  "0564_floor_01_partial_room_06_pano_14": {
+   "asteroom_name": "floor_01 complete_room_05 pano_14"
+  },
+  "0564_floor_01_partial_room_07_pano_13": {
+   "asteroom_name": "floor_01 complete_room_05 pano_13"
+  },
+  "0564_floor_01_partial_room_09_pano_10": {
+   "asteroom_name": "floor_01 complete_room_05 pano_10"
+  },
+  "0564_floor_01_partial_room_11_pano_9": {
+   "asteroom_name": "floor_01 complete_room_05 pano_9"
+  },
+  "0564_floor_01_partial_room_14_pano_8": {
+   "asteroom_name": "floor_01 complete_room_05 pano_8"
+  },
+  "0564_floor_01_partial_room_15_pano_2": {
+   "asteroom_name": "floor_01 complete_room_05 pano_2"
+  },
+  "0564_floor_01_partial_room_18_pano_12": {
+   "asteroom_name": "floor_01 complete_room_05 pano_12"
+  },
+  "0564_floor_01_partial_room_20_pano_54": {
+   "asteroom_name": "floor_01 complete_room_05 pano_54"
+  },
+  "0564_floor_01_partial_room_26_pano_55": {
+   "asteroom_name": "floor_01 complete_room_05 pano_55"
+  },
+  "0564_floor_01_partial_room_27_pano_11": {
+   "asteroom_name": "floor_01 complete_room_05 pano_11"
+  },
+  "0800_floor_01_partial_room_04_pano_6": {
+   "asteroom_name": "floor_01 complete_room_04 pano_6"
+  },
+  "0800_floor_01_partial_room_06_pano_10": {
+   "asteroom_name": "floor_01 complete_room_04 pano_10"
+  },
+  "0800_floor_01_partial_room_07_pano_5": {
+   "asteroom_name": "floor_01 complete_room_04 pano_5"
+  },
+  "0800_floor_02_partial_room_04_pano_23": {
+   "asteroom_name": "floor_02 complete_room_04 pano_23"
+  },
+  "0800_floor_02_partial_room_06_pano_17": {
+   "asteroom_name": "floor_02 complete_room_04 pano_17"
+  },
+  "0800_floor_02_partial_room_12_pano_18": {
+   "asteroom_name": "floor_02 complete_room_04 pano_18"
+  },
+  "1199_floor_01_partial_room_03_pano_13": {
+   "asteroom_name": "floor_01 complete_room_03 pano_13"
+  },
+  "1199_floor_01_partial_room_04_pano_25": {
+   "asteroom_name": "floor_01 complete_room_03 pano_25"
+  },
+  "1199_floor_01_partial_room_06_pano_37": {
+   "asteroom_name": "floor_01 complete_room_03 pano_37"
+  },
+  "1199_floor_01_partial_room_08_pano_10": {
+   "asteroom_name": "floor_01 complete_room_03 pano_10"
+  },
+  "1199_floor_01_partial_room_09_pano_14": {
+   "asteroom_name": "floor_01 complete_room_03 pano_14"
+  },
+  "1199_floor_01_partial_room_11_pano_24": {
+   "asteroom_name": "floor_01 complete_room_03 pano_24"
+  },
+  "1199_floor_01_partial_room_12_pano_7": {
+   "asteroom_name": "floor_01 complete_room_03 pano_7"
+  },
+  "1199_floor_02_partial_room_03_pano_60": {
+   "asteroom_name": "floor_02 complete_room_03 pano_60"
+  },
+  "1199_floor_02_partial_room_04_pano_58": {
+   "asteroom_name": "floor_02 complete_room_03 pano_58"
+  },
+  "1199_floor_02_partial_room_08_pano_44": {
+   "asteroom_name": "floor_02 complete_room_03 pano_44"
+  },
+  "1199_floor_02_partial_room_14_pano_62": {
+   "asteroom_name": "floor_02 complete_room_03 pano_62"
+  },
+  "0165_floor_01_partial_room_01_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0165_floor_01_partial_room_04_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0165_floor_01_partial_room_05_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0165_floor_02_partial_room_01_pano_25": {
+   "asteroom_name": "floor_02 complete_room_01 pano_25"
+  },
+  "0165_floor_02_partial_room_03_pano_19": {
+   "asteroom_name": "floor_02 complete_room_01 pano_19"
+  },
+  "0165_floor_02_partial_room_04_pano_26": {
+   "asteroom_name": "floor_02 complete_room_01 pano_26"
+  },
+  "1210_floor_01_partial_room_02_pano_15": {
+   "asteroom_name": "floor_01 complete_room_02 pano_15"
+  },
+  "1210_floor_01_partial_room_05_pano_1": {
+   "asteroom_name": "floor_01 complete_room_02 pano_1"
+  },
+  "1210_floor_01_partial_room_06_pano_3": {
+   "asteroom_name": "floor_01 complete_room_02 pano_3"
+  },
+  "1210_floor_01_partial_room_08_pano_2": {
+   "asteroom_name": "floor_01 complete_room_02 pano_2"
+  },
+  "1210_floor_01_partial_room_09_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "1479_floor_01_partial_room_02_pano_33": {
+   "asteroom_name": "floor_01 complete_room_02 pano_33"
+  },
+  "1479_floor_01_partial_room_03_pano_6": {
+   "asteroom_name": "floor_01 complete_room_02 pano_6"
+  },
+  "1479_floor_01_partial_room_06_pano_35": {
+   "asteroom_name": "floor_01 complete_room_02 pano_35"
+  },
+  "1479_floor_02_partial_room_01_pano_26": {
+   "asteroom_name": "floor_02 complete_room_01 pano_26"
+  },
+  "1479_floor_02_partial_room_02_pano_24": {
+   "asteroom_name": "floor_02 complete_room_01 pano_24"
+  },
+  "1479_floor_02_partial_room_11_pano_28": {
+   "asteroom_name": "floor_02 complete_room_01 pano_28"
+  },
+  "0444_floor_01_partial_room_01_pano_28": {
+   "asteroom_name": "floor_01 complete_room_01 pano_28"
+  },
+  "0444_floor_01_partial_room_04_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "0444_floor_01_partial_room_05_pano_9": {
+   "asteroom_name": "floor_01 complete_room_01 pano_9"
+  },
+  "0444_floor_01_partial_room_07_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0444_floor_02_partial_room_02_pano_34": {
+   "asteroom_name": "floor_02 complete_room_02 pano_34"
+  },
+  "0444_floor_02_partial_room_03_pano_54": {
+   "asteroom_name": "floor_02 complete_room_02 pano_54"
+  },
+  "0444_floor_02_partial_room_06_pano_56": {
+   "asteroom_name": "floor_02 complete_room_02 pano_56"
+  },
+  "0444_floor_02_partial_room_09_pano_33": {
+   "asteroom_name": "floor_02 complete_room_02 pano_33"
+  },
+  "0438_floor_01_partial_room_04_pano_21": {
+   "asteroom_name": "floor_01 complete_room_04 pano_21"
+  },
+  "0438_floor_01_partial_room_06_pano_8": {
+   "asteroom_name": "floor_01 complete_room_04 pano_8"
+  },
+  "0438_floor_01_partial_room_09_pano_11": {
+   "asteroom_name": "floor_01 complete_room_04 pano_11"
+  },
+  "0438_floor_01_partial_room_11_pano_4": {
+   "asteroom_name": "floor_01 complete_room_04 pano_4"
+  },
+  "0438_floor_01_partial_room_13_pano_34": {
+   "asteroom_name": "floor_01 complete_room_04 pano_34"
+  },
+  "0681_floor_01_partial_room_01_pano_44": {
+   "asteroom_name": "floor_01 complete_room_01 pano_44"
+  },
+  "0681_floor_01_partial_room_08_pano_45": {
+   "asteroom_name": "floor_01 complete_room_01 pano_45"
+  },
+  "0681_floor_01_partial_room_11_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0681_floor_01_partial_room_17_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0681_floor_01_partial_room_18_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0316_floor_01_partial_room_01_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0316_floor_01_partial_room_02_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0316_floor_01_partial_room_06_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0316_floor_01_partial_room_07_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0316_floor_01_partial_room_08_pano_15": {
+   "asteroom_name": "floor_01 complete_room_01 pano_15"
+  },
+  "0316_floor_01_partial_room_09_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "0316_floor_01_partial_room_10_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0579_floor_01_partial_room_03_pano_3": {
+   "asteroom_name": "floor_01 complete_room_03 pano_3"
+  },
+  "0579_floor_01_partial_room_08_pano_27": {
+   "asteroom_name": "floor_01 complete_room_03 pano_27"
+  },
+  "0579_floor_01_partial_room_09_pano_12": {
+   "asteroom_name": "floor_01 complete_room_03 pano_12"
+  },
+  "0579_floor_01_partial_room_13_pano_5": {
+   "asteroom_name": "floor_01 complete_room_03 pano_5"
+  },
+  "0579_floor_01_partial_room_16_pano_9": {
+   "asteroom_name": "floor_01 complete_room_03 pano_9"
+  },
+  "0588_floor_01_partial_room_01_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0588_floor_01_partial_room_03_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0588_floor_01_partial_room_05_pano_19": {
+   "asteroom_name": "floor_01 complete_room_01 pano_19"
+  },
+  "0588_floor_01_partial_room_06_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "0588_floor_01_partial_room_07_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0588_floor_01_partial_room_08_pano_18": {
+   "asteroom_name": "floor_01 complete_room_01 pano_18"
+  },
+  "0588_floor_01_partial_room_10_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0588_floor_01_partial_room_12_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0588_floor_01_partial_room_13_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0588_floor_01_partial_room_14_pano_13": {
+   "asteroom_name": "floor_01 complete_room_01 pano_13"
+  },
+  "0605_floor_02_partial_room_01_pano_22": {
+   "asteroom_name": "floor_02 complete_room_01 pano_22"
+  },
+  "0605_floor_02_partial_room_04_pano_20": {
+   "asteroom_name": "floor_02 complete_room_01 pano_20"
+  },
+  "0605_floor_02_partial_room_06_pano_15": {
+   "asteroom_name": "floor_02 complete_room_01 pano_15"
+  },
+  "0605_floor_02_partial_room_07_pano_18": {
+   "asteroom_name": "floor_02 complete_room_01 pano_18"
+  },
+  "0605_floor_02_partial_room_08_pano_17": {
+   "asteroom_name": "floor_02 complete_room_01 pano_17"
+  },
+  "0742_floor_01_partial_room_01_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "0742_floor_01_partial_room_02_pano_11": {
+   "asteroom_name": "floor_01 complete_room_01 pano_11"
+  },
+  "0742_floor_01_partial_room_03_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "0742_floor_01_partial_room_05_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "0742_floor_01_partial_room_11_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0635_floor_02_partial_room_02_pano_33": {
+   "asteroom_name": "floor_02 complete_room_01 pano_33"
+  },
+  "0635_floor_02_partial_room_04_pano_30": {
+   "asteroom_name": "floor_02 complete_room_01 pano_30"
+  },
+  "0635_floor_02_partial_room_06_pano_20": {
+   "asteroom_name": "floor_02 complete_room_01 pano_20"
+  },
+  "1326_floor_01_partial_room_01_pano_30": {
+   "asteroom_name": "floor_01 complete_room_01 pano_30"
+  },
+  "1326_floor_01_partial_room_02_pano_12": {
+   "asteroom_name": "floor_01 complete_room_01 pano_12"
+  },
+  "1326_floor_01_partial_room_05_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "1326_floor_01_partial_room_06_pano_6": {
+   "asteroom_name": "floor_01 complete_room_01 pano_6"
+  },
+  "1326_floor_01_partial_room_07_pano_3": {
+   "asteroom_name": "floor_01 complete_room_01 pano_3"
+  },
+  "1326_floor_01_partial_room_10_pano_4": {
+   "asteroom_name": "floor_01 complete_room_01 pano_4"
+  },
+  "1326_floor_01_partial_room_15_pano_0": {
+   "asteroom_name": "floor_01 complete_room_01 pano_0"
+  },
+  "1317_floor_01_partial_room_01_pano_21": {
+   "asteroom_name": "floor_01 complete_room_01 pano_21"
+  },
+  "1317_floor_01_partial_room_05_pano_1": {
+   "asteroom_name": "floor_01 complete_room_01 pano_1"
+  },
+  "1317_floor_01_partial_room_09_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "1317_floor_01_partial_room_10_pano_33": {
+   "asteroom_name": "floor_01 complete_room_01 pano_33"
+  },
+  "0516_floor_01_partial_room_02_pano_4": {
+   "asteroom_name": "floor_01 complete_room_02 pano_4"
+  },
+  "0516_floor_01_partial_room_07_pano_20": {
+   "asteroom_name": "floor_01 complete_room_02 pano_20"
+  },
+  "0516_floor_01_partial_room_08_pano_9": {
+   "asteroom_name": "floor_01 complete_room_02 pano_9"
+  },
+  "0516_floor_01_partial_room_09_pano_5": {
+   "asteroom_name": "floor_01 complete_room_02 pano_5"
+  },
+  "0516_floor_01_partial_room_16_pano_7": {
+   "asteroom_name": "floor_01 complete_room_02 pano_7"
+  },
+  "0516_floor_01_partial_room_18_pano_22": {
+   "asteroom_name": "floor_01 complete_room_02 pano_22"
+  },
+  "0516_floor_01_partial_room_19_pano_0": {
+   "asteroom_name": "floor_01 complete_room_02 pano_0"
+  },
+  "0157_floor_01_partial_room_01_pano_5": {
+   "asteroom_name": "floor_01 complete_room_01 pano_5"
+  },
+  "0157_floor_01_partial_room_02_pano_10": {
+   "asteroom_name": "floor_01 complete_room_01 pano_10"
+  },
+  "0157_floor_01_partial_room_03_pano_14": {
+   "asteroom_name": "floor_01 complete_room_01 pano_14"
+  },
+  "0157_floor_01_partial_room_05_pano_2": {
+   "asteroom_name": "floor_01 complete_room_01 pano_2"
+  },
+  "0157_floor_01_partial_room_06_pano_20": {
+   "asteroom_name": "floor_01 complete_room_01 pano_20"
+  },
+  "0157_floor_01_partial_room_07_pano_8": {
+   "asteroom_name": "floor_01 complete_room_01 pano_8"
+  },
+  "0382_floor_02_partial_room_02_pano_9": {
+   "asteroom_name": "floor_02 complete_room_02 pano_9"
+  },
+  "0382_floor_02_partial_room_04_pano_14": {
+   "asteroom_name": "floor_02 complete_room_02 pano_14"
+  },
+  "0382_floor_02_partial_room_05_pano_16": {
+   "asteroom_name": "floor_02 complete_room_02 pano_16"
+  },
+  "0382_floor_02_partial_room_06_pano_6": {
+   "asteroom_name": "floor_02 complete_room_02 pano_6"
+  },
+  "0382_floor_02_partial_room_07_pano_11": {
+   "asteroom_name": "floor_02 complete_room_02 pano_11"
+  },
+  "1368_floor_01_partial_room_03_pano_36": {
+   "asteroom_name": "floor_01 complete_room_03 pano_36"
+  },
+  "1368_floor_01_partial_room_04_pano_13": {
+   "asteroom_name": "floor_01 complete_room_03 pano_13"
+  },
+  "1368_floor_01_partial_room_07_pano_26": {
+   "asteroom_name": "floor_01 complete_room_03 pano_26"
+  },
+  "1368_floor_01_partial_room_11_pano_35": {
+   "asteroom_name": "floor_01 complete_room_03 pano_35"
+  },
+  "1368_floor_01_partial_room_13_pano_18": {
+   "asteroom_name": "floor_01 complete_room_03 pano_18"
+  }
+ }
+}

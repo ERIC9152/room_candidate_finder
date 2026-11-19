@@ -1,0 +1,14 @@
+# shell 腳本必須是 LF：CRLF 會讓 bash 在 `}` 之類的 token 後看到 \r 而語法錯誤。
+*.sh text eol=lf
+
+# 其餘文字檔交由 git 正規化，二進位檔不動。
+*.py text
+*.md text
+*.json text
+*.txt text
+*.ps1 text eol=crlf
+*.npy binary
+*.npz binary
+*.jpg binary
+*.png binary
+*.svg text

@@ -1,0 +1,23 @@
+{
+  "pair_id": "058527ad12ab25fe0c2cb82f",
+  "group_id": "task_59203_basement_room_001",
+  "a": "08ddbc0d-ab82-4c25-81e8-475ccad213ea",
+  "b": "08ddbc0d-b70e-4ed0-88f2-978c84cec34e",
+  "directly_reviewed": true,
+  "duplicate_content": false,
+  "blind_review": null,
+  "status": "ok",
+  "yaw": -2.9010417461395264,
+  "t": [
+    3.881129741668701,
+    0.989567220211029
+  ],
+  "geo_yaw": -2.812115430831909,
+  "geo_t": [
+    3.610030174255371,
+    1.2454618215560913
+  ],
+  "geo_weight": 90.22660827636719,
+  "heads_sha256": "3ec7021b538502a840b70032001768fc7d165cf63df7301f16f962556fb073a0",
+  "seconds": 0.71
+}

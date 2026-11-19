@@ -1,0 +1,866 @@
+[
+  {
+    "group": "task_58472_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58489_floor1_room_001",
+    "n": 4,
+    "components": [
+      4
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58489_floor2_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58489_floor2_room_002",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58499_floor1_room_001",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58533_floor1_room_001",
+    "n": 5,
+    "components": [
+      5
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58533_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58533_floor2_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58546_floor2_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58546_floor2_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58546_floor2_room_003",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58553_floor1_room_001",
+    "n": 3,
+    "components": [
+      2,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58553_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58558_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58558_floor1_room_002",
+    "n": 3,
+    "components": [
+      2,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58582_basement_room_001",
+    "n": 3,
+    "components": [
+      2,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58582_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58582_floor1_room_002",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": [
+      "08ddb655-d9fa-4081-87a7-bbc80ba3ba85"
+    ]
+  },
+  {
+    "group": "task_58582_floor2_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58582_floor2_room_002",
+    "n": 5,
+    "components": [
+      5
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58582_floor3_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58582_floor3_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58582_floor3_room_003",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58582_floor_unknown_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58589_floor1_room_001",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58589_floor1_room_002",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58599_basement_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58599_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58599_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58603_floor1_room_001",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58664_floor1_room_001",
+    "n": 4,
+    "components": [
+      3,
+      1
+    ],
+    "hn_missing": [
+      "08ddb684-2eb1-49be-8ea8-6064a9fdea74"
+    ]
+  },
+  {
+    "group": "task_58664_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58691_floor1_room_001",
+    "n": 5,
+    "components": [
+      5
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58712_floor1_room_001",
+    "n": 3,
+    "components": [
+      2,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58715_floor1_room_001",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_58715_floor1_room_002",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_59203_basement_room_001",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_59203_basement_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_59203_floor1_room_001",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_59203_floor1_room_002",
+    "n": 3,
+    "components": [
+      2,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_59863_basement_room_001",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_59863_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_59868_floor1_room_001",
+    "n": 4,
+    "components": [
+      4
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_60621_floor1_room_001",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_60621_floor1_room_002",
+    "n": 4,
+    "components": [
+      4
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_60621_floor2_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61267_basement_room_001",
+    "n": 4,
+    "components": [
+      4
+    ],
+    "hn_missing": [
+      "08ddcc5d-8bbb-4c98-8f32-8ef8691f56a1"
+    ]
+  },
+  {
+    "group": "task_61267_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61267_floor1_room_002",
+    "n": 4,
+    "components": [
+      4
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61267_floor1_room_003",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61295_floor1_room_001",
+    "n": 3,
+    "components": [
+      2,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61939_floor1_room_001",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61939_floor1_room_002",
+    "n": 4,
+    "components": [
+      3,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61968_floor1_room_001",
+    "n": 5,
+    "components": [
+      5
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61968_floor2_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_61968_floor2_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_62615_floor1_room_001",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63108_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63162_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63247_basement_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63247_basement_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63247_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63247_floor_unknown_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63261_floor1_room_001",
+    "n": 4,
+    "components": [
+      4
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63925_floor1_room_001",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63925_floor1_room_002",
+    "n": 5,
+    "components": [
+      3,
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63927_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63927_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63927_floor1_room_003",
+    "n": 3,
+    "components": [
+      2,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_63934_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_64538_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_64538_floor1_room_002",
+    "n": 4,
+    "components": [
+      4
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65000_floor1_room_001",
+    "n": 3,
+    "components": [
+      2,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65000_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65147_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65147_floor1_room_002",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65148_basement_room_001",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65148_floor1_room_001",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65148_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65826_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_65826_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_66500_floor1_room_001",
+    "n": 4,
+    "components": [
+      2,
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_66502_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_66502_floor1_room_002",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_66502_floor1_room_003",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_66502_floor1_room_004",
+    "n": 2,
+    "components": [
+      1,
+      1
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68478_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68478_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68478_floor1_room_003",
+    "n": 5,
+    "components": [
+      5
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68478_floor1_room_004",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68478_floor1_room_005",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68478_floor1_room_006",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68478_floor2_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68478_floor2_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68983_floor1_room_001",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_68983_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_69126_floor1_room_001",
+    "n": 4,
+    "components": [
+      4
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_69126_floor1_room_002",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_69127_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_69127_floor1_room_002",
+    "n": 3,
+    "components": [
+      3
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_69127_floor2_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_69734_floor1_room_001",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_69734_floor1_room_002",
+    "n": 2,
+    "components": [
+      2
+    ],
+    "hn_missing": []
+  },
+  {
+    "group": "task_69734_floor2_room_001",
+    "n": 10,
+    "components": [
+      10
+    ],
+    "hn_missing": []
+  }
+]

@@ -1,0 +1,16 @@
+# Server environment: Linux, NVIDIA driver 570 / CUDA 12.8, Ampere (RTX A5000/A6000).
+# Install torch/torchvision from the cu128 index first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# then:
+#   pip install -r requirements-server.txt
+#
+# Verified at CPU level with torch 2.14 / torchvision 0.29 (all tests + a
+# 2-process gloo DDP smoke run). Any torch >= 2.1 should work; the flash /
+# memory-efficient attention kernels need >= 2.0.
+numpy<2
+Pillow>=9
+scipy>=1.7
+Shapely>=1.8          # only used by tests/analysis, not by training
+matplotlib
+pyyaml
+tqdm

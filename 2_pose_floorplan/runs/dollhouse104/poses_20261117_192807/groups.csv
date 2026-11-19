@@ -1,0 +1,105 @@
+﻿group,house,n_images,pairs,accepted_full,accepted_direction,component_sizes,fully_connected,loop_max_yaw_deg,loop_max_translation,flagged_weak_or_loop
+task_58472_floor1_room_001,DollhouseTask_58472_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58489_floor1_room_001,DollhouseTask_58489_NoOutdoor,4,6,3,0,[4],True,,,3
+task_58489_floor2_room_001,DollhouseTask_58489_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58489_floor2_room_002,DollhouseTask_58489_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_58499_floor1_room_001,DollhouseTask_58499_NoOutdoor,3,3,3,0,[3],True,2.904357171906003,0.12941337503854355,0
+task_58533_floor1_room_001,DollhouseTask_58533_NoOutdoor,5,10,7,0,[5],True,7.074259149813987,0.21633269447707162,3
+task_58533_floor1_room_002,DollhouseTask_58533_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58533_floor2_room_001,DollhouseTask_58533_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58546_floor2_room_001,DollhouseTask_58546_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58546_floor2_room_002,DollhouseTask_58546_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58546_floor2_room_003,DollhouseTask_58546_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58553_floor1_room_001,DollhouseTask_58553,3,3,1,0,"[2, 1]",False,,,0
+task_58553_floor1_room_002,DollhouseTask_58553,2,1,1,0,[2],True,,,0
+task_58558_floor1_room_001,DollhouseTask_58558,2,1,1,0,[2],True,,,1
+task_58558_floor1_room_002,DollhouseTask_58558,3,3,1,0,"[2, 1]",False,,,1
+task_58582_basement_room_001,DollhouseTask_58582_NoOutdoor,3,3,1,0,"[2, 1]",False,,,1
+task_58582_floor1_room_001,DollhouseTask_58582_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58582_floor1_room_002,DollhouseTask_58582_NoOutdoor,3,3,3,0,[3],True,6.1011433157420525,0.12073875573192254,2
+task_58582_floor2_room_001,DollhouseTask_58582_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58582_floor2_room_002,DollhouseTask_58582_NoOutdoor,5,10,4,0,[5],True,,,4
+task_58582_floor3_room_001,DollhouseTask_58582_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58582_floor3_room_002,DollhouseTask_58582_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58582_floor3_room_003,DollhouseTask_58582_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58582_floor_unknown_room_001,DollhouseTask_58582_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58589_floor1_room_001,DollhouseTask_58589_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_58589_floor1_room_002,DollhouseTask_58589_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_58599_basement_room_001,DollhouseTask_58599_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58599_floor1_room_001,DollhouseTask_58599_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58599_floor1_room_002,DollhouseTask_58599_NoOutdoor,2,1,1,0,[2],True,,,0
+task_58603_floor1_room_001,DollhouseTask_58603_NoOutdoor,3,3,3,0,[3],True,2.9943805453429775,0.06080762283898375,0
+task_58664_floor1_room_001,DollhouseTask_58664,4,6,2,1,"[3, 1]",False,3.010601657652376,0.1427755251856905,2
+task_58664_floor1_room_002,DollhouseTask_58664,2,1,1,0,[2],True,,,0
+task_58691_floor1_room_001,DollhouseTask_58691_NoOutdoor,5,10,3,3,[5],True,10.780818397272316,0.7197524690163591,2
+task_58712_floor1_room_001,DollhouseTask_58712,3,3,1,0,"[2, 1]",False,,,1
+task_58715_floor1_room_001,DollhouseTask_58715,2,1,0,0,"[1, 1]",False,,,0
+task_58715_floor1_room_002,DollhouseTask_58715,2,1,0,0,"[1, 1]",False,,,0
+task_59203_basement_room_001,DollhouseTask_59203_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_59203_basement_room_002,DollhouseTask_59203_NoOutdoor,2,1,1,0,[2],True,,,1
+task_59203_floor1_room_001,DollhouseTask_59203_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_59203_floor1_room_002,DollhouseTask_59203_NoOutdoor,3,3,0,1,"[2, 1]",False,,,0
+task_59863_basement_room_001,DollhouseTask_59863_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_59863_floor1_room_001,DollhouseTask_59863_NoOutdoor,2,1,1,0,[2],True,,,1
+task_59868_floor1_room_001,DollhouseTask_59868_NoOutdoor,4,6,6,0,[4],True,3.7600260750028953,0.39774495805053367,2
+task_60621_floor1_room_001,DollhouseTask_60621_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_60621_floor1_room_002,DollhouseTask_60621_NoOutdoor,4,6,5,0,[4],True,14.187300113735306,0.6625188076024409,3
+task_60621_floor2_room_001,DollhouseTask_60621_NoOutdoor,2,1,1,0,[2],True,,,0
+task_61267_basement_room_001,DollhouseTask_61267_NoOutdoor,4,6,3,1,[4],True,0.6403498714825592,0.1993944435130065,3
+task_61267_floor1_room_001,DollhouseTask_61267_NoOutdoor,2,1,1,0,[2],True,,,0
+task_61267_floor1_room_002,DollhouseTask_61267_NoOutdoor,4,6,6,0,[4],True,1.1474991013188223,0.08975827559892531,0
+task_61267_floor1_room_003,DollhouseTask_61267_NoOutdoor,2,1,1,0,[2],True,,,0
+task_61295_floor1_room_001,DollhouseTask_61295_NoOutdoor,3,3,1,0,"[2, 1]",False,,,1
+task_61939_floor1_room_001,DollhouseTask_61939_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_61939_floor1_room_002,DollhouseTask_61939_NoOutdoor,4,6,2,1,"[3, 1]",False,3.8543850316649158,0.15227142870248267,1
+task_61968_floor1_room_001,DollhouseTask_61968_NoOutdoor,5,10,10,0,[5],True,1.901026061122139,0.07978207583965244,0
+task_61968_floor2_room_001,DollhouseTask_61968_NoOutdoor,2,1,1,0,[2],True,,,0
+task_61968_floor2_room_002,DollhouseTask_61968_NoOutdoor,2,1,1,0,[2],True,,,0
+task_62615_floor1_room_001,DollhouseTask_62615_NoOutdoor,3,3,2,0,[3],True,,,1
+task_63108_floor1_room_001,DollhouseTask_63108,2,1,1,0,[2],True,,,0
+task_63162_floor1_room_001,DollhouseTask_63162_NoOutdoor,2,1,1,0,[2],True,,,0
+task_63247_basement_room_001,DollhouseTask_63247_NoOutdoor,2,1,1,0,[2],True,,,0
+task_63247_basement_room_002,DollhouseTask_63247_NoOutdoor,2,1,1,0,[2],True,,,1
+task_63247_floor1_room_001,DollhouseTask_63247_NoOutdoor,2,1,1,0,[2],True,,,0
+task_63247_floor_unknown_room_001,DollhouseTask_63247_NoOutdoor,2,1,1,0,[2],True,,,0
+task_63261_floor1_room_001,DollhouseTask_63261_NoOutdoor,4,6,6,0,[4],True,1.0810174550325031,0.33921155934667624,2
+task_63925_floor1_room_001,DollhouseTask_63925_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_63925_floor1_room_002,DollhouseTask_63925_NoOutdoor,5,10,1,1,"[3, 1, 1]",False,,,1
+task_63927_floor1_room_001,DollhouseTask_63927_NoOutdoor,2,1,1,0,[2],True,,,0
+task_63927_floor1_room_002,DollhouseTask_63927_NoOutdoor,2,1,1,0,[2],True,,,0
+task_63927_floor1_room_003,DollhouseTask_63927_NoOutdoor,3,3,0,1,"[2, 1]",False,,,0
+task_63934_floor1_room_001,DollhouseTask_63934_NoOutdoor,2,1,1,0,[2],True,,,0
+task_64538_floor1_room_001,DollhouseTask_64538_NoOutdoor,2,1,1,0,[2],True,,,0
+task_64538_floor1_room_002,DollhouseTask_64538_NoOutdoor,4,6,6,0,[4],True,2.272854729348463,0.10137116865925438,0
+task_65000_floor1_room_001,DollhouseTask_65000,3,3,0,1,"[2, 1]",False,,,0
+task_65000_floor1_room_002,DollhouseTask_65000,2,1,1,0,[2],True,,,0
+task_65147_floor1_room_001,DollhouseTask_65147_NoOutdoor,2,1,1,0,[2],True,,,0
+task_65147_floor1_room_002,DollhouseTask_65147_NoOutdoor,3,3,3,0,[3],True,3.8034249902674504,0.018211195563904697,0
+task_65148_basement_room_001,DollhouseTask_65148_NoOutdoor,3,3,3,0,[3],True,11.556201962419674,0.057223992886798865,2
+task_65148_floor1_room_001,DollhouseTask_65148_NoOutdoor,3,3,3,0,[3],True,0.8742814098839373,0.11130511890358222,0
+task_65148_floor1_room_002,DollhouseTask_65148_NoOutdoor,2,1,1,0,[2],True,,,1
+task_65826_floor1_room_001,DollhouseTask_65826_NoOutdoor,2,1,1,0,[2],True,,,0
+task_65826_floor1_room_002,DollhouseTask_65826_NoOutdoor,2,1,1,0,[2],True,,,0
+task_66500_floor1_room_001,DollhouseTask_66500_NoOutdoor,4,6,0,1,"[2, 1, 1]",False,,,0
+task_66502_floor1_room_001,DollhouseTask_66502_NoOutdoor,2,1,1,0,[2],True,,,0
+task_66502_floor1_room_002,DollhouseTask_66502_NoOutdoor,3,3,2,0,[3],True,,,0
+task_66502_floor1_room_003,DollhouseTask_66502_NoOutdoor,3,3,3,0,[3],True,4.986150792230614,0.23989581343015184,1
+task_66502_floor1_room_004,DollhouseTask_66502_NoOutdoor,2,1,0,0,"[1, 1]",False,,,0
+task_68478_floor1_room_001,DollhouseTask_68478_NoOutdoor,2,1,1,0,[2],True,,,0
+task_68478_floor1_room_002,DollhouseTask_68478_NoOutdoor,2,1,1,0,[2],True,,,0
+task_68478_floor1_room_003,DollhouseTask_68478_NoOutdoor,5,10,10,0,[5],True,3.192112814267554,0.0729785480325899,0
+task_68478_floor1_room_004,DollhouseTask_68478_NoOutdoor,2,1,1,0,[2],True,,,0
+task_68478_floor1_room_005,DollhouseTask_68478_NoOutdoor,3,3,2,1,[3],True,7.5230264839459196,0.12298713280623208,2
+task_68478_floor1_room_006,DollhouseTask_68478_NoOutdoor,3,3,1,1,[3],True,,,1
+task_68478_floor2_room_001,DollhouseTask_68478_NoOutdoor,2,1,1,0,[2],True,,,0
+task_68478_floor2_room_002,DollhouseTask_68478_NoOutdoor,2,1,1,0,[2],True,,,0
+task_68983_floor1_room_001,DollhouseTask_68983_NoOutdoor,3,3,2,0,[3],True,,,0
+task_68983_floor1_room_002,DollhouseTask_68983_NoOutdoor,2,1,1,0,[2],True,,,0
+task_69126_floor1_room_001,DollhouseTask_69126_NoOutdoor,4,6,5,0,[4],True,1.460741821939362,0.07175518234575444,1
+task_69126_floor1_room_002,DollhouseTask_69126_NoOutdoor,3,3,0,2,[3],True,,,0
+task_69127_floor1_room_001,DollhouseTask_69127_NoOutdoor,2,1,1,0,[2],True,,,0
+task_69127_floor1_room_002,DollhouseTask_69127_NoOutdoor,3,3,1,1,[3],True,,,1
+task_69127_floor2_room_001,DollhouseTask_69127_NoOutdoor,2,1,1,0,[2],True,,,1
+task_69734_floor1_room_001,DollhouseTask_69734_NoOutdoor,2,1,1,0,[2],True,,,0
+task_69734_floor1_room_002,DollhouseTask_69734_NoOutdoor,2,1,1,0,[2],True,,,0
+task_69734_floor2_room_001,DollhouseTask_69734_NoOutdoor,10,45,12,2,[10],True,57.63183079666248,2.516266412731361,8

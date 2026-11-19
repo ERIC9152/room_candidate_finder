@@ -1,0 +1,39 @@
+# CPU smoke test of the training loop (no GPU): a tiny model on 8 pairs, 2 epochs.
+# Needs the ZInD dataset (ZIND_ROOT) because the 8 pairs are real ZInD panoramas.
+#   python scripts/train.py --config training/configs/smoke_cpu.yaml
+_base_: server_c10neg.yaml
+
+data:
+  max_train_pairs: 8
+  num_workers: 0
+  fast_jpeg: false
+
+model:
+  backbone: resnet18
+  pretrained: false
+  img_h: 128
+  img_w: 256
+  n_cols: 128
+  d_model: 32
+  n_heads: 4
+  n_layers: 2
+  dim_ff: 64
+  head_hidden: 32
+
+train:
+  epochs: 2
+  batch_size: 2
+  grad_accum: 2
+  amp: false
+  tf32: false
+  channels_last: false
+  fused_adamw: false
+  warmup_steps: 1
+  ema_warmup_steps: 1
+  geo_start_steps: 1
+  geo_ramp_steps: 2
+  val_subsample: 8
+
+ckpt:
+  dir: ckpt/smoke_cpu
+  keep_last: 1

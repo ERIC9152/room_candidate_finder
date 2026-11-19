@@ -1,0 +1,20 @@
+{
+  "groups": 219,
+  "houses": 154,
+  "images": 1087,
+  "pairs": 2536,
+  "input_errors": {},
+  "group_sizes": {
+    "3": 67,
+    "4": 35,
+    "5": 43,
+    "6": 26,
+    "7": 26,
+    "8": 11,
+    "9": 6,
+    "10": 4,
+    "11": 1
+  },
+  "duplicate_images": [],
+  "status": "ready_for_gpu"
+}

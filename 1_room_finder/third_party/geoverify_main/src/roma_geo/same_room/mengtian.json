@@ -1,0 +1,352 @@
+{
+  "groups": [
+    {
+      "house": "DollhouseTask_58489_NoOutdoor",
+      "name": "Walk-In Closet",
+      "ids": [
+        "08ddb592-c37d-4822-8255-b68b14ea62f8",
+        "08ddb592-c7c3-4748-85dc-9a9e4e2f0de7"
+      ]
+    },
+    {
+      "house": "DollhouseTask_58498_NoOutdoor",
+      "name": "Basement",
+      "ids": [
+        "08ddb597-50b1-4747-8282-c0daa7c6033a",
+        "08ddb597-6101-46d0-815f-e195e35eef75",
+        "08ddb597-6e5a-4cf6-8a47-fd7b3169e2cc"
+      ]
+    },
+    {
+      "house": "DollhouseTask_58533_NoOutdoor",
+      "name": "Bathroom upstairs",
+      "ids": [
+        "08ddb5bb-4d6f-4779-8895-03865cd5f3a6",
+        "08ddb5bb-52d2-4dfb-8e7c-f08b3c508dff"
+      ]
+    },
+    {
+      "house": "DollhouseTask_58589_NoOutdoor",
+      "name": "Hallway",
+      "ids": [
+        "08ddb661-dfa8-4471-81de-bf553109c832",
+        "08ddb661-eb63-42c9-8e0e-fc63b58c4658"
+      ]
+    },
+    {
+      "house": "DollhouseTask_58691_NoOutdoor",
+      "name": "attic",
+      "ids": [
+        "08ddb753-8cf0-4a9a-8448-15bee4fce9d7",
+        "08ddb753-96db-4b78-8761-2a785f80fb8b"
+      ]
+    },
+    {
+      "house": "DollhouseTask_59203_NoOutdoor",
+      "name": "attic",
+      "ids": [
+        "08ddbc0c-d8a1-4d55-8d3b-d4946d636694",
+        "08ddbc0c-de21-4a7a-8b0c-b6a39a2298f1"
+      ]
+    },
+    {
+      "house": "DollhouseTask_59868_NoOutdoor",
+      "name": "Hallway",
+      "ids": [
+        "08ddc172-2892-4fb6-8250-5c8aff89e0ae",
+        "08ddc172-3499-4c5f-8d39-be1c39464cb6"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60573_NoOutdoor",
+      "name": "Backyard",
+      "ids": [
+        "08ddc6db-0df1-45fc-85f4-0b462236a0eb",
+        "08ddc6db-12a3-4b74-84c5-aac1ea388895",
+        "08ddc6db-1825-404a-8cc2-35e48bd493e7"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60573_NoOutdoor",
+      "name": "Hallway",
+      "ids": [
+        "08ddc6da-9769-46fd-8291-fe5429a0b599",
+        "08ddc6da-c0b4-4688-8cf6-606056ac34ce"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60573_NoOutdoor",
+      "name": "Left Side Yard",
+      "ids": [
+        "08ddc6da-f4ea-41c1-88ee-54d53e66a845",
+        "08ddc6db-1d9a-4ef1-8bf0-7845c9b53f92"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60573_NoOutdoor",
+      "name": "Right Side Yard",
+      "ids": [
+        "08ddc6da-ecc5-4e79-8c02-a49e68d8328f",
+        "08ddc6db-0698-4a12-891c-982f8639e383"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60621_NoOutdoor",
+      "name": "Backyard",
+      "ids": [
+        "08ddc71f-3634-4de2-8f18-91a14f66c7cd",
+        "08ddc71f-3e7b-485c-81f6-7697c8d90b51"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60621_NoOutdoor",
+      "name": "Deck",
+      "ids": [
+        "08ddc71f-1a2d-41f7-82bc-fd6385227de0",
+        "08ddc71f-216d-4e98-8aab-6e63032d319a"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60621_NoOutdoor",
+      "name": "Front Yard",
+      "ids": [
+        "08ddc71f-0a59-4e35-855e-214ae9b86525",
+        "08ddc71f-4f7c-4a7e-89a7-d3a127c6521a"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60621_NoOutdoor",
+      "name": "Hallway",
+      "ids": [
+        "08ddc71e-ad67-4342-83e3-ecfe82a5b916",
+        "08ddc71e-b3d5-483c-8253-0da9797844ab"
+      ]
+    },
+    {
+      "house": "DollhouseTask_60621_NoOutdoor",
+      "name": "Street View",
+      "ids": [
+        "08ddc71f-57ef-4a29-8658-663b10b9c5ec",
+        "08ddc71f-5fbf-4112-831e-bc12b9d80ad9",
+        "08ddc71f-67ab-4d57-88be-c1a5714c321d",
+        "08ddc71f-6ef7-438f-8b4f-74d6a90682d1"
+      ]
+    },
+    {
+      "house": "DollhouseTask_61295_NoOutdoor",
+      "name": "Backyard",
+      "ids": [
+        "08ddcc8f-f293-4c81-8082-560c20a0d589",
+        "08ddcc90-0786-40b1-8e44-014d1cd8a902"
+      ]
+    },
+    {
+      "house": "DollhouseTask_61295_NoOutdoor",
+      "name": "Hallway",
+      "ids": [
+        "08ddcc8f-8487-48ca-831f-9c80e7737513",
+        "08ddcc8f-afce-4bb5-8633-bfedda2d8eb2"
+      ]
+    },
+    {
+      "house": "DollhouseTask_62615_NoOutdoor",
+      "name": "Hallway",
+      "ids": [
+        "08ddd76b-9943-41d9-81ef-40a3443d0c2b",
+        "08ddd76b-a2a4-4f31-8897-dd8566d2898a"
+      ]
+    },
+    {
+      "house": "DollhouseTask_63108",
+      "name": "main road",
+      "ids": [
+        "08dddc22-5862-4ef2-8d42-dd36d75fcac1",
+        "08dddc22-6024-4c1e-8ae7-e78615971c02"
+      ]
+    },
+    {
+      "house": "DollhouseTask_63162_NoOutdoor",
+      "name": "Backyard",
+      "ids": [
+        "08dddc2e-3857-48bf-8cb5-9185001bacd2",
+        "08dddc2f-0606-4cc2-831b-31f3b680a418"
+      ]
+    },
+    {
+      "house": "DollhouseTask_63162_NoOutdoor",
+      "name": "Hallway",
+      "ids": [
+        "08dddc2d-9750-4dfd-8f75-d1f6a29f640c",
+        "08dddc2f-aa4a-4ec0-8706-e8b8bd420f77"
+      ]
+    },
+    {
+      "house": "DollhouseTask_63162_NoOutdoor",
+      "name": "Living Room",
+      "ids": [
+        "08dddc2d-a774-4cc0-8471-714e51ef1114",
+        "08dddc2e-0440-4ed4-8834-8c71876a368b"
+      ]
+    },
+    {
+      "house": "DollhouseTask_63162_NoOutdoor",
+      "name": "Tool Shed",
+      "ids": [
+        "08dddc2e-b1fd-43da-8798-de3a41a811cf",
+        "08dddc2e-bd32-468a-8157-60e154858052"
+      ]
+    },
+    {
+      "house": "DollhouseTask_63162_NoOutdoor",
+      "name": "Tool Shed 2",
+      "ids": [
+        "08dddc2e-446d-4c70-83ff-f1f5ddd2a766",
+        "08dddc2e-58e0-470c-8915-b50ca264c7c3",
+        "08dddc2e-6690-42ae-8b20-e68dcec4f6b1",
+        "08dddc2e-726b-45f2-8fcb-6b57fe23c443"
+      ]
+    },
+    {
+      "house": "DollhouseTask_65000",
+      "name": "dt out 17",
+      "ids": [
+        "08ddec9a-6020-4d2b-85e5-a627b49bb3e0",
+        "08ddec9a-6738-4ed3-89bb-948c6ffc577b"
+      ]
+    },
+    {
+      "house": "DollhouseTask_66502_NoOutdoor",
+      "name": "Stairs",
+      "ids": [
+        "08ddf88b-978b-4e3d-8456-a71297d6e4fb",
+        "08ddf88c-042b-49b1-83f3-68a5587be817"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67184_NoOutdoor",
+      "name": "Bathroom 2 master",
+      "ids": [
+        "08ddfe13-24d1-47fa-83c2-8a09c4712886",
+        "08ddfe13-2cbc-4dea-82e1-cf96f43863b7"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67184_NoOutdoor",
+      "name": "Side Yard left",
+      "ids": [
+        "08ddfe11-9dcf-40fd-88c0-7f6cb012da27",
+        "08ddfe11-d78b-4f2e-88a9-1a5ba1a84bd6",
+        "08ddfe11-eb4d-4092-8218-2b705cc5954a"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67192_NoOutdoor",
+      "name": "Side Yard L",
+      "ids": [
+        "08ddfdf0-0895-49f0-826a-084f2f9938ff",
+        "08ddfdf0-0fa2-4253-82b5-6c91d67fc327"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67192_NoOutdoor",
+      "name": "Side Yard R",
+      "ids": [
+        "08ddfdef-e300-419a-81c3-0acd21f1d760",
+        "08ddfdf0-1bca-40ec-8ef5-9eeb4bac7451"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67779_NoOutdoor",
+      "name": "Breakfast Nook",
+      "ids": [
+        "08de02ed-00f5-4d9a-8071-af4c6689c6a3",
+        "08de02ed-0f00-4a6f-8b24-c352a3c9e401"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67779_NoOutdoor",
+      "name": "Hallway",
+      "ids": [
+        "08de02ec-ec24-4bb7-8374-ddbad579d352",
+        "08de02ed-1608-4481-8d63-497ed4d25988"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67779_NoOutdoor",
+      "name": "Kitchen",
+      "ids": [
+        "08de02ec-f33b-43f1-8f09-e77b8e8890b4",
+        "08de02ec-fa21-4591-88ee-b13a6d5b9b43"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67779_NoOutdoor",
+      "name": "Primary Bedroom",
+      "ids": [
+        "08de02ec-729d-47da-8624-38fa8cc3497f",
+        "08de02ec-7944-4b6d-8ab7-37985c46646b"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67838_NoOutdoor",
+      "name": "Side Yard L",
+      "ids": [
+        "08de0387-647e-41df-8cee-0acc21963c69",
+        "08de0387-70b4-4fa2-8281-d3cb98ce575e",
+        "08de0387-7eca-4a82-84ec-b9cd878fdc0b"
+      ]
+    },
+    {
+      "house": "DollhouseTask_67838_NoOutdoor",
+      "name": "Side Yard R",
+      "ids": [
+        "08de0387-c591-49fb-8c56-4c911ef2a68f",
+        "08de0387-d624-490f-8a51-2ac611fc7f3f",
+        "08de0387-e38b-4983-891b-ed2ff79fc190"
+      ]
+    },
+    {
+      "house": "DollhouseTask_68478_NoOutdoor",
+      "name": "Bathroom 2",
+      "ids": [
+        "08de08fd-df4c-482b-88b4-a51f915d16a7",
+        "08de08fe-361a-4573-8cb1-961ed92f21e0"
+      ]
+    },
+    {
+      "house": "DollhouseTask_68478_NoOutdoor",
+      "name": "Bedroom",
+      "ids": [
+        "08de08fd-5b54-4d29-8e46-21921c99be9f",
+        "08de08fd-660f-47af-822d-60a456190b00"
+      ]
+    },
+    {
+      "house": "DollhouseTask_68478_NoOutdoor",
+      "name": "Bedroom 2",
+      "ids": [
+        "08de08fe-2134-4732-8b03-f01b1a7cfc0f",
+        "08de08fe-280f-4c3d-8f05-4d60fba2129b",
+        "08de08fe-2e7e-4032-8da1-d95d88c057f9"
+      ]
+    },
+    {
+      "house": "DollhouseTask_68478_NoOutdoor",
+      "name": "Game Room",
+      "ids": [
+        "08de08fe-d199-4699-8fe2-210531769935",
+        "08de08fe-daac-411e-8d69-3e8d36b9cf52",
+        "08de08fe-e4e2-42f6-84f8-6e61943b470d"
+      ]
+    },
+    {
+      "house": "DollhouseTask_68478_NoOutdoor",
+      "name": "Under the deck",
+      "ids": [
+        "08de08fb-7a12-42cc-8012-858c91dfb68a",
+        "08de08fb-8231-4310-83b0-600593752ffc",
+        "08de08fb-9822-4928-8985-555ff6df0843"
+      ]
+    }
+  ]
+}

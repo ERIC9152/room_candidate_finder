@@ -1,0 +1,13 @@
+# HorizonNet environment (Python 3.9). Same versions as the environment the Dollhouse results were made with.
+--extra-index-url https://download.pytorch.org/whl/cu113
+torch==1.12.0+cu113
+torchvision==0.13.0+cu113
+numpy==1.21.0
+opencv-python==4.7.0.72
+pylsd-nova==1.2.0
+scipy==1.7.3
+scikit-learn==1.0.2
+Shapely==1.8.5
+pillow==11.3.0
+matplotlib==3.5.3
+tqdm

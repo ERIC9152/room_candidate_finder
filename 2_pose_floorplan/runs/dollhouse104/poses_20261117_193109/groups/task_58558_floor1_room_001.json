@@ -1,0 +1,128 @@
+{
+  "group": {
+    "room_id": "task_58558_floor1_room_001",
+    "task": "DollhouseTask_58558",
+    "floor": "floor1",
+    "space_kind": "room",
+    "panorama_uuids": [
+      "08ddb5a5-3ed0-45a2-872e-60eff312b77a",
+      "08ddb5a5-43d9-4b42-8855-6580575426f2"
+    ],
+    "status": "human_verified"
+  },
+  "summary": {
+    "group": "task_58558_floor1_room_001",
+    "house": "DollhouseTask_58558",
+    "n_images": 2,
+    "pairs": 1,
+    "accepted_full": 1,
+    "accepted_direction": 0,
+    "component_sizes": [
+      2
+    ],
+    "fully_connected": true,
+    "loop_max_yaw_deg": null,
+    "loop_max_translation": null,
+    "flagged_weak_or_loop": 1
+  },
+  "rule": "G rule + direction links f=0.30; maximum-weight spanning forest; no global optimisation",
+  "convention": "p_root = R(yaw) p_u + t; camera height = 1; root = most-connected camera",
+  "flag_stats": {
+    "source": "pose_flags_v1, ZInD test (40 houses); camera wrong = majority of its pairs > 10 deg or > 0.5",
+    "valid": {
+      "D": false,
+      "W": true,
+      "L": true,
+      "U": false
+    },
+    "W": {
+      "flagged": 0.2647,
+      "unflagged": 0.037,
+      "n": 34
+    },
+    "L": {
+      "flagged": 0.1489,
+      "unflagged": 0.0155,
+      "n": 94
+    }
+  },
+  "components": [
+    [
+      "08ddb5a5-3ed0-45a2-872e-60eff312b77a",
+      "08ddb5a5-43d9-4b42-8855-6580575426f2"
+    ]
+  ],
+  "cameras": {
+    "08ddb5a5-3ed0-45a2-872e-60eff312b77a": {
+      "label": "Office",
+      "component_root": "08ddb5a5-3ed0-45a2-872e-60eff312b77a",
+      "is_root": true,
+      "yaw": 0.0,
+      "t": [
+        0.0,
+        0.0
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": false,
+        "loop_not_closing": false,
+        "unverified": false
+      },
+      "weak_edges": [],
+      "bad_loop": null
+    },
+    "08ddb5a5-43d9-4b42-8855-6580575426f2": {
+      "label": "Office-1",
+      "component_root": "08ddb5a5-3ed0-45a2-872e-60eff312b77a",
+      "is_root": false,
+      "yaw": 0.7865356802940369,
+      "t": [
+        -0.620721179560895,
+        0.07059292460960069
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": false,
+        "unverified": true
+      },
+      "weak_edges": [
+        {
+          "pair_id": "a5bfde1c1e7fe59d7332f0a1",
+          "kind": "full",
+          "frac": 0.777,
+          "inliers": 1592,
+          "dyaw": 3.793,
+          "dt": 0.029,
+          "weak": true
+        }
+      ],
+      "bad_loop": null
+    }
+  },
+  "tree_edges": [
+    "a5bfde1c1e7fe59d7332f0a1"
+  ],
+  "pairs": [
+    {
+      "pair_id": "a5bfde1c1e7fe59d7332f0a1",
+      "a": "08ddb5a5-3ed0-45a2-872e-60eff312b77a",
+      "b": "08ddb5a5-43d9-4b42-8855-6580575426f2",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 1592,
+      "inlier_fraction": 0.7773,
+      "correspondences": 2048,
+      "decoder_geometric_yaw_deg": 3.79,
+      "decoder_geometric_t": 0.029,
+      "yaw": -0.7865356802940369,
+      "t": [
+        0.38844311237335205,
+        -0.4892750680446625
+      ],
+      "duplicate_content": false
+    }
+  ],
+  "loops": [],
+  "pose_verified": false
+}

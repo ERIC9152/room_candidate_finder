@@ -1,0 +1,23 @@
+# ==========================================================
+# Roma_Geo 核心依賴（釘版）
+# ==========================================================
+# 目標配置：Python 3.11 · torch 2.10.0+cu130 · Windows 11 64-bit
+# 需同時支援 Ada (sm_89) 與 Blackwell (sm_120) 世代 GPU
+#
+# 本檔只列「匹配 + 幾何驗證」核心路徑真正用到的第三方套件。
+# pandas / matplotlib / seaborn / transformers / timm / accelerate / openpyxl 等
+# 屬於評估與舊實驗（ROI / depth / scoring）路徑，核心路徑一個都不需要。
+#
+# torch 不列在這裡：它必須從 cu130 專屬 index 安裝，見 setup_env.ps1 / setup_env.sh。
+
+numpy==1.26.4
+opencv-python==4.11.0.86     # cv2.__version__ 顯示為 4.11.0
+scikit-learn==1.8.0
+pillow==12.0.0
+tqdm==4.70.0                 # roma_match/parallel_matcher.py 頂層匯入，屬硬相依
+
+# 注意：
+# 1. romav2 由 setup_env.{ps1,sh} 從 GitHub 安裝，且必須在上述套件「之後」裝，
+#    裝完要驗 numpy 沒有被拉回 2.x（check_env.py 會檢查）。
+# 2. fused-local-corr 不安裝 —— 實測：venv 未安裝、Docker
+#    裝了但 import 失敗，兩邊實際都用不到，裝它只是浪費時間編譯。

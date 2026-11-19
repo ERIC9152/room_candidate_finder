@@ -1,0 +1,383 @@
+{
+  "group": {
+    "room_id": "task_58582_floor2_room_002",
+    "task": "DollhouseTask_58582_NoOutdoor",
+    "floor": "floor2",
+    "space_kind": "room",
+    "panorama_uuids": [
+      "08ddb655-8743-4dac-86d0-78732c12ad39",
+      "08ddb655-8dab-4b45-8fee-056462a0a06e",
+      "08ddb655-93d0-43e4-8933-864152719a20",
+      "08ddb655-9b94-4b29-8f73-58a9a89f0220",
+      "08ddb655-a1ef-485d-8c72-82d22a543472"
+    ],
+    "status": "human_verified"
+  },
+  "summary": {
+    "group": "task_58582_floor2_room_002",
+    "house": "DollhouseTask_58582_NoOutdoor",
+    "n_images": 5,
+    "pairs": 10,
+    "accepted_full": 4,
+    "accepted_direction": 0,
+    "component_sizes": [
+      5
+    ],
+    "fully_connected": true,
+    "loop_max_yaw_deg": null,
+    "loop_max_translation": null,
+    "flagged_weak_or_loop": 4
+  },
+  "rule": "G rule + direction links f=0.30; maximum-weight spanning forest; no global optimisation",
+  "convention": "p_root = R(yaw) p_u + t; camera height = 1; root = most-connected camera",
+  "flag_stats": {
+    "source": "pose_flags_v1, ZInD test (40 houses); camera wrong = majority of its pairs > 10 deg or > 0.5",
+    "valid": {
+      "D": false,
+      "W": true,
+      "L": true,
+      "U": false
+    },
+    "W": {
+      "flagged": 0.2647,
+      "unflagged": 0.037,
+      "n": 34
+    },
+    "L": {
+      "flagged": 0.1489,
+      "unflagged": 0.0155,
+      "n": 94
+    }
+  },
+  "components": [
+    [
+      "08ddb655-8743-4dac-86d0-78732c12ad39",
+      "08ddb655-8dab-4b45-8fee-056462a0a06e",
+      "08ddb655-93d0-43e4-8933-864152719a20",
+      "08ddb655-9b94-4b29-8f73-58a9a89f0220",
+      "08ddb655-a1ef-485d-8c72-82d22a543472"
+    ]
+  ],
+  "cameras": {
+    "08ddb655-8743-4dac-86d0-78732c12ad39": {
+      "label": "Kitchen 2",
+      "component_root": "08ddb655-93d0-43e4-8933-864152719a20",
+      "is_root": false,
+      "yaw": -0.40836572647094727,
+      "t": [
+        0.9143694538988242,
+        2.064029316100501
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": false,
+        "unverified": true
+      },
+      "weak_edges": [
+        {
+          "pair_id": "d8c0027caed9e0e0feb52123",
+          "kind": "full",
+          "frac": 0.587,
+          "inliers": 959,
+          "dyaw": 3.251,
+          "dt": 0.053,
+          "weak": true
+        }
+      ],
+      "bad_loop": null
+    },
+    "08ddb655-8dab-4b45-8fee-056462a0a06e": {
+      "label": "Kitchen 1",
+      "component_root": "08ddb655-93d0-43e4-8933-864152719a20",
+      "is_root": false,
+      "yaw": -0.2508065104484558,
+      "t": [
+        -0.7250555753707886,
+        2.0264205932617188
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": false,
+        "unverified": true
+      },
+      "weak_edges": [
+        {
+          "pair_id": "9dfa9961b908374f4bf80d53",
+          "kind": "full",
+          "frac": 0.454,
+          "inliers": 878,
+          "dyaw": 2.197,
+          "dt": 0.08,
+          "weak": true
+        }
+      ],
+      "bad_loop": null
+    },
+    "08ddb655-93d0-43e4-8933-864152719a20": {
+      "label": "Kitchen",
+      "component_root": "08ddb655-93d0-43e4-8933-864152719a20",
+      "is_root": true,
+      "yaw": 0.0,
+      "t": [
+        0.0,
+        0.0
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": false,
+        "loop_not_closing": false,
+        "unverified": false
+      },
+      "weak_edges": [],
+      "bad_loop": null
+    },
+    "08ddb655-9b94-4b29-8f73-58a9a89f0220": {
+      "label": "Dining Room 1",
+      "component_root": "08ddb655-93d0-43e4-8933-864152719a20",
+      "is_root": false,
+      "yaw": -1.4796794652938843,
+      "t": [
+        0.3546422603039218,
+        -1.5588885431842379
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": false,
+        "unverified": true
+      },
+      "weak_edges": [
+        {
+          "pair_id": "ee393bfd87e959c3253856bc",
+          "kind": "full",
+          "frac": 0.474,
+          "inliers": 958,
+          "dyaw": 0.067,
+          "dt": 0.156,
+          "weak": true
+        }
+      ],
+      "bad_loop": null
+    },
+    "08ddb655-a1ef-485d-8c72-82d22a543472": {
+      "label": "Dining Room",
+      "component_root": "08ddb655-93d0-43e4-8933-864152719a20",
+      "is_root": false,
+      "yaw": -2.6640403270721436,
+      "t": [
+        2.52155411874045,
+        -0.3643404880542585
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": false,
+        "unverified": true
+      },
+      "weak_edges": [
+        {
+          "pair_id": "d8c0027caed9e0e0feb52123",
+          "kind": "full",
+          "frac": 0.587,
+          "inliers": 959,
+          "dyaw": 3.251,
+          "dt": 0.053,
+          "weak": true
+        }
+      ],
+      "bad_loop": null
+    }
+  },
+  "tree_edges": [
+    "564bc2a44a436ba7803d0931",
+    "9dfa9961b908374f4bf80d53",
+    "d8c0027caed9e0e0feb52123",
+    "ee393bfd87e959c3253856bc"
+  ],
+  "pairs": [
+    {
+      "pair_id": "8666cdd6c1a5843f73bd11bf",
+      "a": "08ddb655-8743-4dac-86d0-78732c12ad39",
+      "b": "08ddb655-8dab-4b45-8fee-056462a0a06e",
+      "status": "decoder_geometric_disagree",
+      "in_tree": false,
+      "inliers": 662,
+      "inlier_fraction": 0.3521,
+      "correspondences": 1880,
+      "decoder_geometric_yaw_deg": 2.47,
+      "decoder_geometric_t": 0.296,
+      "yaw": -0.5577216148376465,
+      "t": [
+        1.6881823539733887,
+        0.7096858620643616
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "91aa2ea8029e6148a80e90f4",
+      "a": "08ddb655-8743-4dac-86d0-78732c12ad39",
+      "b": "08ddb655-93d0-43e4-8933-864152719a20",
+      "status": "too_few_inliers",
+      "in_tree": false,
+      "inliers": 16,
+      "inlier_fraction": 0.1684,
+      "correspondences": 95,
+      "decoder_geometric_yaw_deg": 6.77,
+      "decoder_geometric_t": 0.218,
+      "yaw": -0.7680166959762573,
+      "t": [
+        1.2111276388168335,
+        2.303118944168091
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "a1759fd2b07b07d6ab4cc2c6",
+      "a": "08ddb655-8743-4dac-86d0-78732c12ad39",
+      "b": "08ddb655-9b94-4b29-8f73-58a9a89f0220",
+      "status": "too_few_inliers",
+      "in_tree": false,
+      "inliers": 1,
+      "inlier_fraction": 0.0053,
+      "correspondences": 188,
+      "decoder_geometric_yaw_deg": 4.63,
+      "decoder_geometric_t": 0.666,
+      "yaw": 0.7906064391136169,
+      "t": [
+        -4.238136291503906,
+        1.8416507244110107
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "564bc2a44a436ba7803d0931",
+      "a": "08ddb655-8743-4dac-86d0-78732c12ad39",
+      "b": "08ddb655-a1ef-485d-8c72-82d22a543472",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 207,
+      "inlier_fraction": 0.5074,
+      "correspondences": 408,
+      "decoder_geometric_yaw_deg": 1.02,
+      "decoder_geometric_t": 0.02,
+      "yaw": 2.2556746006011963,
+      "t": [
+        0.31128185987472534,
+        -2.8953628540039062
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "9dfa9961b908374f4bf80d53",
+      "a": "08ddb655-8dab-4b45-8fee-056462a0a06e",
+      "b": "08ddb655-93d0-43e4-8933-864152719a20",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 878,
+      "inlier_fraction": 0.4545,
+      "correspondences": 1932,
+      "decoder_geometric_yaw_deg": 2.2,
+      "decoder_geometric_t": 0.08,
+      "yaw": -0.2508065104484558,
+      "t": [
+        -0.7250555753707886,
+        2.0264205932617188
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "2dc4a47cda8ed44405fe0cde",
+      "a": "08ddb655-8dab-4b45-8fee-056462a0a06e",
+      "b": "08ddb655-9b94-4b29-8f73-58a9a89f0220",
+      "status": "low_inlier_fraction",
+      "in_tree": false,
+      "inliers": 514,
+      "inlier_fraction": 0.2775,
+      "correspondences": 1852,
+      "decoder_geometric_yaw_deg": 1.79,
+      "decoder_geometric_t": 0.25,
+      "yaw": 1.231031060218811,
+      "t": [
+        -3.6498589515686035,
+        -0.6162315607070923
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "a16b095ac46c2f038a3644f6",
+      "a": "08ddb655-8dab-4b45-8fee-056462a0a06e",
+      "b": "08ddb655-a1ef-485d-8c72-82d22a543472",
+      "status": "too_few_inliers",
+      "in_tree": false,
+      "inliers": 0,
+      "inlier_fraction": 0.0,
+      "correspondences": 125,
+      "decoder_geometric_yaw_deg": 0.77,
+      "decoder_geometric_t": 0.695,
+      "yaw": 2.597583055496216,
+      "t": [
+        1.3776525259017944,
+        -2.976907253265381
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "ee393bfd87e959c3253856bc",
+      "a": "08ddb655-93d0-43e4-8933-864152719a20",
+      "b": "08ddb655-9b94-4b29-8f73-58a9a89f0220",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 958,
+      "inlier_fraction": 0.474,
+      "correspondences": 2021,
+      "decoder_geometric_yaw_deg": 0.07,
+      "decoder_geometric_t": 0.156,
+      "yaw": 1.4796794652938843,
+      "t": [
+        -1.584691047668457,
+        -0.21132653951644897
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "d8c0027caed9e0e0feb52123",
+      "a": "08ddb655-93d0-43e4-8933-864152719a20",
+      "b": "08ddb655-a1ef-485d-8c72-82d22a543472",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 959,
+      "inlier_fraction": 0.5873,
+      "correspondences": 1633,
+      "decoder_geometric_yaw_deg": 3.25,
+      "decoder_geometric_t": 0.053,
+      "yaw": 2.6640403270721436,
+      "t": [
+        2.071995735168457,
+        -1.4825022220611572
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "866eced1547aa130896552c8",
+      "a": "08ddb655-9b94-4b29-8f73-58a9a89f0220",
+      "b": "08ddb655-a1ef-485d-8c72-82d22a543472",
+      "status": "low_inlier_fraction",
+      "in_tree": false,
+      "inliers": 437,
+      "inlier_fraction": 0.2432,
+      "correspondences": 1797,
+      "decoder_geometric_yaw_deg": 0.79,
+      "decoder_geometric_t": 0.094,
+      "yaw": 1.1377344131469727,
+      "t": [
+        2.663811683654785,
+        0.1120983138680458
+      ],
+      "duplicate_content": false
+    }
+  ],
+  "loops": [],
+  "pose_verified": false
+}

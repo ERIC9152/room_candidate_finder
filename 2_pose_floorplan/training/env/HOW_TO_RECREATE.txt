@@ -1,0 +1,37 @@
+How to rebuild the environment used for this training
+=====================================================
+(Chinese version: HOW_TO_RECREATE_ZH.txt)
+
+Original environment: Ubuntu 20.04 / NVIDIA driver 570.181 / CUDA 12.8
+                      Python 3.11.16, torch 2.11.0+cu128, torchvision 0.26.0+cu128
+
+Files in this folder
+--------------------
+conda_explicit.txt   exact versions and source URLs of the conda packages (strictest way to reproduce)
+environment.yml      conda environment export (readable across platforms, but contains Linux-only packages)
+pip_freeze.txt       exact versions of all pip packages
+python_version.txt   Python version
+
+Quickest rebuild (new machine, Linux + NVIDIA)
+----------------------------------------------
+    conda create -y -p ~/envs/covispose python=3.11
+    conda activate ~/envs/covispose
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+    pip install -r training/env/requirements-train.txt     (run from the 2_pose_floorplan folder)
+
+For "exactly the same" versions, replace the last step with:
+
+    pip install -r pip_freeze.txt
+
+Notes
+-----
+* The cu128 build of PyTorch does **not support the Pascal architecture** (GTX 10 series).
+  On a GTX 1070 or similar, use cu126 instead and check that
+  `torch.cuda.get_arch_list()` contains sm_61.
+* The conda environment on the original server (7.2 GB) was not copied back: it is Linux
+  binaries with the path /home/eric/storage/envs/covispose hard-coded, unusable on Windows,
+  and another Linux machine would need a reinstall anyway. The specification files above are
+  the reproducible artefact. If the whole environment really has to be moved, pack it on the
+  original machine with conda-pack into a relocatable tarball (about 4 GB):
+
+      pip install conda-pack && conda pack -p <prefix> -o covispose_env.tar.gz

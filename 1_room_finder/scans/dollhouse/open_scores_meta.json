@@ -1,0 +1,14 @@
+{
+ "created": "2026-10-27T13:17:32",
+ "prompt": "open doorway",
+ "mask_size": [
+  2048,
+  1024
+ ],
+ "dilate_px": 4,
+ "masks": 1232,
+ "panoramas": 1232,
+ "written": 1973,
+ "no_inliers": 0,
+ "no_mask": 0
+}

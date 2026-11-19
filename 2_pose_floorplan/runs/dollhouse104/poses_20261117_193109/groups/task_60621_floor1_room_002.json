@@ -1,0 +1,293 @@
+{
+  "group": {
+    "room_id": "task_60621_floor1_room_002",
+    "task": "DollhouseTask_60621_NoOutdoor",
+    "floor": "floor1",
+    "space_kind": "room",
+    "panorama_uuids": [
+      "08ddc71e-d652-4821-8aae-6443307ca670",
+      "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "08ddc71e-e441-459e-807c-9a5be15fc418",
+      "08ddc721-c1cc-4bfc-862e-a33d5e548146"
+    ],
+    "status": "human_verified"
+  },
+  "summary": {
+    "group": "task_60621_floor1_room_002",
+    "house": "DollhouseTask_60621_NoOutdoor",
+    "n_images": 4,
+    "pairs": 6,
+    "accepted_full": 5,
+    "accepted_direction": 0,
+    "component_sizes": [
+      4
+    ],
+    "fully_connected": true,
+    "loop_max_yaw_deg": 14.187300113735306,
+    "loop_max_translation": 0.6625188076024409,
+    "flagged_weak_or_loop": 3
+  },
+  "rule": "G rule + direction links f=0.30; maximum-weight spanning forest; no global optimisation",
+  "convention": "p_root = R(yaw) p_u + t; camera height = 1; root = most-connected camera",
+  "flag_stats": {
+    "source": "pose_flags_v1, ZInD test (40 houses); camera wrong = majority of its pairs > 10 deg or > 0.5",
+    "valid": {
+      "D": false,
+      "W": true,
+      "L": true,
+      "U": false
+    },
+    "W": {
+      "flagged": 0.2647,
+      "unflagged": 0.037,
+      "n": 34
+    },
+    "L": {
+      "flagged": 0.1489,
+      "unflagged": 0.0155,
+      "n": 94
+    }
+  },
+  "components": [
+    [
+      "08ddc71e-d652-4821-8aae-6443307ca670",
+      "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "08ddc71e-e441-459e-807c-9a5be15fc418",
+      "08ddc721-c1cc-4bfc-862e-a33d5e548146"
+    ]
+  ],
+  "cameras": {
+    "08ddc71e-d652-4821-8aae-6443307ca670": {
+      "label": "Laundry ",
+      "component_root": "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "is_root": false,
+      "yaw": 1.6621320247650146,
+      "t": [
+        -0.39266911149024963,
+        0.8387451767921447
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": true,
+        "unverified": false
+      },
+      "weak_edges": [
+        {
+          "pair_id": "a6f546a7b315276ef667db48",
+          "kind": "full",
+          "frac": 0.716,
+          "inliers": 1243,
+          "dyaw": 2.594,
+          "dt": 0.034,
+          "weak": true
+        }
+      ],
+      "bad_loop": {
+        "id": "6245ef0e6f9b920fc6205549",
+        "yaw_deg": 14.187300113735306,
+        "translation": 0.13805652229662663
+      }
+    },
+    "08ddc71e-dde8-4e35-8df2-d8464eb5e605": {
+      "label": "Hallway ",
+      "component_root": "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "is_root": true,
+      "yaw": 0.0,
+      "t": [
+        0.0,
+        0.0
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": false,
+        "loop_not_closing": false,
+        "unverified": false
+      },
+      "weak_edges": [],
+      "bad_loop": null
+    },
+    "08ddc71e-e441-459e-807c-9a5be15fc418": {
+      "label": "Hallway",
+      "component_root": "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "is_root": false,
+      "yaw": -0.9015038013458252,
+      "t": [
+        -0.8750271158041446,
+        -0.4864246040871612
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": true,
+        "unverified": false
+      },
+      "weak_edges": [
+        {
+          "pair_id": "a6f546a7b315276ef667db48",
+          "kind": "full",
+          "frac": 0.716,
+          "inliers": 1243,
+          "dyaw": 2.594,
+          "dt": 0.034,
+          "weak": true
+        }
+      ],
+      "bad_loop": {
+        "id": "6245ef0e6f9b920fc6205549",
+        "yaw_deg": 14.187300113735306,
+        "translation": 0.13805652229662663
+      }
+    },
+    "08ddc721-c1cc-4bfc-862e-a33d5e548146": {
+      "label": "Breakfast Nook",
+      "component_root": "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "is_root": false,
+      "yaw": 0.8415467143058777,
+      "t": [
+        -2.853608723480103,
+        0.11287419153985472
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": false,
+        "loop_not_closing": true,
+        "unverified": false
+      },
+      "weak_edges": [],
+      "bad_loop": {
+        "id": "d7b298aed73e13b3b6912e10",
+        "yaw_deg": 8.124636376229812,
+        "translation": 0.6625188076024409
+      }
+    }
+  },
+  "tree_edges": [
+    "9d242b477957054a7d893ee6",
+    "a6f546a7b315276ef667db48",
+    "d68e7b0690e39b50c5cd4354"
+  ],
+  "pairs": [
+    {
+      "pair_id": "a6f546a7b315276ef667db48",
+      "a": "08ddc71e-d652-4821-8aae-6443307ca670",
+      "b": "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 1243,
+      "inlier_fraction": 0.7156,
+      "correspondences": 1737,
+      "decoder_geometric_yaw_deg": 2.59,
+      "decoder_geometric_t": 0.034,
+      "yaw": 1.6621320247650146,
+      "t": [
+        -0.39266911149024963,
+        0.8387451767921448
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "d68e7b0690e39b50c5cd4354",
+      "a": "08ddc71e-d652-4821-8aae-6443307ca670",
+      "b": "08ddc71e-e441-459e-807c-9a5be15fc418",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 324,
+      "inlier_fraction": 0.9391,
+      "correspondences": 345,
+      "decoder_geometric_yaw_deg": 2.31,
+      "decoder_geometric_t": 0.078,
+      "yaw": 2.56363582611084,
+      "t": [
+        -0.7400087118148804,
+        1.20047128200531
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "48b70fd732ba33be8629956b",
+      "a": "08ddc71e-d652-4821-8aae-6443307ca670",
+      "b": "08ddc721-c1cc-4bfc-862e-a33d5e548146",
+      "status": "no_correspondences",
+      "in_tree": false,
+      "inliers": 0,
+      "inlier_fraction": 0.0,
+      "correspondences": 0,
+      "decoder_geometric_yaw_deg": 20.48,
+      "decoder_geometric_t": 0.088,
+      "yaw": -0.10484234988689423,
+      "t": [
+        1.3211687803268433,
+        -1.2007273435592651
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "6245ef0e6f9b920fc6205549",
+      "a": "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "b": "08ddc71e-e441-459e-807c-9a5be15fc418",
+      "status": "accepted",
+      "in_tree": false,
+      "inliers": 985,
+      "inlier_fraction": 0.5697,
+      "correspondences": 1729,
+      "decoder_geometric_yaw_deg": 2.22,
+      "decoder_geometric_t": 0.052,
+      "yaw": 1.1491189002990723,
+      "t": [
+        0.280261754989624,
+        1.0582847595214844
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "9d242b477957054a7d893ee6",
+      "a": "08ddc71e-dde8-4e35-8df2-d8464eb5e605",
+      "b": "08ddc721-c1cc-4bfc-862e-a33d5e548146",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 686,
+      "inlier_fraction": 0.7691,
+      "correspondences": 892,
+      "decoder_geometric_yaw_deg": 0.34,
+      "decoder_geometric_t": 0.052,
+      "yaw": -0.8415467143058777,
+      "t": [
+        1.8172214031219482,
+        -2.2030727863311768
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "d7b298aed73e13b3b6912e10",
+      "a": "08ddc71e-e441-459e-807c-9a5be15fc418",
+      "b": "08ddc721-c1cc-4bfc-862e-a33d5e548146",
+      "status": "accepted",
+      "in_tree": false,
+      "inliers": 362,
+      "inlier_fraction": 0.419,
+      "correspondences": 864,
+      "decoder_geometric_yaw_deg": 1.66,
+      "decoder_geometric_t": 0.125,
+      "yaw": -1.8848521709442139,
+      "t": [
+        1.0462613105773926,
+        -1.235652208328247
+      ],
+      "duplicate_content": false
+    }
+  ],
+  "loops": [
+    {
+      "id": "6245ef0e6f9b920fc6205549",
+      "yaw_deg": 14.187300113735306,
+      "translation": 0.13805652229662663
+    },
+    {
+      "id": "d7b298aed73e13b3b6912e10",
+      "yaw_deg": 8.124636376229812,
+      "translation": 0.6625188076024409
+    }
+  ],
+  "pose_verified": false
+}

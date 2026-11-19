@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 770" font-family="Arial, Helvetica, sans-serif">
+  <!-- Background -->
+  <rect width="1400" height="770" fill="white"/>
+
+  <!-- Main Title -->
+  <text x="700" y="45" text-anchor="middle" font-size="26" font-weight="bold" fill="#222">Relative Pose (ERP Panorama)</text>
+  <!-- Top Right Notation -->
+  <text x="1350" y="36" text-anchor="end" font-size="12" fill="#666" font-style="italic">R = relative rotation</text>
+  <text x="1350" y="54" text-anchor="end" font-size="12" fill="#666" font-style="italic">t = relative translation direction</text>
+
+  <!-- Marker Defs -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- ============================================ -->
+  <!-- Section 1: Correspondences -->
+  <!-- ============================================ -->
+  <text x="250" y="85" text-anchor="middle" font-size="20" font-weight="bold" fill="#e68a00">1. Correspondences</text>
+
+  <!-- Cam A box -->
+  <rect x="100" y="105" width="80" height="35" rx="5" fill="white" stroke="#888" stroke-width="1.5"/>
+  <text x="140" y="128" text-anchor="middle" font-size="14" fill="#333">Cam A</text>
+  <text x="140" y="158" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">Image A (ERP)</text>
+
+  <!-- Cam B box -->
+  <rect x="320" y="105" width="80" height="35" rx="5" fill="white" stroke="#888" stroke-width="1.5"/>
+  <text x="360" y="128" text-anchor="middle" font-size="14" fill="#333">Cam B</text>
+  <text x="360" y="158" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">Image B (ERP)</text>
+
+  <!-- Image A frame (ERP Panorama grid hint) -->
+  <rect x="50" y="175" width="180" height="210" rx="3" fill="#fcfcfc" stroke="#3366cc" stroke-width="2.5"/>
+  <!-- ERP grid lines Image A -->
+  <line x1="50" y1="280" x2="230" y2="280" stroke="#e0e8f8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="140" y1="175" x2="140" y2="385" stroke="#e0e8f8" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Image B frame (ERP Panorama grid hint) -->
+  <rect x="270" y="175" width="180" height="210" rx="3" fill="#fcfcfc" stroke="#3366cc" stroke-width="2.5"/>
+  <!-- ERP grid lines Image B -->
+  <line x1="270" y1="280" x2="450" y2="280" stroke="#e0e8f8" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="360" y1="175" x2="360" y2="385" stroke="#e0e8f8" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- Match lines and dots in Image A & B -->
+  <!-- Pair 1 (blue) -->
+  <line x1="80" y1="210" x2="300" y2="215" stroke="#3377dd" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <circle cx="80" cy="210" r="6" fill="#3377dd"/>
+  <circle cx="300" cy="215" r="6" fill="#3377dd"/>
+
+  <!-- Pair 2 (orange) -->
+  <line x1="140" y1="235" x2="410" y2="240" stroke="#e6a817" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <circle cx="140" cy="235" r="6" fill="#e6a817"/>
+  <circle cx="410" cy="240" r="6" fill="#e6a817"/>
+
+  <!-- Pair 3 (green) -->
+  <line x1="100" y1="280" x2="370" y2="290" stroke="#55aa55" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <circle cx="100" cy="280" r="6" fill="#55aa55"/>
+  <circle cx="370" cy="290" r="6" fill="#55aa55"/>
+
+  <!-- Pair 4 (blue) -->
+  <line x1="190" y1="310" x2="310" y2="315" stroke="#3377dd" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <circle cx="190" cy="310" r="6" fill="#3377dd"/>
+  <circle cx="310" cy="315" r="6" fill="#3377dd"/>
+
+  <!-- Pair 5 (green) -->
+  <line x1="90" y1="340" x2="340" y2="345" stroke="#55aa55" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <circle cx="90" cy="340" r="6" fill="#55aa55"/>
+  <circle cx="340" cy="345" r="6" fill="#55aa55"/>
+
+  <!-- Pair 6 (red) -->
+  <line x1="120" y1="365" x2="380" y2="370" stroke="#dd3333" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <circle cx="120" cy="365" r="6" fill="#dd3333"/>
+  <circle cx="380" cy="370" r="6" fill="#dd3333"/>
+
+  <!-- Label under images -->
+  <text x="250" y="405" text-anchor="middle" font-size="13" fill="#555">RoMa matches</text>
+  <text x="250" y="420" text-anchor="middle" font-size="12" fill="#888">(pixel → 3D spherical direction)</text>
+
+  <!-- Arrow 1 -> 2 -->
+  <line x1="465" y1="280" x2="525" y2="280" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- ============================================ -->
+  <!-- Section 2: RANSAC samples pose -->
+  <!-- ============================================ -->
+  <text x="660" y="85" text-anchor="middle" font-size="20" font-weight="bold" fill="#e68a00">2. RANSAC samples pose</text>
+
+  <!-- Flowchart boxes -->
+  <rect x="535" y="120" width="250" height="45" rx="8" fill="white" stroke="#3366cc" stroke-width="2"/>
+  <text x="660" y="148" text-anchor="middle" font-size="14" fill="#333">Sample a few matches</text>
+
+  <line x1="660" y1="165" x2="660" y2="195" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <rect x="535" y="200" width="250" height="55" rx="8" fill="#e8f0fe" stroke="#3366cc" stroke-width="2"/>
+  <text x="660" y="223" text-anchor="middle" font-size="14" fill="#333">Estimate (R, t)</text>
+  <text x="660" y="243" text-anchor="middle" font-size="13" fill="#555">||t|| = 1 per pair</text>
+
+  <line x1="660" y1="255" x2="660" y2="285" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <rect x="535" y="290" width="250" height="45" rx="8" fill="white" stroke="#3366cc" stroke-width="2"/>
+  <text x="660" y="312" text-anchor="middle" font-size="14" fill="#333">Test all matches</text>
+  <text x="660" y="328" text-anchor="middle" font-size="11" fill="#777">(Sampson error on sphere)</text>
+
+  <line x1="660" y1="335" x2="660" y2="365" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <rect x="535" y="370" width="250" height="50" rx="8" fill="#b8e6b8" stroke="#55aa55" stroke-width="2"/>
+  <text x="660" y="392" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Keep pose with</text>
+  <text x="660" y="410" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">most inliers</text>
+
+  <!-- Arrow 2 -> 3 -->
+  <line x1="795" y1="280" x2="860" y2="280" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- ============================================ -->
+  <!-- Section 3: Classify matches (Spherical Epipolar) -->
+  <!-- ============================================ -->
+  <text x="1090" y="85" text-anchor="middle" font-size="20" font-weight="bold" fill="#e68a00">3. Classify matches (Spherical Check)</text>
+
+  <!-- Image A frame -->
+  <text x="965" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">Image A (ERP)</text>
+  <rect x="875" y="125" width="180" height="260" rx="3" fill="#fafafa" stroke="#3366cc" stroke-width="2.5"/>
+
+  <!-- Image B frame -->
+  <text x="1210" y="115" text-anchor="middle" font-size="13" font-weight="bold" fill="#555">Image B (ERP)</text>
+  <rect x="1110" y="125" width="200" height="260" rx="3" fill="#fafafa" stroke="#3366cc" stroke-width="2.5"/>
+
+  <!-- === Inlier pair 1 (green) === -->
+  <circle cx="910" cy="180" r="6" fill="#44aa44"/>
+  <text x="923" y="176" font-size="9" fill="#44aa44">p₁</text>
+  <!-- Spherical Epipolar Curve l1 with 0.5deg tolerance band -->
+  <path d="M 1110,195 Q 1210,170 1310,185" stroke="#44aa44" stroke-width="12" stroke-opacity="0.15" fill="none" stroke-linecap="round"/>
+  <path d="M 1110,195 Q 1210,170 1310,185" stroke="#44aa44" stroke-width="1.5" fill="none" stroke-opacity="0.7"/>
+  <!-- Point q1 inside tolerance band (inlier) -->
+  <circle cx="1210" cy="177" r="6" fill="#44aa44"/>
+  <text x="1223" y="173" font-size="9" fill="#44aa44">q₁</text>
+  <line x1="910" y1="180" x2="1210" y2="177" stroke="#44aa44" stroke-width="1.3" stroke-dasharray="5,3"/>
+  <text x="1070" y="172" text-anchor="middle" font-size="12" fill="#44aa44" font-weight="bold">✓ ≤0.5°</text>
+
+  <!-- === Inlier pair 2 (green) === -->
+  <circle cx="960" cy="230" r="6" fill="#44aa44"/>
+  <text x="973" y="226" font-size="9" fill="#44aa44">p₂</text>
+  <!-- Spherical Epipolar Curve l2 with tolerance band -->
+  <path d="M 1110,245 Q 1210,225 1310,240" stroke="#44aa44" stroke-width="12" stroke-opacity="0.15" fill="none" stroke-linecap="round"/>
+  <path d="M 1110,245 Q 1210,225 1310,240" stroke="#44aa44" stroke-width="1.5" fill="none" stroke-opacity="0.7"/>
+  <!-- Point q2 inside tolerance band -->
+  <circle cx="1210" cy="230" r="6" fill="#44aa44"/>
+  <text x="1223" y="226" font-size="9" fill="#44aa44">q₂</text>
+  <line x1="960" y1="230" x2="1210" y2="230" stroke="#44aa44" stroke-width="1.3" stroke-dasharray="5,3"/>
+  <text x="1080" y="224" text-anchor="middle" font-size="12" fill="#44aa44" font-weight="bold">✓ ≤0.5°</text>
+
+  <!-- === Inlier pair 3 (green) === -->
+  <circle cx="930" cy="290" r="6" fill="#44aa44"/>
+  <text x="943" y="286" font-size="9" fill="#44aa44">p₃</text>
+  <!-- Spherical Epipolar Curve l3 with tolerance band -->
+  <path d="M 1110,295 Q 1210,320 1310,290" stroke="#44aa44" stroke-width="12" stroke-opacity="0.15" fill="none" stroke-linecap="round"/>
+  <path d="M 1110,295 Q 1210,320 1310,290" stroke="#44aa44" stroke-width="1.5" fill="none" stroke-opacity="0.7"/>
+  <!-- Point q3 inside tolerance band -->
+  <circle cx="1210" cy="308" r="6" fill="#44aa44"/>
+  <text x="1223" y="304" font-size="9" fill="#44aa44">q₃</text>
+  <line x1="930" y1="290" x2="1210" y2="308" stroke="#44aa44" stroke-width="1.3" stroke-dasharray="5,3"/>
+  <text x="1075" y="285" text-anchor="middle" font-size="12" fill="#44aa44" font-weight="bold">✓ ≤0.5°</text>
+
+  <!-- === Outlier pair (red) === -->
+  <circle cx="990" cy="340" r="6" fill="#dd3333"/>
+  <text x="1003" y="336" font-size="9" fill="#dd3333">p₄</text>
+  <!-- Spherical Epipolar Curve l4 -->
+  <path d="M 1110,355 Q 1210,340 1310,350" stroke="#dd3333" stroke-width="1.5" stroke-dasharray="4,3" fill="none" stroke-opacity="0.7"/>
+  <!-- Point q4 FAR from curve l4 -->
+  <circle cx="1175" cy="170" r="6" fill="none" stroke="#dd3333" stroke-width="2"/>
+  <text x="1160" y="166" font-size="9" fill="#dd3333">q₄</text>
+  <g stroke="#dd3333" stroke-width="2.5">
+    <line x1="1168" y1="163" x2="1182" y2="177"/>
+    <line x1="1182" y1="163" x2="1168" y2="177"/>
+  </g>
+  <line x1="990" y1="340" x2="1175" y2="170" stroke="#dd3333" stroke-width="1.3" stroke-dasharray="5,3"/>
+  <text x="1085" y="248" text-anchor="middle" font-size="12" fill="#dd3333" font-weight="bold">✗ &gt;0.5°</text>
+
+  <!-- Angular distance dashed line indicator -->
+  <line x1="1175" y1="182" x2="1175" y2="345" stroke="#dd3333" stroke-width="1" stroke-dasharray="2,2" stroke-opacity="0.7"/>
+  <text x="1185" y="265" font-size="9" fill="#dd3333" font-style="italic">angular error</text>
+
+  <!-- Curve labels -->
+  <text x="1315" y="185" font-size="8.5" fill="#44aa44" font-style="italic">l₁</text>
+  <text x="1315" y="240" font-size="8.5" fill="#44aa44" font-style="italic">l₂</text>
+  <text x="1315" y="290" font-size="8.5" fill="#44aa44" font-style="italic">l₃</text>
+  <text x="1315" y="350" font-size="8.5" fill="#dd3333" font-style="italic">l₄</text>
+
+  <!-- Legend -->
+  <text x="1090" y="410" text-anchor="middle" font-size="12" fill="#44aa44" font-weight="bold">Green = inlier (Sampson residual ≤ 0.5°)</text>
+  <text x="1090" y="428" text-anchor="middle" font-size="12" fill="#dd3333" font-weight="bold">Red = outlier (Sampson residual &gt; 0.5°)</text>
+  <text x="1090" y="446" text-anchor="middle" font-size="11" fill="#777">pᵢ ∈ Image A, qᵢ ∈ Image B  (lᵢ = spherical epipolar curve of pᵢ)</text>
+
+  <!-- ============================================ -->
+  <!-- Bottom Box: About t and Degeneracy -->
+  <!-- ============================================ -->
+  <rect x="50" y="475" width="1300" height="240" rx="10" fill="white" stroke="#e6a817" stroke-width="2.5"/>
+
+  <text x="700" y="515" text-anchor="middle" font-size="22" font-weight="bold" fill="#e68a00">About t  and  Degeneracy Handling (Pure Rotation)</text>
+
+  <text x="85" y="565" font-size="14" fill="#333">1. Each pair normalizes t so ||t|| = 1. Thus t is the relative translation DIRECTION (unit vector), not real-world scale.</text>
+
+  <text x="85" y="620" font-size="14" fill="#333">2. When pure R is sufficient (cameras shot from almost the same spot), keep R and mark t as unreliable (pure rotation).</text>
+
+  <!-- Pipeline summary -->
+  <text x="700" y="675" text-anchor="middle" font-size="13" fill="#996600" font-style="italic">Pipeline → sample poses → spherical Sampson check (threshold 0.5°) → inliers fit → mark pure rotation if R is sufficient.</text>
+</svg>

@@ -1,0 +1,3504 @@
+{
+ "schema_version": 1,
+ "generator": "make_zind_room_groups",
+ "groups": [
+  {
+   "room_id": "zind_0990_floor_01_complete_room_01",
+   "task": "0990",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0990_floor_01_partial_room_01_pano_16",
+    "0990_floor_01_partial_room_03_pano_19",
+    "0990_floor_01_partial_room_04_pano_23",
+    "0990_floor_01_partial_room_05_pano_3"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0021_floor_01_complete_room_01",
+   "task": "0021",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0021_floor_01_partial_room_01_pano_6",
+    "0021_floor_01_partial_room_04_pano_1",
+    "0021_floor_01_partial_room_05_pano_20",
+    "0021_floor_01_partial_room_08_pano_10"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0809_floor_01_complete_room_04",
+   "task": "0809",
+   "floor": "floor_01",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0809_floor_01_partial_room_04_pano_22",
+    "0809_floor_01_partial_room_06_pano_24",
+    "0809_floor_01_partial_room_08_pano_2",
+    "0809_floor_01_partial_room_11_pano_10",
+    "0809_floor_01_partial_room_12_pano_12",
+    "0809_floor_01_partial_room_16_pano_34",
+    "0809_floor_01_partial_room_21_pano_19"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0966_floor_00_complete_room_02",
+   "task": "0966",
+   "floor": "floor_00",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0966_floor_00_partial_room_02_pano_23",
+    "0966_floor_00_partial_room_06_pano_24",
+    "0966_floor_00_partial_room_07_pano_25"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0966_floor_01_complete_room_03",
+   "task": "0966",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0966_floor_01_partial_room_03_pano_3",
+    "0966_floor_01_partial_room_05_pano_5",
+    "0966_floor_01_partial_room_06_pano_9",
+    "0966_floor_01_partial_room_07_pano_4",
+    "0966_floor_01_partial_room_08_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1551_floor_02_complete_room_04",
+   "task": "1551",
+   "floor": "floor_02",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1551_floor_02_partial_room_04_pano_18",
+    "1551_floor_02_partial_room_10_pano_28",
+    "1551_floor_02_partial_room_11_pano_19"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0963_floor_01_complete_room_05",
+   "task": "0963",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0963_floor_01_partial_room_05_pano_6",
+    "0963_floor_01_partial_room_07_pano_18",
+    "0963_floor_01_partial_room_08_pano_4",
+    "0963_floor_01_partial_room_12_pano_5",
+    "0963_floor_01_partial_room_15_pano_14",
+    "0963_floor_01_partial_room_18_pano_13"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1169_floor_00_complete_room_01",
+   "task": "1169",
+   "floor": "floor_00",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1169_floor_00_partial_room_01_pano_20",
+    "1169_floor_00_partial_room_04_pano_26",
+    "1169_floor_00_partial_room_07_pano_27"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1169_floor_01_complete_room_01",
+   "task": "1169",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1169_floor_01_partial_room_01_pano_4",
+    "1169_floor_01_partial_room_03_pano_17",
+    "1169_floor_01_partial_room_05_pano_14"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0203_floor_01_complete_room_03",
+   "task": "0203",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0203_floor_01_partial_room_03_pano_22",
+    "0203_floor_01_partial_room_04_pano_31",
+    "0203_floor_01_partial_room_08_pano_6",
+    "0203_floor_01_partial_room_09_pano_21",
+    "0203_floor_01_partial_room_12_pano_43",
+    "0203_floor_01_partial_room_15_pano_44",
+    "0203_floor_01_partial_room_19_pano_46",
+    "0203_floor_01_partial_room_20_pano_0",
+    "0203_floor_01_partial_room_22_pano_38"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0203_floor_01_complete_room_05",
+   "task": "0203",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0203_floor_01_partial_room_06_pano_52",
+    "0203_floor_01_partial_room_16_pano_49",
+    "0203_floor_01_partial_room_21_pano_48"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1041_floor_01_complete_room_03",
+   "task": "1041",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1041_floor_01_partial_room_03_pano_27",
+    "1041_floor_01_partial_room_12_pano_7",
+    "1041_floor_01_partial_room_14_pano_9",
+    "1041_floor_01_partial_room_21_pano_12",
+    "1041_floor_01_partial_room_22_pano_13"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0957_floor_01_complete_room_02",
+   "task": "0957",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0957_floor_01_partial_room_02_pano_25",
+    "0957_floor_01_partial_room_03_pano_12",
+    "0957_floor_01_partial_room_04_pano_3",
+    "0957_floor_01_partial_room_06_pano_14"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0496_floor_01_complete_room_01",
+   "task": "0496",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0496_floor_01_partial_room_01_pano_6",
+    "0496_floor_01_partial_room_03_pano_3",
+    "0496_floor_01_partial_room_05_pano_4",
+    "0496_floor_01_partial_room_06_pano_5",
+    "0496_floor_01_partial_room_07_pano_1"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1544_floor_01_complete_room_02",
+   "task": "1544",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1544_floor_01_partial_room_02_pano_5",
+    "1544_floor_01_partial_room_03_pano_6",
+    "1544_floor_01_partial_room_07_pano_3",
+    "1544_floor_01_partial_room_09_pano_16",
+    "1544_floor_01_partial_room_11_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0668_floor_01_complete_room_01",
+   "task": "0668",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0668_floor_01_partial_room_01_pano_14",
+    "0668_floor_01_partial_room_04_pano_18",
+    "0668_floor_01_partial_room_05_pano_25",
+    "0668_floor_01_partial_room_08_pano_17",
+    "0668_floor_01_partial_room_10_pano_27",
+    "0668_floor_01_partial_room_11_pano_21",
+    "0668_floor_01_partial_room_14_pano_26",
+    "0668_floor_01_partial_room_15_pano_1",
+    "0668_floor_01_partial_room_17_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0668_floor_02_complete_room_09",
+   "task": "0668",
+   "floor": "floor_02",
+   "room_label": "complete_room_09",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0668_floor_02_partial_room_11_pano_71",
+    "0668_floor_02_partial_room_12_pano_62",
+    "0668_floor_02_partial_room_14_pano_74"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0299_floor_01_complete_room_02",
+   "task": "0299",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0299_floor_01_partial_room_02_pano_10",
+    "0299_floor_01_partial_room_03_pano_8",
+    "0299_floor_01_partial_room_05_pano_1",
+    "0299_floor_01_partial_room_08_pano_3",
+    "0299_floor_01_partial_room_09_pano_24",
+    "0299_floor_01_partial_room_10_pano_6"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0684_floor_01_complete_room_03",
+   "task": "0684",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0684_floor_01_partial_room_03_pano_20",
+    "0684_floor_01_partial_room_07_pano_25",
+    "0684_floor_01_partial_room_12_pano_22"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0684_floor_01_complete_room_08",
+   "task": "0684",
+   "floor": "floor_01",
+   "room_label": "complete_room_08",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0684_floor_01_partial_room_09_pano_17",
+    "0684_floor_01_partial_room_11_pano_13",
+    "0684_floor_01_partial_room_14_pano_15",
+    "0684_floor_01_partial_room_15_pano_1"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0534_floor_01_complete_room_03",
+   "task": "0534",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0534_floor_01_partial_room_03_pano_20",
+    "0534_floor_01_partial_room_05_pano_10",
+    "0534_floor_01_partial_room_06_pano_3",
+    "0534_floor_01_partial_room_11_pano_6",
+    "0534_floor_01_partial_room_14_pano_8",
+    "0534_floor_01_partial_room_18_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0534_floor_02_complete_room_01",
+   "task": "0534",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0534_floor_02_partial_room_01_pano_36",
+    "0534_floor_02_partial_room_05_pano_43",
+    "0534_floor_02_partial_room_06_pano_41"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1348_floor_01_complete_room_01",
+   "task": "1348",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1348_floor_01_partial_room_01_pano_5",
+    "1348_floor_01_partial_room_04_pano_26",
+    "1348_floor_01_partial_room_05_pano_40",
+    "1348_floor_01_partial_room_10_pano_19",
+    "1348_floor_01_partial_room_12_pano_5",
+    "1348_floor_01_partial_room_16_pano_17",
+    "1348_floor_01_partial_room_18_pano_18",
+    "1348_floor_01_partial_room_19_pano_3",
+    "1348_floor_01_partial_room_20_pano_22"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0127_floor_01_complete_room_01",
+   "task": "0127",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0127_floor_01_partial_room_01_pano_3",
+    "0127_floor_01_partial_room_02_pano_4",
+    "0127_floor_01_partial_room_05_pano_0",
+    "0127_floor_01_partial_room_06_pano_6",
+    "0127_floor_01_partial_room_07_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0494_floor_01_complete_room_01",
+   "task": "0494",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0494_floor_01_partial_room_01_pano_18",
+    "0494_floor_01_partial_room_03_pano_20",
+    "0494_floor_01_partial_room_10_pano_5",
+    "0494_floor_01_partial_room_11_pano_31",
+    "0494_floor_01_partial_room_13_pano_14",
+    "0494_floor_01_partial_room_14_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0519_floor_01_complete_room_03",
+   "task": "0519",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0519_floor_01_partial_room_03_pano_3",
+    "0519_floor_01_partial_room_05_pano_25",
+    "0519_floor_01_partial_room_06_pano_24",
+    "0519_floor_01_partial_room_08_pano_5",
+    "0519_floor_01_partial_room_13_pano_22",
+    "0519_floor_01_partial_room_15_pano_10",
+    "0519_floor_01_partial_room_17_pano_23"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0854_floor_01_complete_room_01",
+   "task": "0854",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0854_floor_01_partial_room_01_pano_6",
+    "0854_floor_01_partial_room_04_pano_3",
+    "0854_floor_01_partial_room_07_pano_13",
+    "0854_floor_01_partial_room_08_pano_1",
+    "0854_floor_01_partial_room_09_pano_7",
+    "0854_floor_01_partial_room_12_pano_9"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1184_floor_01_complete_room_01",
+   "task": "1184",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1184_floor_01_partial_room_01_pano_28",
+    "1184_floor_01_partial_room_02_pano_0",
+    "1184_floor_01_partial_room_06_pano_32",
+    "1184_floor_01_partial_room_08_pano_9",
+    "1184_floor_01_partial_room_09_pano_31",
+    "1184_floor_01_partial_room_10_pano_14",
+    "1184_floor_01_partial_room_12_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1566_floor_01_complete_room_02",
+   "task": "1566",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1566_floor_01_partial_room_02_pano_14",
+    "1566_floor_01_partial_room_05_pano_8",
+    "1566_floor_01_partial_room_07_pano_10",
+    "1566_floor_01_partial_room_09_pano_15",
+    "1566_floor_01_partial_room_10_pano_18",
+    "1566_floor_01_partial_room_12_pano_1",
+    "1566_floor_01_partial_room_14_pano_9"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0629_floor_01_complete_room_01",
+   "task": "0629",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0629_floor_01_partial_room_01_pano_7",
+    "0629_floor_01_partial_room_03_pano_19",
+    "0629_floor_01_partial_room_05_pano_4",
+    "0629_floor_01_partial_room_06_pano_12"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0629_floor_02_complete_room_02",
+   "task": "0629",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0629_floor_02_partial_room_02_pano_46",
+    "0629_floor_02_partial_room_07_pano_41",
+    "0629_floor_02_partial_room_09_pano_26"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1409_floor_00_complete_room_03",
+   "task": "1409",
+   "floor": "floor_00",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1409_floor_00_partial_room_03_pano_61",
+    "1409_floor_00_partial_room_05_pano_54",
+    "1409_floor_00_partial_room_06_pano_58",
+    "1409_floor_00_partial_room_07_pano_60"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1409_floor_01_complete_room_01",
+   "task": "1409",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1409_floor_01_partial_room_01_pano_15",
+    "1409_floor_01_partial_room_02_pano_19",
+    "1409_floor_01_partial_room_03_pano_10",
+    "1409_floor_01_partial_room_05_pano_5",
+    "1409_floor_01_partial_room_06_pano_3",
+    "1409_floor_01_partial_room_11_pano_13",
+    "1409_floor_01_partial_room_13_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1409_floor_02_complete_room_09",
+   "task": "1409",
+   "floor": "floor_02",
+   "room_label": "complete_room_09",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1409_floor_02_partial_room_09_pano_30",
+    "1409_floor_02_partial_room_14_pano_29",
+    "1409_floor_02_partial_room_15_pano_43"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1485_floor_01_complete_room_01",
+   "task": "1485",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1485_floor_01_partial_room_01_pano_40",
+    "1485_floor_01_partial_room_02_pano_4",
+    "1485_floor_01_partial_room_03_pano_18",
+    "1485_floor_01_partial_room_07_pano_22",
+    "1485_floor_01_partial_room_11_pano_29",
+    "1485_floor_01_partial_room_20_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1485_floor_01_complete_room_02",
+   "task": "1485",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1485_floor_01_partial_room_04_pano_48",
+    "1485_floor_01_partial_room_05_pano_52",
+    "1485_floor_01_partial_room_21_pano_50"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1001_floor_01_complete_room_02",
+   "task": "1001",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1001_floor_01_partial_room_02_pano_0",
+    "1001_floor_01_partial_room_04_pano_7",
+    "1001_floor_01_partial_room_10_pano_9",
+    "1001_floor_01_partial_room_11_pano_28",
+    "1001_floor_01_partial_room_13_pano_4",
+    "1001_floor_01_partial_room_14_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1177_floor_01_complete_room_03",
+   "task": "1177",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1177_floor_01_partial_room_03_pano_4",
+    "1177_floor_01_partial_room_07_pano_7",
+    "1177_floor_01_partial_room_09_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1177_floor_02_complete_room_02",
+   "task": "1177",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1177_floor_02_partial_room_02_pano_47",
+    "1177_floor_02_partial_room_03_pano_26",
+    "1177_floor_02_partial_room_05_pano_25",
+    "1177_floor_02_partial_room_08_pano_45"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1177_floor_03_complete_room_01",
+   "task": "1177",
+   "floor": "floor_03",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1177_floor_03_partial_room_01_pano_54",
+    "1177_floor_03_partial_room_04_pano_55",
+    "1177_floor_03_partial_room_06_pano_60"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1388_floor_00_complete_room_01",
+   "task": "1388",
+   "floor": "floor_00",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1388_floor_00_partial_room_01_pano_33",
+    "1388_floor_00_partial_room_02_pano_32",
+    "1388_floor_00_partial_room_05_pano_41"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1388_floor_01_complete_room_01",
+   "task": "1388",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1388_floor_01_partial_room_01_pano_4",
+    "1388_floor_01_partial_room_02_pano_2",
+    "1388_floor_01_partial_room_05_pano_8",
+    "1388_floor_01_partial_room_10_pano_17",
+    "1388_floor_01_partial_room_12_pano_10",
+    "1388_floor_01_partial_room_15_pano_14"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0245_floor_01_complete_room_01",
+   "task": "0245",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0245_floor_01_partial_room_01_pano_2",
+    "0245_floor_01_partial_room_06_pano_7",
+    "0245_floor_01_partial_room_11_pano_3",
+    "0245_floor_01_partial_room_12_pano_6",
+    "0245_floor_01_partial_room_14_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1400_floor_01_complete_room_03",
+   "task": "1400",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1400_floor_01_partial_room_03_pano_11",
+    "1400_floor_01_partial_room_04_pano_7",
+    "1400_floor_01_partial_room_07_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0576_floor_01_complete_room_01",
+   "task": "0576",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0576_floor_01_partial_room_01_pano_12",
+    "0576_floor_01_partial_room_03_pano_6",
+    "0576_floor_01_partial_room_04_pano_7",
+    "0576_floor_01_partial_room_06_pano_15",
+    "0576_floor_01_partial_room_07_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0576_floor_02_complete_room_01",
+   "task": "0576",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0576_floor_02_partial_room_01_pano_28",
+    "0576_floor_02_partial_room_07_pano_18",
+    "0576_floor_02_partial_room_10_pano_22"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0100_floor_01_complete_room_01",
+   "task": "0100",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0100_floor_01_partial_room_01_pano_24",
+    "0100_floor_01_partial_room_04_pano_26",
+    "0100_floor_01_partial_room_05_pano_1",
+    "0100_floor_01_partial_room_06_pano_16",
+    "0100_floor_01_partial_room_08_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0100_floor_02_complete_room_05",
+   "task": "0100",
+   "floor": "floor_02",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0100_floor_02_partial_room_06_pano_46",
+    "0100_floor_02_partial_room_07_pano_45",
+    "0100_floor_02_partial_room_11_pano_30",
+    "0100_floor_02_partial_room_18_pano_28"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0190_floor_01_complete_room_02",
+   "task": "0190",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0190_floor_01_partial_room_02_pano_7",
+    "0190_floor_01_partial_room_03_pano_2",
+    "0190_floor_01_partial_room_05_pano_6"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0190_floor_02_complete_room_01",
+   "task": "0190",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0190_floor_02_partial_room_01_pano_37",
+    "0190_floor_02_partial_room_08_pano_26",
+    "0190_floor_02_partial_room_12_pano_28"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1488_floor_01_complete_room_01",
+   "task": "1488",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1488_floor_01_partial_room_01_pano_9",
+    "1488_floor_01_partial_room_02_pano_16",
+    "1488_floor_01_partial_room_04_pano_13",
+    "1488_floor_01_partial_room_09_pano_1",
+    "1488_floor_01_partial_room_11_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1330_floor_01_complete_room_01",
+   "task": "1330",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1330_floor_01_partial_room_01_pano_16",
+    "1330_floor_01_partial_room_03_pano_49",
+    "1330_floor_01_partial_room_05_pano_7",
+    "1330_floor_01_partial_room_06_pano_23",
+    "1330_floor_01_partial_room_09_pano_18",
+    "1330_floor_01_partial_room_10_pano_30",
+    "1330_floor_01_partial_room_13_pano_8",
+    "1330_floor_01_partial_room_14_pano_36",
+    "1330_floor_01_partial_room_16_pano_27"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1494_floor_01_complete_room_01",
+   "task": "1494",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1494_floor_01_partial_room_01_pano_13",
+    "1494_floor_01_partial_room_02_pano_1",
+    "1494_floor_01_partial_room_03_pano_12",
+    "1494_floor_01_partial_room_04_pano_8",
+    "1494_floor_01_partial_room_06_pano_9"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0189_floor_01_complete_room_02",
+   "task": "0189",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0189_floor_01_partial_room_02_pano_7",
+    "0189_floor_01_partial_room_04_pano_8",
+    "0189_floor_01_partial_room_06_pano_10",
+    "0189_floor_01_partial_room_07_pano_4",
+    "0189_floor_01_partial_room_08_pano_13",
+    "0189_floor_01_partial_room_09_pano_15"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0569_floor_01_complete_room_03",
+   "task": "0569",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0569_floor_01_partial_room_03_pano_14",
+    "0569_floor_01_partial_room_05_pano_13",
+    "0569_floor_01_partial_room_06_pano_21",
+    "0569_floor_01_partial_room_08_pano_15",
+    "0569_floor_01_partial_room_10_pano_18",
+    "0569_floor_01_partial_room_14_pano_20",
+    "0569_floor_01_partial_room_15_pano_4",
+    "0569_floor_01_partial_room_16_pano_16",
+    "0569_floor_01_partial_room_18_pano_5",
+    "0569_floor_01_partial_room_19_pano_17"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0964_floor_01_complete_room_02",
+   "task": "0964",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0964_floor_01_partial_room_02_pano_1",
+    "0964_floor_01_partial_room_05_pano_8",
+    "0964_floor_01_partial_room_06_pano_9",
+    "0964_floor_01_partial_room_08_pano_6",
+    "0964_floor_01_partial_room_11_pano_19",
+    "0964_floor_01_partial_room_12_pano_18",
+    "0964_floor_01_partial_room_13_pano_7",
+    "0964_floor_01_partial_room_15_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0964_floor_02_complete_room_01",
+   "task": "0964",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0964_floor_02_partial_room_01_pano_36",
+    "0964_floor_02_partial_room_05_pano_26",
+    "0964_floor_02_partial_room_10_pano_28",
+    "0964_floor_02_partial_room_11_pano_29"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1069_floor_02_complete_room_01",
+   "task": "1069",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1069_floor_02_partial_room_01_pano_28",
+    "1069_floor_02_partial_room_02_pano_38",
+    "1069_floor_02_partial_room_04_pano_24",
+    "1069_floor_02_partial_room_06_pano_26"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1069_floor_03_complete_room_02",
+   "task": "1069",
+   "floor": "floor_03",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1069_floor_03_partial_room_02_pano_46",
+    "1069_floor_03_partial_room_05_pano_49",
+    "1069_floor_03_partial_room_06_pano_47"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0109_floor_01_complete_room_01",
+   "task": "0109",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0109_floor_01_partial_room_01_pano_3",
+    "0109_floor_01_partial_room_05_pano_11",
+    "0109_floor_01_partial_room_08_pano_6",
+    "0109_floor_01_partial_room_10_pano_18",
+    "0109_floor_01_partial_room_11_pano_8",
+    "0109_floor_01_partial_room_13_pano_16"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0431_floor_01_complete_room_03",
+   "task": "0431",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0431_floor_01_partial_room_03_pano_5",
+    "0431_floor_01_partial_room_04_pano_3",
+    "0431_floor_01_partial_room_05_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0660_floor_01_complete_room_02",
+   "task": "0660",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0660_floor_01_partial_room_02_pano_36",
+    "0660_floor_01_partial_room_04_pano_13",
+    "0660_floor_01_partial_room_06_pano_4",
+    "0660_floor_01_partial_room_07_pano_14",
+    "0660_floor_01_partial_room_08_pano_39",
+    "0660_floor_01_partial_room_18_pano_6",
+    "0660_floor_01_partial_room_19_pano_41"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1500_floor_01_complete_room_03",
+   "task": "1500",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1500_floor_01_partial_room_03_pano_5",
+    "1500_floor_01_partial_room_04_pano_8",
+    "1500_floor_01_partial_room_05_pano_3",
+    "1500_floor_01_partial_room_10_pano_1",
+    "1500_floor_01_partial_room_13_pano_2"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0880_floor_00_complete_room_03",
+   "task": "0880",
+   "floor": "floor_00",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0880_floor_00_partial_room_03_pano_49",
+    "0880_floor_00_partial_room_05_pano_53",
+    "0880_floor_00_partial_room_07_pano_58"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0880_floor_01_complete_room_01",
+   "task": "0880",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0880_floor_01_partial_room_01_pano_5",
+    "0880_floor_01_partial_room_06_pano_11",
+    "0880_floor_01_partial_room_07_pano_14",
+    "0880_floor_01_partial_room_08_pano_10",
+    "0880_floor_01_partial_room_10_pano_17",
+    "0880_floor_01_partial_room_12_pano_7",
+    "0880_floor_01_partial_room_15_pano_13"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1203_floor_01_complete_room_02",
+   "task": "1203",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1203_floor_01_partial_room_02_pano_3",
+    "1203_floor_01_partial_room_03_pano_5",
+    "1203_floor_01_partial_room_04_pano_10",
+    "1203_floor_01_partial_room_05_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0709_floor_01_complete_room_05",
+   "task": "0709",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0709_floor_01_partial_room_05_pano_11",
+    "0709_floor_01_partial_room_11_pano_25",
+    "0709_floor_01_partial_room_12_pano_21",
+    "0709_floor_01_partial_room_13_pano_4",
+    "0709_floor_01_partial_room_16_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0308_floor_01_complete_room_02",
+   "task": "0308",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0308_floor_01_partial_room_02_pano_10",
+    "0308_floor_01_partial_room_03_pano_4",
+    "0308_floor_01_partial_room_07_pano_18"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0308_floor_02_complete_room_05",
+   "task": "0308",
+   "floor": "floor_02",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0308_floor_02_partial_room_05_pano_43",
+    "0308_floor_02_partial_room_11_pano_39",
+    "0308_floor_02_partial_room_14_pano_45"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0141_floor_01_complete_room_03",
+   "task": "0141",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0141_floor_01_partial_room_03_pano_2",
+    "0141_floor_01_partial_room_06_pano_35",
+    "0141_floor_01_partial_room_11_pano_24",
+    "0141_floor_01_partial_room_15_pano_40",
+    "0141_floor_01_partial_room_17_pano_10",
+    "0141_floor_01_partial_room_22_pano_22"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0663_floor_01_complete_room_01",
+   "task": "0663",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0663_floor_01_partial_room_01_pano_4",
+    "0663_floor_01_partial_room_02_pano_8",
+    "0663_floor_01_partial_room_04_pano_17",
+    "0663_floor_01_partial_room_07_pano_15",
+    "0663_floor_01_partial_room_08_pano_11",
+    "0663_floor_01_partial_room_10_pano_13"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1218_floor_01_complete_room_02",
+   "task": "1218",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1218_floor_01_partial_room_02_pano_4",
+    "1218_floor_01_partial_room_03_pano_15",
+    "1218_floor_01_partial_room_05_pano_26",
+    "1218_floor_01_partial_room_08_pano_17",
+    "1218_floor_01_partial_room_09_pano_3",
+    "1218_floor_01_partial_room_10_pano_31",
+    "1218_floor_01_partial_room_19_pano_21"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1218_floor_02_complete_room_02",
+   "task": "1218",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1218_floor_02_partial_room_02_pano_54",
+    "1218_floor_02_partial_room_03_pano_52",
+    "1218_floor_02_partial_room_04_pano_58"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0336_floor_01_complete_room_01",
+   "task": "0336",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0336_floor_01_partial_room_01_pano_14",
+    "0336_floor_01_partial_room_02_pano_17",
+    "0336_floor_01_partial_room_06_pano_5",
+    "0336_floor_01_partial_room_09_pano_7",
+    "0336_floor_01_partial_room_10_pano_25"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0028_floor_01_complete_room_01",
+   "task": "0028",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0028_floor_01_partial_room_01_pano_5",
+    "0028_floor_01_partial_room_02_pano_7",
+    "0028_floor_01_partial_room_03_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0338_floor_01_complete_room_05",
+   "task": "0338",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0338_floor_01_partial_room_05_pano_28",
+    "0338_floor_01_partial_room_06_pano_33",
+    "0338_floor_01_partial_room_07_pano_8",
+    "0338_floor_01_partial_room_13_pano_24",
+    "0338_floor_01_partial_room_15_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1239_floor_01_complete_room_01",
+   "task": "1239",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1239_floor_01_partial_room_01_pano_3",
+    "1239_floor_01_partial_room_04_pano_25",
+    "1239_floor_01_partial_room_06_pano_5",
+    "1239_floor_01_partial_room_11_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1328_floor_01_complete_room_01",
+   "task": "1328",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1328_floor_01_partial_room_01_pano_1",
+    "1328_floor_01_partial_room_02_pano_10",
+    "1328_floor_01_partial_room_07_pano_6",
+    "1328_floor_01_partial_room_08_pano_12",
+    "1328_floor_01_partial_room_11_pano_13",
+    "1328_floor_01_partial_room_12_pano_15",
+    "1328_floor_01_partial_room_17_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0385_floor_01_complete_room_01",
+   "task": "0385",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0385_floor_01_partial_room_01_pano_3",
+    "0385_floor_01_partial_room_03_pano_10",
+    "0385_floor_01_partial_room_05_pano_7",
+    "0385_floor_01_partial_room_07_pano_5",
+    "0385_floor_01_partial_room_08_pano_14"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1160_floor_01_complete_room_01",
+   "task": "1160",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1160_floor_01_partial_room_01_pano_8",
+    "1160_floor_01_partial_room_03_pano_3",
+    "1160_floor_01_partial_room_05_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1160_floor_02_complete_room_01",
+   "task": "1160",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1160_floor_02_partial_room_01_pano_24",
+    "1160_floor_02_partial_room_04_pano_17",
+    "1160_floor_02_partial_room_06_pano_16"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1248_floor_01_complete_room_01",
+   "task": "1248",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1248_floor_01_partial_room_01_pano_17",
+    "1248_floor_01_partial_room_02_pano_20",
+    "1248_floor_01_partial_room_13_pano_15"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1248_floor_01_complete_room_04",
+   "task": "1248",
+   "floor": "floor_01",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1248_floor_01_partial_room_05_pano_23",
+    "1248_floor_01_partial_room_06_pano_10",
+    "1248_floor_01_partial_room_08_pano_5",
+    "1248_floor_01_partial_room_09_pano_7",
+    "1248_floor_01_partial_room_12_pano_0",
+    "1248_floor_01_partial_room_14_pano_32"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1248_floor_02_complete_room_03",
+   "task": "1248",
+   "floor": "floor_02",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1248_floor_02_partial_room_03_pano_41",
+    "1248_floor_02_partial_room_05_pano_54",
+    "1248_floor_02_partial_room_11_pano_56"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0075_floor_01_complete_room_03",
+   "task": "0075",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0075_floor_01_partial_room_03_pano_8",
+    "0075_floor_01_partial_room_04_pano_7",
+    "0075_floor_01_partial_room_05_pano_11",
+    "0075_floor_01_partial_room_12_pano_13",
+    "0075_floor_01_partial_room_14_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1185_floor_01_complete_room_01",
+   "task": "1185",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1185_floor_01_partial_room_01_pano_13",
+    "1185_floor_01_partial_room_04_pano_1",
+    "1185_floor_01_partial_room_05_pano_10",
+    "1185_floor_01_partial_room_10_pano_5",
+    "1185_floor_01_partial_room_12_pano_25"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1207_floor_00_complete_room_01",
+   "task": "1207",
+   "floor": "floor_00",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1207_floor_00_partial_room_01_pano_69",
+    "1207_floor_00_partial_room_02_pano_84",
+    "1207_floor_00_partial_room_03_pano_75",
+    "1207_floor_00_partial_room_06_pano_79",
+    "1207_floor_00_partial_room_09_pano_76",
+    "1207_floor_00_partial_room_10_pano_78"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1207_floor_01_complete_room_01",
+   "task": "1207",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1207_floor_01_partial_room_01_pano_33",
+    "1207_floor_01_partial_room_02_pano_13",
+    "1207_floor_01_partial_room_05_pano_17",
+    "1207_floor_01_partial_room_06_pano_14",
+    "1207_floor_01_partial_room_08_pano_36",
+    "1207_floor_01_partial_room_09_pano_20",
+    "1207_floor_01_partial_room_10_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1207_floor_02_complete_room_03",
+   "task": "1207",
+   "floor": "floor_02",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1207_floor_02_partial_room_03_pano_53",
+    "1207_floor_02_partial_room_05_pano_52",
+    "1207_floor_02_partial_room_08_pano_50",
+    "1207_floor_02_partial_room_09_pano_38"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1175_floor_00_complete_room_03",
+   "task": "1175",
+   "floor": "floor_00",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1175_floor_00_partial_room_03_pano_33",
+    "1175_floor_00_partial_room_07_pano_42",
+    "1175_floor_00_partial_room_08_pano_49"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1175_floor_01_complete_room_01",
+   "task": "1175",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1175_floor_01_partial_room_01_pano_53",
+    "1175_floor_01_partial_room_02_pano_12",
+    "1175_floor_01_partial_room_03_pano_5",
+    "1175_floor_01_partial_room_04_pano_9",
+    "1175_floor_01_partial_room_06_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0311_floor_01_complete_room_01",
+   "task": "0311",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0311_floor_01_partial_room_01_pano_20",
+    "0311_floor_01_partial_room_04_pano_12",
+    "0311_floor_01_partial_room_05_pano_58",
+    "0311_floor_01_partial_room_06_pano_27",
+    "0311_floor_01_partial_room_08_pano_18",
+    "0311_floor_01_partial_room_09_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0675_floor_01_complete_room_02",
+   "task": "0675",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0675_floor_01_partial_room_02_pano_29",
+    "0675_floor_01_partial_room_05_pano_18",
+    "0675_floor_01_partial_room_07_pano_22",
+    "0675_floor_01_partial_room_08_pano_13",
+    "0675_floor_01_partial_room_11_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1401_floor_00_complete_room_01",
+   "task": "1401",
+   "floor": "floor_00",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1401_floor_00_partial_room_01_pano_33",
+    "1401_floor_00_partial_room_03_pano_34",
+    "1401_floor_00_partial_room_06_pano_31"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1401_floor_01_complete_room_01",
+   "task": "1401",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1401_floor_01_partial_room_01_pano_9",
+    "1401_floor_01_partial_room_02_pano_4",
+    "1401_floor_01_partial_room_03_pano_2"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0528_floor_01_complete_room_01",
+   "task": "0528",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0528_floor_01_partial_room_01_pano_31",
+    "0528_floor_01_partial_room_02_pano_18",
+    "0528_floor_01_partial_room_07_pano_14",
+    "0528_floor_01_partial_room_10_pano_5",
+    "0528_floor_01_partial_room_14_pano_23",
+    "0528_floor_01_partial_room_15_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0670_floor_01_complete_room_01",
+   "task": "0670",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0670_floor_01_partial_room_01_pano_7",
+    "0670_floor_01_partial_room_02_pano_5",
+    "0670_floor_01_partial_room_06_pano_14",
+    "0670_floor_01_partial_room_07_pano_2",
+    "0670_floor_01_partial_room_08_pano_16"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0322_floor_01_complete_room_01",
+   "task": "0322",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0322_floor_01_partial_room_01_pano_6",
+    "0322_floor_01_partial_room_02_pano_11",
+    "0322_floor_01_partial_room_05_pano_14",
+    "0322_floor_01_partial_room_07_pano_3"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1167_floor_02_complete_room_01",
+   "task": "1167",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1167_floor_02_partial_room_01_pano_29",
+    "1167_floor_02_partial_room_02_pano_15",
+    "1167_floor_02_partial_room_05_pano_17",
+    "1167_floor_02_partial_room_06_pano_16",
+    "1167_floor_02_partial_room_07_pano_21"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0453_floor_01_complete_room_02",
+   "task": "0453",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0453_floor_01_partial_room_02_pano_10",
+    "0453_floor_01_partial_room_05_pano_5",
+    "0453_floor_01_partial_room_11_pano_12",
+    "0453_floor_01_partial_room_12_pano_36",
+    "0453_floor_01_partial_room_15_pano_24",
+    "0453_floor_01_partial_room_17_pano_7",
+    "0453_floor_01_partial_room_22_pano_19"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0490_floor_01_complete_room_02",
+   "task": "0490",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0490_floor_01_partial_room_02_pano_16",
+    "0490_floor_01_partial_room_04_pano_14",
+    "0490_floor_01_partial_room_05_pano_17",
+    "0490_floor_01_partial_room_09_pano_12",
+    "0490_floor_01_partial_room_10_pano_2",
+    "0490_floor_01_partial_room_14_pano_18"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1436_floor_00_complete_room_01",
+   "task": "1436",
+   "floor": "floor_00",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1436_floor_00_partial_room_01_pano_25",
+    "1436_floor_00_partial_room_02_pano_29",
+    "1436_floor_00_partial_room_03_pano_23",
+    "1436_floor_00_partial_room_04_pano_30",
+    "1436_floor_00_partial_room_06_pano_24"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1436_floor_01_complete_room_01",
+   "task": "1436",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1436_floor_01_partial_room_01_pano_7",
+    "1436_floor_01_partial_room_03_pano_20",
+    "1436_floor_01_partial_room_04_pano_17",
+    "1436_floor_01_partial_room_05_pano_6",
+    "1436_floor_01_partial_room_07_pano_18",
+    "1436_floor_01_partial_room_08_pano_8",
+    "1436_floor_01_partial_room_09_pano_16",
+    "1436_floor_01_partial_room_10_pano_9"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1436_floor_02_complete_room_03",
+   "task": "1436",
+   "floor": "floor_02",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1436_floor_02_partial_room_03_pano_46",
+    "1436_floor_02_partial_room_10_pano_44",
+    "1436_floor_02_partial_room_11_pano_45"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1490_floor_01_complete_room_03",
+   "task": "1490",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1490_floor_01_partial_room_03_pano_12",
+    "1490_floor_01_partial_room_04_pano_9",
+    "1490_floor_01_partial_room_05_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0115_floor_01_complete_room_01",
+   "task": "0115",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0115_floor_01_partial_room_01_pano_1",
+    "0115_floor_01_partial_room_05_pano_9",
+    "0115_floor_01_partial_room_06_pano_5",
+    "0115_floor_01_partial_room_09_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0115_floor_02_complete_room_01",
+   "task": "0115",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0115_floor_02_partial_room_01_pano_18",
+    "0115_floor_02_partial_room_04_pano_17",
+    "0115_floor_02_partial_room_11_pano_16",
+    "0115_floor_02_partial_room_12_pano_21"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0420_floor_01_complete_room_01",
+   "task": "0420",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0420_floor_01_partial_room_01_pano_6",
+    "0420_floor_01_partial_room_02_pano_15",
+    "0420_floor_01_partial_room_03_pano_11",
+    "0420_floor_01_partial_room_06_pano_2",
+    "0420_floor_01_partial_room_09_pano_9"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0506_floor_01_complete_room_01",
+   "task": "0506",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0506_floor_01_partial_room_01_pano_18",
+    "0506_floor_01_partial_room_02_pano_19",
+    "0506_floor_01_partial_room_03_pano_38",
+    "0506_floor_01_partial_room_10_pano_5",
+    "0506_floor_01_partial_room_12_pano_1",
+    "0506_floor_01_partial_room_14_pano_24",
+    "0506_floor_01_partial_room_16_pano_15"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0354_floor_01_complete_room_01",
+   "task": "0354",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0354_floor_01_partial_room_01_pano_1",
+    "0354_floor_01_partial_room_02_pano_4",
+    "0354_floor_01_partial_room_12_pano_12"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1214_floor_01_complete_room_02",
+   "task": "1214",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1214_floor_01_partial_room_02_pano_11",
+    "1214_floor_01_partial_room_03_pano_9",
+    "1214_floor_01_partial_room_05_pano_28",
+    "1214_floor_01_partial_room_09_pano_4",
+    "1214_floor_01_partial_room_18_pano_0",
+    "1214_floor_01_partial_room_19_pano_37"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0541_floor_01_complete_room_01",
+   "task": "0541",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0541_floor_01_partial_room_01_pano_18",
+    "0541_floor_01_partial_room_02_pano_23",
+    "0541_floor_01_partial_room_03_pano_7",
+    "0541_floor_01_partial_room_04_pano_9",
+    "0541_floor_01_partial_room_05_pano_4",
+    "0541_floor_01_partial_room_07_pano_28",
+    "0541_floor_01_partial_room_10_pano_19",
+    "0541_floor_01_partial_room_11_pano_15"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0583_floor_01_complete_room_01",
+   "task": "0583",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0583_floor_01_partial_room_01_pano_5",
+    "0583_floor_01_partial_room_02_pano_12",
+    "0583_floor_01_partial_room_03_pano_9",
+    "0583_floor_01_partial_room_04_pano_28",
+    "0583_floor_01_partial_room_08_pano_7",
+    "0583_floor_01_partial_room_09_pano_20",
+    "0583_floor_01_partial_room_10_pano_16"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0870_floor_01_complete_room_05",
+   "task": "0870",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0870_floor_01_partial_room_05_pano_13",
+    "0870_floor_01_partial_room_08_pano_8",
+    "0870_floor_01_partial_room_09_pano_10",
+    "0870_floor_01_partial_room_12_pano_14",
+    "0870_floor_01_partial_room_13_pano_6",
+    "0870_floor_01_partial_room_15_pano_4",
+    "0870_floor_01_partial_room_18_pano_2"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0297_floor_01_complete_room_02",
+   "task": "0297",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0297_floor_01_partial_room_02_pano_11",
+    "0297_floor_01_partial_room_03_pano_4",
+    "0297_floor_01_partial_room_07_pano_18",
+    "0297_floor_01_partial_room_08_pano_28",
+    "0297_floor_01_partial_room_09_pano_14"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0325_floor_01_complete_room_04",
+   "task": "0325",
+   "floor": "floor_01",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0325_floor_01_partial_room_04_pano_6",
+    "0325_floor_01_partial_room_05_pano_5",
+    "0325_floor_01_partial_room_07_pano_12"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1506_floor_00_complete_room_01",
+   "task": "1506",
+   "floor": "floor_00",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1506_floor_00_partial_room_01_pano_29",
+    "1506_floor_00_partial_room_03_pano_20",
+    "1506_floor_00_partial_room_05_pano_30"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1506_floor_01_complete_room_02",
+   "task": "1506",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1506_floor_01_partial_room_02_pano_9",
+    "1506_floor_01_partial_room_03_pano_14",
+    "1506_floor_01_partial_room_04_pano_1",
+    "1506_floor_01_partial_room_05_pano_15",
+    "1506_floor_01_partial_room_07_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0152_floor_01_complete_room_01",
+   "task": "0152",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0152_floor_01_partial_room_01_pano_8",
+    "0152_floor_01_partial_room_02_pano_12",
+    "0152_floor_01_partial_room_03_pano_4",
+    "0152_floor_01_partial_room_05_pano_3",
+    "0152_floor_01_partial_room_07_pano_1",
+    "0152_floor_01_partial_room_08_pano_2",
+    "0152_floor_01_partial_room_09_pano_5",
+    "0152_floor_01_partial_room_10_pano_14"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0152_floor_02_complete_room_03",
+   "task": "0152",
+   "floor": "floor_02",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0152_floor_02_partial_room_03_pano_24",
+    "0152_floor_02_partial_room_05_pano_22",
+    "0152_floor_02_partial_room_06_pano_25"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0429_floor_01_complete_room_02",
+   "task": "0429",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0429_floor_01_partial_room_02_pano_4",
+    "0429_floor_01_partial_room_04_pano_6",
+    "0429_floor_01_partial_room_05_pano_28",
+    "0429_floor_01_partial_room_10_pano_25",
+    "0429_floor_01_partial_room_14_pano_1",
+    "0429_floor_01_partial_room_16_pano_27"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1068_floor_01_complete_room_05",
+   "task": "1068",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1068_floor_01_partial_room_05_pano_9",
+    "1068_floor_01_partial_room_09_pano_4",
+    "1068_floor_01_partial_room_10_pano_3"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1025_floor_01_complete_room_02",
+   "task": "1025",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1025_floor_01_partial_room_02_pano_34",
+    "1025_floor_01_partial_room_03_pano_36",
+    "1025_floor_01_partial_room_05_pano_8",
+    "1025_floor_01_partial_room_06_pano_25",
+    "1025_floor_01_partial_room_07_pano_11",
+    "1025_floor_01_partial_room_08_pano_14",
+    "1025_floor_01_partial_room_10_pano_22",
+    "1025_floor_01_partial_room_13_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1025_floor_02_complete_room_01",
+   "task": "1025",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1025_floor_02_partial_room_01_pano_75",
+    "1025_floor_02_partial_room_03_pano_47",
+    "1025_floor_02_partial_room_07_pano_71"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0941_floor_01_complete_room_02",
+   "task": "0941",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0941_floor_01_partial_room_02_pano_32",
+    "0941_floor_01_partial_room_03_pano_19",
+    "0941_floor_01_partial_room_04_pano_10",
+    "0941_floor_01_partial_room_10_pano_18",
+    "0941_floor_01_partial_room_12_pano_14",
+    "0941_floor_01_partial_room_14_pano_21",
+    "0941_floor_01_partial_room_18_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0406_floor_01_complete_room_01",
+   "task": "0406",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0406_floor_01_partial_room_01_pano_10",
+    "0406_floor_01_partial_room_03_pano_2",
+    "0406_floor_01_partial_room_05_pano_18",
+    "0406_floor_01_partial_room_06_pano_0",
+    "0406_floor_01_partial_room_08_pano_4",
+    "0406_floor_01_partial_room_11_pano_14",
+    "0406_floor_01_partial_room_12_pano_16"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0406_floor_02_complete_room_02",
+   "task": "0406",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0406_floor_02_partial_room_02_pano_47",
+    "0406_floor_02_partial_room_04_pano_28",
+    "0406_floor_02_partial_room_13_pano_40"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0406_floor_02_complete_room_04",
+   "task": "0406",
+   "floor": "floor_02",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0406_floor_02_partial_room_05_pano_33",
+    "0406_floor_02_partial_room_07_pano_35",
+    "0406_floor_02_partial_room_09_pano_38"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1028_floor_01_complete_room_01",
+   "task": "1028",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1028_floor_01_partial_room_01_pano_3",
+    "1028_floor_01_partial_room_03_pano_9",
+    "1028_floor_01_partial_room_04_pano_11",
+    "1028_floor_01_partial_room_05_pano_5",
+    "1028_floor_01_partial_room_06_pano_7",
+    "1028_floor_01_partial_room_08_pano_0"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1404_floor_01_complete_room_01",
+   "task": "1404",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1404_floor_01_partial_room_01_pano_16",
+    "1404_floor_01_partial_room_02_pano_22",
+    "1404_floor_01_partial_room_03_pano_6",
+    "1404_floor_01_partial_room_05_pano_23",
+    "1404_floor_01_partial_room_06_pano_20",
+    "1404_floor_01_partial_room_08_pano_17",
+    "1404_floor_01_partial_room_10_pano_3"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1404_floor_02_complete_room_02",
+   "task": "1404",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1404_floor_02_partial_room_02_pano_47",
+    "1404_floor_02_partial_room_08_pano_29",
+    "1404_floor_02_partial_room_12_pano_27"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0744_floor_01_complete_room_01",
+   "task": "0744",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0744_floor_01_partial_room_01_pano_14",
+    "0744_floor_01_partial_room_02_pano_16",
+    "0744_floor_01_partial_room_04_pano_9",
+    "0744_floor_01_partial_room_06_pano_27",
+    "0744_floor_01_partial_room_08_pano_21"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0744_floor_02_complete_room_04",
+   "task": "0744",
+   "floor": "floor_02",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0744_floor_02_partial_room_04_pano_41",
+    "0744_floor_02_partial_room_08_pano_33",
+    "0744_floor_02_partial_room_09_pano_42"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0691_floor_01_complete_room_03",
+   "task": "0691",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0691_floor_01_partial_room_03_pano_1",
+    "0691_floor_01_partial_room_05_pano_24",
+    "0691_floor_01_partial_room_07_pano_41",
+    "0691_floor_01_partial_room_15_pano_2",
+    "0691_floor_01_partial_room_17_pano_19"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0057_floor_01_complete_room_02",
+   "task": "0057",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0057_floor_01_partial_room_02_pano_9",
+    "0057_floor_01_partial_room_04_pano_31",
+    "0057_floor_01_partial_room_05_pano_6",
+    "0057_floor_01_partial_room_07_pano_11",
+    "0057_floor_01_partial_room_08_pano_21",
+    "0057_floor_01_partial_room_10_pano_8",
+    "0057_floor_01_partial_room_11_pano_16",
+    "0057_floor_01_partial_room_13_pano_19",
+    "0057_floor_01_partial_room_14_pano_17"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0057_floor_02_complete_room_03",
+   "task": "0057",
+   "floor": "floor_02",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0057_floor_02_partial_room_03_pano_47",
+    "0057_floor_02_partial_room_12_pano_32",
+    "0057_floor_02_partial_room_16_pano_52"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1027_floor_01_complete_room_02",
+   "task": "1027",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1027_floor_01_partial_room_02_pano_32",
+    "1027_floor_01_partial_room_04_pano_6",
+    "1027_floor_01_partial_room_09_pano_5",
+    "1027_floor_01_partial_room_13_pano_34",
+    "1027_floor_01_partial_room_16_pano_20",
+    "1027_floor_01_partial_room_20_pano_1",
+    "1027_floor_01_partial_room_22_pano_31",
+    "1027_floor_01_partial_room_23_pano_0"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0785_floor_00_complete_room_02",
+   "task": "0785",
+   "floor": "floor_00",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0785_floor_00_partial_room_02_pano_62",
+    "0785_floor_00_partial_room_04_pano_39",
+    "0785_floor_00_partial_room_06_pano_61"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0785_floor_01_complete_room_01",
+   "task": "0785",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0785_floor_01_partial_room_01_pano_30",
+    "0785_floor_01_partial_room_02_pano_22",
+    "0785_floor_01_partial_room_03_pano_5",
+    "0785_floor_01_partial_room_06_pano_13",
+    "0785_floor_01_partial_room_08_pano_10",
+    "0785_floor_01_partial_room_11_pano_8",
+    "0785_floor_01_partial_room_12_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1268_floor_01_complete_room_03",
+   "task": "1268",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1268_floor_01_partial_room_03_pano_17",
+    "1268_floor_01_partial_room_05_pano_5",
+    "1268_floor_01_partial_room_06_pano_32",
+    "1268_floor_01_partial_room_10_pano_23",
+    "1268_floor_01_partial_room_16_pano_9",
+    "1268_floor_01_partial_room_21_pano_20"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1050_floor_01_complete_room_01",
+   "task": "1050",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1050_floor_01_partial_room_01_pano_31",
+    "1050_floor_01_partial_room_04_pano_7",
+    "1050_floor_01_partial_room_05_pano_13",
+    "1050_floor_01_partial_room_08_pano_16"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0353_floor_01_complete_room_02",
+   "task": "0353",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0353_floor_01_partial_room_03_pano_21",
+    "0353_floor_01_partial_room_05_pano_2",
+    "0353_floor_01_partial_room_07_pano_14",
+    "0353_floor_01_partial_room_08_pano_8",
+    "0353_floor_01_partial_room_09_pano_3",
+    "0353_floor_01_partial_room_11_pano_20",
+    "0353_floor_01_partial_room_12_pano_17"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0353_floor_02_complete_room_02",
+   "task": "0353",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0353_floor_02_partial_room_02_pano_22",
+    "0353_floor_02_partial_room_04_pano_23",
+    "0353_floor_02_partial_room_08_pano_26"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0353_floor_02_complete_room_06",
+   "task": "0353",
+   "floor": "floor_02",
+   "room_label": "complete_room_06",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0353_floor_02_partial_room_07_pano_35",
+    "0353_floor_02_partial_room_10_pano_34",
+    "0353_floor_02_partial_room_11_pano_33",
+    "0353_floor_02_partial_room_12_pano_36"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0575_floor_01_complete_room_01",
+   "task": "0575",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0575_floor_01_partial_room_01_pano_16",
+    "0575_floor_01_partial_room_02_pano_8",
+    "0575_floor_01_partial_room_07_pano_22",
+    "0575_floor_01_partial_room_08_pano_12",
+    "0575_floor_01_partial_room_09_pano_19",
+    "0575_floor_01_partial_room_10_pano_24"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0502_floor_01_complete_room_02",
+   "task": "0502",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0502_floor_01_partial_room_02_pano_15",
+    "0502_floor_01_partial_room_05_pano_14",
+    "0502_floor_01_partial_room_06_pano_4",
+    "0502_floor_01_partial_room_11_pano_24",
+    "0502_floor_01_partial_room_14_pano_17",
+    "0502_floor_01_partial_room_15_pano_2"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1398_floor_01_complete_room_01",
+   "task": "1398",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1398_floor_01_partial_room_01_pano_6",
+    "1398_floor_01_partial_room_02_pano_18",
+    "1398_floor_01_partial_room_03_pano_12",
+    "1398_floor_01_partial_room_09_pano_29",
+    "1398_floor_01_partial_room_10_pano_10",
+    "1398_floor_01_partial_room_11_pano_31",
+    "1398_floor_01_partial_room_15_pano_20",
+    "1398_floor_01_partial_room_16_pano_32"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0944_floor_01_complete_room_02",
+   "task": "0944",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0944_floor_01_partial_room_02_pano_37",
+    "0944_floor_01_partial_room_05_pano_28",
+    "0944_floor_01_partial_room_07_pano_9",
+    "0944_floor_01_partial_room_09_pano_30",
+    "0944_floor_01_partial_room_10_pano_26",
+    "0944_floor_01_partial_room_11_pano_8",
+    "0944_floor_01_partial_room_12_pano_15",
+    "0944_floor_01_partial_room_13_pano_18",
+    "0944_floor_01_partial_room_14_pano_11",
+    "0944_floor_01_partial_room_15_pano_4"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0944_floor_02_complete_room_02",
+   "task": "0944",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0944_floor_02_partial_room_02_pano_69",
+    "0944_floor_02_partial_room_03_pano_73",
+    "0944_floor_02_partial_room_15_pano_71"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0792_floor_01_complete_room_01",
+   "task": "0792",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0792_floor_01_partial_room_01_pano_27",
+    "0792_floor_01_partial_room_02_pano_65",
+    "0792_floor_01_partial_room_06_pano_14",
+    "0792_floor_01_partial_room_09_pano_17",
+    "0792_floor_01_partial_room_16_pano_1",
+    "0792_floor_01_partial_room_23_pano_33",
+    "0792_floor_01_partial_room_25_pano_77",
+    "0792_floor_01_partial_room_26_pano_41"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0383_floor_00_complete_room_06",
+   "task": "0383",
+   "floor": "floor_00",
+   "room_label": "complete_room_06",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0383_floor_00_partial_room_06_pano_62",
+    "0383_floor_00_partial_room_08_pano_63",
+    "0383_floor_00_partial_room_10_pano_83",
+    "0383_floor_00_partial_room_11_pano_78"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0383_floor_01_complete_room_06",
+   "task": "0383",
+   "floor": "floor_01",
+   "room_label": "complete_room_06",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0383_floor_01_partial_room_06_pano_28",
+    "0383_floor_01_partial_room_13_pano_32",
+    "0383_floor_01_partial_room_14_pano_15",
+    "0383_floor_01_partial_room_15_pano_8",
+    "0383_floor_01_partial_room_17_pano_13"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0090_floor_01_complete_room_01",
+   "task": "0090",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0090_floor_01_partial_room_01_pano_5",
+    "0090_floor_01_partial_room_07_pano_41",
+    "0090_floor_01_partial_room_09_pano_31",
+    "0090_floor_01_partial_room_12_pano_9",
+    "0090_floor_01_partial_room_15_pano_33",
+    "0090_floor_01_partial_room_17_pano_12"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0090_floor_01_complete_room_06",
+   "task": "0090",
+   "floor": "floor_01",
+   "room_label": "complete_room_06",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0090_floor_01_partial_room_08_pano_44",
+    "0090_floor_01_partial_room_10_pano_47",
+    "0090_floor_01_partial_room_13_pano_43"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0375_floor_01_complete_room_08",
+   "task": "0375",
+   "floor": "floor_01",
+   "room_label": "complete_room_08",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0375_floor_01_partial_room_08_pano_3",
+    "0375_floor_01_partial_room_09_pano_11",
+    "0375_floor_01_partial_room_11_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1153_floor_01_complete_room_03",
+   "task": "1153",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1153_floor_01_partial_room_03_pano_43",
+    "1153_floor_01_partial_room_04_pano_5",
+    "1153_floor_01_partial_room_06_pano_3",
+    "1153_floor_01_partial_room_18_pano_8",
+    "1153_floor_01_partial_room_19_pano_47",
+    "1153_floor_01_partial_room_23_pano_21",
+    "1153_floor_01_partial_room_29_pano_45"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1103_floor_01_complete_room_05",
+   "task": "1103",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1103_floor_01_partial_room_05_pano_34",
+    "1103_floor_01_partial_room_07_pano_6",
+    "1103_floor_01_partial_room_08_pano_25",
+    "1103_floor_01_partial_room_09_pano_29"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0642_floor_01_complete_room_01",
+   "task": "0642",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0642_floor_01_partial_room_01_pano_29",
+    "0642_floor_01_partial_room_03_pano_25",
+    "0642_floor_01_partial_room_05_pano_44",
+    "0642_floor_01_partial_room_07_pano_11",
+    "0642_floor_01_partial_room_10_pano_40",
+    "0642_floor_01_partial_room_11_pano_37",
+    "0642_floor_01_partial_room_12_pano_10",
+    "0642_floor_01_partial_room_14_pano_14"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0642_floor_02_complete_room_13",
+   "task": "0642",
+   "floor": "floor_02",
+   "room_label": "complete_room_13",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0642_floor_02_partial_room_14_pano_67",
+    "0642_floor_02_partial_room_16_pano_58",
+    "0642_floor_02_partial_room_17_pano_48",
+    "0642_floor_02_partial_room_18_pano_64"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0278_floor_01_complete_room_01",
+   "task": "0278",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0278_floor_01_partial_room_01_pano_7",
+    "0278_floor_01_partial_room_02_pano_36",
+    "0278_floor_01_partial_room_05_pano_28",
+    "0278_floor_01_partial_room_06_pano_32"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0278_floor_02_complete_room_01",
+   "task": "0278",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0278_floor_02_partial_room_01_pano_49",
+    "0278_floor_02_partial_room_03_pano_62",
+    "0278_floor_02_partial_room_04_pano_64",
+    "0278_floor_02_partial_room_05_pano_48",
+    "0278_floor_02_partial_room_07_pano_55"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0097_floor_01_complete_room_02",
+   "task": "0097",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0097_floor_01_partial_room_02_pano_5",
+    "0097_floor_01_partial_room_04_pano_11",
+    "0097_floor_01_partial_room_06_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0986_floor_01_complete_room_02",
+   "task": "0986",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0986_floor_01_partial_room_03_pano_0",
+    "0986_floor_01_partial_room_05_pano_3",
+    "0986_floor_01_partial_room_07_pano_4",
+    "0986_floor_01_partial_room_08_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0986_floor_02_complete_room_02",
+   "task": "0986",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0986_floor_02_partial_room_02_pano_16",
+    "0986_floor_02_partial_room_04_pano_27",
+    "0986_floor_02_partial_room_09_pano_22"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0850_floor_00_complete_room_02",
+   "task": "0850",
+   "floor": "floor_00",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0850_floor_00_partial_room_02_pano_28",
+    "0850_floor_00_partial_room_03_pano_29",
+    "0850_floor_00_partial_room_04_pano_31",
+    "0850_floor_00_partial_room_07_pano_30"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0850_floor_01_complete_room_02",
+   "task": "0850",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0850_floor_01_partial_room_02_pano_3",
+    "0850_floor_01_partial_room_04_pano_21",
+    "0850_floor_01_partial_room_11_pano_20",
+    "0850_floor_01_partial_room_13_pano_5",
+    "0850_floor_01_partial_room_14_pano_22"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0011_floor_01_complete_room_03",
+   "task": "0011",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0011_floor_01_partial_room_03_pano_6",
+    "0011_floor_01_partial_room_09_pano_24",
+    "0011_floor_01_partial_room_11_pano_3"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0218_floor_01_complete_room_01",
+   "task": "0218",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0218_floor_01_partial_room_01_pano_2",
+    "0218_floor_01_partial_room_02_pano_16",
+    "0218_floor_01_partial_room_03_pano_11",
+    "0218_floor_01_partial_room_05_pano_12",
+    "0218_floor_01_partial_room_07_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0218_floor_02_complete_room_01",
+   "task": "0218",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0218_floor_02_partial_room_01_pano_25",
+    "0218_floor_02_partial_room_03_pano_18",
+    "0218_floor_02_partial_room_06_pano_29"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0181_floor_01_complete_room_02",
+   "task": "0181",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0181_floor_01_partial_room_02_pano_1",
+    "0181_floor_01_partial_room_04_pano_19",
+    "0181_floor_01_partial_room_06_pano_3",
+    "0181_floor_01_partial_room_07_pano_10"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0039_floor_01_complete_room_03",
+   "task": "0039",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0039_floor_01_partial_room_03_pano_20",
+    "0039_floor_01_partial_room_04_pano_28",
+    "0039_floor_01_partial_room_08_pano_2",
+    "0039_floor_01_partial_room_09_pano_14",
+    "0039_floor_01_partial_room_14_pano_47"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0039_floor_02_complete_room_01",
+   "task": "0039",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0039_floor_02_partial_room_01_pano_74",
+    "0039_floor_02_partial_room_05_pano_67",
+    "0039_floor_02_partial_room_08_pano_71"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0270_floor_01_complete_room_02",
+   "task": "0270",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0270_floor_01_partial_room_02_pano_9",
+    "0270_floor_01_partial_room_03_pano_13",
+    "0270_floor_01_partial_room_05_pano_0",
+    "0270_floor_01_partial_room_06_pano_6",
+    "0270_floor_01_partial_room_08_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1075_floor_00_complete_room_01",
+   "task": "1075",
+   "floor": "floor_00",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1075_floor_00_partial_room_01_pano_20",
+    "1075_floor_00_partial_room_02_pano_22",
+    "1075_floor_00_partial_room_03_pano_25",
+    "1075_floor_00_partial_room_04_pano_23"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1075_floor_01_complete_room_01",
+   "task": "1075",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1075_floor_01_partial_room_01_pano_8",
+    "1075_floor_01_partial_room_02_pano_5",
+    "1075_floor_01_partial_room_03_pano_2",
+    "1075_floor_01_partial_room_05_pano_17",
+    "1075_floor_01_partial_room_07_pano_11",
+    "1075_floor_01_partial_room_08_pano_4",
+    "1075_floor_01_partial_room_10_pano_9"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1383_floor_01_complete_room_01",
+   "task": "1383",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1383_floor_01_partial_room_01_pano_2",
+    "1383_floor_01_partial_room_02_pano_8",
+    "1383_floor_01_partial_room_04_pano_7",
+    "1383_floor_01_partial_room_09_pano_3",
+    "1383_floor_01_partial_room_14_pano_19",
+    "1383_floor_01_partial_room_17_pano_0",
+    "1383_floor_01_partial_room_18_pano_9",
+    "1383_floor_01_partial_room_19_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1383_floor_02_complete_room_05",
+   "task": "1383",
+   "floor": "floor_02",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1383_floor_02_partial_room_05_pano_33",
+    "1383_floor_02_partial_room_09_pano_29",
+    "1383_floor_02_partial_room_10_pano_30"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0969_floor_01_complete_room_03",
+   "task": "0969",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0969_floor_01_partial_room_03_pano_1",
+    "0969_floor_01_partial_room_04_pano_16",
+    "0969_floor_01_partial_room_05_pano_4",
+    "0969_floor_01_partial_room_09_pano_13"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0969_floor_02_complete_room_01",
+   "task": "0969",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0969_floor_02_partial_room_01_pano_27",
+    "0969_floor_02_partial_room_02_pano_26",
+    "0969_floor_02_partial_room_03_pano_29"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0819_floor_01_complete_room_01",
+   "task": "0819",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0819_floor_01_partial_room_01_pano_25",
+    "0819_floor_01_partial_room_02_pano_28",
+    "0819_floor_01_partial_room_04_pano_3",
+    "0819_floor_01_partial_room_06_pano_1",
+    "0819_floor_01_partial_room_10_pano_21"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0819_floor_02_complete_room_01",
+   "task": "0819",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0819_floor_02_partial_room_01_pano_50",
+    "0819_floor_02_partial_room_07_pano_58",
+    "0819_floor_02_partial_room_11_pano_52"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1538_floor_01_complete_room_01",
+   "task": "1538",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1538_floor_01_partial_room_01_pano_0",
+    "1538_floor_01_partial_room_02_pano_6",
+    "1538_floor_01_partial_room_04_pano_4",
+    "1538_floor_01_partial_room_05_pano_1",
+    "1538_floor_01_partial_room_06_pano_3",
+    "1538_floor_01_partial_room_07_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1538_floor_02_complete_room_02",
+   "task": "1538",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1538_floor_02_partial_room_02_pano_33",
+    "1538_floor_02_partial_room_05_pano_17",
+    "1538_floor_02_partial_room_07_pano_20",
+    "1538_floor_02_partial_room_11_pano_29"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0302_floor_00_complete_room_01",
+   "task": "0302",
+   "floor": "floor_00",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0302_floor_00_partial_room_01_pano_7",
+    "0302_floor_00_partial_room_02_pano_14",
+    "0302_floor_00_partial_room_03_pano_20",
+    "0302_floor_00_partial_room_04_pano_15"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0302_floor_01_complete_room_02",
+   "task": "0302",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0302_floor_01_partial_room_02_pano_22",
+    "0302_floor_01_partial_room_06_pano_23",
+    "0302_floor_01_partial_room_10_pano_24",
+    "0302_floor_01_partial_room_13_pano_28"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1489_floor_01_complete_room_05",
+   "task": "1489",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1489_floor_01_partial_room_06_pano_31",
+    "1489_floor_01_partial_room_08_pano_26",
+    "1489_floor_01_partial_room_09_pano_42",
+    "1489_floor_01_partial_room_11_pano_35",
+    "1489_floor_01_partial_room_12_pano_39",
+    "1489_floor_01_partial_room_13_pano_9",
+    "1489_floor_01_partial_room_16_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0010_floor_01_complete_room_01",
+   "task": "0010",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0010_floor_01_partial_room_01_pano_25",
+    "0010_floor_01_partial_room_03_pano_26",
+    "0010_floor_01_partial_room_05_pano_24"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0010_floor_01_complete_room_02",
+   "task": "0010",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0010_floor_01_partial_room_02_pano_9",
+    "0010_floor_01_partial_room_06_pano_13",
+    "0010_floor_01_partial_room_07_pano_14",
+    "0010_floor_01_partial_room_10_pano_6",
+    "0010_floor_01_partial_room_12_pano_2",
+    "0010_floor_01_partial_room_14_pano_18",
+    "0010_floor_01_partial_room_17_pano_10",
+    "0010_floor_01_partial_room_18_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0076_floor_01_complete_room_02",
+   "task": "0076",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0076_floor_01_partial_room_02_pano_19",
+    "0076_floor_01_partial_room_05_pano_8",
+    "0076_floor_01_partial_room_07_pano_1",
+    "0076_floor_01_partial_room_08_pano_4",
+    "0076_floor_01_partial_room_09_pano_7",
+    "0076_floor_01_partial_room_10_pano_9",
+    "0076_floor_01_partial_room_12_pano_5",
+    "0076_floor_01_partial_room_15_pano_2",
+    "0076_floor_01_partial_room_16_pano_12"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0905_floor_00_complete_room_02",
+   "task": "0905",
+   "floor": "floor_00",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0905_floor_00_partial_room_02_pano_25",
+    "0905_floor_00_partial_room_03_pano_24",
+    "0905_floor_00_partial_room_04_pano_23",
+    "0905_floor_00_partial_room_08_pano_26"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0905_floor_01_complete_room_01",
+   "task": "0905",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0905_floor_01_partial_room_01_pano_2",
+    "0905_floor_01_partial_room_02_pano_8",
+    "0905_floor_01_partial_room_03_pano_5",
+    "0905_floor_01_partial_room_04_pano_10",
+    "0905_floor_01_partial_room_05_pano_13",
+    "0905_floor_01_partial_room_06_pano_9",
+    "0905_floor_01_partial_room_07_pano_3",
+    "0905_floor_01_partial_room_10_pano_11",
+    "0905_floor_01_partial_room_11_pano_1",
+    "0905_floor_01_partial_room_13_pano_12",
+    "0905_floor_01_partial_room_16_pano_16"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0715_floor_01_complete_room_02",
+   "task": "0715",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0715_floor_01_partial_room_02_pano_22",
+    "0715_floor_01_partial_room_12_pano_26",
+    "0715_floor_01_partial_room_16_pano_19"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0715_floor_01_complete_room_04",
+   "task": "0715",
+   "floor": "floor_01",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0715_floor_01_partial_room_04_pano_3",
+    "0715_floor_01_partial_room_07_pano_35",
+    "0715_floor_01_partial_room_09_pano_2",
+    "0715_floor_01_partial_room_13_pano_40",
+    "0715_floor_01_partial_room_17_pano_38"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0564_floor_01_complete_room_05",
+   "task": "0564",
+   "floor": "floor_01",
+   "room_label": "complete_room_05",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0564_floor_01_partial_room_06_pano_14",
+    "0564_floor_01_partial_room_07_pano_13",
+    "0564_floor_01_partial_room_09_pano_10",
+    "0564_floor_01_partial_room_11_pano_9",
+    "0564_floor_01_partial_room_14_pano_8",
+    "0564_floor_01_partial_room_15_pano_2",
+    "0564_floor_01_partial_room_18_pano_12",
+    "0564_floor_01_partial_room_20_pano_54",
+    "0564_floor_01_partial_room_26_pano_55",
+    "0564_floor_01_partial_room_27_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0800_floor_01_complete_room_04",
+   "task": "0800",
+   "floor": "floor_01",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0800_floor_01_partial_room_04_pano_6",
+    "0800_floor_01_partial_room_06_pano_10",
+    "0800_floor_01_partial_room_07_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0800_floor_02_complete_room_04",
+   "task": "0800",
+   "floor": "floor_02",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0800_floor_02_partial_room_04_pano_23",
+    "0800_floor_02_partial_room_06_pano_17",
+    "0800_floor_02_partial_room_12_pano_18"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1199_floor_01_complete_room_03",
+   "task": "1199",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1199_floor_01_partial_room_03_pano_13",
+    "1199_floor_01_partial_room_04_pano_25",
+    "1199_floor_01_partial_room_06_pano_37",
+    "1199_floor_01_partial_room_08_pano_10",
+    "1199_floor_01_partial_room_09_pano_14",
+    "1199_floor_01_partial_room_11_pano_24",
+    "1199_floor_01_partial_room_12_pano_7"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1199_floor_02_complete_room_03",
+   "task": "1199",
+   "floor": "floor_02",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1199_floor_02_partial_room_03_pano_60",
+    "1199_floor_02_partial_room_04_pano_58",
+    "1199_floor_02_partial_room_08_pano_44",
+    "1199_floor_02_partial_room_14_pano_62"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0165_floor_01_complete_room_01",
+   "task": "0165",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0165_floor_01_partial_room_01_pano_4",
+    "0165_floor_01_partial_room_04_pano_9",
+    "0165_floor_01_partial_room_05_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0165_floor_02_complete_room_01",
+   "task": "0165",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0165_floor_02_partial_room_01_pano_25",
+    "0165_floor_02_partial_room_03_pano_19",
+    "0165_floor_02_partial_room_04_pano_26"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1210_floor_01_complete_room_02",
+   "task": "1210",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1210_floor_01_partial_room_02_pano_15",
+    "1210_floor_01_partial_room_05_pano_1",
+    "1210_floor_01_partial_room_06_pano_3",
+    "1210_floor_01_partial_room_08_pano_2",
+    "1210_floor_01_partial_room_09_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1479_floor_01_complete_room_02",
+   "task": "1479",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1479_floor_01_partial_room_02_pano_33",
+    "1479_floor_01_partial_room_03_pano_6",
+    "1479_floor_01_partial_room_06_pano_35"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1479_floor_02_complete_room_01",
+   "task": "1479",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1479_floor_02_partial_room_01_pano_26",
+    "1479_floor_02_partial_room_02_pano_24",
+    "1479_floor_02_partial_room_11_pano_28"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0444_floor_01_complete_room_01",
+   "task": "0444",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0444_floor_01_partial_room_01_pano_28",
+    "0444_floor_01_partial_room_04_pano_13",
+    "0444_floor_01_partial_room_05_pano_9",
+    "0444_floor_01_partial_room_07_pano_5"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0444_floor_02_complete_room_02",
+   "task": "0444",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0444_floor_02_partial_room_02_pano_34",
+    "0444_floor_02_partial_room_03_pano_54",
+    "0444_floor_02_partial_room_06_pano_56",
+    "0444_floor_02_partial_room_09_pano_33"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0438_floor_01_complete_room_04",
+   "task": "0438",
+   "floor": "floor_01",
+   "room_label": "complete_room_04",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0438_floor_01_partial_room_04_pano_21",
+    "0438_floor_01_partial_room_06_pano_8",
+    "0438_floor_01_partial_room_09_pano_11",
+    "0438_floor_01_partial_room_11_pano_4",
+    "0438_floor_01_partial_room_13_pano_34"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0681_floor_01_complete_room_01",
+   "task": "0681",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0681_floor_01_partial_room_01_pano_44",
+    "0681_floor_01_partial_room_08_pano_45",
+    "0681_floor_01_partial_room_11_pano_11",
+    "0681_floor_01_partial_room_17_pano_12",
+    "0681_floor_01_partial_room_18_pano_14"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0316_floor_01_complete_room_01",
+   "task": "0316",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0316_floor_01_partial_room_01_pano_6",
+    "0316_floor_01_partial_room_02_pano_2",
+    "0316_floor_01_partial_room_06_pano_12",
+    "0316_floor_01_partial_room_07_pano_8",
+    "0316_floor_01_partial_room_08_pano_15",
+    "0316_floor_01_partial_room_09_pano_1",
+    "0316_floor_01_partial_room_10_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0579_floor_01_complete_room_03",
+   "task": "0579",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0579_floor_01_partial_room_03_pano_3",
+    "0579_floor_01_partial_room_08_pano_27",
+    "0579_floor_01_partial_room_09_pano_12",
+    "0579_floor_01_partial_room_13_pano_5",
+    "0579_floor_01_partial_room_16_pano_9"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0588_floor_01_complete_room_01",
+   "task": "0588",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0588_floor_01_partial_room_01_pano_12",
+    "0588_floor_01_partial_room_03_pano_5",
+    "0588_floor_01_partial_room_05_pano_19",
+    "0588_floor_01_partial_room_06_pano_3",
+    "0588_floor_01_partial_room_07_pano_6",
+    "0588_floor_01_partial_room_08_pano_18",
+    "0588_floor_01_partial_room_10_pano_8",
+    "0588_floor_01_partial_room_12_pano_11",
+    "0588_floor_01_partial_room_13_pano_14",
+    "0588_floor_01_partial_room_14_pano_13"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0605_floor_02_complete_room_01",
+   "task": "0605",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0605_floor_02_partial_room_01_pano_22",
+    "0605_floor_02_partial_room_04_pano_20",
+    "0605_floor_02_partial_room_06_pano_15",
+    "0605_floor_02_partial_room_07_pano_18",
+    "0605_floor_02_partial_room_08_pano_17"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0742_floor_01_complete_room_01",
+   "task": "0742",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0742_floor_01_partial_room_01_pano_4",
+    "0742_floor_01_partial_room_02_pano_11",
+    "0742_floor_01_partial_room_03_pano_12",
+    "0742_floor_01_partial_room_05_pano_6",
+    "0742_floor_01_partial_room_11_pano_10"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0635_floor_02_complete_room_01",
+   "task": "0635",
+   "floor": "floor_02",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0635_floor_02_partial_room_02_pano_33",
+    "0635_floor_02_partial_room_04_pano_30",
+    "0635_floor_02_partial_room_06_pano_20"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1326_floor_01_complete_room_01",
+   "task": "1326",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1326_floor_01_partial_room_01_pano_30",
+    "1326_floor_01_partial_room_02_pano_12",
+    "1326_floor_01_partial_room_05_pano_2",
+    "1326_floor_01_partial_room_06_pano_6",
+    "1326_floor_01_partial_room_07_pano_3",
+    "1326_floor_01_partial_room_10_pano_4",
+    "1326_floor_01_partial_room_15_pano_0"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1317_floor_01_complete_room_01",
+   "task": "1317",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1317_floor_01_partial_room_01_pano_21",
+    "1317_floor_01_partial_room_05_pano_1",
+    "1317_floor_01_partial_room_09_pano_14",
+    "1317_floor_01_partial_room_10_pano_33"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0516_floor_01_complete_room_02",
+   "task": "0516",
+   "floor": "floor_01",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0516_floor_01_partial_room_02_pano_4",
+    "0516_floor_01_partial_room_07_pano_20",
+    "0516_floor_01_partial_room_08_pano_9",
+    "0516_floor_01_partial_room_09_pano_5",
+    "0516_floor_01_partial_room_16_pano_7",
+    "0516_floor_01_partial_room_18_pano_22",
+    "0516_floor_01_partial_room_19_pano_0"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0157_floor_01_complete_room_01",
+   "task": "0157",
+   "floor": "floor_01",
+   "room_label": "complete_room_01",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0157_floor_01_partial_room_01_pano_5",
+    "0157_floor_01_partial_room_02_pano_10",
+    "0157_floor_01_partial_room_03_pano_14",
+    "0157_floor_01_partial_room_05_pano_2",
+    "0157_floor_01_partial_room_06_pano_20",
+    "0157_floor_01_partial_room_07_pano_8"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_0382_floor_02_complete_room_02",
+   "task": "0382",
+   "floor": "floor_02",
+   "room_label": "complete_room_02",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "0382_floor_02_partial_room_02_pano_9",
+    "0382_floor_02_partial_room_04_pano_14",
+    "0382_floor_02_partial_room_05_pano_16",
+    "0382_floor_02_partial_room_06_pano_6",
+    "0382_floor_02_partial_room_07_pano_11"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  },
+  {
+   "room_id": "zind_1368_floor_01_complete_room_03",
+   "task": "1368",
+   "floor": "floor_01",
+   "room_label": "complete_room_03",
+   "space_kind": "room",
+   "panorama_uuids": [
+    "1368_floor_01_partial_room_03_pano_36",
+    "1368_floor_01_partial_room_04_pano_13",
+    "1368_floor_01_partial_room_07_pano_26",
+    "1368_floor_01_partial_room_11_pano_35",
+    "1368_floor_01_partial_room_13_pano_18"
+   ],
+   "status": "human_verified",
+   "notes": "ZInD test ground-truth complete room"
+  }
+ ],
+ "conflicts": [],
+ "pair_reviews": []
+}

@@ -1,0 +1,23 @@
+{
+  "pair_id": "170bcd94366ae5645e4c442c",
+  "group_id": "task_58582_floor_unknown_room_001",
+  "a": "08ddb655-3d39-4adb-8450-65a277053404",
+  "b": "08ddb655-4402-492a-8bb3-9aa653a72f18",
+  "directly_reviewed": true,
+  "duplicate_content": false,
+  "blind_review": null,
+  "status": "ok",
+  "yaw": 2.027942657470703,
+  "t": [
+    -0.21194106340408325,
+    -0.9920178651809692
+  ],
+  "geo_yaw": 2.035306930541992,
+  "geo_t": [
+    -0.1913556605577469,
+    -0.9703843593597412
+  ],
+  "geo_weight": 431.441650390625,
+  "heads_sha256": "8491d4618db86347746d9803346063888ed24d2165bc0a7038d5fb6874b818a4",
+  "seconds": 0.718
+}

@@ -1,0 +1,4 @@
+# Added to the GeoVerify/CoVisPose environment (Python 3.11, torch cu130) for the CPU steps.
+shapely>=2.0
+matplotlib>=3.8
+scipy>=1.11

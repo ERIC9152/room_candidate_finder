@@ -1,0 +1,539 @@
+{
+  "note": "original Dollhouse results for the sample panoramas",
+  "pairs": {
+    "08ddb592-cccf-45d7-8a31-f4bb41d5e21f|08ddb592-d46b-4f67-81d7-ba1a1e3592ef": {
+      "yaw": -0.07416847348213196,
+      "t": [
+        -1.1667453050613403,
+        0.575959324836731
+      ],
+      "geo_yaw": -0.08719033002853394,
+      "geo_t": [
+        -1.1976150274276733,
+        0.6675528287887573
+      ]
+    },
+    "08ddb592-ed69-43f5-8224-0d13c4730543|08ddb592-f525-4867-86b0-a6a8a01f2874": {
+      "yaw": 1.2072904109954834,
+      "t": [
+        -0.3895060122013092,
+        -0.6360151767730713
+      ],
+      "geo_yaw": 1.5209251642227173,
+      "geo_t": [
+        -0.18169757723808289,
+        -0.78007972240448
+      ]
+    },
+    "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8|08ddb743-a7d6-4061-887f-96b1b427d11b": {
+      "yaw": 1.8549606800079346,
+      "t": [
+        -0.08814296126365662,
+        -3.2781784534454346
+      ],
+      "geo_yaw": 1.8804112672805786,
+      "geo_t": [
+        -0.10181038081645966,
+        -3.265808582305908
+      ]
+    },
+    "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8|08ddb743-af17-491b-89a1-cb5fa6b25857": {
+      "yaw": 1.3954991102218628,
+      "t": [
+        -1.7137575149536133,
+        -0.8149394989013672
+      ],
+      "geo_yaw": 1.4201394319534302,
+      "geo_t": [
+        -1.6705538034439087,
+        -0.7966286540031433
+      ]
+    },
+    "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8|08ddb743-b561-49ab-8089-c211c94996bb": {
+      "yaw": 2.7037293910980225,
+      "t": [
+        -1.491832971572876,
+        -2.764051914215088
+      ],
+      "geo_yaw": 2.7302780151367188,
+      "geo_t": [
+        -1.1617844104766846,
+        -2.5068233013153076
+      ]
+    },
+    "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8|08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+      "yaw": 2.953035831451416,
+      "t": [
+        -0.40736791491508484,
+        0.8257777690887451
+      ],
+      "geo_yaw": 3.0351860523223877,
+      "geo_t": [
+        -0.24135370552539825,
+        1.0982511043548584
+      ]
+    },
+    "08ddb743-a7d6-4061-887f-96b1b427d11b|08ddb743-af17-491b-89a1-cb5fa6b25857": {
+      "yaw": -0.4787566363811493,
+      "t": [
+        -0.10023327171802521,
+        1.9500885009765625
+      ],
+      "geo_yaw": -0.46724894642829895,
+      "geo_t": [
+        -0.12168090790510178,
+        1.9833394289016724
+      ]
+    },
+    "08ddb743-a7d6-4061-887f-96b1b427d11b|08ddb743-b561-49ab-8089-c211c94996bb": {
+      "yaw": 0.6299427151679993,
+      "t": [
+        -4.38529634475708,
+        -0.05128195509314537
+      ],
+      "geo_yaw": 0.6336799263954163,
+      "geo_t": [
+        -4.246724605560303,
+        -0.08959232270717621
+      ]
+    },
+    "08ddb743-a7d6-4061-887f-96b1b427d11b|08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+      "yaw": 1.5403375625610352,
+      "t": [
+        -5.299722194671631,
+        -1.4536824226379395
+      ],
+      "geo_yaw": 1.5898135900497437,
+      "geo_t": [
+        -4.639740943908691,
+        -1.543941617012024
+      ]
+    },
+    "08ddb743-af17-491b-89a1-cb5fa6b25857|08ddb743-b561-49ab-8089-c211c94996bb": {
+      "yaw": 1.0482879877090454,
+      "t": [
+        -2.5222084522247314,
+        -0.6153618693351746
+      ],
+      "geo_yaw": 1.062829613685608,
+      "geo_t": [
+        -2.3929691314697266,
+        -0.5700443983078003
+      ]
+    },
+    "08ddb743-af17-491b-89a1-cb5fa6b25857|08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+      "yaw": 2.0742626190185547,
+      "t": [
+        -4.069094657897949,
+        -0.8239537477493286
+      ],
+      "geo_yaw": 1.9960037469863892,
+      "geo_t": [
+        -4.065305709838867,
+        -0.815441906452179
+      ]
+    },
+    "08ddb743-b561-49ab-8089-c211c94996bb|08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+      "yaw": 0.8378137946128845,
+      "t": [
+        -3.409700393676758,
+        1.9005986452102661
+      ],
+      "geo_yaw": 0.8695210814476013,
+      "geo_t": [
+        -3.318239450454712,
+        1.7405202388763428
+      ]
+    }
+  },
+  "groups_spanning_forest": {
+    "DollhouseTask_58489_NoOutdoor_room_001": {
+      "components": [
+        [
+          "08ddb592-cccf-45d7-8a31-f4bb41d5e21f",
+          "08ddb592-d46b-4f67-81d7-ba1a1e3592ef"
+        ]
+      ],
+      "tree": [
+        [
+          "08ddb592-cccf-45d7-8a31-f4bb41d5e21f",
+          "08ddb592-d46b-4f67-81d7-ba1a1e3592ef"
+        ]
+      ],
+      "flags": {
+        "08ddb592-cccf-45d7-8a31-f4bb41d5e21f": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb592-d46b-4f67-81d7-ba1a1e3592ef": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": true
+        }
+      },
+      "cameras": {
+        "08ddb592-cccf-45d7-8a31-f4bb41d5e21f": {
+          "yaw": 0.0,
+          "t": [
+            0.0,
+            0.0
+          ]
+        },
+        "08ddb592-d46b-4f67-81d7-ba1a1e3592ef": {
+          "yaw": 0.07416847348213196,
+          "t": [
+            1.2062165344714144,
+            -0.48791948384629447
+          ]
+        }
+      },
+      "areas": [
+        4.469168555711728
+      ]
+    },
+    "DollhouseTask_58489_NoOutdoor_room_002": {
+      "components": [
+        [
+          "08ddb592-ed69-43f5-8224-0d13c4730543"
+        ],
+        [
+          "08ddb592-f525-4867-86b0-a6a8a01f2874"
+        ]
+      ],
+      "tree": [],
+      "flags": {
+        "08ddb592-ed69-43f5-8224-0d13c4730543": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb592-f525-4867-86b0-a6a8a01f2874": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        }
+      },
+      "cameras": {
+        "08ddb592-ed69-43f5-8224-0d13c4730543": {
+          "yaw": 0.0,
+          "t": [
+            0.0,
+            0.0
+          ]
+        },
+        "08ddb592-f525-4867-86b0-a6a8a01f2874": {
+          "yaw": 0.0,
+          "t": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "areas": [
+        16.55660595976957,
+        7.36737133917346
+      ]
+    },
+    "DollhouseTask_58691_NoOutdoor_room_001": {
+      "components": [
+        [
+          "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8",
+          "08ddb743-a7d6-4061-887f-96b1b427d11b",
+          "08ddb743-af17-491b-89a1-cb5fa6b25857",
+          "08ddb743-b561-49ab-8089-c211c94996bb",
+          "08ddb743-e04c-4f65-8779-2a13f0f8a67b"
+        ]
+      ],
+      "tree": [
+        [
+          "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8",
+          "08ddb743-a7d6-4061-887f-96b1b427d11b"
+        ],
+        [
+          "08ddb743-a7d6-4061-887f-96b1b427d11b",
+          "08ddb743-af17-491b-89a1-cb5fa6b25857"
+        ],
+        [
+          "08ddb743-af17-491b-89a1-cb5fa6b25857",
+          "08ddb743-b561-49ab-8089-c211c94996bb"
+        ],
+        [
+          "08ddb743-b561-49ab-8089-c211c94996bb",
+          "08ddb743-e04c-4f65-8779-2a13f0f8a67b"
+        ]
+      ],
+      "flags": {
+        "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb743-a7d6-4061-887f-96b1b427d11b": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb743-af17-491b-89a1-cb5fa6b25857": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb743-b561-49ab-8089-c211c94996bb": {
+          "direction_link": true,
+          "weak_edge": false,
+          "loop_not_closing": true,
+          "unverified": false
+        },
+        "08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+          "direction_link": true,
+          "weak_edge": false,
+          "loop_not_closing": true,
+          "unverified": false
+        }
+      },
+      "cameras": {
+        "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8": {
+          "yaw": 1.3762040436267853,
+          "t": [
+            -1.6886441900511788,
+            -0.9189137487217982
+          ]
+        },
+        "08ddb743-a7d6-4061-887f-96b1b427d11b": {
+          "yaw": -0.4787566363811493,
+          "t": [
+            -0.1002332717180253,
+            1.9500885009765625
+          ]
+        },
+        "08ddb743-af17-491b-89a1-cb5fa6b25857": {
+          "yaw": 0.0,
+          "t": [
+            0.0,
+            0.0
+          ]
+        },
+        "08ddb743-b561-49ab-8089-c211c94996bb": {
+          "yaw": -1.0482879877090454,
+          "t": [
+            1.7919758410553095,
+            -1.878570810957009
+          ]
+        },
+        "08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+          "yaw": -1.88610178232193,
+          "t": [
+            -1.0722980811270422,
+            -4.530790048410933
+          ]
+        }
+      },
+      "areas": [
+        48.51513742046023
+      ]
+    }
+  },
+  "groups": {
+    "DollhouseTask_58489_NoOutdoor_room_001": {
+      "components": [
+        [
+          "08ddb592-cccf-45d7-8a31-f4bb41d5e21f",
+          "08ddb592-d46b-4f67-81d7-ba1a1e3592ef"
+        ]
+      ],
+      "tree": [
+        [
+          "08ddb592-cccf-45d7-8a31-f4bb41d5e21f",
+          "08ddb592-d46b-4f67-81d7-ba1a1e3592ef"
+        ]
+      ],
+      "flags": {
+        "08ddb592-cccf-45d7-8a31-f4bb41d5e21f": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb592-d46b-4f67-81d7-ba1a1e3592ef": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": true
+        }
+      },
+      "cameras": {
+        "08ddb592-cccf-45d7-8a31-f4bb41d5e21f": {
+          "yaw": 0.0,
+          "t": [
+            0.0,
+            0.0
+          ]
+        },
+        "08ddb592-d46b-4f67-81d7-ba1a1e3592ef": {
+          "yaw": 0.07416851073503494,
+          "t": [
+            1.2062166715293874,
+            -0.4879194300777551
+          ]
+        }
+      },
+      "areas": [
+        4.469114233458907
+      ]
+    },
+    "DollhouseTask_58489_NoOutdoor_room_002": {
+      "components": [
+        [
+          "08ddb592-ed69-43f5-8224-0d13c4730543"
+        ],
+        [
+          "08ddb592-f525-4867-86b0-a6a8a01f2874"
+        ]
+      ],
+      "tree": [],
+      "flags": {
+        "08ddb592-ed69-43f5-8224-0d13c4730543": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb592-f525-4867-86b0-a6a8a01f2874": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        }
+      },
+      "cameras": {
+        "08ddb592-ed69-43f5-8224-0d13c4730543": {
+          "yaw": 0.0,
+          "t": [
+            0.0,
+            0.0
+          ]
+        },
+        "08ddb592-f525-4867-86b0-a6a8a01f2874": {
+          "yaw": 0.0,
+          "t": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "areas": [
+        16.55572960858676,
+        7.366361541988357
+      ]
+    },
+    "DollhouseTask_58691_NoOutdoor_room_001": {
+      "components": [
+        [
+          "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8",
+          "08ddb743-a7d6-4061-887f-96b1b427d11b",
+          "08ddb743-af17-491b-89a1-cb5fa6b25857",
+          "08ddb743-b561-49ab-8089-c211c94996bb",
+          "08ddb743-e04c-4f65-8779-2a13f0f8a67b"
+        ]
+      ],
+      "tree": [
+        [
+          "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8",
+          "08ddb743-a7d6-4061-887f-96b1b427d11b"
+        ],
+        [
+          "08ddb743-a7d6-4061-887f-96b1b427d11b",
+          "08ddb743-af17-491b-89a1-cb5fa6b25857"
+        ],
+        [
+          "08ddb743-af17-491b-89a1-cb5fa6b25857",
+          "08ddb743-b561-49ab-8089-c211c94996bb"
+        ],
+        [
+          "08ddb743-b561-49ab-8089-c211c94996bb",
+          "08ddb743-e04c-4f65-8779-2a13f0f8a67b"
+        ]
+      ],
+      "flags": {
+        "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb743-a7d6-4061-887f-96b1b427d11b": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb743-af17-491b-89a1-cb5fa6b25857": {
+          "direction_link": false,
+          "weak_edge": false,
+          "loop_not_closing": false,
+          "unverified": false
+        },
+        "08ddb743-b561-49ab-8089-c211c94996bb": {
+          "direction_link": true,
+          "weak_edge": false,
+          "loop_not_closing": true,
+          "unverified": false
+        },
+        "08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+          "direction_link": true,
+          "weak_edge": false,
+          "loop_not_closing": true,
+          "unverified": false
+        }
+      },
+      "cameras": {
+        "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8": {
+          "yaw": 1.3861194381510407,
+          "t": [
+            -1.7031881528812047,
+            -0.8529109097072534
+          ]
+        },
+        "08ddb743-a7d6-4061-887f-96b1b427d11b": {
+          "yaw": -0.4771805871893351,
+          "t": [
+            -0.10990384818294076,
+            1.9848311020290799
+          ]
+        },
+        "08ddb743-af17-491b-89a1-cb5fa6b25857": {
+          "yaw": 0.0,
+          "t": [
+            0.0,
+            0.0
+          ]
+        },
+        "08ddb743-b561-49ab-8089-c211c94996bb": {
+          "yaw": -1.1053035656424228,
+          "t": [
+            1.8366042949789314,
+            -1.9080362302865264
+          ]
+        },
+        "08ddb743-e04c-4f65-8779-2a13f0f8a67b": {
+          "yaw": -2.0068439751951113,
+          "t": [
+            -1.1545653319245919,
+            -4.118643118212578
+          ]
+        }
+      },
+      "areas": [
+        49.21259558094266
+      ]
+    }
+  }
+}

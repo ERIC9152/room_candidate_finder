@@ -1,0 +1,67 @@
+{
+  "root": "../data",
+  "root_abs": "",
+  "mode": "sample",
+  "houses": {
+    "DollhouseTask_58489_NoOutdoor": [
+      {
+        "id": "08ddb592-cccf-45d7-8a31-f4bb41d5e21f",
+        "path": "DollhouseTask_58489_NoOutdoor/08ddb592-cccf-45d7-8a31-f4bb41d5e21f.jpg",
+        "w": 0,
+        "h": 0
+      },
+      {
+        "id": "08ddb592-d46b-4f67-81d7-ba1a1e3592ef",
+        "path": "DollhouseTask_58489_NoOutdoor/08ddb592-d46b-4f67-81d7-ba1a1e3592ef.jpg",
+        "w": 0,
+        "h": 0
+      },
+      {
+        "id": "08ddb592-ed69-43f5-8224-0d13c4730543",
+        "path": "DollhouseTask_58489_NoOutdoor/08ddb592-ed69-43f5-8224-0d13c4730543.jpg",
+        "w": 0,
+        "h": 0
+      },
+      {
+        "id": "08ddb592-f525-4867-86b0-a6a8a01f2874",
+        "path": "DollhouseTask_58489_NoOutdoor/08ddb592-f525-4867-86b0-a6a8a01f2874.jpg",
+        "w": 0,
+        "h": 0
+      }
+    ],
+    "DollhouseTask_58691_NoOutdoor": [
+      {
+        "id": "08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8",
+        "path": "DollhouseTask_58691_NoOutdoor/08ddb743-a18a-4dcb-89bb-94f7d3c3c1c8.jpg",
+        "w": 0,
+        "h": 0
+      },
+      {
+        "id": "08ddb743-a7d6-4061-887f-96b1b427d11b",
+        "path": "DollhouseTask_58691_NoOutdoor/08ddb743-a7d6-4061-887f-96b1b427d11b.jpg",
+        "w": 0,
+        "h": 0
+      },
+      {
+        "id": "08ddb743-af17-491b-89a1-cb5fa6b25857",
+        "path": "DollhouseTask_58691_NoOutdoor/08ddb743-af17-491b-89a1-cb5fa6b25857.jpg",
+        "w": 0,
+        "h": 0
+      },
+      {
+        "id": "08ddb743-b561-49ab-8089-c211c94996bb",
+        "path": "DollhouseTask_58691_NoOutdoor/08ddb743-b561-49ab-8089-c211c94996bb.jpg",
+        "w": 0,
+        "h": 0
+      },
+      {
+        "id": "08ddb743-e04c-4f65-8779-2a13f0f8a67b",
+        "path": "DollhouseTask_58691_NoOutdoor/08ddb743-e04c-4f65-8779-2a13f0f8a67b.jpg",
+        "w": 0,
+        "h": 0
+      }
+    ]
+  },
+  "skipped": [],
+  "note": "sample in room_candidate_finder scan-manifest format (no scores: review not needed)"
+}

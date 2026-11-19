@@ -1,0 +1,187 @@
+{
+  "group": {
+    "room_id": "task_61295_floor1_room_001",
+    "task": "DollhouseTask_61295_NoOutdoor",
+    "floor": "floor1",
+    "space_kind": "room",
+    "panorama_uuids": [
+      "08ddcc8f-7994-47e1-8f06-2e78e608e35f",
+      "08ddcc8f-8487-48ca-831f-9c80e7737513",
+      "08ddcc8f-8c15-4ca1-84ac-ef2c84125016"
+    ],
+    "status": "human_verified"
+  },
+  "summary": {
+    "group": "task_61295_floor1_room_001",
+    "house": "DollhouseTask_61295_NoOutdoor",
+    "n_images": 3,
+    "pairs": 3,
+    "accepted_full": 1,
+    "accepted_direction": 0,
+    "component_sizes": [
+      2,
+      1
+    ],
+    "fully_connected": false,
+    "loop_max_yaw_deg": null,
+    "loop_max_translation": null,
+    "flagged_weak_or_loop": 1
+  },
+  "rule": "G rule + direction links f=0.30; maximum-weight spanning forest; no global optimisation",
+  "convention": "p_root = R(yaw) p_u + t; camera height = 1; root = most-connected camera",
+  "flag_stats": {
+    "source": "pose_flags_v1, ZInD test (40 houses); camera wrong = majority of its pairs > 10 deg or > 0.5",
+    "valid": {
+      "D": false,
+      "W": true,
+      "L": true,
+      "U": false
+    },
+    "W": {
+      "flagged": 0.2647,
+      "unflagged": 0.037,
+      "n": 34
+    },
+    "L": {
+      "flagged": 0.1489,
+      "unflagged": 0.0155,
+      "n": 94
+    }
+  },
+  "components": [
+    [
+      "08ddcc8f-7994-47e1-8f06-2e78e608e35f",
+      "08ddcc8f-8487-48ca-831f-9c80e7737513"
+    ],
+    [
+      "08ddcc8f-8c15-4ca1-84ac-ef2c84125016"
+    ]
+  ],
+  "cameras": {
+    "08ddcc8f-7994-47e1-8f06-2e78e608e35f": {
+      "label": "Foyer",
+      "component_root": "08ddcc8f-7994-47e1-8f06-2e78e608e35f",
+      "is_root": true,
+      "yaw": 0.0,
+      "t": [
+        0.0,
+        0.0
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": false,
+        "loop_not_closing": false,
+        "unverified": false
+      },
+      "weak_edges": [],
+      "bad_loop": null
+    },
+    "08ddcc8f-8487-48ca-831f-9c80e7737513": {
+      "label": "Hallway ",
+      "component_root": "08ddcc8f-7994-47e1-8f06-2e78e608e35f",
+      "is_root": false,
+      "yaw": 3.0187268257141113,
+      "t": [
+        -1.1718896270961772,
+        0.3967318026477778
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": true,
+        "loop_not_closing": false,
+        "unverified": true
+      },
+      "weak_edges": [
+        {
+          "pair_id": "3a737243d9f22d190e8843d5",
+          "kind": "full",
+          "frac": 0.764,
+          "inliers": 721,
+          "dyaw": 0.323,
+          "dt": 0.148,
+          "weak": true
+        }
+      ],
+      "bad_loop": null
+    },
+    "08ddcc8f-8c15-4ca1-84ac-ef2c84125016": {
+      "label": "Office",
+      "component_root": "08ddcc8f-8c15-4ca1-84ac-ef2c84125016",
+      "is_root": true,
+      "yaw": 0.0,
+      "t": [
+        0.0,
+        0.0
+      ],
+      "flags": {
+        "direction_link": false,
+        "weak_edge": false,
+        "loop_not_closing": false,
+        "unverified": false
+      },
+      "weak_edges": [],
+      "bad_loop": null
+    }
+  },
+  "tree_edges": [
+    "3a737243d9f22d190e8843d5"
+  ],
+  "pairs": [
+    {
+      "pair_id": "3a737243d9f22d190e8843d5",
+      "a": "08ddcc8f-7994-47e1-8f06-2e78e608e35f",
+      "b": "08ddcc8f-8487-48ca-831f-9c80e7737513",
+      "status": "accepted",
+      "in_tree": true,
+      "inliers": 721,
+      "inlier_fraction": 0.7638,
+      "correspondences": 944,
+      "decoder_geometric_yaw_deg": 0.32,
+      "decoder_geometric_t": 0.148,
+      "yaw": -3.0187268257141113,
+      "t": [
+        -1.2116775512695312,
+        0.25011783838272095
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "45dc6c0c0c989995ed7b7fe1",
+      "a": "08ddcc8f-7994-47e1-8f06-2e78e608e35f",
+      "b": "08ddcc8f-8c15-4ca1-84ac-ef2c84125016",
+      "status": "no_correspondences",
+      "in_tree": false,
+      "inliers": 0,
+      "inlier_fraction": 0.0,
+      "correspondences": 0,
+      "decoder_geometric_yaw_deg": 56.14,
+      "decoder_geometric_t": 0.754,
+      "yaw": 3.0892579555511475,
+      "t": [
+        -0.762018620967865,
+        1.0676980018615723
+      ],
+      "duplicate_content": false
+    },
+    {
+      "pair_id": "96924b41812d29c623af6234",
+      "a": "08ddcc8f-8487-48ca-831f-9c80e7737513",
+      "b": "08ddcc8f-8c15-4ca1-84ac-ef2c84125016",
+      "status": "no_correspondences",
+      "in_tree": false,
+      "inliers": 0,
+      "inlier_fraction": 0.0,
+      "correspondences": 0,
+      "decoder_geometric_yaw_deg": 15.95,
+      "decoder_geometric_t": 0.672,
+      "yaw": -0.2866698205471039,
+      "t": [
+        -0.6464523077011108,
+        1.6987367868423462
+      ],
+      "duplicate_content": false
+    }
+  ],
+  "loops": [],
+  "pose_verified": false
+}
