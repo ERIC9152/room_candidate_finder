@@ -1000,6 +1000,7 @@ python train.py --id my_ft --pth ../../models/horizonnet/resnet50_rnn__mp3d.pth 
 - **2026-11-17**：整理 Dollhouse 分組檔（新增 `room_groups_dollhouse104.json` 與 `data_index.json`；6 組測試匯出改名為 `room_groups_test_20261026.json`）。記錄輸出格式並對照程式確認；確認俯視圖畫法。`Assert-GpuFree` 改成只回報 Python 程式（Windows 上 `nvidia-smi` 列出的桌面程式不再觸發詢問）。README、NOTICE、SPEC、OUTPUT_FORMAT 合併為本文件。
 - **2026-11-19（位姿圖）**：步驟 4 改為對每個有迴圈的分量做位姿圖最佳化（`pipeline\pose_graph.py`，§11.3），不再只用生成樹；`Run_Pipeline.ps1 -NoPoseGraph` 保留舊做法。`pipeline\poses.py` 可傳入求解方法、規則文字、標記統計與方法名稱（預設輸出不變），並寫出 `method`；viewer 從 poses 資料夾讀取方法與標記統計。`Verify.ps1` 的參考結果包含兩種方法（`pipeline\verify.py` 依 `method` 選擇；`--make-reference` 保留另一種方法與配對位姿，`--pairs` 才重寫配對位姿）。新增 `scripts\make_zind_room_groups.py`、`scripts\eval_pose_graph_zind.py`、`evaluation\zind_test_posegraph\`、`tests\pipeline\test_pose_graph.py`。模型與步驟 2 沒有改變；既有的 run 可以續跑。
 - **2026-11-19（GitHub）**：公開倉庫用的 `.gitignore`／`.gitattributes`（不含環境、權重、SAM3、範例以外的全景、ZInD 真值與預測；§0「從 GitHub 取得」）；`models\covispose\`、`models\horizonnet\` 加上下載說明；`envcheck` 會提示缺少的權重去哪裡下載；`Run_ZInD_PoseGraph_Eval.ps1` 在缺少 `gt.json` 時從 ZInD 重新產生（`-ZindData`、`-Partition`；已確認與 2026-11-19 使用的檔案逐位元相同）。
+- **2026-11-19（乾淨 clone 測試）**：所有會另開 PowerShell 的腳本（`Setup.ps1`、`Verify.ps1`、`Start_Openings.ps1`）都加上 `-NoProfile`，使用者的 PowerShell 設定檔（例如 conda 的自動啟用：在中文使用者名稱下會當掉，還會把 Anaconda 的 Python 放到 PATH 最前面）不再於安裝與流程中執行。
 
 每次修改前的備份都在原開發機的 `C:\HorizonNet\_待刪除\room_candidate_finder_舊設定\`。
 

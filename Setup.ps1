@@ -6,7 +6,7 @@
 # An existing environment is reused instead when RCF_MAIN_PYTHON / RCF_HN_PYTHON / RCF_REVIEW_PYTHON point at its python.exe.
 # The package can be copied with its environments: an environment that does not start on this computer (a Windows venv
 # stores absolute paths) is detected and rebuilt here. Run this once after copying or moving the folder.
-# Usage: powershell -ExecutionPolicy Bypass -File Setup.ps1
+# Usage: powershell -NoProfile -ExecutionPolicy Bypass -File Setup.ps1
 $ErrorActionPreference = 'Stop'
 . "$PSScriptRoot\tools\_env.ps1"
 Set-Location $PkgRoot
@@ -38,7 +38,7 @@ if (-not $Py) {
     $src = $src.Replace($pin, "Set-Location '" + $envDir.Replace("'", "''") + "'")
     $tmp = Join-Path $env:TEMP "rcf_geoverify_setup_env_$PID.ps1"
     [IO.File]::WriteAllText($tmp, $src, (New-Object Text.UTF8Encoding $true))
-    try { & powershell -ExecutionPolicy Bypass -File $tmp } finally { Remove-Item $tmp -ErrorAction SilentlyContinue }
+    try { & powershell -NoProfile -ExecutionPolicy Bypass -File $tmp } finally { Remove-Item $tmp -ErrorAction SilentlyContinue }
     $Py = Get-MainPy
     if (-not $Py) { throw 'Main environment was not created; see the installer output above.' }
 }
@@ -133,7 +133,7 @@ if (-not (Get-ReviewPy)) {
 # 4) SAM3 (bundled, ready-made environment in 1_room_finder\third_party\sam3-pano-seg\.runtime): re-point its venv at this folder
 $Sam3 = Get-Sam3Root
 if ($Sam3) {
-    & powershell -ExecutionPolicy Bypass -File "$FinderRoot\tools\fix_sam3_env.ps1" -Sam3Root $Sam3
+    & powershell -NoProfile -ExecutionPolicy Bypass -File "$FinderRoot\tools\fix_sam3_env.ps1" -Sam3Root $Sam3
     & (Join-Path $Sam3 '.runtime\sam3-env\Scripts\python.exe') -c "import torch, sam3, sam3_pano; print('  SAM3 env: torch', torch.__version__, 'CUDA', torch.cuda.is_available())"
     $ok3 = $LASTEXITCODE -eq 0
 } else {

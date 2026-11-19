@@ -1,7 +1,7 @@
 # SAM3 "open doorway" masks for a scan, then the door-aware wedge scores (open_scores.jsonl).
 # Called by Import_Dataset.ps1; run it on its own only to add door openings to an existing scan.
 # Needs the bundled sam3-pano-seg (GPU) and the main environment. Resumable: run again to continue.
-# Usage: powershell -ExecutionPolicy Bypass -File 1_room_finder\Start_Openings.ps1 -Scan scans\mydata [-Sam3Root <sam3-pano-seg folder>]
+# Usage: powershell -NoProfile -ExecutionPolicy Bypass -File 1_room_finder\Start_Openings.ps1 -Scan scans\mydata [-Sam3Root <sam3-pano-seg folder>]
 #        (-Scan is relative to 1_room_finder) sam3-pano-seg: -Sam3Root, else env RCF_SAM3_ROOT, else 1_room_finder\third_party\sam3-pano-seg
 param([Parameter(Mandatory=$true)][string]$Scan, [string]$Sam3Root = "")
 $ErrorActionPreference = "Stop"
@@ -22,7 +22,7 @@ $todo = @(Get-Content -Encoding UTF8 $todoFile | Where-Object { $_ })
 
 if ($todo.Count -gt 0) {
     if (-not $Sam3Root) { throw "sam3-pano-seg not found (it needs .runtime\sam3-env and checkpoints\sam3.pt). Use -Sam3Root, env RCF_SAM3_ROOT, or 1_room_finder\third_party\sam3-pano-seg. $given" }
-    & powershell -ExecutionPolicy Bypass -File "$FinderRoot\tools\fix_sam3_env.ps1" -Sam3Root $Sam3Root   # venv paths follow the folder
+    & powershell -NoProfile -ExecutionPolicy Bypass -File "$FinderRoot\tools\fix_sam3_env.ps1" -Sam3Root $Sam3Root   # venv paths follow the folder
     if ($LASTEXITCODE -ne 0) { throw "Re-pointing the SAM3 environment failed." }
     $sam3Py = Join-Path $Sam3Root ".runtime\sam3-env\Scripts\python.exe"
     $ckpt = Join-Path $Sam3Root "checkpoints\sam3.pt"
