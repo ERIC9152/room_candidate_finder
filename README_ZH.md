@@ -40,8 +40,8 @@ Git 倉庫包含程式、文件、9 張範例全景、訓練配對清單與結�
 
 | 不在倉庫內 | 大小 | 取得方式 |
 |---|---|---|
-| `2_pose_floorplan\models\covispose\epoch_015.pt` | 1.41 GB | Release `v1.0` 附件（見 `models\covispose\README.md`） |
-| `2_pose_floorplan\models\horizonnet\resnet50_rnn__mp3d.pth` | 327 MB | Release `v1.0` 附件 |
+| `2_pose_floorplan\models\covispose\epoch_015.pt` | 1.41 GB | [下載 epoch_015.pt](https://github.com/ERIC9152/room_candidate_finder/releases/download/v1.0/epoch_015.pt)（Release `v1.0`；見 `models\covispose\README.md`） |
+| `2_pose_floorplan\models\horizonnet\resnet50_rnn__mp3d.pth` | 327 MB | [下載 resnet50_rnn__mp3d.pth](https://github.com/ERIC9152/room_candidate_finder/releases/download/v1.0/resnet50_rnn__mp3d.pth)（Release `v1.0`） |
 | RoMa v2 權重、DINOv3 程式、ImageNet ResNet-50（`models\torch_home\`） | 1.2 GB | `Setup.ps1` 自動下載 |
 | Python 環境 | — | `Setup.ps1` 建立 |
 | SAM3（`1_room_finder\third_party\sam3-pano-seg\`） | 約 9 GB | 不散布；沒有時審查程式改用一般楔形（§3.3） |

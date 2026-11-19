@@ -40,8 +40,8 @@ The Git repository holds the code, documents, the 9 sample panoramas, the traini
 
 | Not in the repository | Size | How to get it |
 |---|---|---|
-| `2_pose_floorplan\models\covispose\epoch_015.pt` | 1.41 GB | Release `v1.0` asset (see `models\covispose\README.md`) |
-| `2_pose_floorplan\models\horizonnet\resnet50_rnn__mp3d.pth` | 327 MB | Release `v1.0` asset |
+| `2_pose_floorplan\models\covispose\epoch_015.pt` | 1.41 GB | [Download epoch_015.pt](https://github.com/ERIC9152/room_candidate_finder/releases/download/v1.0/epoch_015.pt) (Release `v1.0`; see `models\covispose\README.md`) |
+| `2_pose_floorplan\models\horizonnet\resnet50_rnn__mp3d.pth` | 327 MB | [Download resnet50_rnn__mp3d.pth](https://github.com/ERIC9152/room_candidate_finder/releases/download/v1.0/resnet50_rnn__mp3d.pth) (Release `v1.0`) |
 | RoMa v2 weights, DINOv3 code, ImageNet ResNet-50 (`models\torch_home\`) | 1.2 GB | downloaded by `Setup.ps1` |
 | Python environments | — | built by `Setup.ps1` |
 | SAM3 (`1_room_finder\third_party\sam3-pano-seg\`) | about 9 GB | not distributed; without it the review uses the plain wedge (§3.3) |
